@@ -1,0 +1,10 @@
+
+!.gitignore
+.svn
+.DS_Store
+.buildpath
+.project
+.settings
+ckeditor_source
+build.js
+ckbuilder.jar
