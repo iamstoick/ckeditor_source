@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['da'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Kopiér',
-    	copyError : 'Din browsers sikkerhedsindstillinger tillader ikke editoren at få automatisk adgang til udklipsholderen.<br><br>Brug i stedet tastaturet til at kopiere teksten (Ctrl/Cmd+C).',
-    	cut : 'Klip',
-    	cutError : 'Din browsers sikkerhedsindstillinger tillader ikke editoren at få automatisk adgang til udklipsholderen.<br><br>Brug i stedet tastaturet til at klippe teksten (Ctrl/Cmd+X).',
-    	paste : 'Indsæt',
-    	pasteArea : 'Indsæt område',
-    	pasteMsg : 'Indsæt i feltet herunder (<STRONG>Ctrl/Cmd+V</STRONG>) og klik på <STRONG>OK</STRONG>.',
-    	securityMsg : 'Din browsers sikkerhedsindstillinger tillader ikke editoren at få automatisk adgang til udklipsholderen.<br><br>Du skal indsætte udklipsholderens indhold i dette vindue igen.',
-    	title : 'Indsæt'
+    	confirmCleanup : 'Den tekst du forsøger at indsætte ser ud til at komme fra Word. Vil du rense teksten før den indsættes?',
+    	error : 'Det var ikke muligt at fjerne formatteringen på den indsatte tekst grundet en intern fejl',
+    	title : 'Indsæt fra Word',
+    	toolbar : 'Indsæt fra Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Indsæt som ikke-formateret tekst',
-    	title : 'Indsæt som ikke-formateret tekst'
-    },
-    specialchar : 
-    {
-    	options : 'Muligheder for specialkarakterer',
-    	title : 'Vælg symbol',
-    	toolbar : 'Indsæt symbol'
-    },
-    selectall : 
-    {
-    	toolbar : 'Vælg alt'
-    },
-    newpage : 
-    {
-    	toolbar : 'Ny side'
-    },
-    templates : 
-    {
-    	button : 'Skabeloner',
-    	emptyListMsg : '(Der er ikke defineret nogen skabelon)',
-    	insertOption : 'Erstat det faktiske indhold',
-    	options : 'Skabelon muligheder',
-    	selectPromptMsg : 'Vælg den skabelon, som skal åbnes i editoren (nuværende indhold vil blive overskrevet):',
-    	title : 'Indholdsskabeloner'
-    },
-    colordialog : 
-    {
-    	clear : 'Nulstil',
-    	highlight : 'Markér',
-    	options : 'Farvemuligheder',
-    	selected : 'Valgt farve',
-    	title : 'Vælg farve'
-    },
-    preview : 
-    {
-    	preview : 'Vis eksempel'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Skriftstørrelse',
-    		voiceLabel : 'Skriftstørrelse',
-    		panelTitle : 'Skriftstørrelse'
-    	},
-    	label : 'Skrifttype',
-    	panelTitle : 'Skrifttype',
-    	voiceLabel : 'Skrifttype'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armensk nummering',
-    	bulletedTitle : 'Værdier for cirkelpunktopstilling',
-    	circle : 'Cirkel',
-    	decimal : 'Decimal (1, 2, 3, osv.)',
-    	decimalLeadingZero : 'Decimaler med 0 først (01, 02, 03, etc.)',
-    	disc : 'Værdier for diskpunktopstilling',
-    	georgian : 'Georgiansk nummering (an, ban, gan, etc.)',
-    	lowerAlpha : 'Små alfabet (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Små græsk (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Små romerske (i, ii, iii, iv, v, etc.)',
-    	none : 'Ingen',
-    	notset : '<ikke defineret>',
-    	numberedTitle : 'Egenskaber for nummereret liste',
-    	square : 'Firkant',
-    	start : 'Start',
-    	type : 'Type',
-    	upperAlpha : 'Store alfabet (A, B, C, D, E, etc.)',
-    	upperRoman : 'Store romerske (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'Den nummererede liste skal starte med et rundt nummer'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Blokcitat'
-    },
-    undo : 
-    {
-    	redo : 'Annullér fortryd',
-    	undo : 'Fortryd'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. Alle rettigheder forbeholdes.',
-    	dlgTitle : 'Om CKEditor',
-    	help : 'Se $1 for at få hjælp.',
-    	moreInfo : 'For informationer omkring licens, se venligst vores hjemmeside (på engelsk):',
-    	title : 'Om CKEditor',
-    	userGuide : 'CKEditor-brugermanual'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Sammenklap værktøjslinje',
-    	toolbarExpand : 'Udvid værktøjslinje',
-    	toolbarGroups : 
-    	{
-    		document : 'Dokument',
-    		clipboard : 'Udklipsholder/Fortryd',
-    		editing : 'Redigering',
-    		forms : 'Formularer',
-    		basicstyles : 'Basis styles',
-    		paragraph : 'Paragraf',
-    		links : 'Links',
-    		insert : 'Indsæt',
-    		styles : 'Typografier',
-    		colors : 'Farver',
-    		tools : 'Værktøjer'
-    	},
-    	toolbars : 'Editors værktøjslinjer'
-    },
-    scayt : 
-    {
-    	about : 'Om SCAYT',
-    	aboutTab : 'Om',
-    	addWord : 'Tilføj ord',
-    	allCaps : 'Ignorer alle store bogstaver',
-    	dic_create : 'Opret',
-    	dic_delete : 'Slet',
-    	dic_field_name : 'Navn på ordbog',
-    	dic_info : 'Til start er brugerordbogen gemt i en Cookie. Dog har Cookies en begrænsning på størrelse. Når ordbogen når en bestemt størrelse kan den blive gemt på vores server. For at gemme din personlige ordbog på vores server skal du angive et navn for denne. Såfremt du allerede har gemt en ordbog, skriv navnet på denne og klik på Gendan knappen.',
-    	dic_rename : 'Omdøb',
-    	dic_restore : 'Gendan',
-    	dictionariesTab : 'Ordbøger',
-    	disable : 'Deaktivér SCAYT',
-    	emptyDic : 'Ordbogsnavn må ikke være tom.',
-    	enable : 'Aktivér SCAYT',
-    	ignore : 'Ignorér',
-    	ignoreAll : 'Ignorér alle',
-    	ignoreDomainNames : 'Ignorér domænenavne',
-    	langs : 'Sprog',
-    	languagesTab : 'Sprog',
-    	mixedCase : 'Ignorer ord med store og små bogstaver',
-    	mixedWithDigits : 'Ignorér ord med numre',
-    	moreSuggestions : 'Flere forslag',
-    	opera_title : 'Ikke supporteret af Opera',
-    	options : 'Indstillinger',
-    	optionsTab : 'Indstillinger',
-    	title : 'Stavekontrol mens du skriver',
-    	toggle : 'Skift/toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Ignorér',
-    	btnIgnoreAll : 'Ignorér alle',
-    	btnReplace : 'Erstat',
-    	btnReplaceAll : 'Erstat alle',
-    	btnUndo : 'Tilbage',
-    	changeTo : 'Forslag',
-    	errorLoading : 'Fejl ved indlæsning af host: %s.',
-    	ieSpellDownload : 'Stavekontrol ikke installeret. Vil du installere den nu?',
-    	manyChanges : 'Stavekontrol færdig: %1 ord ændret',
-    	noChanges : 'Stavekontrol færdig: Ingen ord ændret',
-    	noMispell : 'Stavekontrol færdig: Ingen fejl fundet',
-    	noSuggestions : '(ingen forslag)',
-    	notAvailable : 'Stavekontrol er desværre ikke tilgængelig.',
-    	notInDic : 'Ikke i ordbogen',
-    	oneChange : 'Stavekontrol færdig: Et ord ændret',
-    	progress : 'Stavekontrollen arbejder...',
-    	title : 'Stavekontrol',
-    	toolbar : 'Stavekontrol'
-    },
-    contextmenu : 
-    {
-    	options : 'Muligheder for hjælpemenu'
+    	bulletedlist : 'Punktopstilling',
+    	numberedlist : 'Talopstilling'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['da'] = {
     	left : 'Venstrestillet',
     	right : 'Højrestillet'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Kilde'
-    },
-    format : 
-    {
-    	label : 'Formatering',
-    	panelTitle : 'Formatering',
-    	tag_address : 'Adresse',
-    	tag_div : 'Normal (DIV)',
-    	tag_h1 : 'Overskrift 1',
-    	tag_h2 : 'Overskrift 2',
-    	tag_h3 : 'Overskrift 3',
-    	tag_h4 : 'Overskrift 4',
-    	tag_h5 : 'Overskrift 5',
-    	tag_h6 : 'Overskrift 6',
-    	tag_p : 'Normal',
-    	tag_pre : 'Formateret'
-    },
-    flash : 
-    {
-    	access : 'Scriptadgang',
-    	accessAlways : 'Altid',
-    	accessNever : 'Aldrig',
-    	accessSameDomain : 'Samme domæne',
-    	alignAbsBottom : 'Absolut nederst',
-    	alignAbsMiddle : 'Absolut centreret',
-    	alignBaseline : 'Grundlinje',
-    	alignTextTop : 'Toppen af teksten',
-    	bgcolor : 'Baggrundsfarve',
-    	chkFull : 'Tillad fuldskærm',
-    	chkLoop : 'Gentagelse',
-    	chkMenu : 'Vis Flash-menu',
-    	chkPlay : 'Automatisk afspilning',
-    	flashvars : 'Variabler for Flash',
-    	hSpace : 'Vandret margen',
-    	properties : 'Egenskaber for Flash',
-    	propertiesTab : 'Egenskaber',
-    	quality : 'Kvalitet',
-    	qualityAutoHigh : 'Auto høj',
-    	qualityAutoLow : 'Auto lav',
-    	qualityBest : 'Bedste',
-    	qualityHigh : 'Høj',
-    	qualityLow : 'Lav',
-    	qualityMedium : 'Medium',
-    	scale : 'Skalér',
-    	scaleAll : 'Vis alt',
-    	scaleFit : 'Tilpas størrelse',
-    	scaleNoBorder : 'Ingen ramme',
-    	title : 'Egenskaber for Flash',
-    	vSpace : 'Lodret margen',
-    	validateHSpace : 'Vandret margen skal være et tal.',
-    	validateSrc : 'Indtast hyperlink URL!',
-    	validateVSpace : 'Lodret margen skal være et tal.',
-    	windowMode : 'Vinduestilstand',
-    	windowModeOpaque : 'Gennemsigtig (opaque)',
-    	windowModeTransparent : 'Transparent',
-    	windowModeWindow : 'Vindue'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Fjern formatering'
-    },
-    iframe : 
-    {
-    	border : 'Vis kant på rammen',
-    	noUrl : 'Venligst indsæt URL på iframen',
-    	scrolling : 'Aktiver scrollbars',
-    	title : 'Iframe egenskaber',
-    	toolbar : 'Iframe'
-    },
-    link : 
-    {
-    	acccessKey : 'Genvejstast',
-    	advanced : 'Avanceret',
-    	advisoryContentType : 'Indholdstype',
-    	advisoryTitle : 'Titel',
-    	anchor : 
-    	{
-    		toolbar : 'Indsæt/redigér bogmærke',
-    		menu : 'Egenskaber for bogmærke',
-    		title : 'Egenskaber for bogmærke',
-    		name : 'Bogmærkenavn',
-    		errorName : 'Indtast bogmærkenavn',
-    		remove : 'Fjern bogmærke'
-    	},
-    	anchorId : 'Efter element-Id',
-    	anchorName : 'Efter ankernavn',
-    	charset : 'Tegnsæt',
-    	cssClasses : 'Typografiark',
-    	emailAddress : 'E-mailadresse',
-    	emailBody : 'Besked',
-    	emailSubject : 'Emne',
-    	id : 'Id',
-    	info : 'Generelt',
-    	langCode : 'Tekstretning',
-    	langDir : 'Tekstretning',
-    	langDirLTR : 'Fra venstre mod højre (LTR)',
-    	langDirRTL : 'Fra højre mod venstre (RTL)',
-    	menu : 'Redigér hyperlink',
-    	name : 'Navn',
-    	noAnchors : '(Ingen bogmærker i dokumentet)',
-    	noEmail : 'Indtast e-mailadresse!',
-    	noUrl : 'Indtast hyperlink-URL!',
-    	other : '<anden>',
-    	popupDependent : 'Koblet/dependent (Netscape)',
-    	popupFeatures : 'Egenskaber for popup',
-    	popupFullScreen : 'Fuld skærm (IE)',
-    	popupLeft : 'Position fra venstre',
-    	popupLocationBar : 'Adresselinje',
-    	popupMenuBar : 'Menulinje',
-    	popupResizable : 'Justérbar',
-    	popupScrollBars : 'Scrollbar',
-    	popupStatusBar : 'Statuslinje',
-    	popupToolbar : 'Værktøjslinje',
-    	popupTop : 'Position fra toppen',
-    	rel : 'Relation',
-    	selectAnchor : 'Vælg et anker',
-    	styles : 'Typografi',
-    	tabIndex : 'Tabulatorindeks',
-    	target : 'Mål',
-    	targetFrame : '<ramme>',
-    	targetFrameName : 'Destinationsvinduets navn',
-    	targetPopup : '<popup vindue>',
-    	targetPopupName : 'Popupvinduets navn',
-    	title : 'Egenskaber for hyperlink',
-    	toAnchor : 'Bogmærke på denne side',
-    	toEmail : 'E-mail',
-    	toUrl : 'URL',
-    	toolbar : 'Indsæt/redigér hyperlink',
-    	type : 'Type',
-    	unlink : 'Fjern hyperlink',
-    	upload : 'Upload'
-    },
-    smiley : 
-    {
-    	options : 'Smileymuligheder',
-    	title : 'Vælg smiley',
-    	toolbar : 'Smiley'
-    },
-    print : 
-    {
-    	toolbar : 'Udskriv'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Vejledende titel',
-    	cssClassInputLabel : 'Typografiark',
-    	edit : 'Rediger Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : 'Venstre til højre (LTR)',
-    	langDirLabel : 'Sprogretning',
-    	langDirRTLLabel : 'Højre til venstre (RTL)',
-    	languageCodeInputLabel : ' Sprogkode',
-    	remove : 'Slet Div',
-    	styleSelectLabel : 'Style',
-    	title : 'Opret Div Container',
-    	toolbar : 'Opret Div Container'
-    },
-    indent : 
-    {
-    	indent : 'Forøg indrykning',
-    	outdent : 'Formindsk indrykning'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Den tekst du forsøger at indsætte ser ud til at komme fra Word. Vil du rense teksten før den indsættes?',
-    	error : 'Det var ikke muligt at fjerne formatteringen på den indsatte tekst grundet en intern fejl',
-    	title : 'Indsæt fra Word',
-    	toolbar : 'Indsæt fra Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'Automatisk',
-    	bgColorTitle : 'Baggrundsfarve',
-    	colors : 
-    	{
-    		'000' : 'Sort',
-    		'800000' : 'Mørkerød',
-    		'8B4513' : 'Mørk orange',
-    		'2F4F4F' : 'Dark Slate Grå',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Mørkegrå',
-    		B22222 : 'Scarlet / Rød',
-    		A52A2A : 'Brun',
-    		DAA520 : 'Guld',
-    		'006400' : 'Mørkegrøn',
-    		'40E0D0' : 'Tyrkis',
-    		'0000CD' : 'Mellemblå',
-    		'800080' : 'Lilla',
-    		'808080' : 'Grå',
-    		F00 : 'Rød',
-    		FF8C00 : 'Mørk orange',
-    		FFD700 : 'Guld',
-    		'008000' : 'Grøn',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Blå',
-    		EE82EE : 'Violet',
-    		A9A9A9 : 'Matgrå',
-    		FFA07A : 'Laksefarve',
-    		FFA500 : 'Orange',
-    		FFFF00 : 'Gul',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Mat tyrkis',
-    		ADD8E6 : 'Lyseblå',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Lysegrå',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antikhvid',
-    		FFFFE0 : 'Lysegul',
-    		F0FFF0 : 'Gul / Beige',
-    		F0FFFF : 'Himmeblå',
-    		F0F8FF : 'Alice blue',
-    		E6E6FA : 'Lavendel',
-    		FFF : 'Hvid'
-    	},
-    	more : 'Flere farver...',
-    	panelTitle : 'Farver',
-    	textColorTitle : 'Tekstfarve'
-    },
-    list : 
-    {
-    	bulletedlist : 'Punktopstilling',
-    	numberedlist : 'Talopstilling'
+    	toolbar : 'Gem'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['da'] = {
     	validateHSpace : 'HSpace skal være et helt nummer.',
     	validateVSpace : 'VSpace skal være et helt nummer.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Søg',
-    	findOptions : 'Find muligheder',
-    	findWhat : 'Søg efter:',
-    	matchCase : 'Forskel på store og små bogstaver',
-    	matchCyclic : 'Match cyklisk',
-    	matchWord : 'Kun hele ord',
-    	notFoundMsg : 'Søgeteksten blev ikke fundet',
-    	replace : 'Erstat',
-    	replaceAll : 'Erstat alle',
-    	replaceSuccessMsg : '%1 forekomst(er) erstattet.',
-    	replaceWith : 'Erstat med:',
-    	title : 'Søg og erstat'
+    	alt : 'Sideskift',
+    	toolbar : 'Indsæt sideskift'
     },
     showblocks : 
     {
     	toolbar : 'Vis afsnitsmærker'
+    },
+    indent : 
+    {
+    	indent : 'Forøg indrykning',
+    	outdent : 'Formindsk indrykning'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['da'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Indsæt vandret streg'
-    },
-    pagebreak : 
-    {
-    	alt : 'Sideskift',
-    	toolbar : 'Indsæt sideskift'
-    },
-    stylescombo : 
-    {
-    	label : 'Typografi',
-    	panelTitle : 'Formattering på stylesheet',
-    	panelTitle1 : 'Block typografi',
-    	panelTitle2 : 'Inline typografi',
-    	panelTitle3 : 'Object typografi'
-    },
     bidi : 
     {
     	ltr : 'Tekstretning fra venstre til højre',
     	rtl : 'Tekstretning fra højre til venstre'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Fed',
-    	italic : 'Kursiv',
-    	strike : 'Gennemstreget',
-    	subscript : 'Sænket skrift',
-    	superscript : 'Hævet skrift',
-    	underline : 'Understreget'
+    	eleLabel : 'Sti på element',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Anker',
+    	flash : 'Flashanimation',
+    	hiddenfield : 'Skjult felt',
+    	iframe : 'Iframe',
+    	unknown : 'Ukendt objekt'
+    },
+    smiley : 
+    {
+    	options : 'Smileymuligheder',
+    	title : 'Vælg smiley',
+    	toolbar : 'Smiley'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. Alle rettigheder forbeholdes.',
+    	dlgTitle : 'Om CKEditor',
+    	help : 'Se $1 for at få hjælp.',
+    	moreInfo : 'For informationer omkring licens, se venligst vores hjemmeside (på engelsk):',
+    	title : 'Om CKEditor',
+    	userGuide : 'CKEditor-brugermanual'
+    },
+    newpage : 
+    {
+    	toolbar : 'Ny side'
+    },
+    format : 
+    {
+    	label : 'Formatering',
+    	panelTitle : 'Formatering',
+    	tag_address : 'Adresse',
+    	tag_div : 'Normal (DIV)',
+    	tag_h1 : 'Overskrift 1',
+    	tag_h2 : 'Overskrift 2',
+    	tag_h3 : 'Overskrift 3',
+    	tag_h4 : 'Overskrift 4',
+    	tag_h5 : 'Overskrift 5',
+    	tag_h6 : 'Overskrift 6',
+    	tag_p : 'Normal',
+    	tag_pre : 'Formateret'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Fjern formatering'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['da'] = {
     	widthPx : 'pixels',
     	widthUnit : 'Bredde på enhed'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Insert paragraph here'
+    	options : 'Muligheder for specialkarakterer',
+    	title : 'Vælg symbol',
+    	toolbar : 'Indsæt symbol'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Gem'
+    	armenian : 'Armensk nummering',
+    	bulletedTitle : 'Værdier for cirkelpunktopstilling',
+    	circle : 'Cirkel',
+    	decimal : 'Decimal (1, 2, 3, osv.)',
+    	decimalLeadingZero : 'Decimaler med 0 først (01, 02, 03, etc.)',
+    	disc : 'Værdier for diskpunktopstilling',
+    	georgian : 'Georgiansk nummering (an, ban, gan, etc.)',
+    	lowerAlpha : 'Små alfabet (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Små græsk (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Små romerske (i, ii, iii, iv, v, etc.)',
+    	none : 'Ingen',
+    	notset : '<ikke defineret>',
+    	numberedTitle : 'Egenskaber for nummereret liste',
+    	square : 'Firkant',
+    	start : 'Start',
+    	type : 'Type',
+    	upperAlpha : 'Store alfabet (A, B, C, D, E, etc.)',
+    	upperRoman : 'Store romerske (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'Den nummererede liste skal starte med et rundt nummer'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Anker',
-    	flash : 'Flashanimation',
-    	hiddenfield : 'Skjult felt',
-    	iframe : 'Iframe',
-    	unknown : 'Ukendt objekt'
+    	border : 'Vis kant på rammen',
+    	noUrl : 'Venligst indsæt URL på iframen',
+    	scrolling : 'Aktiver scrollbars',
+    	title : 'Iframe egenskaber',
+    	toolbar : 'Iframe'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Sti på element',
-    	eleTitle : '%1 element'
+    	access : 'Scriptadgang',
+    	accessAlways : 'Altid',
+    	accessNever : 'Aldrig',
+    	accessSameDomain : 'Samme domæne',
+    	alignAbsBottom : 'Absolut nederst',
+    	alignAbsMiddle : 'Absolut centreret',
+    	alignBaseline : 'Grundlinje',
+    	alignTextTop : 'Toppen af teksten',
+    	bgcolor : 'Baggrundsfarve',
+    	chkFull : 'Tillad fuldskærm',
+    	chkLoop : 'Gentagelse',
+    	chkMenu : 'Vis Flash-menu',
+    	chkPlay : 'Automatisk afspilning',
+    	flashvars : 'Variabler for Flash',
+    	hSpace : 'Vandret margen',
+    	properties : 'Egenskaber for Flash',
+    	propertiesTab : 'Egenskaber',
+    	quality : 'Kvalitet',
+    	qualityAutoHigh : 'Auto høj',
+    	qualityAutoLow : 'Auto lav',
+    	qualityBest : 'Bedste',
+    	qualityHigh : 'Høj',
+    	qualityLow : 'Lav',
+    	qualityMedium : 'Medium',
+    	scale : 'Skalér',
+    	scaleAll : 'Vis alt',
+    	scaleFit : 'Tilpas størrelse',
+    	scaleNoBorder : 'Ingen ramme',
+    	title : 'Egenskaber for Flash',
+    	vSpace : 'Lodret margen',
+    	validateHSpace : 'Vandret margen skal være et tal.',
+    	validateSrc : 'Indtast hyperlink URL!',
+    	validateVSpace : 'Lodret margen skal være et tal.',
+    	windowMode : 'Vinduestilstand',
+    	windowModeOpaque : 'Gennemsigtig (opaque)',
+    	windowModeTransparent : 'Transparent',
+    	windowModeWindow : 'Vindue'
+    },
+    find : 
+    {
+    	find : 'Søg',
+    	findOptions : 'Find muligheder',
+    	findWhat : 'Søg efter:',
+    	matchCase : 'Forskel på store og små bogstaver',
+    	matchCyclic : 'Match cyklisk',
+    	matchWord : 'Kun hele ord',
+    	notFoundMsg : 'Søgeteksten blev ikke fundet',
+    	replace : 'Erstat',
+    	replaceAll : 'Erstat alle',
+    	replaceSuccessMsg : '%1 forekomst(er) erstattet.',
+    	replaceWith : 'Erstat med:',
+    	title : 'Søg og erstat'
+    },
+    colorbutton : 
+    {
+    	auto : 'Automatisk',
+    	bgColorTitle : 'Baggrundsfarve',
+    	colors : 
+    	{
+    		'000' : 'Sort',
+    		'800000' : 'Mørkerød',
+    		'8B4513' : 'Mørk orange',
+    		'2F4F4F' : 'Dark Slate Grå',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Mørkegrå',
+    		B22222 : 'Scarlet / Rød',
+    		A52A2A : 'Brun',
+    		DAA520 : 'Guld',
+    		'006400' : 'Mørkegrøn',
+    		'40E0D0' : 'Tyrkis',
+    		'0000CD' : 'Mellemblå',
+    		'800080' : 'Lilla',
+    		'808080' : 'Grå',
+    		F00 : 'Rød',
+    		FF8C00 : 'Mørk orange',
+    		FFD700 : 'Guld',
+    		'008000' : 'Grøn',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Blå',
+    		EE82EE : 'Violet',
+    		A9A9A9 : 'Matgrå',
+    		FFA07A : 'Laksefarve',
+    		FFA500 : 'Orange',
+    		FFFF00 : 'Gul',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Mat tyrkis',
+    		ADD8E6 : 'Lyseblå',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Lysegrå',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antikhvid',
+    		FFFFE0 : 'Lysegul',
+    		F0FFF0 : 'Gul / Beige',
+    		F0FFFF : 'Himmeblå',
+    		F0F8FF : 'Alice blue',
+    		E6E6FA : 'Lavendel',
+    		FFF : 'Hvid'
+    	},
+    	more : 'Flere farver...',
+    	panelTitle : 'Farver',
+    	textColorTitle : 'Tekstfarve'
+    },
+    undo : 
+    {
+    	redo : 'Annullér fortryd',
+    	undo : 'Fortryd'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Skriftstørrelse',
+    		voiceLabel : 'Skriftstørrelse',
+    		panelTitle : 'Skriftstørrelse'
+    	},
+    	label : 'Skrifttype',
+    	panelTitle : 'Skrifttype',
+    	voiceLabel : 'Skrifttype'
     },
     maximize : 
     {
     	maximize : 'Maksimér',
     	minimize : 'Minimér'
     },
+    basicstyles : 
+    {
+    	bold : 'Fed',
+    	italic : 'Kursiv',
+    	strike : 'Gennemstreget',
+    	subscript : 'Sænket skrift',
+    	superscript : 'Hævet skrift',
+    	underline : 'Understreget'
+    },
+    magicline : 
+    {
+    	title : 'Insert paragraph here'
+    },
+    print : 
+    {
+    	toolbar : 'Udskriv'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Ignorér',
+    	btnIgnoreAll : 'Ignorér alle',
+    	btnReplace : 'Erstat',
+    	btnReplaceAll : 'Erstat alle',
+    	btnUndo : 'Tilbage',
+    	changeTo : 'Forslag',
+    	errorLoading : 'Fejl ved indlæsning af host: %s.',
+    	ieSpellDownload : 'Stavekontrol ikke installeret. Vil du installere den nu?',
+    	manyChanges : 'Stavekontrol færdig: %1 ord ændret',
+    	noChanges : 'Stavekontrol færdig: Ingen ord ændret',
+    	noMispell : 'Stavekontrol færdig: Ingen fejl fundet',
+    	noSuggestions : '(ingen forslag)',
+    	notAvailable : 'Stavekontrol er desværre ikke tilgængelig.',
+    	notInDic : 'Ikke i ordbogen',
+    	oneChange : 'Stavekontrol færdig: Et ord ændret',
+    	progress : 'Stavekontrollen arbejder...',
+    	title : 'Stavekontrol',
+    	toolbar : 'Stavekontrol'
+    },
+    clipboard : 
+    {
+    	copy : 'Kopiér',
+    	copyError : 'Din browsers sikkerhedsindstillinger tillader ikke editoren at få automatisk adgang til udklipsholderen.<br><br>Brug i stedet tastaturet til at kopiere teksten (Ctrl/Cmd+C).',
+    	cut : 'Klip',
+    	cutError : 'Din browsers sikkerhedsindstillinger tillader ikke editoren at få automatisk adgang til udklipsholderen.<br><br>Brug i stedet tastaturet til at klippe teksten (Ctrl/Cmd+X).',
+    	paste : 'Indsæt',
+    	pasteArea : 'Indsæt område',
+    	pasteMsg : 'Indsæt i feltet herunder (<STRONG>Ctrl/Cmd+V</STRONG>) og klik på <STRONG>OK</STRONG>.',
+    	securityMsg : 'Din browsers sikkerhedsindstillinger tillader ikke editoren at få automatisk adgang til udklipsholderen.<br><br>Du skal indsætte udklipsholderens indhold i dette vindue igen.',
+    	title : 'Indsæt'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Kilde'
+    },
+    scayt : 
+    {
+    	about : 'Om SCAYT',
+    	aboutTab : 'Om',
+    	addWord : 'Tilføj ord',
+    	allCaps : 'Ignorer alle store bogstaver',
+    	dic_create : 'Opret',
+    	dic_delete : 'Slet',
+    	dic_field_name : 'Navn på ordbog',
+    	dic_info : 'Til start er brugerordbogen gemt i en Cookie. Dog har Cookies en begrænsning på størrelse. Når ordbogen når en bestemt størrelse kan den blive gemt på vores server. For at gemme din personlige ordbog på vores server skal du angive et navn for denne. Såfremt du allerede har gemt en ordbog, skriv navnet på denne og klik på Gendan knappen.',
+    	dic_rename : 'Omdøb',
+    	dic_restore : 'Gendan',
+    	dictionariesTab : 'Ordbøger',
+    	disable : 'Deaktivér SCAYT',
+    	emptyDic : 'Ordbogsnavn må ikke være tom.',
+    	enable : 'Aktivér SCAYT',
+    	ignore : 'Ignorér',
+    	ignoreAll : 'Ignorér alle',
+    	ignoreDomainNames : 'Ignorér domænenavne',
+    	langs : 'Sprog',
+    	languagesTab : 'Sprog',
+    	mixedCase : 'Ignorer ord med store og små bogstaver',
+    	mixedWithDigits : 'Ignorér ord med numre',
+    	moreSuggestions : 'Flere forslag',
+    	opera_title : 'Ikke supporteret af Opera',
+    	options : 'Indstillinger',
+    	optionsTab : 'Indstillinger',
+    	title : 'Stavekontrol mens du skriver',
+    	toggle : 'Skift/toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Indsæt vandret streg'
+    },
+    pastetext : 
+    {
+    	button : 'Indsæt som ikke-formateret tekst',
+    	title : 'Indsæt som ikke-formateret tekst'
+    },
+    contextmenu : 
+    {
+    	options : 'Muligheder for hjælpemenu'
+    },
+    templates : 
+    {
+    	button : 'Skabeloner',
+    	emptyListMsg : '(Der er ikke defineret nogen skabelon)',
+    	insertOption : 'Erstat det faktiske indhold',
+    	options : 'Skabelon muligheder',
+    	selectPromptMsg : 'Vælg den skabelon, som skal åbnes i editoren (nuværende indhold vil blive overskrevet):',
+    	title : 'Indholdsskabeloner'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Vejledende titel',
+    	cssClassInputLabel : 'Typografiark',
+    	edit : 'Rediger Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : 'Venstre til højre (LTR)',
+    	langDirLabel : 'Sprogretning',
+    	langDirRTLLabel : 'Højre til venstre (RTL)',
+    	languageCodeInputLabel : ' Sprogkode',
+    	remove : 'Slet Div',
+    	styleSelectLabel : 'Style',
+    	title : 'Opret Div Container',
+    	toolbar : 'Opret Div Container'
+    },
+    preview : 
+    {
+    	preview : 'Vis eksempel'
+    },
+    colordialog : 
+    {
+    	clear : 'Nulstil',
+    	highlight : 'Markér',
+    	options : 'Farvemuligheder',
+    	selected : 'Valgt farve',
+    	title : 'Vælg farve'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Sammenklap værktøjslinje',
+    	toolbarExpand : 'Udvid værktøjslinje',
+    	toolbarGroups : 
+    	{
+    		document : 'Dokument',
+    		clipboard : 'Udklipsholder/Fortryd',
+    		editing : 'Redigering',
+    		forms : 'Formularer',
+    		basicstyles : 'Basis styles',
+    		paragraph : 'Paragraf',
+    		links : 'Links',
+    		insert : 'Indsæt',
+    		styles : 'Typografier',
+    		colors : 'Farver',
+    		tools : 'Værktøjer'
+    	},
+    	toolbars : 'Editors værktøjslinjer'
+    },
+    selectall : 
+    {
+    	toolbar : 'Vælg alt'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Blokcitat'
+    },
+    link : 
+    {
+    	acccessKey : 'Genvejstast',
+    	advanced : 'Avanceret',
+    	advisoryContentType : 'Indholdstype',
+    	advisoryTitle : 'Titel',
+    	anchor : 
+    	{
+    		toolbar : 'Indsæt/redigér bogmærke',
+    		menu : 'Egenskaber for bogmærke',
+    		title : 'Egenskaber for bogmærke',
+    		name : 'Bogmærkenavn',
+    		errorName : 'Indtast bogmærkenavn',
+    		remove : 'Fjern bogmærke'
+    	},
+    	anchorId : 'Efter element-Id',
+    	anchorName : 'Efter ankernavn',
+    	charset : 'Tegnsæt',
+    	cssClasses : 'Typografiark',
+    	emailAddress : 'E-mailadresse',
+    	emailBody : 'Besked',
+    	emailSubject : 'Emne',
+    	id : 'Id',
+    	info : 'Generelt',
+    	langCode : 'Tekstretning',
+    	langDir : 'Tekstretning',
+    	langDirLTR : 'Fra venstre mod højre (LTR)',
+    	langDirRTL : 'Fra højre mod venstre (RTL)',
+    	menu : 'Redigér hyperlink',
+    	name : 'Navn',
+    	noAnchors : '(Ingen bogmærker i dokumentet)',
+    	noEmail : 'Indtast e-mailadresse!',
+    	noUrl : 'Indtast hyperlink-URL!',
+    	other : '<anden>',
+    	popupDependent : 'Koblet/dependent (Netscape)',
+    	popupFeatures : 'Egenskaber for popup',
+    	popupFullScreen : 'Fuld skærm (IE)',
+    	popupLeft : 'Position fra venstre',
+    	popupLocationBar : 'Adresselinje',
+    	popupMenuBar : 'Menulinje',
+    	popupResizable : 'Justérbar',
+    	popupScrollBars : 'Scrollbar',
+    	popupStatusBar : 'Statuslinje',
+    	popupToolbar : 'Værktøjslinje',
+    	popupTop : 'Position fra toppen',
+    	rel : 'Relation',
+    	selectAnchor : 'Vælg et anker',
+    	styles : 'Typografi',
+    	tabIndex : 'Tabulatorindeks',
+    	target : 'Mål',
+    	targetFrame : '<ramme>',
+    	targetFrameName : 'Destinationsvinduets navn',
+    	targetPopup : '<popup vindue>',
+    	targetPopupName : 'Popupvinduets navn',
+    	title : 'Egenskaber for hyperlink',
+    	toAnchor : 'Bogmærke på denne side',
+    	toEmail : 'E-mail',
+    	toUrl : 'URL',
+    	toolbar : 'Indsæt/redigér hyperlink',
+    	type : 'Type',
+    	unlink : 'Fjern hyperlink',
+    	upload : 'Upload'
+    },
+    stylescombo : 
+    {
+    	label : 'Typografi',
+    	panelTitle : 'Formattering på stylesheet',
+    	panelTitle1 : 'Block typografi',
+    	panelTitle2 : 'Inline typografi',
+    	panelTitle3 : 'Object typografi'
+    },
+    dir : 'ltr',
     editor : 'Rich Text Editor',
     common : 
     {

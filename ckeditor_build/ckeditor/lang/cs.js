@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['cs'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Kopírovat',
-    	copyError : 'Bezpečnostní nastavení vašeho prohlížeče nedovolují editoru spustit funkci pro kopírování zvoleného textu do schránky. Prosím zkopírujte zvolený text do schránky pomocí klávesnice (Ctrl/Cmd+C).',
-    	cut : 'Vyjmout',
-    	cutError : 'Bezpečnostní nastavení vašeho prohlížeče nedovolují editoru spustit funkci pro vyjmutí zvoleného textu do schránky. Prosím vyjměte zvolený text do schránky pomocí klávesnice (Ctrl/Cmd+X).',
-    	paste : 'Vložit',
-    	pasteArea : 'Oblast vkládání',
-    	pasteMsg : 'Do následujícího pole vložte požadovaný obsah pomocí klávesnice (<STRONG>Ctrl/Cmd+V</STRONG>) a stiskněte <STRONG>OK</STRONG>.',
-    	securityMsg : 'Z důvodů nastavení bezpečnosti vašeho prohlížeče nemůže editor přistupovat přímo do schránky. Obsah schránky prosím vložte znovu do tohoto okna.',
-    	title : 'Vložit'
+    	confirmCleanup : 'Jak je vidět, vkládaný text je kopírován z Wordu. Chcete jej před vložením vyčistit?',
+    	error : 'Z důvodu vnitřní chyby nebylo možné provést vyčištění vkládaného textu.',
+    	title : 'Vložit z Wordu',
+    	toolbar : 'Vložit z Wordu'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Vložit jako čistý text',
-    	title : 'Vložit jako čistý text'
-    },
-    specialchar : 
-    {
-    	options : 'Nastavení speciálních znaků',
-    	title : 'Výběr speciálního znaku',
-    	toolbar : 'Vložit speciální znaky'
-    },
-    selectall : 
-    {
-    	toolbar : 'Vybrat vše'
-    },
-    newpage : 
-    {
-    	toolbar : 'Nová stránka'
-    },
-    templates : 
-    {
-    	button : 'Šablony',
-    	emptyListMsg : '(Není definována žádná šablona)',
-    	insertOption : 'Nahradit aktuální obsah',
-    	options : 'Nastavení šablon',
-    	selectPromptMsg : 'Prosím zvolte šablonu pro otevření v editoru<br>(aktuální obsah editoru bude ztracen):',
-    	title : 'Šablony obsahu'
-    },
-    colordialog : 
-    {
-    	clear : 'Vyčistit',
-    	highlight : 'Zvýraznit',
-    	options : 'Nastavení barvy',
-    	selected : 'Vybráno',
-    	title : 'Výběr barvy'
-    },
-    preview : 
-    {
-    	preview : 'Náhled'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Velikost',
-    		voiceLabel : 'Velikost písma',
-    		panelTitle : 'Velikost'
-    	},
-    	label : 'Písmo',
-    	panelTitle : 'Písmo',
-    	voiceLabel : 'Písmo'
-    },
-    liststyle : 
-    {
-    	armenian : 'Arménské',
-    	bulletedTitle : 'Vlastnosti odrážek',
-    	circle : 'Kroužky',
-    	decimal : 'Arabská čísla (1, 2, 3, atd.)',
-    	decimalLeadingZero : 'Arabská čísla uvozená nulou (01, 02, 03, atd.)',
-    	disc : 'Kolečka',
-    	georgian : 'Gruzínské (an, ban, gan, atd.)',
-    	lowerAlpha : 'Malá latinka (a, b, c, d, e, atd.)',
-    	lowerGreek : 'Malé řecké (alpha, beta, gamma, atd.)',
-    	lowerRoman : 'Malé římské (i, ii, iii, iv, v, atd.)',
-    	none : 'Nic',
-    	notset : '<nenastaveno>',
-    	numberedTitle : 'Vlastnosti číslování',
-    	square : 'Čtverce',
-    	start : 'Počátek',
-    	type : 'Typ',
-    	upperAlpha : 'Velká latinka (A, B, C, D, E, atd.)',
-    	upperRoman : 'Velké římské (I, II, III, IV, V, atd.)',
-    	validateStartNumber : 'Číslování musí začínat celým číslem.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Citace'
-    },
-    undo : 
-    {
-    	redo : 'Znovu',
-    	undo : 'Zpět'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. All rights reserved.',
-    	dlgTitle : 'O aplikaci CKEditor',
-    	help : 'Prohlédněte si $1 pro nápovědu.',
-    	moreInfo : 'Pro informace o lincenci navštivte naši webovou stránku:',
-    	title : 'O aplikaci CKEditor',
-    	userGuide : 'Uživatelská příručka CKEditor'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Skrýt panel nástrojů',
-    	toolbarExpand : 'Zobrazit panel nástrojů',
-    	toolbarGroups : 
-    	{
-    		document : 'Dokument',
-    		clipboard : 'Schránka/Zpět',
-    		editing : 'Úpravy',
-    		forms : 'Formuláře',
-    		basicstyles : 'Základní styly',
-    		paragraph : 'Odstavec',
-    		links : 'Odkazy',
-    		insert : 'Vložit',
-    		styles : 'Styly',
-    		colors : 'Barvy',
-    		tools : 'Nástroje'
-    	},
-    	toolbars : 'Panely nástrojů editoru'
-    },
-    scayt : 
-    {
-    	about : 'O aplikaci SCAYT',
-    	aboutTab : 'O aplikaci',
-    	addWord : 'Přidat slovo',
-    	allCaps : 'Ignorovat slova tvořená velkými písmeny',
-    	dic_create : 'Vytvořit',
-    	dic_delete : 'Smazat',
-    	dic_field_name : 'Název slovníku',
-    	dic_info : 'Zpočátku se uživatelský slovník ukládá do cookies ve vašem prohlížeči. Ovšem cookies mají omezenou velikost, takže když slovník dosáhne velikosti, kdy se již do cookies nevejde, může být uložen na našem serveru. Chcete-li uložit váš osobní slovník na našem serveru, je třeba slovník nejdříve pojmenovat. Máte-li již slovník pojmenován a uložen, zadejte jeho název a klepněte na tlačítko Obnovit.',
-    	dic_rename : 'Přejmenovat',
-    	dic_restore : 'Obnovit',
-    	dictionariesTab : 'Slovníky',
-    	disable : 'Vypnout SCAYT',
-    	emptyDic : 'Název slovníku nesmí být prázdný.',
-    	enable : 'Zapnout SCAYT',
-    	ignore : 'Přeskočit',
-    	ignoreAll : 'Přeskočit vše',
-    	ignoreDomainNames : 'Ignorovat doménová jména',
-    	langs : 'Jazyky',
-    	languagesTab : 'Jazyky',
-    	mixedCase : 'Ignorovat slova obsahující různou velikost písma',
-    	mixedWithDigits : 'Ignorovat slova obsahující čísla',
-    	moreSuggestions : 'Více návrhů',
-    	opera_title : 'Toto Opera nepodporuje',
-    	options : 'Nastavení',
-    	optionsTab : 'Nastavení',
-    	title : 'Kontrola pravopisu během psaní (SCAYT)',
-    	toggle : 'Vypínač SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Přeskočit',
-    	btnIgnoreAll : 'Přeskakovat vše',
-    	btnReplace : 'Zaměnit',
-    	btnReplaceAll : 'Zaměňovat vše',
-    	btnUndo : 'Zpět',
-    	changeTo : 'Změnit na',
-    	errorLoading : 'Chyba nahrávání služby aplikace z: %s.',
-    	ieSpellDownload : 'Kontrola pravopisu není nainstalována. Chcete ji nyní stáhnout?',
-    	manyChanges : 'Kontrola pravopisu dokončena: %1 slov změněno',
-    	noChanges : 'Kontrola pravopisu dokončena: Beze změn',
-    	noMispell : 'Kontrola pravopisu dokončena: Žádné pravopisné chyby nenalezeny',
-    	noSuggestions : '- žádné návrhy -',
-    	notAvailable : 'Omlouváme se, ale služba nyní není dostupná.',
-    	notInDic : 'Není ve slovníku',
-    	oneChange : 'Kontrola pravopisu dokončena: Jedno slovo změněno',
-    	progress : 'Probíhá kontrola pravopisu...',
-    	title : 'Kontrola pravopisu',
-    	toolbar : 'Zkontrolovat pravopis'
-    },
-    contextmenu : 
-    {
-    	options : 'Nastavení kontextové nabídky'
+    	bulletedlist : 'Odrážky',
+    	numberedlist : 'Číslování'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['cs'] = {
     	left : 'Zarovnat vlevo',
     	right : 'Zarovnat vpravo'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Zdroj'
-    },
-    format : 
-    {
-    	label : 'Formát',
-    	panelTitle : 'Formát',
-    	tag_address : 'Adresa',
-    	tag_div : 'Normální (DIV)',
-    	tag_h1 : 'Nadpis 1',
-    	tag_h2 : 'Nadpis 2',
-    	tag_h3 : 'Nadpis 3',
-    	tag_h4 : 'Nadpis 4',
-    	tag_h5 : 'Nadpis 5',
-    	tag_h6 : 'Nadpis 6',
-    	tag_p : 'Normální',
-    	tag_pre : 'Naformátováno'
-    },
-    flash : 
-    {
-    	access : 'Přístup ke skriptu',
-    	accessAlways : 'Vždy',
-    	accessNever : 'Nikdy',
-    	accessSameDomain : 'Ve stejné doméně',
-    	alignAbsBottom : 'Zcela dolů',
-    	alignAbsMiddle : 'Doprostřed',
-    	alignBaseline : 'Na účaří',
-    	alignTextTop : 'Na horní okraj textu',
-    	bgcolor : 'Barva pozadí',
-    	chkFull : 'Povolit celoobrazovkový režim',
-    	chkLoop : 'Opakování',
-    	chkMenu : 'Nabídka Flash',
-    	chkPlay : 'Automatické spuštění',
-    	flashvars : 'Proměnné pro Flash',
-    	hSpace : 'Horizontální mezera',
-    	properties : 'Vlastnosti Flashe',
-    	propertiesTab : 'Vlastnosti',
-    	quality : 'Kvalita',
-    	qualityAutoHigh : 'Vysoká - auto',
-    	qualityAutoLow : 'Nízká - auto',
-    	qualityBest : 'Nejlepší',
-    	qualityHigh : 'Vysoká',
-    	qualityLow : 'Nejnižší',
-    	qualityMedium : 'Střední',
-    	scale : 'Zobrazit',
-    	scaleAll : 'Zobrazit vše',
-    	scaleFit : 'Přizpůsobit',
-    	scaleNoBorder : 'Bez okraje',
-    	title : 'Vlastnosti Flashe',
-    	vSpace : 'Vertikální mezera',
-    	validateHSpace : 'Zadaná horizontální mezera musí být číslo.',
-    	validateSrc : 'Zadejte prosím URL odkazu',
-    	validateVSpace : 'Zadaná vertikální mezera musí být číslo.',
-    	windowMode : 'Režim okna',
-    	windowModeOpaque : 'Neprůhledné',
-    	windowModeTransparent : 'Průhledné',
-    	windowModeWindow : 'Okno'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Odstranit formátování'
-    },
-    iframe : 
-    {
-    	border : 'Zobrazit okraj',
-    	noUrl : 'Zadejte prosím URL obsahu pro IFrame',
-    	scrolling : 'Zapnout posuvníky',
-    	title : 'Vlastnosti IFrame',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Přístupový klíč',
-    	advanced : 'Rozšířené',
-    	advisoryContentType : 'Pomocný typ obsahu',
-    	advisoryTitle : 'Pomocný titulek',
-    	anchor : 
-    	{
-    		toolbar : 'Záložka',
-    		menu : 'Vlastnosti záložky',
-    		title : 'Vlastnosti záložky',
-    		name : 'Název záložky',
-    		errorName : 'Zadejte prosím název záložky',
-    		remove : 'Odstranit záložku'
-    	},
-    	anchorId : 'Podle Id objektu',
-    	anchorName : 'Podle jména kotvy',
-    	charset : 'Přiřazená znaková sada',
-    	cssClasses : 'Třída stylu',
-    	emailAddress : 'E-mailová adresa',
-    	emailBody : 'Tělo zprávy',
-    	emailSubject : 'Předmět zprávy',
-    	id : 'Id',
-    	info : 'Informace o odkazu',
-    	langCode : 'Kód jazyka',
-    	langDir : 'Směr jazyka',
-    	langDirLTR : 'Zleva doprava (LTR)',
-    	langDirRTL : 'Zprava doleva (RTL)',
-    	menu : 'Změnit odkaz',
-    	name : 'Jméno',
-    	noAnchors : '(Ve stránce není definována žádná kotva!)',
-    	noEmail : 'Zadejte prosím e-mailovou adresu',
-    	noUrl : 'Zadejte prosím URL odkazu',
-    	other : '<jiný>',
-    	popupDependent : 'Závislost (Netscape)',
-    	popupFeatures : 'Vlastnosti vyskakovacího okna',
-    	popupFullScreen : 'Celá obrazovka (IE)',
-    	popupLeft : 'Levý okraj',
-    	popupLocationBar : 'Panel umístění',
-    	popupMenuBar : 'Panel nabídky',
-    	popupResizable : 'Umožňující měnit velikost',
-    	popupScrollBars : 'Posuvníky',
-    	popupStatusBar : 'Stavový řádek',
-    	popupToolbar : 'Panel nástrojů',
-    	popupTop : 'Horní okraj',
-    	rel : 'Vztah',
-    	selectAnchor : 'Vybrat kotvu',
-    	styles : 'Styl',
-    	tabIndex : 'Pořadí prvku',
-    	target : 'Cíl',
-    	targetFrame : '<rámec>',
-    	targetFrameName : 'Název cílového rámu',
-    	targetPopup : '<vyskakovací okno>',
-    	targetPopupName : 'Název vyskakovacího okna',
-    	title : 'Odkaz',
-    	toAnchor : 'Kotva v této stránce',
-    	toEmail : 'E-mail',
-    	toUrl : 'URL',
-    	toolbar : 'Odkaz',
-    	type : 'Typ odkazu',
-    	unlink : 'Odstranit odkaz',
-    	upload : 'Odeslat'
-    },
-    smiley : 
-    {
-    	options : 'Nastavení smajlíků',
-    	title : 'Vkládání smajlíků',
-    	toolbar : 'Smajlíci'
-    },
-    print : 
-    {
-    	toolbar : 'Tisk'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Nápovědní titulek',
-    	cssClassInputLabel : 'Třídy stylů',
-    	edit : 'Změnit Div',
-    	inlineStyleInputLabel : 'Vnitřní styly',
-    	langDirLTRLabel : 'Zleva doprava (LTR)',
-    	langDirLabel : 'Směr jazyka',
-    	langDirRTLLabel : 'Zprava doleva (RTL)',
-    	languageCodeInputLabel : ' Kód jazyka',
-    	remove : 'Odstranit Div',
-    	styleSelectLabel : 'Styly',
-    	title : 'Vytvořit Div kontejner',
-    	toolbar : 'Vytvořit Div kontejner'
-    },
-    indent : 
-    {
-    	indent : 'Zvětšit odsazení',
-    	outdent : 'Zmenšit odsazení'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Jak je vidět, vkládaný text je kopírován z Wordu. Chcete jej před vložením vyčistit?',
-    	error : 'Z důvodu vnitřní chyby nebylo možné provést vyčištění vkládaného textu.',
-    	title : 'Vložit z Wordu',
-    	toolbar : 'Vložit z Wordu'
-    },
-    colorbutton : 
-    {
-    	auto : 'Automaticky',
-    	bgColorTitle : 'Barva pozadí',
-    	colors : 
-    	{
-    		'000' : 'Černá',
-    		'800000' : 'Kaštanová',
-    		'8B4513' : 'Sedlová hněď',
-    		'2F4F4F' : 'Tmavě bledě šedá',
-    		'008080' : 'Čírka',
-    		'000080' : 'Námořnická modř',
-    		'4B0082' : 'Inkoustová',
-    		'696969' : 'Tmavě šedá',
-    		B22222 : 'Pálená cihla',
-    		A52A2A : 'Hnědá',
-    		DAA520 : 'Zlatý prut',
-    		'006400' : 'Tmavě zelená',
-    		'40E0D0' : 'Tyrkisová',
-    		'0000CD' : 'Středně modrá',
-    		'800080' : 'Purpurová',
-    		'808080' : 'Šedá',
-    		F00 : 'Červená',
-    		FF8C00 : 'Tmavě oranžová',
-    		FFD700 : 'Zlatá',
-    		'008000' : 'Zelená',
-    		'0FF' : 'Azurová',
-    		'00F' : 'Modrá',
-    		EE82EE : 'Fialová',
-    		A9A9A9 : 'Kalně šedá',
-    		FFA07A : 'Světle lososová',
-    		FFA500 : 'Oranžová',
-    		FFFF00 : 'Žlutá',
-    		'00FF00' : 'Limetková',
-    		AFEEEE : 'Bledě tyrkisová',
-    		ADD8E6 : 'Světle modrá',
-    		DDA0DD : 'Švestková',
-    		D3D3D3 : 'Světle šedá',
-    		FFF0F5 : 'Levandulově ruměnná',
-    		FAEBD7 : 'Antická bílá',
-    		FFFFE0 : 'Světle žlutá',
-    		F0FFF0 : 'Medová rosa',
-    		F0FFFF : 'Azurová',
-    		F0F8FF : 'Alenčina modrá',
-    		E6E6FA : 'Levandulová',
-    		FFF : 'Bílá'
-    	},
-    	more : 'Více barev...',
-    	panelTitle : 'Barvy',
-    	textColorTitle : 'Barva textu'
-    },
-    list : 
-    {
-    	bulletedlist : 'Odrážky',
-    	numberedlist : 'Číslování'
+    	toolbar : 'Uložit'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['cs'] = {
     	validateHSpace : 'Horizontální mezera musí být nastavena v celých číslech.',
     	validateVSpace : 'Vertikální mezera musí být nastavena v celých číslech.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Hledat',
-    	findOptions : 'Možnosti hledání',
-    	findWhat : 'Co hledat:',
-    	matchCase : 'Rozlišovat velikost písma',
-    	matchCyclic : 'Procházet opakovaně',
-    	matchWord : 'Pouze celá slova',
-    	notFoundMsg : 'Hledaný text nebyl nalezen.',
-    	replace : 'Nahradit',
-    	replaceAll : 'Nahradit vše',
-    	replaceSuccessMsg : '%1 nahrazení.',
-    	replaceWith : 'Čím nahradit:',
-    	title : 'Najít a nahradit'
+    	alt : 'Konec stránky',
+    	toolbar : 'Vložit konec stránky'
     },
     showblocks : 
     {
     	toolbar : 'Ukázat bloky'
+    },
+    indent : 
+    {
+    	indent : 'Zvětšit odsazení',
+    	outdent : 'Zmenšit odsazení'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['cs'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Vložit vodorovnou linku'
-    },
-    pagebreak : 
-    {
-    	alt : 'Konec stránky',
-    	toolbar : 'Vložit konec stránky'
-    },
-    stylescombo : 
-    {
-    	label : 'Styl',
-    	panelTitle : 'Formátovací styly',
-    	panelTitle1 : 'Blokové styly',
-    	panelTitle2 : 'Řádkové styly',
-    	panelTitle3 : 'Objektové styly'
-    },
     bidi : 
     {
     	ltr : 'Směr textu zleva doprava',
     	rtl : 'Směr textu zprava doleva'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Tučné',
-    	italic : 'Kurzíva',
-    	strike : 'Přeškrtnuté',
-    	subscript : 'Dolní index',
-    	superscript : 'Horní index',
-    	underline : 'Podtržené'
+    	eleLabel : 'Cesta objektu',
+    	eleTitle : '%1 objekt'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Záložka',
+    	flash : 'Flash animace',
+    	hiddenfield : 'Skryté pole',
+    	iframe : 'IFrame',
+    	unknown : 'Neznámý objekt'
+    },
+    smiley : 
+    {
+    	options : 'Nastavení smajlíků',
+    	title : 'Vkládání smajlíků',
+    	toolbar : 'Smajlíci'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. All rights reserved.',
+    	dlgTitle : 'O aplikaci CKEditor',
+    	help : 'Prohlédněte si $1 pro nápovědu.',
+    	moreInfo : 'Pro informace o lincenci navštivte naši webovou stránku:',
+    	title : 'O aplikaci CKEditor',
+    	userGuide : 'Uživatelská příručka CKEditor'
+    },
+    newpage : 
+    {
+    	toolbar : 'Nová stránka'
+    },
+    format : 
+    {
+    	label : 'Formát',
+    	panelTitle : 'Formát',
+    	tag_address : 'Adresa',
+    	tag_div : 'Normální (DIV)',
+    	tag_h1 : 'Nadpis 1',
+    	tag_h2 : 'Nadpis 2',
+    	tag_h3 : 'Nadpis 3',
+    	tag_h4 : 'Nadpis 4',
+    	tag_h5 : 'Nadpis 5',
+    	tag_h6 : 'Nadpis 6',
+    	tag_p : 'Normální',
+    	tag_pre : 'Naformátováno'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Odstranit formátování'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['cs'] = {
     	widthPx : 'bodů',
     	widthUnit : 'jednotka šířky'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'zde vložit odstavec'
+    	options : 'Nastavení speciálních znaků',
+    	title : 'Výběr speciálního znaku',
+    	toolbar : 'Vložit speciální znaky'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Uložit'
+    	armenian : 'Arménské',
+    	bulletedTitle : 'Vlastnosti odrážek',
+    	circle : 'Kroužky',
+    	decimal : 'Arabská čísla (1, 2, 3, atd.)',
+    	decimalLeadingZero : 'Arabská čísla uvozená nulou (01, 02, 03, atd.)',
+    	disc : 'Kolečka',
+    	georgian : 'Gruzínské (an, ban, gan, atd.)',
+    	lowerAlpha : 'Malá latinka (a, b, c, d, e, atd.)',
+    	lowerGreek : 'Malé řecké (alpha, beta, gamma, atd.)',
+    	lowerRoman : 'Malé římské (i, ii, iii, iv, v, atd.)',
+    	none : 'Nic',
+    	notset : '<nenastaveno>',
+    	numberedTitle : 'Vlastnosti číslování',
+    	square : 'Čtverce',
+    	start : 'Počátek',
+    	type : 'Typ',
+    	upperAlpha : 'Velká latinka (A, B, C, D, E, atd.)',
+    	upperRoman : 'Velké římské (I, II, III, IV, V, atd.)',
+    	validateStartNumber : 'Číslování musí začínat celým číslem.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Záložka',
-    	flash : 'Flash animace',
-    	hiddenfield : 'Skryté pole',
-    	iframe : 'IFrame',
-    	unknown : 'Neznámý objekt'
+    	border : 'Zobrazit okraj',
+    	noUrl : 'Zadejte prosím URL obsahu pro IFrame',
+    	scrolling : 'Zapnout posuvníky',
+    	title : 'Vlastnosti IFrame',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Cesta objektu',
-    	eleTitle : '%1 objekt'
+    	access : 'Přístup ke skriptu',
+    	accessAlways : 'Vždy',
+    	accessNever : 'Nikdy',
+    	accessSameDomain : 'Ve stejné doméně',
+    	alignAbsBottom : 'Zcela dolů',
+    	alignAbsMiddle : 'Doprostřed',
+    	alignBaseline : 'Na účaří',
+    	alignTextTop : 'Na horní okraj textu',
+    	bgcolor : 'Barva pozadí',
+    	chkFull : 'Povolit celoobrazovkový režim',
+    	chkLoop : 'Opakování',
+    	chkMenu : 'Nabídka Flash',
+    	chkPlay : 'Automatické spuštění',
+    	flashvars : 'Proměnné pro Flash',
+    	hSpace : 'Horizontální mezera',
+    	properties : 'Vlastnosti Flashe',
+    	propertiesTab : 'Vlastnosti',
+    	quality : 'Kvalita',
+    	qualityAutoHigh : 'Vysoká - auto',
+    	qualityAutoLow : 'Nízká - auto',
+    	qualityBest : 'Nejlepší',
+    	qualityHigh : 'Vysoká',
+    	qualityLow : 'Nejnižší',
+    	qualityMedium : 'Střední',
+    	scale : 'Zobrazit',
+    	scaleAll : 'Zobrazit vše',
+    	scaleFit : 'Přizpůsobit',
+    	scaleNoBorder : 'Bez okraje',
+    	title : 'Vlastnosti Flashe',
+    	vSpace : 'Vertikální mezera',
+    	validateHSpace : 'Zadaná horizontální mezera musí být číslo.',
+    	validateSrc : 'Zadejte prosím URL odkazu',
+    	validateVSpace : 'Zadaná vertikální mezera musí být číslo.',
+    	windowMode : 'Režim okna',
+    	windowModeOpaque : 'Neprůhledné',
+    	windowModeTransparent : 'Průhledné',
+    	windowModeWindow : 'Okno'
+    },
+    find : 
+    {
+    	find : 'Hledat',
+    	findOptions : 'Možnosti hledání',
+    	findWhat : 'Co hledat:',
+    	matchCase : 'Rozlišovat velikost písma',
+    	matchCyclic : 'Procházet opakovaně',
+    	matchWord : 'Pouze celá slova',
+    	notFoundMsg : 'Hledaný text nebyl nalezen.',
+    	replace : 'Nahradit',
+    	replaceAll : 'Nahradit vše',
+    	replaceSuccessMsg : '%1 nahrazení.',
+    	replaceWith : 'Čím nahradit:',
+    	title : 'Najít a nahradit'
+    },
+    colorbutton : 
+    {
+    	auto : 'Automaticky',
+    	bgColorTitle : 'Barva pozadí',
+    	colors : 
+    	{
+    		'000' : 'Černá',
+    		'800000' : 'Kaštanová',
+    		'8B4513' : 'Sedlová hněď',
+    		'2F4F4F' : 'Tmavě bledě šedá',
+    		'008080' : 'Čírka',
+    		'000080' : 'Námořnická modř',
+    		'4B0082' : 'Inkoustová',
+    		'696969' : 'Tmavě šedá',
+    		B22222 : 'Pálená cihla',
+    		A52A2A : 'Hnědá',
+    		DAA520 : 'Zlatý prut',
+    		'006400' : 'Tmavě zelená',
+    		'40E0D0' : 'Tyrkisová',
+    		'0000CD' : 'Středně modrá',
+    		'800080' : 'Purpurová',
+    		'808080' : 'Šedá',
+    		F00 : 'Červená',
+    		FF8C00 : 'Tmavě oranžová',
+    		FFD700 : 'Zlatá',
+    		'008000' : 'Zelená',
+    		'0FF' : 'Azurová',
+    		'00F' : 'Modrá',
+    		EE82EE : 'Fialová',
+    		A9A9A9 : 'Kalně šedá',
+    		FFA07A : 'Světle lososová',
+    		FFA500 : 'Oranžová',
+    		FFFF00 : 'Žlutá',
+    		'00FF00' : 'Limetková',
+    		AFEEEE : 'Bledě tyrkisová',
+    		ADD8E6 : 'Světle modrá',
+    		DDA0DD : 'Švestková',
+    		D3D3D3 : 'Světle šedá',
+    		FFF0F5 : 'Levandulově ruměnná',
+    		FAEBD7 : 'Antická bílá',
+    		FFFFE0 : 'Světle žlutá',
+    		F0FFF0 : 'Medová rosa',
+    		F0FFFF : 'Azurová',
+    		F0F8FF : 'Alenčina modrá',
+    		E6E6FA : 'Levandulová',
+    		FFF : 'Bílá'
+    	},
+    	more : 'Více barev...',
+    	panelTitle : 'Barvy',
+    	textColorTitle : 'Barva textu'
+    },
+    undo : 
+    {
+    	redo : 'Znovu',
+    	undo : 'Zpět'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Velikost',
+    		voiceLabel : 'Velikost písma',
+    		panelTitle : 'Velikost'
+    	},
+    	label : 'Písmo',
+    	panelTitle : 'Písmo',
+    	voiceLabel : 'Písmo'
     },
     maximize : 
     {
     	maximize : 'Maximalizovat',
     	minimize : 'Minimalizovat'
     },
+    basicstyles : 
+    {
+    	bold : 'Tučné',
+    	italic : 'Kurzíva',
+    	strike : 'Přeškrtnuté',
+    	subscript : 'Dolní index',
+    	superscript : 'Horní index',
+    	underline : 'Podtržené'
+    },
+    magicline : 
+    {
+    	title : 'zde vložit odstavec'
+    },
+    print : 
+    {
+    	toolbar : 'Tisk'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Přeskočit',
+    	btnIgnoreAll : 'Přeskakovat vše',
+    	btnReplace : 'Zaměnit',
+    	btnReplaceAll : 'Zaměňovat vše',
+    	btnUndo : 'Zpět',
+    	changeTo : 'Změnit na',
+    	errorLoading : 'Chyba nahrávání služby aplikace z: %s.',
+    	ieSpellDownload : 'Kontrola pravopisu není nainstalována. Chcete ji nyní stáhnout?',
+    	manyChanges : 'Kontrola pravopisu dokončena: %1 slov změněno',
+    	noChanges : 'Kontrola pravopisu dokončena: Beze změn',
+    	noMispell : 'Kontrola pravopisu dokončena: Žádné pravopisné chyby nenalezeny',
+    	noSuggestions : '- žádné návrhy -',
+    	notAvailable : 'Omlouváme se, ale služba nyní není dostupná.',
+    	notInDic : 'Není ve slovníku',
+    	oneChange : 'Kontrola pravopisu dokončena: Jedno slovo změněno',
+    	progress : 'Probíhá kontrola pravopisu...',
+    	title : 'Kontrola pravopisu',
+    	toolbar : 'Zkontrolovat pravopis'
+    },
+    clipboard : 
+    {
+    	copy : 'Kopírovat',
+    	copyError : 'Bezpečnostní nastavení vašeho prohlížeče nedovolují editoru spustit funkci pro kopírování zvoleného textu do schránky. Prosím zkopírujte zvolený text do schránky pomocí klávesnice (Ctrl/Cmd+C).',
+    	cut : 'Vyjmout',
+    	cutError : 'Bezpečnostní nastavení vašeho prohlížeče nedovolují editoru spustit funkci pro vyjmutí zvoleného textu do schránky. Prosím vyjměte zvolený text do schránky pomocí klávesnice (Ctrl/Cmd+X).',
+    	paste : 'Vložit',
+    	pasteArea : 'Oblast vkládání',
+    	pasteMsg : 'Do následujícího pole vložte požadovaný obsah pomocí klávesnice (<STRONG>Ctrl/Cmd+V</STRONG>) a stiskněte <STRONG>OK</STRONG>.',
+    	securityMsg : 'Z důvodů nastavení bezpečnosti vašeho prohlížeče nemůže editor přistupovat přímo do schránky. Obsah schránky prosím vložte znovu do tohoto okna.',
+    	title : 'Vložit'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Zdroj'
+    },
+    scayt : 
+    {
+    	about : 'O aplikaci SCAYT',
+    	aboutTab : 'O aplikaci',
+    	addWord : 'Přidat slovo',
+    	allCaps : 'Ignorovat slova tvořená velkými písmeny',
+    	dic_create : 'Vytvořit',
+    	dic_delete : 'Smazat',
+    	dic_field_name : 'Název slovníku',
+    	dic_info : 'Zpočátku se uživatelský slovník ukládá do cookies ve vašem prohlížeči. Ovšem cookies mají omezenou velikost, takže když slovník dosáhne velikosti, kdy se již do cookies nevejde, může být uložen na našem serveru. Chcete-li uložit váš osobní slovník na našem serveru, je třeba slovník nejdříve pojmenovat. Máte-li již slovník pojmenován a uložen, zadejte jeho název a klepněte na tlačítko Obnovit.',
+    	dic_rename : 'Přejmenovat',
+    	dic_restore : 'Obnovit',
+    	dictionariesTab : 'Slovníky',
+    	disable : 'Vypnout SCAYT',
+    	emptyDic : 'Název slovníku nesmí být prázdný.',
+    	enable : 'Zapnout SCAYT',
+    	ignore : 'Přeskočit',
+    	ignoreAll : 'Přeskočit vše',
+    	ignoreDomainNames : 'Ignorovat doménová jména',
+    	langs : 'Jazyky',
+    	languagesTab : 'Jazyky',
+    	mixedCase : 'Ignorovat slova obsahující různou velikost písma',
+    	mixedWithDigits : 'Ignorovat slova obsahující čísla',
+    	moreSuggestions : 'Více návrhů',
+    	opera_title : 'Toto Opera nepodporuje',
+    	options : 'Nastavení',
+    	optionsTab : 'Nastavení',
+    	title : 'Kontrola pravopisu během psaní (SCAYT)',
+    	toggle : 'Vypínač SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Vložit vodorovnou linku'
+    },
+    pastetext : 
+    {
+    	button : 'Vložit jako čistý text',
+    	title : 'Vložit jako čistý text'
+    },
+    contextmenu : 
+    {
+    	options : 'Nastavení kontextové nabídky'
+    },
+    templates : 
+    {
+    	button : 'Šablony',
+    	emptyListMsg : '(Není definována žádná šablona)',
+    	insertOption : 'Nahradit aktuální obsah',
+    	options : 'Nastavení šablon',
+    	selectPromptMsg : 'Prosím zvolte šablonu pro otevření v editoru<br>(aktuální obsah editoru bude ztracen):',
+    	title : 'Šablony obsahu'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Nápovědní titulek',
+    	cssClassInputLabel : 'Třídy stylů',
+    	edit : 'Změnit Div',
+    	inlineStyleInputLabel : 'Vnitřní styly',
+    	langDirLTRLabel : 'Zleva doprava (LTR)',
+    	langDirLabel : 'Směr jazyka',
+    	langDirRTLLabel : 'Zprava doleva (RTL)',
+    	languageCodeInputLabel : ' Kód jazyka',
+    	remove : 'Odstranit Div',
+    	styleSelectLabel : 'Styly',
+    	title : 'Vytvořit Div kontejner',
+    	toolbar : 'Vytvořit Div kontejner'
+    },
+    preview : 
+    {
+    	preview : 'Náhled'
+    },
+    colordialog : 
+    {
+    	clear : 'Vyčistit',
+    	highlight : 'Zvýraznit',
+    	options : 'Nastavení barvy',
+    	selected : 'Vybráno',
+    	title : 'Výběr barvy'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Skrýt panel nástrojů',
+    	toolbarExpand : 'Zobrazit panel nástrojů',
+    	toolbarGroups : 
+    	{
+    		document : 'Dokument',
+    		clipboard : 'Schránka/Zpět',
+    		editing : 'Úpravy',
+    		forms : 'Formuláře',
+    		basicstyles : 'Základní styly',
+    		paragraph : 'Odstavec',
+    		links : 'Odkazy',
+    		insert : 'Vložit',
+    		styles : 'Styly',
+    		colors : 'Barvy',
+    		tools : 'Nástroje'
+    	},
+    	toolbars : 'Panely nástrojů editoru'
+    },
+    selectall : 
+    {
+    	toolbar : 'Vybrat vše'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Citace'
+    },
+    link : 
+    {
+    	acccessKey : 'Přístupový klíč',
+    	advanced : 'Rozšířené',
+    	advisoryContentType : 'Pomocný typ obsahu',
+    	advisoryTitle : 'Pomocný titulek',
+    	anchor : 
+    	{
+    		toolbar : 'Záložka',
+    		menu : 'Vlastnosti záložky',
+    		title : 'Vlastnosti záložky',
+    		name : 'Název záložky',
+    		errorName : 'Zadejte prosím název záložky',
+    		remove : 'Odstranit záložku'
+    	},
+    	anchorId : 'Podle Id objektu',
+    	anchorName : 'Podle jména kotvy',
+    	charset : 'Přiřazená znaková sada',
+    	cssClasses : 'Třída stylu',
+    	emailAddress : 'E-mailová adresa',
+    	emailBody : 'Tělo zprávy',
+    	emailSubject : 'Předmět zprávy',
+    	id : 'Id',
+    	info : 'Informace o odkazu',
+    	langCode : 'Kód jazyka',
+    	langDir : 'Směr jazyka',
+    	langDirLTR : 'Zleva doprava (LTR)',
+    	langDirRTL : 'Zprava doleva (RTL)',
+    	menu : 'Změnit odkaz',
+    	name : 'Jméno',
+    	noAnchors : '(Ve stránce není definována žádná kotva!)',
+    	noEmail : 'Zadejte prosím e-mailovou adresu',
+    	noUrl : 'Zadejte prosím URL odkazu',
+    	other : '<jiný>',
+    	popupDependent : 'Závislost (Netscape)',
+    	popupFeatures : 'Vlastnosti vyskakovacího okna',
+    	popupFullScreen : 'Celá obrazovka (IE)',
+    	popupLeft : 'Levý okraj',
+    	popupLocationBar : 'Panel umístění',
+    	popupMenuBar : 'Panel nabídky',
+    	popupResizable : 'Umožňující měnit velikost',
+    	popupScrollBars : 'Posuvníky',
+    	popupStatusBar : 'Stavový řádek',
+    	popupToolbar : 'Panel nástrojů',
+    	popupTop : 'Horní okraj',
+    	rel : 'Vztah',
+    	selectAnchor : 'Vybrat kotvu',
+    	styles : 'Styl',
+    	tabIndex : 'Pořadí prvku',
+    	target : 'Cíl',
+    	targetFrame : '<rámec>',
+    	targetFrameName : 'Název cílového rámu',
+    	targetPopup : '<vyskakovací okno>',
+    	targetPopupName : 'Název vyskakovacího okna',
+    	title : 'Odkaz',
+    	toAnchor : 'Kotva v této stránce',
+    	toEmail : 'E-mail',
+    	toUrl : 'URL',
+    	toolbar : 'Odkaz',
+    	type : 'Typ odkazu',
+    	unlink : 'Odstranit odkaz',
+    	upload : 'Odeslat'
+    },
+    stylescombo : 
+    {
+    	label : 'Styl',
+    	panelTitle : 'Formátovací styly',
+    	panelTitle1 : 'Blokové styly',
+    	panelTitle2 : 'Řádkové styly',
+    	panelTitle3 : 'Objektové styly'
+    },
+    dir : 'ltr',
     editor : 'Textový editor',
     common : 
     {

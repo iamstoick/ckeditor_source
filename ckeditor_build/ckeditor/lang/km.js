@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['km'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'ចំលងយក',
-    	copyError : 'ការកំណត់សុវត្ថភាពរបស់កម្មវិធីរុករករបស់លោកអ្នក នេះមិនអាចធ្វើកម្មវិធីតាក់តែងអត្ថបទ ចំលងអត្ថបទយកដោយស្វ័យប្រវត្តបានឡើយ ។ សូមប្រើប្រាស់បន្សំ ឃីដូចនេះ (Ctrl/Cmd+C)។',
-    	cut : 'កាត់យក',
-    	cutError : 'ការកំណត់សុវត្ថភាពរបស់កម្មវិធីរុករករបស់លោកអ្នក នេះមិនអាចធ្វើកម្មវិធីតាក់តែងអត្ថបទ កាត់អត្ថបទយកដោយស្វ័យប្រវត្តបានឡើយ ។ សូមប្រើប្រាស់បន្សំ ឃីដូចនេះ  (Ctrl/Cmd+X) ។',
-    	paste : 'ចំលងដាក់',
-    	pasteArea : 'Paste Area',
-    	pasteMsg : 'សូមចំលងអត្ថបទទៅដាក់ក្នុងប្រអប់ដូចខាងក្រោមដោយប្រើប្រាស់ ឃី (<STRONG>Ctrl/Cmd+V</STRONG>) ហើយចុច <STRONG>OK</STRONG> ។',
-    	securityMsg : 'Because of your browser security settings, the editor is not able to access your clipboard data directly. You are required to paste it again in this window.',
-    	title : 'ចំលងដាក់'
+    	confirmCleanup : 'អត្ថបទដែលអ្នកចង់បិទភ្ជាប់នេះ ទំនងដូចជាចម្លងមកពី Word។ តើអ្នកចង់សម្អាតវាមុនបិទភ្ជាប់ទេ?',
+    	error : 'ដោយសារមានបញ្ហាផ្នែកក្នុងធ្វើឲ្យមិនអាចសម្អាតទិន្នន័យដែលបានបិទភ្ជាប់',
+    	title : 'បិទភ្ជាប់ពី Word',
+    	toolbar : 'បិទភ្ជាប់ពី Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'បិទភ្ជាប់ជាអត្ថបទធម្មតា',
-    	title : 'បិទភ្ជាប់ជាអត្ថបទធម្មតា'
-    },
-    specialchar : 
-    {
-    	options : 'ជម្រើសតួអក្សរពិសេស',
-    	title : 'រើសតួអក្សរពិសេស',
-    	toolbar : 'បន្ថែមអក្សរពិសេស'
-    },
-    selectall : 
-    {
-    	toolbar : 'រើសទាំងអស់'
-    },
-    newpage : 
-    {
-    	toolbar : 'ទំព័រថ្មី'
-    },
-    templates : 
-    {
-    	button : 'ពុម្ពគំរូ',
-    	emptyListMsg : '(មិនមានពុម្ពគំរូត្រូវបានកំណត់)',
-    	insertOption : 'ជំនួសក្នុងមាតិកាបច្ចុប្បន្ន',
-    	options : 'ជម្រើសពុម្ពគំរូ',
-    	selectPromptMsg : 'សូមរើសពុម្ពគំរូដើម្បីបើកក្នុងកម្មវិធីសរសេរអត្ថបទ',
-    	title : 'ពុម្ពគំរូមាតិកា'
-    },
-    colordialog : 
-    {
-    	clear : 'Clear',
-    	highlight : 'Highlight',
-    	options : 'Color Options',
-    	selected : 'Selected Color',
-    	title : 'Select color'
-    },
-    preview : 
-    {
-    	preview : 'មើលសាកល្បង'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'ទំហំ',
-    		voiceLabel : 'Font Size',
-    		panelTitle : 'ទំហំ'
-    	},
-    	label : 'ហ្វុង',
-    	panelTitle : 'ហ្វុង',
-    	voiceLabel : 'ហ្វុង'
-    },
-    liststyle : 
-    {
-    	armenian : 'លេខអារមេនី',
-    	bulletedTitle : 'Bulleted List Properties',
-    	circle : 'Circle',
-    	decimal : 'Decimal (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
-    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
-    	none : 'None',
-    	notset : '<not set>',
-    	numberedTitle : 'Numbered List Properties',
-    	square : 'Square',
-    	start : 'ចាប់ផ្ដើម',
-    	type : 'ប្រភេទ',
-    	upperAlpha : 'អក្សរធំ (A, B, C, D, E, ...)',
-    	upperRoman : 'លេខរ៉ូម៉ាំងធំ (I, II, III, IV, V, ...)',
-    	validateStartNumber : 'List start number must be a whole number.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Block Quote'
-    },
-    undo : 
-    {
-    	redo : 'ធ្វើឡើងវិញ',
-    	undo : 'មិនធ្វើវិញ'
-    },
-    about : 
-    {
-    	copy : 'រក្សាសិទ្ធិ &copy; $1។ រក្សាសិទ្ធិគ្រប់បែបយ៉ាង។',
-    	dlgTitle : 'អំពី CKEditor',
-    	help : 'ពិនិត្យ $1 សម្រាប់ជំនួយ។',
-    	moreInfo : 'សម្រាប់ព័ត៌មានអំពីអាជ្ញាបណញណ សូមមើលក្នុងគេហទំព័ររបស់យើង៖',
-    	title : 'អំពី CKEditor',
-    	userGuide : 'វិធីប្រើប្រាស់ CKEditor'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'បង្រួមរបារឧបករណ៍',
-    	toolbarExpand : 'ពង្រីករបារឧបករណ៍',
-    	toolbarGroups : 
-    	{
-    		document : 'ឯកសារ',
-    		clipboard : 'Clipboard/មិនធ្វើវិញ',
-    		editing : 'ការកែសម្រួល',
-    		forms : 'បែបបទ',
-    		basicstyles : 'រចនាបថមូលដ្ឋាន',
-    		paragraph : 'កថាខណ្ឌ',
-    		links : 'តំណ',
-    		insert : 'បញ្ចូល',
-    		styles : 'រចនាបថ',
-    		colors : 'ពណ៌',
-    		tools : 'ឧបករណ៍'
-    	},
-    	toolbars : 'របារឧបករណ៍កែសម្រួល'
-    },
-    scayt : 
-    {
-    	about : 'About SCAYT',
-    	aboutTab : 'About',
-    	addWord : 'Add Word',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Dictionaries',
-    	disable : 'Disable SCAYT',
-    	emptyDic : 'Dictionary name should not be empty.',
-    	enable : 'Enable SCAYT',
-    	ignore : 'Ignore',
-    	ignoreAll : 'Ignore All',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Languages',
-    	languagesTab : 'Languages',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'More suggestions',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Options',
-    	optionsTab : 'Options',
-    	title : 'Spell Check As You Type',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'មិនផ្លាស់ប្តូរ',
-    	btnIgnoreAll : 'មិនផ្លាស់ប្តូរ ទាំងអស់',
-    	btnReplace : 'ជំនួស',
-    	btnReplaceAll : 'ជំនួសទាំងអស់',
-    	btnUndo : 'សារឡើងវិញ',
-    	changeTo : 'ផ្លាស់ប្តូរទៅ',
-    	errorLoading : 'Error loading application service host: %s.',
-    	ieSpellDownload : 'ពុំមានកម្មវិធីពិនិត្យអក្ខរាវិរុទ្ធ ។ តើចង់ទាញយកពីណា?',
-    	manyChanges : 'ការពិនិត្យអក្ខរាវិរុទ្ធបានចប់: %1 ពាក្យបានផ្លាស់ប្តូរ',
-    	noChanges : 'ការពិនិត្យអក្ខរាវិរុទ្ធបានចប់: ពុំមានផ្លាស់ប្តូរ',
-    	noMispell : 'ការពិនិត្យអក្ខរាវិរុទ្ធបានចប់: គ្មានកំហុស',
-    	noSuggestions : '- គ្មានសំណើរ -',
-    	notAvailable : 'Sorry, but service is unavailable now.',
-    	notInDic : 'គ្មានក្នុងវចនានុក្រម',
-    	oneChange : 'ការពិនិត្យអក្ខរាវិរុទ្ធបានចប់: ពាក្យមួយត្រូចបានផ្លាស់ប្តូរ',
-    	progress : 'កំពុងពិនិត្យអក្ខរាវិរុទ្ធ...',
-    	title : 'Spell Check',
-    	toolbar : 'ពិនិត្យអក្ខរាវិរុទ្ធ'
-    },
-    contextmenu : 
-    {
-    	options : 'Context Menu Options'
+    	bulletedlist : 'បញ្ជីជារង្វង់មូល',
+    	numberedlist : 'បញ្ជីជាអក្សរ'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['km'] = {
     	left : 'តំរឹមឆ្វេង',
     	right : 'តំរឹមស្តាំ'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'អក្សរកូដ'
-    },
-    format : 
-    {
-    	label : 'រចនា',
-    	panelTitle : 'រចនា',
-    	tag_address : 'Address',
-    	tag_div : 'Normal (DIV)',
-    	tag_h1 : 'Heading 1',
-    	tag_h2 : 'Heading 2',
-    	tag_h3 : 'Heading 3',
-    	tag_h4 : 'Heading 4',
-    	tag_h5 : 'Heading 5',
-    	tag_h6 : 'Heading 6',
-    	tag_p : 'Normal',
-    	tag_pre : 'Formatted'
-    },
-    flash : 
-    {
-    	access : 'Script Access',
-    	accessAlways : 'Always',
-    	accessNever : 'Never',
-    	accessSameDomain : 'Same domain',
-    	alignAbsBottom : 'Abs Bottom',
-    	alignAbsMiddle : 'Abs Middle',
-    	alignBaseline : 'បន្ទាត់ជាមូលដ្ឋាន',
-    	alignTextTop : 'លើអត្ថបទ',
-    	bgcolor : 'ពណ៌ផ្ទៃខាងក្រោយ',
-    	chkFull : 'Allow Fullscreen',
-    	chkLoop : 'ចំនួនដង',
-    	chkMenu : 'បង្ហាញ មឺនុយរបស់ Flash',
-    	chkPlay : 'លេងដោយស្វ័យប្រវត្ត',
-    	flashvars : 'Variables for Flash',
-    	hSpace : 'គំលាតទទឹង',
-    	properties : 'ការកំណត់ Flash',
-    	propertiesTab : 'Properties',
-    	quality : 'Quality',
-    	qualityAutoHigh : 'Auto High',
-    	qualityAutoLow : 'Auto Low',
-    	qualityBest : 'Best',
-    	qualityHigh : 'High',
-    	qualityLow : 'Low',
-    	qualityMedium : 'Medium',
-    	scale : 'ទំហំ',
-    	scaleAll : 'បង្ហាញទាំងអស់',
-    	scaleFit : 'ត្រូវល្មម',
-    	scaleNoBorder : 'មិនបង្ហាញស៊ុម',
-    	title : 'ការកំណត់ Flash',
-    	vSpace : 'គំលាតបណ្តោយ',
-    	validateHSpace : 'HSpace must be a number.',
-    	validateSrc : 'សូមសរសេរ អាស័យដ្ឋាន URL',
-    	validateVSpace : 'VSpace must be a number.',
-    	windowMode : 'Window mode',
-    	windowModeOpaque : 'Opaque',
-    	windowModeTransparent : 'Transparent',
-    	windowModeWindow : 'Window'
-    },
-    removeformat : 
-    {
-    	toolbar : 'ជម្រះទ្រង់ទ្រាយ'
-    },
-    iframe : 
-    {
-    	border : 'Show frame border',
-    	noUrl : 'Please type the iframe URL',
-    	scrolling : 'Enable scrollbars',
-    	title : 'IFrame Properties',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'ឃី សំរាប់ចូល',
-    	advanced : 'កំរិតខ្ពស់',
-    	advisoryContentType : 'ប្រភេទអត្ថបទ ប្រឹក្សា',
-    	advisoryTitle : 'ចំណងជើង ប្រឹក្សា',
-    	anchor : 
-    	{
-    		toolbar : 'បន្ថែម/កែប្រែ យុថ្កា',
-    		menu : 'ការកំណត់យុថ្កា',
-    		title : 'ការកំណត់យុថ្កា',
-    		name : 'ឈ្មោះយុទ្ធថ្កា',
-    		errorName : 'សូមសរសេរ ឈ្មោះយុទ្ធថ្កា',
-    		remove : 'Remove Anchor'
-    	},
-    	anchorId : 'តាម Id',
-    	anchorName : 'តាមឈ្មោះរបស់យុថ្កា',
-    	charset : 'លេខកូតអក្សររបស់ឈ្នាប់',
-    	cssClasses : 'Stylesheet Classes',
-    	emailAddress : 'អ៊ីមែល',
-    	emailBody : 'អត្ថបទ',
-    	emailSubject : 'ចំណងជើងអត្ថបទ',
-    	id : 'Id',
-    	info : 'ពត៌មានអំពីឈ្នាប់',
-    	langCode : 'ទិសដៅភាសា',
-    	langDir : 'ទិសដៅភាសា',
-    	langDirLTR : 'ពីឆ្វេងទៅស្តាំ(LTR)',
-    	langDirRTL : 'ពីស្តាំទៅឆ្វេង(RTL)',
-    	menu : 'កែប្រែឈ្នាប់',
-    	name : 'ឈ្មោះ',
-    	noAnchors : '(No anchors available in the document)',
-    	noEmail : 'សូមសរសេរ អាស័យដ្ឋាន អ៊ីមែល',
-    	noUrl : 'សូមសរសេរ អាស័យដ្ឋាន URL',
-    	other : '<other>',
-    	popupDependent : 'អាស្រ័យលើ (Netscape)',
-    	popupFeatures : 'លក្ខណះរបស់វីនដូលលោត',
-    	popupFullScreen : 'អេក្រុងពេញ(IE)',
-    	popupLeft : 'ទីតាំងខាងឆ្វេង',
-    	popupLocationBar : 'របា ទីតាំង',
-    	popupMenuBar : 'របា មឺនុយ',
-    	popupResizable : 'Resizable',
-    	popupScrollBars : 'របា ទាញ',
-    	popupStatusBar : 'របា ពត៌មាន',
-    	popupToolbar : 'របា ឩបករណ៍',
-    	popupTop : 'ទីតាំងខាងលើ',
-    	rel : 'Relationship',
-    	selectAnchor : 'ជ្រើសរើសយុថ្កា',
-    	styles : 'ម៉ូត',
-    	tabIndex : 'លេខ Tab',
-    	target : 'គោលដៅ',
-    	targetFrame : '<ហ្វ្រេម>',
-    	targetFrameName : 'ឈ្មោះហ្រ្វេមដែលជាគោលដៅ',
-    	targetPopup : '<វីនដូវ លោត>',
-    	targetPopupName : 'ឈ្មោះវីនដូវលោត',
-    	title : 'ឈ្នាប់',
-    	toAnchor : 'យុថ្កានៅក្នុងទំព័រនេះ',
-    	toEmail : 'អ៊ីមែល',
-    	toUrl : 'URL',
-    	toolbar : 'បន្ថែម/កែប្រែ ឈ្នាប់',
-    	type : 'ប្រភេទឈ្នាប់',
-    	unlink : 'លប់ឈ្នាប់',
-    	upload : 'ទាញយក'
-    },
-    smiley : 
-    {
-    	options : 'ជម្រើសរូបសញ្ញាអារម្មណ៍',
-    	title : 'បញ្ចូលរូបសញ្ញាអារម្មណ៍',
-    	toolbar : 'រូបសញ្ញអារម្មណ៍'
-    },
-    print : 
-    {
-    	toolbar : 'បោះពុម្ព'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'ចំណងជើង ប្រឹក្សា',
-    	cssClassInputLabel : 'Stylesheet Classes',
-    	edit : 'Edit Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : 'ពីឆ្វេងទៅស្តាំ(LTR)',
-    	langDirLabel : 'ទិសដៅភាសា',
-    	langDirRTLLabel : 'ពីស្តាំទៅឆ្វេង(RTL)',
-    	languageCodeInputLabel : ' Language Code',
-    	remove : 'Remove Div',
-    	styleSelectLabel : 'ម៉ូត',
-    	title : 'Create Div Container',
-    	toolbar : 'Create Div Container'
-    },
-    indent : 
-    {
-    	indent : 'បន្ថែមការចូលបន្ទាត់',
-    	outdent : 'បន្ថយការចូលបន្ទាត់'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'អត្ថបទដែលអ្នកចង់បិទភ្ជាប់នេះ ទំនងដូចជាចម្លងមកពី Word។ តើអ្នកចង់សម្អាតវាមុនបិទភ្ជាប់ទេ?',
-    	error : 'ដោយសារមានបញ្ហាផ្នែកក្នុងធ្វើឲ្យមិនអាចសម្អាតទិន្នន័យដែលបានបិទភ្ជាប់',
-    	title : 'បិទភ្ជាប់ពី Word',
-    	toolbar : 'បិទភ្ជាប់ពី Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'ស្វ័យប្រវត្តិ',
-    	bgColorTitle : 'ពណ៌ផ្ទៃខាងក្រោយ',
-    	colors : 
-    	{
-    		'000' : 'ខ្មៅ',
-    		'800000' : 'ត្នោតចាស់',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'ខៀវចាស់',
-    		'4B0082' : 'ធ្លះ',
-    		'696969' : 'ប្រផេះក្រាស់',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'ត្នោត',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'បៃតងចាស់',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'ប្រផេះ',
-    		F00 : 'ក្រហម',
-    		FF8C00 : 'ទឹកក្រូចចាស់',
-    		FFD700 : 'មាស',
-    		'008000' : 'បៃតង',
-    		'0FF' : 'Cyan',
-    		'00F' : 'ខៀវ',
-    		EE82EE : 'ស្វាយ',
-    		A9A9A9 : 'Dim Gray',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'ទឹកក្រូច',
-    		FFFF00 : 'លឿង',
-    		'00FF00' : 'ក្រូចឆ្មារ',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Light Grey',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'លឿងស្ដើង',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'ផ្ទៃមេឃ',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'ឡាវិនដឺ',
-    		FFF : 'ស'
-    	},
-    	more : 'ពណ៌ផ្សេងទៀត..',
-    	panelTitle : 'ពណ៌',
-    	textColorTitle : 'ពណ៌អក្សរ'
-    },
-    list : 
-    {
-    	bulletedlist : 'បញ្ជីជារង្វង់មូល',
-    	numberedlist : 'បញ្ជីជាអក្សរ'
+    	toolbar : 'រក្សាទុក'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['km'] = {
     	validateHSpace : 'HSpace must be a whole number.',
     	validateVSpace : 'VSpace must be a whole number.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'ស្វែងរក',
-    	findOptions : 'Find Options',
-    	findWhat : 'ស្វែងរកអ្វី:',
-    	matchCase : 'ករណ៉ត្រូវរក',
-    	matchCyclic : 'Match cyclic',
-    	matchWord : 'ត្រូវពាក្យទាំងអស់',
-    	notFoundMsg : 'ពាក្យនេះ រកមិនឃើញទេ ។',
-    	replace : 'ជំនួស',
-    	replaceAll : 'ជំនួសទាំងអស់',
-    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
-    	replaceWith : 'ជំនួសជាមួយ:',
-    	title : 'Find and Replace'
+    	alt : 'បំបែកទំព័រ',
+    	toolbar : 'បន្ថែមការបំបែកទំព័រមុនបោះពុម្ព'
     },
     showblocks : 
     {
     	toolbar : 'បង្ហាញប្លក់'
+    },
+    indent : 
+    {
+    	indent : 'បន្ថែមការចូលបន្ទាត់',
+    	outdent : 'បន្ថយការចូលបន្ទាត់'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['km'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'បន្ថែមបន្ទាត់ផ្តេក'
-    },
-    pagebreak : 
-    {
-    	alt : 'បំបែកទំព័រ',
-    	toolbar : 'បន្ថែមការបំបែកទំព័រមុនបោះពុម្ព'
-    },
-    stylescombo : 
-    {
-    	label : 'រចនាបថ',
-    	panelTitle : 'ទ្រង់ទ្រាយរចនាបថ',
-    	panelTitle1 : 'រចនាបថប្លក់',
-    	panelTitle2 : 'រចនាបថក្នុងជួរ',
-    	panelTitle3 : 'រចនាបថវត្ថុ'
-    },
     bidi : 
     {
     	ltr : 'Text direction from left to right',
     	rtl : 'Text direction from right to left'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'ក្រាស់',
-    	italic : 'ទ្រេត',
-    	strike : 'គូសបន្ទាត់ចំកណ្ដាល',
-    	subscript : 'អក្សរតូចក្រោម',
-    	superscript : 'អក្សរតូចលើ',
-    	underline : 'គូសបន្ទាត់ក្រោម'
+    	eleLabel : 'Elements path',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'បន្ថែម/កែប្រែ យុថ្កា',
+    	flash : 'Flash Animation',
+    	hiddenfield : 'ជួរលាក់',
+    	iframe : 'IFrame',
+    	unknown : 'Unknown Object'
+    },
+    smiley : 
+    {
+    	options : 'ជម្រើសរូបសញ្ញាអារម្មណ៍',
+    	title : 'បញ្ចូលរូបសញ្ញាអារម្មណ៍',
+    	toolbar : 'រូបសញ្ញអារម្មណ៍'
+    },
+    about : 
+    {
+    	copy : 'រក្សាសិទ្ធិ &copy; $1។ រក្សាសិទ្ធិគ្រប់បែបយ៉ាង។',
+    	dlgTitle : 'អំពី CKEditor',
+    	help : 'ពិនិត្យ $1 សម្រាប់ជំនួយ។',
+    	moreInfo : 'សម្រាប់ព័ត៌មានអំពីអាជ្ញាបណញណ សូមមើលក្នុងគេហទំព័ររបស់យើង៖',
+    	title : 'អំពី CKEditor',
+    	userGuide : 'វិធីប្រើប្រាស់ CKEditor'
+    },
+    newpage : 
+    {
+    	toolbar : 'ទំព័រថ្មី'
+    },
+    format : 
+    {
+    	label : 'រចនា',
+    	panelTitle : 'រចនា',
+    	tag_address : 'Address',
+    	tag_div : 'Normal (DIV)',
+    	tag_h1 : 'Heading 1',
+    	tag_h2 : 'Heading 2',
+    	tag_h3 : 'Heading 3',
+    	tag_h4 : 'Heading 4',
+    	tag_h5 : 'Heading 5',
+    	tag_h6 : 'Heading 6',
+    	tag_p : 'Normal',
+    	tag_pre : 'Formatted'
+    },
+    removeformat : 
+    {
+    	toolbar : 'ជម្រះទ្រង់ទ្រាយ'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['km'] = {
     	widthPx : 'ភីកសែល',
     	widthUnit : 'ឯកតាទទឹង'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Insert paragraph here'
+    	options : 'ជម្រើសតួអក្សរពិសេស',
+    	title : 'រើសតួអក្សរពិសេស',
+    	toolbar : 'បន្ថែមអក្សរពិសេស'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'រក្សាទុក'
+    	armenian : 'លេខអារមេនី',
+    	bulletedTitle : 'Bulleted List Properties',
+    	circle : 'Circle',
+    	decimal : 'Decimal (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
+    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
+    	none : 'None',
+    	notset : '<not set>',
+    	numberedTitle : 'Numbered List Properties',
+    	square : 'Square',
+    	start : 'ចាប់ផ្ដើម',
+    	type : 'ប្រភេទ',
+    	upperAlpha : 'អក្សរធំ (A, B, C, D, E, ...)',
+    	upperRoman : 'លេខរ៉ូម៉ាំងធំ (I, II, III, IV, V, ...)',
+    	validateStartNumber : 'List start number must be a whole number.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'បន្ថែម/កែប្រែ យុថ្កា',
-    	flash : 'Flash Animation',
-    	hiddenfield : 'ជួរលាក់',
-    	iframe : 'IFrame',
-    	unknown : 'Unknown Object'
+    	border : 'Show frame border',
+    	noUrl : 'Please type the iframe URL',
+    	scrolling : 'Enable scrollbars',
+    	title : 'IFrame Properties',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Elements path',
-    	eleTitle : '%1 element'
+    	access : 'Script Access',
+    	accessAlways : 'Always',
+    	accessNever : 'Never',
+    	accessSameDomain : 'Same domain',
+    	alignAbsBottom : 'Abs Bottom',
+    	alignAbsMiddle : 'Abs Middle',
+    	alignBaseline : 'បន្ទាត់ជាមូលដ្ឋាន',
+    	alignTextTop : 'លើអត្ថបទ',
+    	bgcolor : 'ពណ៌ផ្ទៃខាងក្រោយ',
+    	chkFull : 'Allow Fullscreen',
+    	chkLoop : 'ចំនួនដង',
+    	chkMenu : 'បង្ហាញ មឺនុយរបស់ Flash',
+    	chkPlay : 'លេងដោយស្វ័យប្រវត្ត',
+    	flashvars : 'Variables for Flash',
+    	hSpace : 'គំលាតទទឹង',
+    	properties : 'ការកំណត់ Flash',
+    	propertiesTab : 'Properties',
+    	quality : 'Quality',
+    	qualityAutoHigh : 'Auto High',
+    	qualityAutoLow : 'Auto Low',
+    	qualityBest : 'Best',
+    	qualityHigh : 'High',
+    	qualityLow : 'Low',
+    	qualityMedium : 'Medium',
+    	scale : 'ទំហំ',
+    	scaleAll : 'បង្ហាញទាំងអស់',
+    	scaleFit : 'ត្រូវល្មម',
+    	scaleNoBorder : 'មិនបង្ហាញស៊ុម',
+    	title : 'ការកំណត់ Flash',
+    	vSpace : 'គំលាតបណ្តោយ',
+    	validateHSpace : 'HSpace must be a number.',
+    	validateSrc : 'សូមសរសេរ អាស័យដ្ឋាន URL',
+    	validateVSpace : 'VSpace must be a number.',
+    	windowMode : 'Window mode',
+    	windowModeOpaque : 'Opaque',
+    	windowModeTransparent : 'Transparent',
+    	windowModeWindow : 'Window'
+    },
+    find : 
+    {
+    	find : 'ស្វែងរក',
+    	findOptions : 'Find Options',
+    	findWhat : 'ស្វែងរកអ្វី:',
+    	matchCase : 'ករណ៉ត្រូវរក',
+    	matchCyclic : 'Match cyclic',
+    	matchWord : 'ត្រូវពាក្យទាំងអស់',
+    	notFoundMsg : 'ពាក្យនេះ រកមិនឃើញទេ ។',
+    	replace : 'ជំនួស',
+    	replaceAll : 'ជំនួសទាំងអស់',
+    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
+    	replaceWith : 'ជំនួសជាមួយ:',
+    	title : 'Find and Replace'
+    },
+    colorbutton : 
+    {
+    	auto : 'ស្វ័យប្រវត្តិ',
+    	bgColorTitle : 'ពណ៌ផ្ទៃខាងក្រោយ',
+    	colors : 
+    	{
+    		'000' : 'ខ្មៅ',
+    		'800000' : 'ត្នោតចាស់',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'ខៀវចាស់',
+    		'4B0082' : 'ធ្លះ',
+    		'696969' : 'ប្រផេះក្រាស់',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'ត្នោត',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'បៃតងចាស់',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'ប្រផេះ',
+    		F00 : 'ក្រហម',
+    		FF8C00 : 'ទឹកក្រូចចាស់',
+    		FFD700 : 'មាស',
+    		'008000' : 'បៃតង',
+    		'0FF' : 'Cyan',
+    		'00F' : 'ខៀវ',
+    		EE82EE : 'ស្វាយ',
+    		A9A9A9 : 'Dim Gray',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'ទឹកក្រូច',
+    		FFFF00 : 'លឿង',
+    		'00FF00' : 'ក្រូចឆ្មារ',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Light Grey',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'លឿងស្ដើង',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'ផ្ទៃមេឃ',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'ឡាវិនដឺ',
+    		FFF : 'ស'
+    	},
+    	more : 'ពណ៌ផ្សេងទៀត..',
+    	panelTitle : 'ពណ៌',
+    	textColorTitle : 'ពណ៌អក្សរ'
+    },
+    undo : 
+    {
+    	redo : 'ធ្វើឡើងវិញ',
+    	undo : 'មិនធ្វើវិញ'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'ទំហំ',
+    		voiceLabel : 'Font Size',
+    		panelTitle : 'ទំហំ'
+    	},
+    	label : 'ហ្វុង',
+    	panelTitle : 'ហ្វុង',
+    	voiceLabel : 'ហ្វុង'
     },
     maximize : 
     {
     	maximize : 'ពង្រីកអតិបរមា',
     	minimize : 'បង្រួមអប្បបរមា'
     },
+    basicstyles : 
+    {
+    	bold : 'ក្រាស់',
+    	italic : 'ទ្រេត',
+    	strike : 'គូសបន្ទាត់ចំកណ្ដាល',
+    	subscript : 'អក្សរតូចក្រោម',
+    	superscript : 'អក្សរតូចលើ',
+    	underline : 'គូសបន្ទាត់ក្រោម'
+    },
+    magicline : 
+    {
+    	title : 'Insert paragraph here'
+    },
+    print : 
+    {
+    	toolbar : 'បោះពុម្ព'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'មិនផ្លាស់ប្តូរ',
+    	btnIgnoreAll : 'មិនផ្លាស់ប្តូរ ទាំងអស់',
+    	btnReplace : 'ជំនួស',
+    	btnReplaceAll : 'ជំនួសទាំងអស់',
+    	btnUndo : 'សារឡើងវិញ',
+    	changeTo : 'ផ្លាស់ប្តូរទៅ',
+    	errorLoading : 'Error loading application service host: %s.',
+    	ieSpellDownload : 'ពុំមានកម្មវិធីពិនិត្យអក្ខរាវិរុទ្ធ ។ តើចង់ទាញយកពីណា?',
+    	manyChanges : 'ការពិនិត្យអក្ខរាវិរុទ្ធបានចប់: %1 ពាក្យបានផ្លាស់ប្តូរ',
+    	noChanges : 'ការពិនិត្យអក្ខរាវិរុទ្ធបានចប់: ពុំមានផ្លាស់ប្តូរ',
+    	noMispell : 'ការពិនិត្យអក្ខរាវិរុទ្ធបានចប់: គ្មានកំហុស',
+    	noSuggestions : '- គ្មានសំណើរ -',
+    	notAvailable : 'Sorry, but service is unavailable now.',
+    	notInDic : 'គ្មានក្នុងវចនានុក្រម',
+    	oneChange : 'ការពិនិត្យអក្ខរាវិរុទ្ធបានចប់: ពាក្យមួយត្រូចបានផ្លាស់ប្តូរ',
+    	progress : 'កំពុងពិនិត្យអក្ខរាវិរុទ្ធ...',
+    	title : 'Spell Check',
+    	toolbar : 'ពិនិត្យអក្ខរាវិរុទ្ធ'
+    },
+    clipboard : 
+    {
+    	copy : 'ចំលងយក',
+    	copyError : 'ការកំណត់សុវត្ថភាពរបស់កម្មវិធីរុករករបស់លោកអ្នក នេះមិនអាចធ្វើកម្មវិធីតាក់តែងអត្ថបទ ចំលងអត្ថបទយកដោយស្វ័យប្រវត្តបានឡើយ ។ សូមប្រើប្រាស់បន្សំ ឃីដូចនេះ (Ctrl/Cmd+C)។',
+    	cut : 'កាត់យក',
+    	cutError : 'ការកំណត់សុវត្ថភាពរបស់កម្មវិធីរុករករបស់លោកអ្នក នេះមិនអាចធ្វើកម្មវិធីតាក់តែងអត្ថបទ កាត់អត្ថបទយកដោយស្វ័យប្រវត្តបានឡើយ ។ សូមប្រើប្រាស់បន្សំ ឃីដូចនេះ  (Ctrl/Cmd+X) ។',
+    	paste : 'ចំលងដាក់',
+    	pasteArea : 'Paste Area',
+    	pasteMsg : 'សូមចំលងអត្ថបទទៅដាក់ក្នុងប្រអប់ដូចខាងក្រោមដោយប្រើប្រាស់ ឃី (<STRONG>Ctrl/Cmd+V</STRONG>) ហើយចុច <STRONG>OK</STRONG> ។',
+    	securityMsg : 'Because of your browser security settings, the editor is not able to access your clipboard data directly. You are required to paste it again in this window.',
+    	title : 'ចំលងដាក់'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'អក្សរកូដ'
+    },
+    scayt : 
+    {
+    	about : 'About SCAYT',
+    	aboutTab : 'About',
+    	addWord : 'Add Word',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Dictionaries',
+    	disable : 'Disable SCAYT',
+    	emptyDic : 'Dictionary name should not be empty.',
+    	enable : 'Enable SCAYT',
+    	ignore : 'Ignore',
+    	ignoreAll : 'Ignore All',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Languages',
+    	languagesTab : 'Languages',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'More suggestions',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Options',
+    	optionsTab : 'Options',
+    	title : 'Spell Check As You Type',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'បន្ថែមបន្ទាត់ផ្តេក'
+    },
+    pastetext : 
+    {
+    	button : 'បិទភ្ជាប់ជាអត្ថបទធម្មតា',
+    	title : 'បិទភ្ជាប់ជាអត្ថបទធម្មតា'
+    },
+    contextmenu : 
+    {
+    	options : 'Context Menu Options'
+    },
+    templates : 
+    {
+    	button : 'ពុម្ពគំរូ',
+    	emptyListMsg : '(មិនមានពុម្ពគំរូត្រូវបានកំណត់)',
+    	insertOption : 'ជំនួសក្នុងមាតិកាបច្ចុប្បន្ន',
+    	options : 'ជម្រើសពុម្ពគំរូ',
+    	selectPromptMsg : 'សូមរើសពុម្ពគំរូដើម្បីបើកក្នុងកម្មវិធីសរសេរអត្ថបទ',
+    	title : 'ពុម្ពគំរូមាតិកា'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'ចំណងជើង ប្រឹក្សា',
+    	cssClassInputLabel : 'Stylesheet Classes',
+    	edit : 'Edit Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : 'ពីឆ្វេងទៅស្តាំ(LTR)',
+    	langDirLabel : 'ទិសដៅភាសា',
+    	langDirRTLLabel : 'ពីស្តាំទៅឆ្វេង(RTL)',
+    	languageCodeInputLabel : ' Language Code',
+    	remove : 'Remove Div',
+    	styleSelectLabel : 'ម៉ូត',
+    	title : 'Create Div Container',
+    	toolbar : 'Create Div Container'
+    },
+    preview : 
+    {
+    	preview : 'មើលសាកល្បង'
+    },
+    colordialog : 
+    {
+    	clear : 'Clear',
+    	highlight : 'Highlight',
+    	options : 'Color Options',
+    	selected : 'Selected Color',
+    	title : 'Select color'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'បង្រួមរបារឧបករណ៍',
+    	toolbarExpand : 'ពង្រីករបារឧបករណ៍',
+    	toolbarGroups : 
+    	{
+    		document : 'ឯកសារ',
+    		clipboard : 'Clipboard/មិនធ្វើវិញ',
+    		editing : 'ការកែសម្រួល',
+    		forms : 'បែបបទ',
+    		basicstyles : 'រចនាបថមូលដ្ឋាន',
+    		paragraph : 'កថាខណ្ឌ',
+    		links : 'តំណ',
+    		insert : 'បញ្ចូល',
+    		styles : 'រចនាបថ',
+    		colors : 'ពណ៌',
+    		tools : 'ឧបករណ៍'
+    	},
+    	toolbars : 'របារឧបករណ៍កែសម្រួល'
+    },
+    selectall : 
+    {
+    	toolbar : 'រើសទាំងអស់'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Block Quote'
+    },
+    link : 
+    {
+    	acccessKey : 'ឃី សំរាប់ចូល',
+    	advanced : 'កំរិតខ្ពស់',
+    	advisoryContentType : 'ប្រភេទអត្ថបទ ប្រឹក្សា',
+    	advisoryTitle : 'ចំណងជើង ប្រឹក្សា',
+    	anchor : 
+    	{
+    		toolbar : 'បន្ថែម/កែប្រែ យុថ្កា',
+    		menu : 'ការកំណត់យុថ្កា',
+    		title : 'ការកំណត់យុថ្កា',
+    		name : 'ឈ្មោះយុទ្ធថ្កា',
+    		errorName : 'សូមសរសេរ ឈ្មោះយុទ្ធថ្កា',
+    		remove : 'Remove Anchor'
+    	},
+    	anchorId : 'តាម Id',
+    	anchorName : 'តាមឈ្មោះរបស់យុថ្កា',
+    	charset : 'លេខកូតអក្សររបស់ឈ្នាប់',
+    	cssClasses : 'Stylesheet Classes',
+    	emailAddress : 'អ៊ីមែល',
+    	emailBody : 'អត្ថបទ',
+    	emailSubject : 'ចំណងជើងអត្ថបទ',
+    	id : 'Id',
+    	info : 'ពត៌មានអំពីឈ្នាប់',
+    	langCode : 'ទិសដៅភាសា',
+    	langDir : 'ទិសដៅភាសា',
+    	langDirLTR : 'ពីឆ្វេងទៅស្តាំ(LTR)',
+    	langDirRTL : 'ពីស្តាំទៅឆ្វេង(RTL)',
+    	menu : 'កែប្រែឈ្នាប់',
+    	name : 'ឈ្មោះ',
+    	noAnchors : '(No anchors available in the document)',
+    	noEmail : 'សូមសរសេរ អាស័យដ្ឋាន អ៊ីមែល',
+    	noUrl : 'សូមសរសេរ អាស័យដ្ឋាន URL',
+    	other : '<other>',
+    	popupDependent : 'អាស្រ័យលើ (Netscape)',
+    	popupFeatures : 'លក្ខណះរបស់វីនដូលលោត',
+    	popupFullScreen : 'អេក្រុងពេញ(IE)',
+    	popupLeft : 'ទីតាំងខាងឆ្វេង',
+    	popupLocationBar : 'របា ទីតាំង',
+    	popupMenuBar : 'របា មឺនុយ',
+    	popupResizable : 'Resizable',
+    	popupScrollBars : 'របា ទាញ',
+    	popupStatusBar : 'របា ពត៌មាន',
+    	popupToolbar : 'របា ឩបករណ៍',
+    	popupTop : 'ទីតាំងខាងលើ',
+    	rel : 'Relationship',
+    	selectAnchor : 'ជ្រើសរើសយុថ្កា',
+    	styles : 'ម៉ូត',
+    	tabIndex : 'លេខ Tab',
+    	target : 'គោលដៅ',
+    	targetFrame : '<ហ្វ្រេម>',
+    	targetFrameName : 'ឈ្មោះហ្រ្វេមដែលជាគោលដៅ',
+    	targetPopup : '<វីនដូវ លោត>',
+    	targetPopupName : 'ឈ្មោះវីនដូវលោត',
+    	title : 'ឈ្នាប់',
+    	toAnchor : 'យុថ្កានៅក្នុងទំព័រនេះ',
+    	toEmail : 'អ៊ីមែល',
+    	toUrl : 'URL',
+    	toolbar : 'បន្ថែម/កែប្រែ ឈ្នាប់',
+    	type : 'ប្រភេទឈ្នាប់',
+    	unlink : 'លប់ឈ្នាប់',
+    	upload : 'ទាញយក'
+    },
+    stylescombo : 
+    {
+    	label : 'រចនាបថ',
+    	panelTitle : 'ទ្រង់ទ្រាយរចនាបថ',
+    	panelTitle1 : 'រចនាបថប្លក់',
+    	panelTitle2 : 'រចនាបថក្នុងជួរ',
+    	panelTitle3 : 'រចនាបថវត្ថុ'
+    },
+    dir : 'ltr',
     editor : 'ឧបករណ៍សរសេរអត្ថបទសម្បូរបែប',
     common : 
     {

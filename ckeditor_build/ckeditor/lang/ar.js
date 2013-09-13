@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['ar'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'نسخ',
-    	copyError : 'الإعدادات الأمنية للمتصفح الذي تستخدمه تمنع عمليات النسخ التلقائي. فضلاً إستخدم لوحة المفاتيح لفعل ذلك (Ctrl/Cmd+C).',
-    	cut : 'قص',
-    	cutError : 'الإعدادات الأمنية للمتصفح الذي تستخدمه تمنع القص التلقائي. فضلاً إستخدم لوحة المفاتيح لفعل ذلك (Ctrl/Cmd+X).',
-    	paste : 'لصق',
-    	pasteArea : 'منطقة اللصق',
-    	pasteMsg : 'الصق داخل الصندوق بإستخدام زرائر (<STRONG>Ctrl/Cmd+V</STRONG>) في لوحة المفاتيح، ثم اضغط زر  <STRONG>موافق</STRONG>.',
-    	securityMsg : 'نظراً لإعدادات الأمان الخاصة بمتصفحك، لن يتمكن هذا المحرر من الوصول لمحتوى حافظتك، لذلك يجب عليك لصق المحتوى مرة أخرى في هذه النافذة.',
-    	title : 'لصق'
+    	confirmCleanup : 'يبدو أن النص المراد لصقه منسوخ من برنامج وورد. هل تود تنظيفه قبل الشروع في عملية اللصق؟',
+    	error : 'لم يتم مسح المعلومات الملصقة لخلل داخلي',
+    	title : 'لصق من وورد',
+    	toolbar : 'لصق من وورد'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'لصق كنص بسيط',
-    	title : 'لصق كنص بسيط'
-    },
-    specialchar : 
-    {
-    	options : 'خيارات الأحرف الخاصة',
-    	title : 'اختر حرف خاص',
-    	toolbar : 'إدراج  حرف خاص'
-    },
-    selectall : 
-    {
-    	toolbar : 'تحديد الكل'
-    },
-    newpage : 
-    {
-    	toolbar : 'صفحة جديدة'
-    },
-    templates : 
-    {
-    	button : 'القوالب',
-    	emptyListMsg : '(لم يتم تعريف أي قالب)',
-    	insertOption : 'استبدال المحتوى',
-    	options : 'خصائص القوالب',
-    	selectPromptMsg : 'اختر القالب الذي تود وضعه في المحرر',
-    	title : 'قوالب المحتوى'
-    },
-    colordialog : 
-    {
-    	clear : 'مسح',
-    	highlight : 'تحديد',
-    	options : 'اختيارات الألوان',
-    	selected : 'اللون المختار',
-    	title : 'اختر اللون'
-    },
-    preview : 
-    {
-    	preview : 'معاينة الصفحة'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'حجم الخط',
-    		voiceLabel : 'حجم الخط',
-    		panelTitle : 'حجم الخط'
-    	},
-    	label : 'خط',
-    	panelTitle : 'حجم الخط',
-    	voiceLabel : 'حجم الخط'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armenian numbering',
-    	bulletedTitle : 'Bulleted List Properties',
-    	circle : 'Circle',
-    	decimal : 'Decimal (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
-    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
-    	none : 'None',
-    	notset : '<not set>',
-    	numberedTitle : 'Numbered List Properties',
-    	square : 'Square',
-    	start : 'Start',
-    	type : 'Type',
-    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
-    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'List start number must be a whole number.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'اقتباس'
-    },
-    undo : 
-    {
-    	redo : 'إعادة',
-    	undo : 'تراجع'
-    },
-    about : 
-    {
-    	copy : 'حقوق النشر &copy; $1. جميع الحقوق محفوظة.',
-    	dlgTitle : 'عن CKEditor',
-    	help : 'راجع $1 من أجل المساعدة',
-    	moreInfo : 'للحصول على معلومات الترخيص ، يرجى زيارة موقعنا:',
-    	title : 'عن CKEditor',
-    	userGuide : 'دليل مستخدم CKEditor.'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'تقليص شريط الأدوت',
-    	toolbarExpand : 'تمديد شريط الأدوات',
-    	toolbarGroups : 
-    	{
-    		document : 'مستند',
-    		clipboard : 'الحافظة/الرجوع',
-    		editing : 'تحرير',
-    		forms : 'نماذج',
-    		basicstyles : 'نمط بسيط',
-    		paragraph : 'فقرة',
-    		links : 'روابط',
-    		insert : 'إدراج',
-    		styles : 'أنماط',
-    		colors : 'ألوان',
-    		tools : 'أدوات'
-    	},
-    	toolbars : 'أشرطة أدوات المحرر'
-    },
-    scayt : 
-    {
-    	about : 'عن SCAYT',
-    	aboutTab : 'عن',
-    	addWord : 'إضافة كلمة',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'قواميس',
-    	disable : 'تعطيل SCAYT',
-    	emptyDic : 'اسم القاموس يجب ألا يكون فارغاً.',
-    	enable : 'تفعيل SCAYT',
-    	ignore : 'تجاهل',
-    	ignoreAll : 'تجاهل الكل',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'لغات',
-    	languagesTab : 'لغات',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'المزيد من المقترحات',
-    	opera_title : 'Not supported by Opera',
-    	options : 'خيارات',
-    	optionsTab : 'خيارات',
-    	title : 'تدقيق إملائي أثناء الكتابة',
-    	toggle : 'تثبيت SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'تجاهل',
-    	btnIgnoreAll : 'تجاهل الكل',
-    	btnReplace : 'تغيير',
-    	btnReplaceAll : 'تغيير الكل',
-    	btnUndo : 'تراجع',
-    	changeTo : 'التغيير إلى',
-    	errorLoading : 'خطأ في تحميل تطبيق خدمة الاستضافة: %s.',
-    	ieSpellDownload : 'المدقق الإملائي (الإنجليزي) غير مثبّت. هل تود تحميله الآن؟',
-    	manyChanges : 'تم إكمال التدقيق الإملائي: تم تغيير %1 من كلمات',
-    	noChanges : 'تم التدقيق الإملائي: لم يتم تغيير أي كلمة',
-    	noMispell : 'تم التدقيق الإملائي: لم يتم العثور على أي أخطاء إملائية',
-    	noSuggestions : '- لا توجد إقتراحات -',
-    	notAvailable : 'عفواً، ولكن هذه الخدمة غير متاحة الان',
-    	notInDic : 'ليست في القاموس',
-    	oneChange : 'تم التدقيق الإملائي: تم تغيير كلمة واحدة فقط',
-    	progress : 'جاري التدقيق الاملائى',
-    	title : 'التدقيق الإملائي',
-    	toolbar : 'تدقيق إملائي'
-    },
-    contextmenu : 
-    {
-    	options : 'خصائص قائمة السياق'
+    	bulletedlist : 'ادخال/حذف تعداد نقطي',
+    	numberedlist : 'ادخال/حذف تعداد رقمي'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['ar'] = {
     	left : 'محاذاة إلى اليسار',
     	right : 'محاذاة إلى اليمين'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'المصدر'
-    },
-    format : 
-    {
-    	label : 'تنسيق',
-    	panelTitle : 'تنسيق الفقرة',
-    	tag_address : 'عنوان',
-    	tag_div : 'عادي (DIV)',
-    	tag_h1 : 'العنوان 1',
-    	tag_h2 : 'العنوان  2',
-    	tag_h3 : 'العنوان  3',
-    	tag_h4 : 'العنوان  4',
-    	tag_h5 : 'العنوان  5',
-    	tag_h6 : 'العنوان  6',
-    	tag_p : 'عادي',
-    	tag_pre : 'منسّق'
-    },
-    flash : 
-    {
-    	access : 'دخول النص البرمجي',
-    	accessAlways : 'دائماً',
-    	accessNever : 'مطلقاً',
-    	accessSameDomain : 'نفس النطاق',
-    	alignAbsBottom : 'أسفل النص',
-    	alignAbsMiddle : 'وسط السطر',
-    	alignBaseline : 'على السطر',
-    	alignTextTop : 'أعلى النص',
-    	bgcolor : 'لون الخلفية',
-    	chkFull : 'ملء الشاشة',
-    	chkLoop : 'تكرار',
-    	chkMenu : 'تمكين قائمة فيلم الفلاش',
-    	chkPlay : 'تشغيل تلقائي',
-    	flashvars : 'متغيرات الفلاش',
-    	hSpace : 'تباعد أفقي',
-    	properties : 'خصائص الفلاش',
-    	propertiesTab : 'الخصائص',
-    	quality : 'جودة',
-    	qualityAutoHigh : 'عالية تلقائياً',
-    	qualityAutoLow : 'منخفضة تلقائياً',
-    	qualityBest : 'أفضل',
-    	qualityHigh : 'عالية',
-    	qualityLow : 'منخفضة',
-    	qualityMedium : 'متوسطة',
-    	scale : 'الحجم',
-    	scaleAll : 'إظهار الكل',
-    	scaleFit : 'ضبط تام',
-    	scaleNoBorder : 'بلا حدود',
-    	title : 'خصائص فيلم الفلاش',
-    	vSpace : 'تباعد عمودي',
-    	validateHSpace : 'HSpace يجب أن يكون عدداً.',
-    	validateSrc : 'فضلاً أدخل عنوان الموقع الذي يشير إليه الرابط',
-    	validateVSpace : 'VSpace يجب أن يكون عدداً.',
-    	windowMode : 'وضع النافذة',
-    	windowModeOpaque : 'غير شفاف',
-    	windowModeTransparent : 'شفاف',
-    	windowModeWindow : 'نافذة'
-    },
-    removeformat : 
-    {
-    	toolbar : 'إزالة التنسيقات'
-    },
-    iframe : 
-    {
-    	border : 'إظهار حدود الإطار',
-    	noUrl : 'فضلا أكتب رابط الـ iframe',
-    	scrolling : 'تفعيل أشرطة الإنتقال',
-    	title : 'خصائص iframe',
-    	toolbar : 'iframe'
-    },
-    link : 
-    {
-    	acccessKey : 'مفاتيح الإختصار',
-    	advanced : 'متقدم',
-    	advisoryContentType : 'نوع التقرير',
-    	advisoryTitle : 'عنوان التقرير',
-    	anchor : 
-    	{
-    		toolbar : 'إشارة مرجعية',
-    		menu : 'تحرير الإشارة المرجعية',
-    		title : 'خصائص الإشارة المرجعية',
-    		name : 'اسم الإشارة المرجعية',
-    		errorName : 'الرجاء كتابة اسم الإشارة المرجعية',
-    		remove : 'إزالة الإشارة المرجعية'
-    	},
-    	anchorId : 'حسب رقم العنصر',
-    	anchorName : 'حسب إسم الإشارة المرجعية',
-    	charset : 'ترميز المادة المطلوبة',
-    	cssClasses : 'فئات التنسيق',
-    	emailAddress : 'البريد الإلكتروني',
-    	emailBody : 'محتوى الرسالة',
-    	emailSubject : 'موضوع الرسالة',
-    	id : 'هوية',
-    	info : 'معلومات الرابط',
-    	langCode : 'رمز اللغة',
-    	langDir : 'إتجاه نص اللغة',
-    	langDirLTR : 'اليسار لليمين (LTR)',
-    	langDirRTL : 'اليمين لليسار (RTL)',
-    	menu : 'تحرير الرابط',
-    	name : 'إسم',
-    	noAnchors : '(لا توجد علامات مرجعية في هذا المستند)',
-    	noEmail : 'الرجاء كتابة الريد الإلكتروني',
-    	noUrl : 'الرجاء كتابة رابط الموقع',
-    	other : '<أخرى>',
-    	popupDependent : 'تابع (Netscape)',
-    	popupFeatures : 'خصائص النافذة المنبثقة',
-    	popupFullScreen : 'ملئ الشاشة (IE)',
-    	popupLeft : 'التمركز لليسار',
-    	popupLocationBar : 'شريط العنوان',
-    	popupMenuBar : 'القوائم الرئيسية',
-    	popupResizable : 'قابلة التشكيل',
-    	popupScrollBars : 'أشرطة التمرير',
-    	popupStatusBar : 'شريط الحالة',
-    	popupToolbar : 'شريط الأدوات',
-    	popupTop : 'التمركز للأعلى',
-    	rel : 'العلاقة',
-    	selectAnchor : 'اختر علامة مرجعية',
-    	styles : 'نمط',
-    	tabIndex : 'الترتيب',
-    	target : 'هدف الرابط',
-    	targetFrame : '<إطار>',
-    	targetFrameName : 'اسم الإطار المستهدف',
-    	targetPopup : '<نافذة منبثقة>',
-    	targetPopupName : 'اسم النافذة المنبثقة',
-    	title : 'رابط',
-    	toAnchor : 'مكان في هذا المستند',
-    	toEmail : 'بريد إلكتروني',
-    	toUrl : 'الرابط',
-    	toolbar : 'رابط',
-    	type : 'نوع الربط',
-    	unlink : 'إزالة رابط',
-    	upload : 'رفع'
-    },
-    smiley : 
-    {
-    	options : 'خصائص الإبتسامات',
-    	title : 'إدراج ابتسامات',
-    	toolbar : 'ابتسامات'
-    },
-    print : 
-    {
-    	toolbar : 'طباعة'
-    },
-    div : 
-    {
-    	IdInputLabel : 'هوية',
-    	advisoryTitleInputLabel : 'عنوان التقرير',
-    	cssClassInputLabel : 'فئات التنسيق',
-    	edit : 'تحرير Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : 'اليسار لليمين (LTR)',
-    	langDirLabel : 'إتجاه النص',
-    	langDirRTLLabel : 'اليمين لليسار (RTL)',
-    	languageCodeInputLabel : 'رمز اللغة',
-    	remove : 'إزالة Div',
-    	styleSelectLabel : 'نمط',
-    	title : 'إحداث Div Container',
-    	toolbar : 'إحداث Div Container'
-    },
-    indent : 
-    {
-    	indent : 'زيادة المسافة البادئة',
-    	outdent : 'إنقاص المسافة البادئة'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'يبدو أن النص المراد لصقه منسوخ من برنامج وورد. هل تود تنظيفه قبل الشروع في عملية اللصق؟',
-    	error : 'لم يتم مسح المعلومات الملصقة لخلل داخلي',
-    	title : 'لصق من وورد',
-    	toolbar : 'لصق من وورد'
-    },
-    colorbutton : 
-    {
-    	auto : 'تلقائي',
-    	bgColorTitle : 'لون الخلفية',
-    	colors : 
-    	{
-    		'000' : 'أسود',
-    		'800000' : 'كستنائي',
-    		'8B4513' : 'بني فاتح',
-    		'2F4F4F' : 'رمادي أردوازي غامق',
-    		'008080' : 'أزرق مخضر',
-    		'000080' : 'أزرق داكن',
-    		'4B0082' : 'كحلي',
-    		'696969' : 'رمادي داكن',
-    		B22222 : 'طوبي',
-    		A52A2A : 'بني',
-    		DAA520 : 'ذهبي داكن',
-    		'006400' : 'أخضر داكن',
-    		'40E0D0' : 'فيروزي',
-    		'0000CD' : 'أزرق متوسط',
-    		'800080' : 'بنفسجي غامق',
-    		'808080' : 'رمادي',
-    		F00 : 'أحمر',
-    		FF8C00 : 'برتقالي داكن',
-    		FFD700 : 'ذهبي',
-    		'008000' : 'أخضر',
-    		'0FF' : 'تركواز',
-    		'00F' : 'أزرق',
-    		EE82EE : 'بنفسجي',
-    		A9A9A9 : 'رمادي شاحب',
-    		FFA07A : 'برتقالي وردي',
-    		FFA500 : 'برتقالي',
-    		FFFF00 : 'أصفر',
-    		'00FF00' : 'ليموني',
-    		AFEEEE : 'فيروزي شاحب',
-    		ADD8E6 : 'أزرق فاتح',
-    		DDA0DD : 'بنفسجي فاتح',
-    		D3D3D3 : 'رمادي فاتح',
-    		FFF0F5 : 'وردي فاتح',
-    		FAEBD7 : 'أبيض عتيق',
-    		FFFFE0 : 'أصفر فاتح',
-    		F0FFF0 : 'أبيض مائل للأخضر',
-    		F0FFFF : 'سماوي',
-    		F0F8FF : 'لبني',
-    		E6E6FA : 'أرجواني',
-    		FFF : 'أبيض'
-    	},
-    	more : 'ألوان إضافية...',
-    	panelTitle : 'Colors',
-    	textColorTitle : 'لون النص'
-    },
-    list : 
-    {
-    	bulletedlist : 'ادخال/حذف تعداد نقطي',
-    	numberedlist : 'ادخال/حذف تعداد رقمي'
+    	toolbar : 'حفظ'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['ar'] = {
     	validateHSpace : 'HSpace يجب أن يكون عدداً.',
     	validateVSpace : 'VSpace يجب أن يكون عدداً.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'بحث',
-    	findOptions : 'Find Options',
-    	findWhat : 'البحث بـ:',
-    	matchCase : 'مطابقة حالة الأحرف',
-    	matchCyclic : 'مطابقة دورية',
-    	matchWord : 'مطابقة بالكامل',
-    	notFoundMsg : 'لم يتم العثور على النص المحدد.',
-    	replace : 'إستبدال',
-    	replaceAll : 'إستبدال الكل',
-    	replaceSuccessMsg : 'تم استبدال 1% من الحالات ',
-    	replaceWith : 'إستبدال بـ:',
-    	title : 'بحث واستبدال'
+    	alt : 'فاصل الصفحة',
+    	toolbar : 'إدخال صفحة جديدة'
     },
     showblocks : 
     {
     	toolbar : 'مخطط تفصيلي'
+    },
+    indent : 
+    {
+    	indent : 'زيادة المسافة البادئة',
+    	outdent : 'إنقاص المسافة البادئة'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['ar'] = {
     		typeUrl : 'الرابط'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'خط فاصل'
-    },
-    pagebreak : 
-    {
-    	alt : 'فاصل الصفحة',
-    	toolbar : 'إدخال صفحة جديدة'
-    },
-    stylescombo : 
-    {
-    	label : 'أنماط',
-    	panelTitle : 'أنماط التنسيق',
-    	panelTitle1 : 'أنماط الفقرة',
-    	panelTitle2 : 'أنماط مضمنة',
-    	panelTitle3 : 'أنماط الكائن'
-    },
     bidi : 
     {
     	ltr : 'إتجاه النص من اليسار إلى اليمين',
     	rtl : 'إتجاه النص من اليمين إلى اليسار'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'عريض',
-    	italic : 'مائل',
-    	strike : 'يتوسطه خط',
-    	subscript : 'منخفض',
-    	superscript : 'مرتفع',
-    	underline : 'تسطير'
+    	eleLabel : 'مسار العنصر',
+    	eleTitle : 'عنصر 1%'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'إرساء',
+    	flash : 'رسم متحرك بالفلاش',
+    	hiddenfield : 'إدراج حقل خفي',
+    	iframe : 'iframe',
+    	unknown : 'عنصر غير معروف'
+    },
+    smiley : 
+    {
+    	options : 'خصائص الإبتسامات',
+    	title : 'إدراج ابتسامات',
+    	toolbar : 'ابتسامات'
+    },
+    about : 
+    {
+    	copy : 'حقوق النشر &copy; $1. جميع الحقوق محفوظة.',
+    	dlgTitle : 'عن CKEditor',
+    	help : 'راجع $1 من أجل المساعدة',
+    	moreInfo : 'للحصول على معلومات الترخيص ، يرجى زيارة موقعنا:',
+    	title : 'عن CKEditor',
+    	userGuide : 'دليل مستخدم CKEditor.'
+    },
+    newpage : 
+    {
+    	toolbar : 'صفحة جديدة'
+    },
+    format : 
+    {
+    	label : 'تنسيق',
+    	panelTitle : 'تنسيق الفقرة',
+    	tag_address : 'عنوان',
+    	tag_div : 'عادي (DIV)',
+    	tag_h1 : 'العنوان 1',
+    	tag_h2 : 'العنوان  2',
+    	tag_h3 : 'العنوان  3',
+    	tag_h4 : 'العنوان  4',
+    	tag_h5 : 'العنوان  5',
+    	tag_h6 : 'العنوان  6',
+    	tag_p : 'عادي',
+    	tag_pre : 'منسّق'
+    },
+    removeformat : 
+    {
+    	toolbar : 'إزالة التنسيقات'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['ar'] = {
     	widthPx : 'بكسل',
     	widthUnit : 'وحدة العرض'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'إدراج فقرة هنا'
+    	options : 'خيارات الأحرف الخاصة',
+    	title : 'اختر حرف خاص',
+    	toolbar : 'إدراج  حرف خاص'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'حفظ'
+    	armenian : 'Armenian numbering',
+    	bulletedTitle : 'Bulleted List Properties',
+    	circle : 'Circle',
+    	decimal : 'Decimal (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
+    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
+    	none : 'None',
+    	notset : '<not set>',
+    	numberedTitle : 'Numbered List Properties',
+    	square : 'Square',
+    	start : 'Start',
+    	type : 'Type',
+    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
+    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'List start number must be a whole number.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'إرساء',
-    	flash : 'رسم متحرك بالفلاش',
-    	hiddenfield : 'إدراج حقل خفي',
-    	iframe : 'iframe',
-    	unknown : 'عنصر غير معروف'
+    	border : 'إظهار حدود الإطار',
+    	noUrl : 'فضلا أكتب رابط الـ iframe',
+    	scrolling : 'تفعيل أشرطة الإنتقال',
+    	title : 'خصائص iframe',
+    	toolbar : 'iframe'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'مسار العنصر',
-    	eleTitle : 'عنصر 1%'
+    	access : 'دخول النص البرمجي',
+    	accessAlways : 'دائماً',
+    	accessNever : 'مطلقاً',
+    	accessSameDomain : 'نفس النطاق',
+    	alignAbsBottom : 'أسفل النص',
+    	alignAbsMiddle : 'وسط السطر',
+    	alignBaseline : 'على السطر',
+    	alignTextTop : 'أعلى النص',
+    	bgcolor : 'لون الخلفية',
+    	chkFull : 'ملء الشاشة',
+    	chkLoop : 'تكرار',
+    	chkMenu : 'تمكين قائمة فيلم الفلاش',
+    	chkPlay : 'تشغيل تلقائي',
+    	flashvars : 'متغيرات الفلاش',
+    	hSpace : 'تباعد أفقي',
+    	properties : 'خصائص الفلاش',
+    	propertiesTab : 'الخصائص',
+    	quality : 'جودة',
+    	qualityAutoHigh : 'عالية تلقائياً',
+    	qualityAutoLow : 'منخفضة تلقائياً',
+    	qualityBest : 'أفضل',
+    	qualityHigh : 'عالية',
+    	qualityLow : 'منخفضة',
+    	qualityMedium : 'متوسطة',
+    	scale : 'الحجم',
+    	scaleAll : 'إظهار الكل',
+    	scaleFit : 'ضبط تام',
+    	scaleNoBorder : 'بلا حدود',
+    	title : 'خصائص فيلم الفلاش',
+    	vSpace : 'تباعد عمودي',
+    	validateHSpace : 'HSpace يجب أن يكون عدداً.',
+    	validateSrc : 'فضلاً أدخل عنوان الموقع الذي يشير إليه الرابط',
+    	validateVSpace : 'VSpace يجب أن يكون عدداً.',
+    	windowMode : 'وضع النافذة',
+    	windowModeOpaque : 'غير شفاف',
+    	windowModeTransparent : 'شفاف',
+    	windowModeWindow : 'نافذة'
+    },
+    find : 
+    {
+    	find : 'بحث',
+    	findOptions : 'Find Options',
+    	findWhat : 'البحث بـ:',
+    	matchCase : 'مطابقة حالة الأحرف',
+    	matchCyclic : 'مطابقة دورية',
+    	matchWord : 'مطابقة بالكامل',
+    	notFoundMsg : 'لم يتم العثور على النص المحدد.',
+    	replace : 'إستبدال',
+    	replaceAll : 'إستبدال الكل',
+    	replaceSuccessMsg : 'تم استبدال 1% من الحالات ',
+    	replaceWith : 'إستبدال بـ:',
+    	title : 'بحث واستبدال'
+    },
+    colorbutton : 
+    {
+    	auto : 'تلقائي',
+    	bgColorTitle : 'لون الخلفية',
+    	colors : 
+    	{
+    		'000' : 'أسود',
+    		'800000' : 'كستنائي',
+    		'8B4513' : 'بني فاتح',
+    		'2F4F4F' : 'رمادي أردوازي غامق',
+    		'008080' : 'أزرق مخضر',
+    		'000080' : 'أزرق داكن',
+    		'4B0082' : 'كحلي',
+    		'696969' : 'رمادي داكن',
+    		B22222 : 'طوبي',
+    		A52A2A : 'بني',
+    		DAA520 : 'ذهبي داكن',
+    		'006400' : 'أخضر داكن',
+    		'40E0D0' : 'فيروزي',
+    		'0000CD' : 'أزرق متوسط',
+    		'800080' : 'بنفسجي غامق',
+    		'808080' : 'رمادي',
+    		F00 : 'أحمر',
+    		FF8C00 : 'برتقالي داكن',
+    		FFD700 : 'ذهبي',
+    		'008000' : 'أخضر',
+    		'0FF' : 'تركواز',
+    		'00F' : 'أزرق',
+    		EE82EE : 'بنفسجي',
+    		A9A9A9 : 'رمادي شاحب',
+    		FFA07A : 'برتقالي وردي',
+    		FFA500 : 'برتقالي',
+    		FFFF00 : 'أصفر',
+    		'00FF00' : 'ليموني',
+    		AFEEEE : 'فيروزي شاحب',
+    		ADD8E6 : 'أزرق فاتح',
+    		DDA0DD : 'بنفسجي فاتح',
+    		D3D3D3 : 'رمادي فاتح',
+    		FFF0F5 : 'وردي فاتح',
+    		FAEBD7 : 'أبيض عتيق',
+    		FFFFE0 : 'أصفر فاتح',
+    		F0FFF0 : 'أبيض مائل للأخضر',
+    		F0FFFF : 'سماوي',
+    		F0F8FF : 'لبني',
+    		E6E6FA : 'أرجواني',
+    		FFF : 'أبيض'
+    	},
+    	more : 'ألوان إضافية...',
+    	panelTitle : 'Colors',
+    	textColorTitle : 'لون النص'
+    },
+    undo : 
+    {
+    	redo : 'إعادة',
+    	undo : 'تراجع'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'حجم الخط',
+    		voiceLabel : 'حجم الخط',
+    		panelTitle : 'حجم الخط'
+    	},
+    	label : 'خط',
+    	panelTitle : 'حجم الخط',
+    	voiceLabel : 'حجم الخط'
     },
     maximize : 
     {
     	maximize : 'تكبير',
     	minimize : 'تصغير'
     },
+    basicstyles : 
+    {
+    	bold : 'عريض',
+    	italic : 'مائل',
+    	strike : 'يتوسطه خط',
+    	subscript : 'منخفض',
+    	superscript : 'مرتفع',
+    	underline : 'تسطير'
+    },
+    magicline : 
+    {
+    	title : 'إدراج فقرة هنا'
+    },
+    print : 
+    {
+    	toolbar : 'طباعة'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'تجاهل',
+    	btnIgnoreAll : 'تجاهل الكل',
+    	btnReplace : 'تغيير',
+    	btnReplaceAll : 'تغيير الكل',
+    	btnUndo : 'تراجع',
+    	changeTo : 'التغيير إلى',
+    	errorLoading : 'خطأ في تحميل تطبيق خدمة الاستضافة: %s.',
+    	ieSpellDownload : 'المدقق الإملائي (الإنجليزي) غير مثبّت. هل تود تحميله الآن؟',
+    	manyChanges : 'تم إكمال التدقيق الإملائي: تم تغيير %1 من كلمات',
+    	noChanges : 'تم التدقيق الإملائي: لم يتم تغيير أي كلمة',
+    	noMispell : 'تم التدقيق الإملائي: لم يتم العثور على أي أخطاء إملائية',
+    	noSuggestions : '- لا توجد إقتراحات -',
+    	notAvailable : 'عفواً، ولكن هذه الخدمة غير متاحة الان',
+    	notInDic : 'ليست في القاموس',
+    	oneChange : 'تم التدقيق الإملائي: تم تغيير كلمة واحدة فقط',
+    	progress : 'جاري التدقيق الاملائى',
+    	title : 'التدقيق الإملائي',
+    	toolbar : 'تدقيق إملائي'
+    },
+    clipboard : 
+    {
+    	copy : 'نسخ',
+    	copyError : 'الإعدادات الأمنية للمتصفح الذي تستخدمه تمنع عمليات النسخ التلقائي. فضلاً إستخدم لوحة المفاتيح لفعل ذلك (Ctrl/Cmd+C).',
+    	cut : 'قص',
+    	cutError : 'الإعدادات الأمنية للمتصفح الذي تستخدمه تمنع القص التلقائي. فضلاً إستخدم لوحة المفاتيح لفعل ذلك (Ctrl/Cmd+X).',
+    	paste : 'لصق',
+    	pasteArea : 'منطقة اللصق',
+    	pasteMsg : 'الصق داخل الصندوق بإستخدام زرائر (<STRONG>Ctrl/Cmd+V</STRONG>) في لوحة المفاتيح، ثم اضغط زر  <STRONG>موافق</STRONG>.',
+    	securityMsg : 'نظراً لإعدادات الأمان الخاصة بمتصفحك، لن يتمكن هذا المحرر من الوصول لمحتوى حافظتك، لذلك يجب عليك لصق المحتوى مرة أخرى في هذه النافذة.',
+    	title : 'لصق'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'المصدر'
+    },
+    scayt : 
+    {
+    	about : 'عن SCAYT',
+    	aboutTab : 'عن',
+    	addWord : 'إضافة كلمة',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'قواميس',
+    	disable : 'تعطيل SCAYT',
+    	emptyDic : 'اسم القاموس يجب ألا يكون فارغاً.',
+    	enable : 'تفعيل SCAYT',
+    	ignore : 'تجاهل',
+    	ignoreAll : 'تجاهل الكل',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'لغات',
+    	languagesTab : 'لغات',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'المزيد من المقترحات',
+    	opera_title : 'Not supported by Opera',
+    	options : 'خيارات',
+    	optionsTab : 'خيارات',
+    	title : 'تدقيق إملائي أثناء الكتابة',
+    	toggle : 'تثبيت SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'خط فاصل'
+    },
+    pastetext : 
+    {
+    	button : 'لصق كنص بسيط',
+    	title : 'لصق كنص بسيط'
+    },
+    contextmenu : 
+    {
+    	options : 'خصائص قائمة السياق'
+    },
+    templates : 
+    {
+    	button : 'القوالب',
+    	emptyListMsg : '(لم يتم تعريف أي قالب)',
+    	insertOption : 'استبدال المحتوى',
+    	options : 'خصائص القوالب',
+    	selectPromptMsg : 'اختر القالب الذي تود وضعه في المحرر',
+    	title : 'قوالب المحتوى'
+    },
+    div : 
+    {
+    	IdInputLabel : 'هوية',
+    	advisoryTitleInputLabel : 'عنوان التقرير',
+    	cssClassInputLabel : 'فئات التنسيق',
+    	edit : 'تحرير Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : 'اليسار لليمين (LTR)',
+    	langDirLabel : 'إتجاه النص',
+    	langDirRTLLabel : 'اليمين لليسار (RTL)',
+    	languageCodeInputLabel : 'رمز اللغة',
+    	remove : 'إزالة Div',
+    	styleSelectLabel : 'نمط',
+    	title : 'إحداث Div Container',
+    	toolbar : 'إحداث Div Container'
+    },
+    preview : 
+    {
+    	preview : 'معاينة الصفحة'
+    },
+    colordialog : 
+    {
+    	clear : 'مسح',
+    	highlight : 'تحديد',
+    	options : 'اختيارات الألوان',
+    	selected : 'اللون المختار',
+    	title : 'اختر اللون'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'تقليص شريط الأدوت',
+    	toolbarExpand : 'تمديد شريط الأدوات',
+    	toolbarGroups : 
+    	{
+    		document : 'مستند',
+    		clipboard : 'الحافظة/الرجوع',
+    		editing : 'تحرير',
+    		forms : 'نماذج',
+    		basicstyles : 'نمط بسيط',
+    		paragraph : 'فقرة',
+    		links : 'روابط',
+    		insert : 'إدراج',
+    		styles : 'أنماط',
+    		colors : 'ألوان',
+    		tools : 'أدوات'
+    	},
+    	toolbars : 'أشرطة أدوات المحرر'
+    },
+    selectall : 
+    {
+    	toolbar : 'تحديد الكل'
+    },
+    blockquote : 
+    {
+    	toolbar : 'اقتباس'
+    },
+    link : 
+    {
+    	acccessKey : 'مفاتيح الإختصار',
+    	advanced : 'متقدم',
+    	advisoryContentType : 'نوع التقرير',
+    	advisoryTitle : 'عنوان التقرير',
+    	anchor : 
+    	{
+    		toolbar : 'إشارة مرجعية',
+    		menu : 'تحرير الإشارة المرجعية',
+    		title : 'خصائص الإشارة المرجعية',
+    		name : 'اسم الإشارة المرجعية',
+    		errorName : 'الرجاء كتابة اسم الإشارة المرجعية',
+    		remove : 'إزالة الإشارة المرجعية'
+    	},
+    	anchorId : 'حسب رقم العنصر',
+    	anchorName : 'حسب إسم الإشارة المرجعية',
+    	charset : 'ترميز المادة المطلوبة',
+    	cssClasses : 'فئات التنسيق',
+    	emailAddress : 'البريد الإلكتروني',
+    	emailBody : 'محتوى الرسالة',
+    	emailSubject : 'موضوع الرسالة',
+    	id : 'هوية',
+    	info : 'معلومات الرابط',
+    	langCode : 'رمز اللغة',
+    	langDir : 'إتجاه نص اللغة',
+    	langDirLTR : 'اليسار لليمين (LTR)',
+    	langDirRTL : 'اليمين لليسار (RTL)',
+    	menu : 'تحرير الرابط',
+    	name : 'إسم',
+    	noAnchors : '(لا توجد علامات مرجعية في هذا المستند)',
+    	noEmail : 'الرجاء كتابة الريد الإلكتروني',
+    	noUrl : 'الرجاء كتابة رابط الموقع',
+    	other : '<أخرى>',
+    	popupDependent : 'تابع (Netscape)',
+    	popupFeatures : 'خصائص النافذة المنبثقة',
+    	popupFullScreen : 'ملئ الشاشة (IE)',
+    	popupLeft : 'التمركز لليسار',
+    	popupLocationBar : 'شريط العنوان',
+    	popupMenuBar : 'القوائم الرئيسية',
+    	popupResizable : 'قابلة التشكيل',
+    	popupScrollBars : 'أشرطة التمرير',
+    	popupStatusBar : 'شريط الحالة',
+    	popupToolbar : 'شريط الأدوات',
+    	popupTop : 'التمركز للأعلى',
+    	rel : 'العلاقة',
+    	selectAnchor : 'اختر علامة مرجعية',
+    	styles : 'نمط',
+    	tabIndex : 'الترتيب',
+    	target : 'هدف الرابط',
+    	targetFrame : '<إطار>',
+    	targetFrameName : 'اسم الإطار المستهدف',
+    	targetPopup : '<نافذة منبثقة>',
+    	targetPopupName : 'اسم النافذة المنبثقة',
+    	title : 'رابط',
+    	toAnchor : 'مكان في هذا المستند',
+    	toEmail : 'بريد إلكتروني',
+    	toUrl : 'الرابط',
+    	toolbar : 'رابط',
+    	type : 'نوع الربط',
+    	unlink : 'إزالة رابط',
+    	upload : 'رفع'
+    },
+    stylescombo : 
+    {
+    	label : 'أنماط',
+    	panelTitle : 'أنماط التنسيق',
+    	panelTitle1 : 'أنماط الفقرة',
+    	panelTitle2 : 'أنماط مضمنة',
+    	panelTitle3 : 'أنماط الكائن'
+    },
+    dir : 'rtl',
     editor : 'محرر النص الغني',
     common : 
     {

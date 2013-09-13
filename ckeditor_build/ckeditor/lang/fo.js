@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['fo'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Avrita',
-    	copyError : 'Trygdaruppseting alnótskagans forðar tekstviðgeranum í at avrita tekstin. Vinarliga nýt knappaborðið til at avrita tekstin (Ctrl/Cmd+C).',
-    	cut : 'Kvett',
-    	cutError : 'Trygdaruppseting alnótskagans forðar tekstviðgeranum í at kvetta tekstin. Vinarliga nýt knappaborðið til at kvetta tekstin (Ctrl/Cmd+X).',
-    	paste : 'Innrita',
-    	pasteArea : 'Avritingarumráði',
-    	pasteMsg : 'Vinarliga koyr tekstin í hendan rútin við knappaborðinum (<strong>Ctrl/Cmd+V</strong>) og klikk á <strong>Góðtak</strong>.',
-    	securityMsg : 'Trygdaruppseting alnótskagans forðar tekstviðgeranum í beinleiðis atgongd til avritingarminnið. Tygum mugu royna aftur í hesum rútinum.',
-    	title : 'Innrita'
+    	confirmCleanup : 'Teksturin, tú roynir at seta inn, sýnist at stava frá Word. Skal teksturin reinsast fyrst?',
+    	error : 'Tað eydnaðist ikki at reinsa tekstin vegna ein internan feil',
+    	title : 'Innrita frá Word',
+    	toolbar : 'Innrita frá Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Innrita som reinan tekst',
-    	title : 'Innrita som reinan tekst'
-    },
-    specialchar : 
-    {
-    	options : 'Møguleikar við serteknum',
-    	title : 'Vel sertekn',
-    	toolbar : 'Set inn sertekn'
-    },
-    selectall : 
-    {
-    	toolbar : 'Markera alt'
-    },
-    newpage : 
-    {
-    	toolbar : 'Nýggj síða'
-    },
-    templates : 
-    {
-    	button : 'Skabelónir',
-    	emptyListMsg : '(Ongar skabelónir tøkar)',
-    	insertOption : 'Yvirskriva núverandi innihald',
-    	options : 'Møguleikar fyri Template',
-    	selectPromptMsg : 'Vinarliga vel ta skabelón, ið skal opnast í tekstviðgeranum<br>(Hetta yvirskrivar núverandi innihald):',
-    	title : 'Innihaldsskabelónir'
-    },
-    colordialog : 
-    {
-    	clear : 'Strika',
-    	highlight : 'Framheva',
-    	options : 'Litmøguleikar',
-    	selected : 'Valdur litur',
-    	title : 'Vel lit'
-    },
-    preview : 
-    {
-    	preview : 'Frumsýning'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Skriftstødd',
-    		voiceLabel : 'Skriftstødd',
-    		panelTitle : 'Skriftstødd'
-    	},
-    	label : 'Skrift',
-    	panelTitle : 'Skrift',
-    	voiceLabel : 'Skrift'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armensk talskipan',
-    	bulletedTitle : 'Eginleikar fyri lista við prikkum',
-    	circle : 'Sirkul',
-    	decimal : 'Vanlig tøl (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Tøl við null frammanfyri (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Georgisk talskipan (an, ban, gan, osv.)',
-    	lowerAlpha : 'Lítlir bókstavir (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Grikskt við lítlum (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Lítil rómaratøl (i, ii, iii, iv, v, etc.)',
-    	none : 'Einki',
-    	notset : '<ikki sett>',
-    	numberedTitle : 'Eginleikar fyri lista við tølum',
-    	square : 'Fýrkantur',
-    	start : 'Byrjan',
-    	type : 'Slag',
-    	upperAlpha : 'Stórir bókstavir (A, B, C, D, E, etc.)',
-    	upperRoman : 'Stór rómaratøl (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'Byrjunartalið fyri lista má vera eitt heiltal.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Blockquote'
-    },
-    undo : 
-    {
-    	redo : 'Vend aftur',
-    	undo : 'Angra'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. All rights reserved.',
-    	dlgTitle : 'Um CKEditor',
-    	help : 'Kekka $1 fyri hjálp.',
-    	moreInfo : 'Licens upplýsingar finnast á heimasíðu okkara:',
-    	title : 'Um CKEditor',
-    	userGuide : 'CKEditor Brúkaravegleiðing'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Lat Toolbar aftur',
-    	toolbarExpand : 'Vís Toolbar',
-    	toolbarGroups : 
-    	{
-    		document : 'Dokument',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Editering',
-    		forms : 'Formar',
-    		basicstyles : 'Grundleggjandi Styles',
-    		paragraph : 'Reglubrot',
-    		links : 'Leinkjur',
-    		insert : 'Set inn',
-    		styles : 'Styles',
-    		colors : 'Litir',
-    		tools : 'Tól'
-    	},
-    	toolbars : 'Editor toolbars'
-    },
-    scayt : 
-    {
-    	about : 'Um SCAYT',
-    	aboutTab : 'Um',
-    	addWord : 'Legg orð afturat',
-    	allCaps : 'Loyp orð við bert stórum stavum um',
-    	dic_create : 'Upprætta nýggja',
-    	dic_delete : 'Strika',
-    	dic_field_name : 'Orðabókanavn',
-    	dic_info : 'Upprunaliga er brúkara-orðabókin goymd í eini cookie í tínum egna kaga. Men hesar cookies eru avmarkaðar í stødd. Tá brúkara-orðabókin veksur seg ov stóra til eina cookie, so er møguligt at goyma hana á ambætara okkara. Fyri at goyma persónligu orðabókina á ambætaranum eigur tú at velja eitt navn til tína skuffu. Hevur tú longu goymt eina orðabók, so vinarliga skriva navnið og klikk á knøttin Endurskapa.',
-    	dic_rename : 'Broyt',
-    	dic_restore : 'Endurskapa',
-    	dictionariesTab : 'Orðabøkur',
-    	disable : 'Nokta SCAYT',
-    	emptyDic : 'Heiti á orðabók eigur ikki at vera tómt.',
-    	enable : 'Loyv SCAYT',
-    	ignore : 'Ignorera',
-    	ignoreAll : 'Ignorera alt',
-    	ignoreDomainNames : 'loyp økisnøvn um',
-    	langs : 'Tungumál',
-    	languagesTab : 'Tungumál',
-    	mixedCase : 'Loyp orð við blandaðum smáum og stórum stavum um',
-    	mixedWithDigits : 'Loyp orð við tølum um',
-    	moreSuggestions : 'Fleiri tilráðingar',
-    	opera_title : 'Ikki stuðlað í Opera',
-    	options : 'Uppseting',
-    	optionsTab : 'Uppseting',
-    	title : 'Kanna stavseting, meðan tú skrivar',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Forfjóna',
-    	btnIgnoreAll : 'Forfjóna alt',
-    	btnReplace : 'Yvirskriva',
-    	btnReplaceAll : 'Yvirskriva alt',
-    	btnUndo : 'Angra',
-    	changeTo : 'Broyt til',
-    	errorLoading : 'Feilur við innlesing av application service host: %s.',
-    	ieSpellDownload : 'Rættstavarin er ikki tøkur í tekstviðgeranum. Vilt tú heinta hann nú?',
-    	manyChanges : 'Rættstavarin liðugur: %1 orð broytt',
-    	noChanges : 'Rættstavarin liðugur: Einki orð varð broytt',
-    	noMispell : 'Rættstavarin liðugur: Eingin feilur funnin',
-    	noSuggestions : '- Einki uppskot -',
-    	notAvailable : 'Tíverri, ikki tøkt í løtuni.',
-    	notInDic : 'Finst ikki í orðabókini',
-    	oneChange : 'Rættstavarin liðugur: Eitt orð er broytt',
-    	progress : 'Rættstavarin arbeiðir...',
-    	title : 'Kanna stavseting',
-    	toolbar : 'Kanna stavseting'
-    },
-    contextmenu : 
-    {
-    	options : 'Context Menu Options'
+    	bulletedlist : 'Punktmerktur listi',
+    	numberedlist : 'Talmerktur listi'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['fo'] = {
     	left : 'Vinstrasett',
     	right : 'Høgrasett'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Kelda'
-    },
-    format : 
-    {
-    	label : 'Skriftsnið',
-    	panelTitle : 'Skriftsnið',
-    	tag_address : 'Adressa',
-    	tag_div : 'Vanligt (DIV)',
-    	tag_h1 : 'Yvirskrift 1',
-    	tag_h2 : 'Yvirskrift 2',
-    	tag_h3 : 'Yvirskrift 3',
-    	tag_h4 : 'Yvirskrift 4',
-    	tag_h5 : 'Yvirskrift 5',
-    	tag_h6 : 'Yvirskrift 6',
-    	tag_p : 'Vanligt',
-    	tag_pre : 'Sniðgivið'
-    },
-    flash : 
-    {
-    	access : 'Script atgongd',
-    	accessAlways : 'Altíð',
-    	accessNever : 'Ongantíð',
-    	accessSameDomain : 'Sama navnaøki',
-    	alignAbsBottom : 'Abs botnur',
-    	alignAbsMiddle : 'Abs miðja',
-    	alignBaseline : 'Basislinja',
-    	alignTextTop : 'Tekst toppur',
-    	bgcolor : 'Bakgrundslitur',
-    	chkFull : 'Loyv fullan skerm',
-    	chkLoop : 'Endurspæl',
-    	chkMenu : 'Ger Flash skrá virkna',
-    	chkPlay : 'Avspælingin byrjar sjálv',
-    	flashvars : 'Variablar fyri Flash',
-    	hSpace : 'Høgri breddi',
-    	properties : 'Flash eginleikar',
-    	propertiesTab : 'Eginleikar',
-    	quality : 'Góðska',
-    	qualityAutoHigh : 'Auto høg',
-    	qualityAutoLow : 'Auto Lág',
-    	qualityBest : 'Besta',
-    	qualityHigh : 'Høg',
-    	qualityLow : 'Lág',
-    	qualityMedium : 'Meðal',
-    	scale : 'Skalering',
-    	scaleAll : 'Vís alt',
-    	scaleFit : 'Neyv skalering',
-    	scaleNoBorder : 'Eingin bordi',
-    	title : 'Flash eginleikar',
-    	vSpace : 'Vinstri breddi',
-    	validateHSpace : 'HSpace má vera eitt tal.',
-    	validateSrc : 'Vinarliga skriva tilknýti (URL)',
-    	validateVSpace : 'VSpace má vera eitt tal.',
-    	windowMode : 'Slag av rúti',
-    	windowModeOpaque : 'Ikki transparent',
-    	windowModeTransparent : 'Transparent',
-    	windowModeWindow : 'Rútur'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Strika sniðgeving'
-    },
-    iframe : 
-    {
-    	border : 'Vís frame kant',
-    	noUrl : 'Vinarliga skriva URL til iframe',
-    	scrolling : 'Loyv scrollbars',
-    	title : 'Møguleikar fyri IFrame',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Snarvegisknöttur',
-    	advanced : 'Fjølbroytt',
-    	advisoryContentType : 'Vegleiðandi innihaldsslag',
-    	advisoryTitle : 'Vegleiðandi heiti',
-    	anchor : 
-    	{
-    		toolbar : 'Ger/broyt marknastein',
-    		menu : 'Eginleikar fyri marknastein',
-    		title : 'Eginleikar fyri marknastein',
-    		name : 'Heiti marknasteinsins',
-    		errorName : 'Vinarliga rita marknasteinsins heiti',
-    		remove : 'Strika marknastein'
-    	},
-    	anchorId : 'Eftir element Id',
-    	anchorName : 'Eftir navni á marknasteini',
-    	charset : 'Atknýtt teknsett',
-    	cssClasses : 'Typografi klassar',
-    	emailAddress : 'Teldupost-adressa',
-    	emailBody : 'Breyðtekstur',
-    	emailSubject : 'Evni',
-    	id : 'Id',
-    	info : 'Tilknýtis upplýsingar',
-    	langCode : 'Tekstkós',
-    	langDir : 'Tekstkós',
-    	langDirLTR : 'Frá vinstru til høgru (LTR)',
-    	langDirRTL : 'Frá høgru til vinstru (RTL)',
-    	menu : 'Broyt tilknýti',
-    	name : 'Navn',
-    	noAnchors : '(Eingir marknasteinar eru í hesum dokumentið)',
-    	noEmail : 'Vinarliga skriva teldupost-adressu',
-    	noUrl : 'Vinarliga skriva tilknýti (URL)',
-    	other : '<annað>',
-    	popupDependent : 'Bundið (Netscape)',
-    	popupFeatures : 'Popup vindeygans víðkaðu eginleikar',
-    	popupFullScreen : 'Fullur skermur (IE)',
-    	popupLeft : 'Frástøða frá vinstru',
-    	popupLocationBar : 'Adressulinja',
-    	popupMenuBar : 'Skrábjálki',
-    	popupResizable : 'Stødd kann broytast',
-    	popupScrollBars : 'Rullibjálki',
-    	popupStatusBar : 'Støðufrágreiðingarbjálki',
-    	popupToolbar : 'Amboðsbjálki',
-    	popupTop : 'Frástøða frá íerva',
-    	rel : 'Relatión',
-    	selectAnchor : 'Vel ein marknastein',
-    	styles : 'Typografi',
-    	tabIndex : 'Tabulator indeks',
-    	target : 'Target',
-    	targetFrame : '<ramma>',
-    	targetFrameName : 'Vís navn vindeygans',
-    	targetPopup : '<popup vindeyga>',
-    	targetPopupName : 'Popup vindeygans navn',
-    	title : 'Tilknýti',
-    	toAnchor : 'Tilknýti til marknastein í tekstinum',
-    	toEmail : 'Teldupostur',
-    	toUrl : 'URL',
-    	toolbar : 'Ger/broyt tilknýti',
-    	type : 'Tilknýtisslag',
-    	unlink : 'Strika tilknýti',
-    	upload : 'Send til ambætaran'
-    },
-    smiley : 
-    {
-    	options : 'Møguleikar fyri Smiley',
-    	title : 'Vel Smiley',
-    	toolbar : 'Smiley'
-    },
-    print : 
-    {
-    	toolbar : 'Prenta'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Advisory Title',
-    	cssClassInputLabel : 'Stylesheet Classes',
-    	edit : 'Redigera Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : 'Vinstru til høgru (LTR)',
-    	langDirLabel : 'Language Direction',
-    	langDirRTLLabel : 'Høgru til vinstru (RTL)',
-    	languageCodeInputLabel : ' Language Code',
-    	remove : 'Strika Div',
-    	styleSelectLabel : 'Style',
-    	title : 'Ger Div Container',
-    	toolbar : 'Ger Div Container'
-    },
-    indent : 
-    {
-    	indent : 'Økja reglubrotarinntriv',
-    	outdent : 'Minka reglubrotarinntriv'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Teksturin, tú roynir at seta inn, sýnist at stava frá Word. Skal teksturin reinsast fyrst?',
-    	error : 'Tað eydnaðist ikki at reinsa tekstin vegna ein internan feil',
-    	title : 'Innrita frá Word',
-    	toolbar : 'Innrita frá Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'Automatiskt',
-    	bgColorTitle : 'Bakgrundslitur',
-    	colors : 
-    	{
-    		'000' : 'Svart',
-    		'800000' : 'Maroon',
-    		'8B4513' : 'Saðilsbrúnt',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Myrkagrátt',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Brúnt',
-    		DAA520 : 'Gullstavur',
-    		'006400' : 'Myrkagrønt',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Meðal blátt',
-    		'800080' : 'Purple',
-    		'808080' : 'Grátt',
-    		F00 : 'Reytt',
-    		FF8C00 : 'Myrkt appelsingult',
-    		FFD700 : 'Gull',
-    		'008000' : 'Grønt',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Blátt',
-    		EE82EE : 'Violet',
-    		A9A9A9 : 'Døkt grátt',
-    		FFA07A : 'Ljósur laksur',
-    		FFA500 : 'Appelsingult',
-    		FFFF00 : 'Gult',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Ljósablátt',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Ljósagrátt',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Klassiskt hvítt',
-    		FFFFE0 : 'Ljósagult',
-    		F0FFF0 : 'Hunangsdøggur',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blátt',
-    		E6E6FA : 'Lavender',
-    		FFF : 'Hvítt'
-    	},
-    	more : 'Fleiri litir...',
-    	panelTitle : 'Litir',
-    	textColorTitle : 'Tekstlitur'
-    },
-    list : 
-    {
-    	bulletedlist : 'Punktmerktur listi',
-    	numberedlist : 'Talmerktur listi'
+    	toolbar : 'Goym'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['fo'] = {
     	validateHSpace : 'HSpace má vera eitt heiltal.',
     	validateVSpace : 'VSpace má vera eitt heiltal.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Leita',
-    	findOptions : 'Finn møguleikar',
-    	findWhat : 'Finn:',
-    	matchCase : 'Munur á stórum og smáum bókstavum',
-    	matchCyclic : 'Match cyclic',
-    	matchWord : 'Bert heil orð',
-    	notFoundMsg : 'Leititeksturin varð ikki funnin',
-    	replace : 'Yvirskriva',
-    	replaceAll : 'Yvirskriva alt',
-    	replaceSuccessMsg : '%1 úrslit broytt.',
-    	replaceWith : 'Yvirskriva við:',
-    	title : 'Finn og broyt'
+    	alt : 'Síðuskift',
+    	toolbar : 'Ger síðuskift'
     },
     showblocks : 
     {
     	toolbar : 'Vís blokkar'
+    },
+    indent : 
+    {
+    	indent : 'Økja reglubrotarinntriv',
+    	outdent : 'Minka reglubrotarinntriv'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['fo'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Ger vatnrætta linju'
-    },
-    pagebreak : 
-    {
-    	alt : 'Síðuskift',
-    	toolbar : 'Ger síðuskift'
-    },
-    stylescombo : 
-    {
-    	label : 'Typografi',
-    	panelTitle : 'Formatterings stílir',
-    	panelTitle1 : 'Blokk stílir',
-    	panelTitle2 : 'Inline stílir',
-    	panelTitle3 : 'Object stílir'
-    },
     bidi : 
     {
     	ltr : 'Tekstkós frá vinstru til høgru',
     	rtl : 'Tekstkós frá høgru til vinstru'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Feit skrift',
-    	italic : 'Skráskrift',
-    	strike : 'Yvirstrikað',
-    	subscript : 'Lækkað skrift',
-    	superscript : 'Hækkað skrift',
-    	underline : 'Undirstrikað'
+    	eleLabel : 'Slóð til elementir',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Anchor',
+    	flash : 'Flash Animation',
+    	hiddenfield : 'Fjaldur teigur',
+    	iframe : 'IFrame',
+    	unknown : 'Ókent Object'
+    },
+    smiley : 
+    {
+    	options : 'Møguleikar fyri Smiley',
+    	title : 'Vel Smiley',
+    	toolbar : 'Smiley'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. All rights reserved.',
+    	dlgTitle : 'Um CKEditor',
+    	help : 'Kekka $1 fyri hjálp.',
+    	moreInfo : 'Licens upplýsingar finnast á heimasíðu okkara:',
+    	title : 'Um CKEditor',
+    	userGuide : 'CKEditor Brúkaravegleiðing'
+    },
+    newpage : 
+    {
+    	toolbar : 'Nýggj síða'
+    },
+    format : 
+    {
+    	label : 'Skriftsnið',
+    	panelTitle : 'Skriftsnið',
+    	tag_address : 'Adressa',
+    	tag_div : 'Vanligt (DIV)',
+    	tag_h1 : 'Yvirskrift 1',
+    	tag_h2 : 'Yvirskrift 2',
+    	tag_h3 : 'Yvirskrift 3',
+    	tag_h4 : 'Yvirskrift 4',
+    	tag_h5 : 'Yvirskrift 5',
+    	tag_h6 : 'Yvirskrift 6',
+    	tag_p : 'Vanligt',
+    	tag_pre : 'Sniðgivið'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Strika sniðgeving'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['fo'] = {
     	widthPx : 'pixels',
     	widthUnit : 'breiddar unit'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Insert paragraph here'
+    	options : 'Møguleikar við serteknum',
+    	title : 'Vel sertekn',
+    	toolbar : 'Set inn sertekn'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Goym'
+    	armenian : 'Armensk talskipan',
+    	bulletedTitle : 'Eginleikar fyri lista við prikkum',
+    	circle : 'Sirkul',
+    	decimal : 'Vanlig tøl (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Tøl við null frammanfyri (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Georgisk talskipan (an, ban, gan, osv.)',
+    	lowerAlpha : 'Lítlir bókstavir (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Grikskt við lítlum (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Lítil rómaratøl (i, ii, iii, iv, v, etc.)',
+    	none : 'Einki',
+    	notset : '<ikki sett>',
+    	numberedTitle : 'Eginleikar fyri lista við tølum',
+    	square : 'Fýrkantur',
+    	start : 'Byrjan',
+    	type : 'Slag',
+    	upperAlpha : 'Stórir bókstavir (A, B, C, D, E, etc.)',
+    	upperRoman : 'Stór rómaratøl (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'Byrjunartalið fyri lista má vera eitt heiltal.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Anchor',
-    	flash : 'Flash Animation',
-    	hiddenfield : 'Fjaldur teigur',
-    	iframe : 'IFrame',
-    	unknown : 'Ókent Object'
+    	border : 'Vís frame kant',
+    	noUrl : 'Vinarliga skriva URL til iframe',
+    	scrolling : 'Loyv scrollbars',
+    	title : 'Møguleikar fyri IFrame',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Slóð til elementir',
-    	eleTitle : '%1 element'
+    	access : 'Script atgongd',
+    	accessAlways : 'Altíð',
+    	accessNever : 'Ongantíð',
+    	accessSameDomain : 'Sama navnaøki',
+    	alignAbsBottom : 'Abs botnur',
+    	alignAbsMiddle : 'Abs miðja',
+    	alignBaseline : 'Basislinja',
+    	alignTextTop : 'Tekst toppur',
+    	bgcolor : 'Bakgrundslitur',
+    	chkFull : 'Loyv fullan skerm',
+    	chkLoop : 'Endurspæl',
+    	chkMenu : 'Ger Flash skrá virkna',
+    	chkPlay : 'Avspælingin byrjar sjálv',
+    	flashvars : 'Variablar fyri Flash',
+    	hSpace : 'Høgri breddi',
+    	properties : 'Flash eginleikar',
+    	propertiesTab : 'Eginleikar',
+    	quality : 'Góðska',
+    	qualityAutoHigh : 'Auto høg',
+    	qualityAutoLow : 'Auto Lág',
+    	qualityBest : 'Besta',
+    	qualityHigh : 'Høg',
+    	qualityLow : 'Lág',
+    	qualityMedium : 'Meðal',
+    	scale : 'Skalering',
+    	scaleAll : 'Vís alt',
+    	scaleFit : 'Neyv skalering',
+    	scaleNoBorder : 'Eingin bordi',
+    	title : 'Flash eginleikar',
+    	vSpace : 'Vinstri breddi',
+    	validateHSpace : 'HSpace má vera eitt tal.',
+    	validateSrc : 'Vinarliga skriva tilknýti (URL)',
+    	validateVSpace : 'VSpace má vera eitt tal.',
+    	windowMode : 'Slag av rúti',
+    	windowModeOpaque : 'Ikki transparent',
+    	windowModeTransparent : 'Transparent',
+    	windowModeWindow : 'Rútur'
+    },
+    find : 
+    {
+    	find : 'Leita',
+    	findOptions : 'Finn møguleikar',
+    	findWhat : 'Finn:',
+    	matchCase : 'Munur á stórum og smáum bókstavum',
+    	matchCyclic : 'Match cyclic',
+    	matchWord : 'Bert heil orð',
+    	notFoundMsg : 'Leititeksturin varð ikki funnin',
+    	replace : 'Yvirskriva',
+    	replaceAll : 'Yvirskriva alt',
+    	replaceSuccessMsg : '%1 úrslit broytt.',
+    	replaceWith : 'Yvirskriva við:',
+    	title : 'Finn og broyt'
+    },
+    colorbutton : 
+    {
+    	auto : 'Automatiskt',
+    	bgColorTitle : 'Bakgrundslitur',
+    	colors : 
+    	{
+    		'000' : 'Svart',
+    		'800000' : 'Maroon',
+    		'8B4513' : 'Saðilsbrúnt',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Myrkagrátt',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Brúnt',
+    		DAA520 : 'Gullstavur',
+    		'006400' : 'Myrkagrønt',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Meðal blátt',
+    		'800080' : 'Purple',
+    		'808080' : 'Grátt',
+    		F00 : 'Reytt',
+    		FF8C00 : 'Myrkt appelsingult',
+    		FFD700 : 'Gull',
+    		'008000' : 'Grønt',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Blátt',
+    		EE82EE : 'Violet',
+    		A9A9A9 : 'Døkt grátt',
+    		FFA07A : 'Ljósur laksur',
+    		FFA500 : 'Appelsingult',
+    		FFFF00 : 'Gult',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Ljósablátt',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Ljósagrátt',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Klassiskt hvítt',
+    		FFFFE0 : 'Ljósagult',
+    		F0FFF0 : 'Hunangsdøggur',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blátt',
+    		E6E6FA : 'Lavender',
+    		FFF : 'Hvítt'
+    	},
+    	more : 'Fleiri litir...',
+    	panelTitle : 'Litir',
+    	textColorTitle : 'Tekstlitur'
+    },
+    undo : 
+    {
+    	redo : 'Vend aftur',
+    	undo : 'Angra'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Skriftstødd',
+    		voiceLabel : 'Skriftstødd',
+    		panelTitle : 'Skriftstødd'
+    	},
+    	label : 'Skrift',
+    	panelTitle : 'Skrift',
+    	voiceLabel : 'Skrift'
     },
     maximize : 
     {
     	maximize : 'Maksimera',
     	minimize : 'Minimera'
     },
+    basicstyles : 
+    {
+    	bold : 'Feit skrift',
+    	italic : 'Skráskrift',
+    	strike : 'Yvirstrikað',
+    	subscript : 'Lækkað skrift',
+    	superscript : 'Hækkað skrift',
+    	underline : 'Undirstrikað'
+    },
+    magicline : 
+    {
+    	title : 'Insert paragraph here'
+    },
+    print : 
+    {
+    	toolbar : 'Prenta'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Forfjóna',
+    	btnIgnoreAll : 'Forfjóna alt',
+    	btnReplace : 'Yvirskriva',
+    	btnReplaceAll : 'Yvirskriva alt',
+    	btnUndo : 'Angra',
+    	changeTo : 'Broyt til',
+    	errorLoading : 'Feilur við innlesing av application service host: %s.',
+    	ieSpellDownload : 'Rættstavarin er ikki tøkur í tekstviðgeranum. Vilt tú heinta hann nú?',
+    	manyChanges : 'Rættstavarin liðugur: %1 orð broytt',
+    	noChanges : 'Rættstavarin liðugur: Einki orð varð broytt',
+    	noMispell : 'Rættstavarin liðugur: Eingin feilur funnin',
+    	noSuggestions : '- Einki uppskot -',
+    	notAvailable : 'Tíverri, ikki tøkt í løtuni.',
+    	notInDic : 'Finst ikki í orðabókini',
+    	oneChange : 'Rættstavarin liðugur: Eitt orð er broytt',
+    	progress : 'Rættstavarin arbeiðir...',
+    	title : 'Kanna stavseting',
+    	toolbar : 'Kanna stavseting'
+    },
+    clipboard : 
+    {
+    	copy : 'Avrita',
+    	copyError : 'Trygdaruppseting alnótskagans forðar tekstviðgeranum í at avrita tekstin. Vinarliga nýt knappaborðið til at avrita tekstin (Ctrl/Cmd+C).',
+    	cut : 'Kvett',
+    	cutError : 'Trygdaruppseting alnótskagans forðar tekstviðgeranum í at kvetta tekstin. Vinarliga nýt knappaborðið til at kvetta tekstin (Ctrl/Cmd+X).',
+    	paste : 'Innrita',
+    	pasteArea : 'Avritingarumráði',
+    	pasteMsg : 'Vinarliga koyr tekstin í hendan rútin við knappaborðinum (<strong>Ctrl/Cmd+V</strong>) og klikk á <strong>Góðtak</strong>.',
+    	securityMsg : 'Trygdaruppseting alnótskagans forðar tekstviðgeranum í beinleiðis atgongd til avritingarminnið. Tygum mugu royna aftur í hesum rútinum.',
+    	title : 'Innrita'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Kelda'
+    },
+    scayt : 
+    {
+    	about : 'Um SCAYT',
+    	aboutTab : 'Um',
+    	addWord : 'Legg orð afturat',
+    	allCaps : 'Loyp orð við bert stórum stavum um',
+    	dic_create : 'Upprætta nýggja',
+    	dic_delete : 'Strika',
+    	dic_field_name : 'Orðabókanavn',
+    	dic_info : 'Upprunaliga er brúkara-orðabókin goymd í eini cookie í tínum egna kaga. Men hesar cookies eru avmarkaðar í stødd. Tá brúkara-orðabókin veksur seg ov stóra til eina cookie, so er møguligt at goyma hana á ambætara okkara. Fyri at goyma persónligu orðabókina á ambætaranum eigur tú at velja eitt navn til tína skuffu. Hevur tú longu goymt eina orðabók, so vinarliga skriva navnið og klikk á knøttin Endurskapa.',
+    	dic_rename : 'Broyt',
+    	dic_restore : 'Endurskapa',
+    	dictionariesTab : 'Orðabøkur',
+    	disable : 'Nokta SCAYT',
+    	emptyDic : 'Heiti á orðabók eigur ikki at vera tómt.',
+    	enable : 'Loyv SCAYT',
+    	ignore : 'Ignorera',
+    	ignoreAll : 'Ignorera alt',
+    	ignoreDomainNames : 'loyp økisnøvn um',
+    	langs : 'Tungumál',
+    	languagesTab : 'Tungumál',
+    	mixedCase : 'Loyp orð við blandaðum smáum og stórum stavum um',
+    	mixedWithDigits : 'Loyp orð við tølum um',
+    	moreSuggestions : 'Fleiri tilráðingar',
+    	opera_title : 'Ikki stuðlað í Opera',
+    	options : 'Uppseting',
+    	optionsTab : 'Uppseting',
+    	title : 'Kanna stavseting, meðan tú skrivar',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Ger vatnrætta linju'
+    },
+    pastetext : 
+    {
+    	button : 'Innrita som reinan tekst',
+    	title : 'Innrita som reinan tekst'
+    },
+    contextmenu : 
+    {
+    	options : 'Context Menu Options'
+    },
+    templates : 
+    {
+    	button : 'Skabelónir',
+    	emptyListMsg : '(Ongar skabelónir tøkar)',
+    	insertOption : 'Yvirskriva núverandi innihald',
+    	options : 'Møguleikar fyri Template',
+    	selectPromptMsg : 'Vinarliga vel ta skabelón, ið skal opnast í tekstviðgeranum<br>(Hetta yvirskrivar núverandi innihald):',
+    	title : 'Innihaldsskabelónir'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Advisory Title',
+    	cssClassInputLabel : 'Stylesheet Classes',
+    	edit : 'Redigera Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : 'Vinstru til høgru (LTR)',
+    	langDirLabel : 'Language Direction',
+    	langDirRTLLabel : 'Høgru til vinstru (RTL)',
+    	languageCodeInputLabel : ' Language Code',
+    	remove : 'Strika Div',
+    	styleSelectLabel : 'Style',
+    	title : 'Ger Div Container',
+    	toolbar : 'Ger Div Container'
+    },
+    preview : 
+    {
+    	preview : 'Frumsýning'
+    },
+    colordialog : 
+    {
+    	clear : 'Strika',
+    	highlight : 'Framheva',
+    	options : 'Litmøguleikar',
+    	selected : 'Valdur litur',
+    	title : 'Vel lit'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Lat Toolbar aftur',
+    	toolbarExpand : 'Vís Toolbar',
+    	toolbarGroups : 
+    	{
+    		document : 'Dokument',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Editering',
+    		forms : 'Formar',
+    		basicstyles : 'Grundleggjandi Styles',
+    		paragraph : 'Reglubrot',
+    		links : 'Leinkjur',
+    		insert : 'Set inn',
+    		styles : 'Styles',
+    		colors : 'Litir',
+    		tools : 'Tól'
+    	},
+    	toolbars : 'Editor toolbars'
+    },
+    selectall : 
+    {
+    	toolbar : 'Markera alt'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Blockquote'
+    },
+    link : 
+    {
+    	acccessKey : 'Snarvegisknöttur',
+    	advanced : 'Fjølbroytt',
+    	advisoryContentType : 'Vegleiðandi innihaldsslag',
+    	advisoryTitle : 'Vegleiðandi heiti',
+    	anchor : 
+    	{
+    		toolbar : 'Ger/broyt marknastein',
+    		menu : 'Eginleikar fyri marknastein',
+    		title : 'Eginleikar fyri marknastein',
+    		name : 'Heiti marknasteinsins',
+    		errorName : 'Vinarliga rita marknasteinsins heiti',
+    		remove : 'Strika marknastein'
+    	},
+    	anchorId : 'Eftir element Id',
+    	anchorName : 'Eftir navni á marknasteini',
+    	charset : 'Atknýtt teknsett',
+    	cssClasses : 'Typografi klassar',
+    	emailAddress : 'Teldupost-adressa',
+    	emailBody : 'Breyðtekstur',
+    	emailSubject : 'Evni',
+    	id : 'Id',
+    	info : 'Tilknýtis upplýsingar',
+    	langCode : 'Tekstkós',
+    	langDir : 'Tekstkós',
+    	langDirLTR : 'Frá vinstru til høgru (LTR)',
+    	langDirRTL : 'Frá høgru til vinstru (RTL)',
+    	menu : 'Broyt tilknýti',
+    	name : 'Navn',
+    	noAnchors : '(Eingir marknasteinar eru í hesum dokumentið)',
+    	noEmail : 'Vinarliga skriva teldupost-adressu',
+    	noUrl : 'Vinarliga skriva tilknýti (URL)',
+    	other : '<annað>',
+    	popupDependent : 'Bundið (Netscape)',
+    	popupFeatures : 'Popup vindeygans víðkaðu eginleikar',
+    	popupFullScreen : 'Fullur skermur (IE)',
+    	popupLeft : 'Frástøða frá vinstru',
+    	popupLocationBar : 'Adressulinja',
+    	popupMenuBar : 'Skrábjálki',
+    	popupResizable : 'Stødd kann broytast',
+    	popupScrollBars : 'Rullibjálki',
+    	popupStatusBar : 'Støðufrágreiðingarbjálki',
+    	popupToolbar : 'Amboðsbjálki',
+    	popupTop : 'Frástøða frá íerva',
+    	rel : 'Relatión',
+    	selectAnchor : 'Vel ein marknastein',
+    	styles : 'Typografi',
+    	tabIndex : 'Tabulator indeks',
+    	target : 'Target',
+    	targetFrame : '<ramma>',
+    	targetFrameName : 'Vís navn vindeygans',
+    	targetPopup : '<popup vindeyga>',
+    	targetPopupName : 'Popup vindeygans navn',
+    	title : 'Tilknýti',
+    	toAnchor : 'Tilknýti til marknastein í tekstinum',
+    	toEmail : 'Teldupostur',
+    	toUrl : 'URL',
+    	toolbar : 'Ger/broyt tilknýti',
+    	type : 'Tilknýtisslag',
+    	unlink : 'Strika tilknýti',
+    	upload : 'Send til ambætaran'
+    },
+    stylescombo : 
+    {
+    	label : 'Typografi',
+    	panelTitle : 'Formatterings stílir',
+    	panelTitle1 : 'Blokk stílir',
+    	panelTitle2 : 'Inline stílir',
+    	panelTitle3 : 'Object stílir'
+    },
+    dir : 'ltr',
     editor : 'Rich Text Editor',
     common : 
     {

@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['fi'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Kopioi',
-    	copyError : 'Selaimesi turva-asetukset eivät salli editorin toteuttaa kopioimista. Käytä näppäimistöä kopioimiseen (Ctrl+C).',
-    	cut : 'Leikkaa',
-    	cutError : 'Selaimesi turva-asetukset eivät salli editorin toteuttaa leikkaamista. Käytä näppäimistöä leikkaamiseen (Ctrl+X).',
-    	paste : 'Liitä',
-    	pasteArea : 'Leikealue',
-    	pasteMsg : 'Liitä painamalla (<STRONG>Ctrl+V</STRONG>) ja painamalla <STRONG>OK</STRONG>.',
-    	securityMsg : 'Selaimesi turva-asetukset eivät salli editorin käyttää leikepöytää suoraan. Sinun pitää suorittaa liittäminen tässä ikkunassa.',
-    	title : 'Liitä'
+    	confirmCleanup : 'Liittämäsi teksti näyttäisi olevan Word-dokumentista. Haluatko siivota sen ennen liittämistä? (Suositus: Kyllä)',
+    	error : 'Liitetyn tiedon siivoaminen ei onnistunut sisäisen virheen takia',
+    	title : 'Liitä Word-dokumentista',
+    	toolbar : 'Liitä Word-dokumentista'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Liitä tekstinä',
-    	title : 'Liitä tekstinä'
-    },
-    specialchar : 
-    {
-    	options : 'Erikoismerkin ominaisuudet',
-    	title : 'Valitse erikoismerkki',
-    	toolbar : 'Lisää erikoismerkki'
-    },
-    selectall : 
-    {
-    	toolbar : 'Valitse kaikki'
-    },
-    newpage : 
-    {
-    	toolbar : 'Tyhjennä'
-    },
-    templates : 
-    {
-    	button : 'Pohjat',
-    	emptyListMsg : '(Ei määriteltyjä pohjia)',
-    	insertOption : 'Korvaa koko sisältö',
-    	options : 'Sisältöpohjan ominaisuudet',
-    	selectPromptMsg : 'Valitse editoriin avattava pohja',
-    	title : 'Sisältöpohjat'
-    },
-    colordialog : 
-    {
-    	clear : 'Poista',
-    	highlight : 'Korostus',
-    	options : 'Värin ominaisuudet',
-    	selected : 'Valittu',
-    	title : 'Valitse väri'
-    },
-    preview : 
-    {
-    	preview : 'Esikatsele'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Koko',
-    		voiceLabel : 'Kirjaisimen koko',
-    		panelTitle : 'Koko'
-    	},
-    	label : 'Kirjaisinlaji',
-    	panelTitle : 'Kirjaisinlaji',
-    	voiceLabel : 'Kirjaisinlaji'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armeenialainen numerointi',
-    	bulletedTitle : 'Numeroimattoman listan ominaisuudet',
-    	circle : 'Ympyrä',
-    	decimal : 'Desimaalit (1, 2, 3, jne.)',
-    	decimalLeadingZero : 'Desimaalit, alussa nolla (01, 02, 03, jne.)',
-    	disc : 'Levy',
-    	georgian : 'Georgialainen numerointi (an, ban, gan, etc.)',
-    	lowerAlpha : 'Pienet aakkoset (a, b, c, d, e, jne.)',
-    	lowerGreek : 'Pienet kreikkalaiset (alpha, beta, gamma, jne.)',
-    	lowerRoman : 'Pienet roomalaiset (i, ii, iii, iv, v, jne.)',
-    	none : 'Ei mikään',
-    	notset : '<ei asetettu>',
-    	numberedTitle : 'Numeroidun listan ominaisuudet',
-    	square : 'Neliö',
-    	start : 'Alku',
-    	type : 'Tyyppi',
-    	upperAlpha : 'Isot aakkoset (A, B, C, D, E, jne.)',
-    	upperRoman : 'Isot roomalaiset (I, II, III, IV, V, jne.)',
-    	validateStartNumber : 'Listan ensimmäisen numeron tulee olla kokonaisluku.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Lainaus'
-    },
-    undo : 
-    {
-    	redo : 'Toista',
-    	undo : 'Kumoa'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. Kaikki oikeuden pidätetään.',
-    	dlgTitle : 'Tietoa CKEditorista',
-    	help : 'Katso ohjeet: $1.',
-    	moreInfo : 'Lisenssitiedot löytyvät kotisivuiltamme:',
-    	title : 'Tietoa CKEditorista',
-    	userGuide : 'CKEditorin käyttäjäopas'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Kutista työkalupalkki',
-    	toolbarExpand : 'Laajenna työkalupalkki',
-    	toolbarGroups : 
-    	{
-    		document : 'Dokumentti',
-    		clipboard : 'Leikepöytä/Kumoa',
-    		editing : 'Muokkaus',
-    		forms : 'Lomakkeet',
-    		basicstyles : 'Perustyylit',
-    		paragraph : 'Kappale',
-    		links : 'Linkit',
-    		insert : 'Lisää',
-    		styles : 'Tyylit',
-    		colors : 'Värit',
-    		tools : 'Työkalut'
-    	},
-    	toolbars : 'Editorin työkalupalkit'
-    },
-    scayt : 
-    {
-    	about : 'Tietoja oikoluvusta kirjoitetaessa',
-    	aboutTab : 'Tietoa',
-    	addWord : 'Lisää sana',
-    	allCaps : 'Ohita sanat, jotka on kirjoitettu kokonaan isoilla kirjaimilla',
-    	dic_create : 'Luo',
-    	dic_delete : 'Poista',
-    	dic_field_name : 'Sanakirjan nimi',
-    	dic_info : 'Oletuksena sanakirjat tallennetaan evästeeseen, mutta evästeiden koko on kuitenkin rajallinen. Sanakirjan kasvaessa niin suureksi, ettei se enää mahdu evästeeseen, sanakirja täytyy tallentaa palvelimellemme. Tallentaaksesi sanakirjasi palvelimellemme tulee sinun antaa sille nimi. Jos olet jo tallentanut sanakirjan, anna sen nimi ja klikkaa Palauta-painiketta',
-    	dic_rename : 'Nimeä uudelleen',
-    	dic_restore : 'Palauta',
-    	dictionariesTab : 'Sanakirjat',
-    	disable : 'Poista käytöstä oikoluku kirjoitetaessa',
-    	emptyDic : 'Sanakirjan nimi on annettava.',
-    	enable : 'Ota käyttöön oikoluku kirjoitettaessa',
-    	ignore : 'Ohita',
-    	ignoreAll : 'Ohita kaikki',
-    	ignoreDomainNames : 'Ohita verkkotunnukset',
-    	langs : 'Kielet',
-    	languagesTab : 'Kielet',
-    	mixedCase : 'Ohita sanat, joissa on sekoitettu isoja ja pieniä kirjaimia',
-    	mixedWithDigits : 'Ohita sanat, joissa on numeroita',
-    	moreSuggestions : 'Lisää ehdotuksia',
-    	opera_title : 'Opera ei tue tätä ominaisuutta',
-    	options : 'Asetukset',
-    	optionsTab : 'Asetukset',
-    	title : 'Oikolue kirjoitettaessa',
-    	toggle : 'Vaihda oikoluku kirjoittaessa tilaa',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Jätä huomioimatta',
-    	btnIgnoreAll : 'Jätä kaikki huomioimatta',
-    	btnReplace : 'Korvaa',
-    	btnReplaceAll : 'Korvaa kaikki',
-    	btnUndo : 'Kumoa',
-    	changeTo : 'Vaihda',
-    	errorLoading : 'Virhe ladattaessa oikolukupalvelua isännältä: %s.',
-    	ieSpellDownload : 'Oikeinkirjoituksen tarkistusta ei ole asennettu. Haluatko ladata sen nyt?',
-    	manyChanges : 'Tarkistus valmis: %1 sanaa muutettiin',
-    	noChanges : 'Tarkistus valmis: Yhtään sanaa ei muutettu',
-    	noMispell : 'Tarkistus valmis: Ei virheitä',
-    	noSuggestions : 'Ei ehdotuksia',
-    	notAvailable : 'Valitettavasti oikoluku ei ole käytössä tällä hetkellä.',
-    	notInDic : 'Ei sanakirjassa',
-    	oneChange : 'Tarkistus valmis: Yksi sana muutettiin',
-    	progress : 'Tarkistus käynnissä...',
-    	title : 'Oikoluku',
-    	toolbar : 'Tarkista oikeinkirjoitus'
-    },
-    contextmenu : 
-    {
-    	options : 'Pikavalikon ominaisuudet'
+    	bulletedlist : 'Luottelomerkit',
+    	numberedlist : 'Numerointi'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['fi'] = {
     	left : 'Tasaa vasemmat reunat',
     	right : 'Tasaa oikeat reunat'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Koodi'
-    },
-    format : 
-    {
-    	label : 'Muotoilu',
-    	panelTitle : 'Muotoilu',
-    	tag_address : 'Osoite',
-    	tag_div : 'Normaali (DIV)',
-    	tag_h1 : 'Otsikko 1',
-    	tag_h2 : 'Otsikko 2',
-    	tag_h3 : 'Otsikko 3',
-    	tag_h4 : 'Otsikko 4',
-    	tag_h5 : 'Otsikko 5',
-    	tag_h6 : 'Otsikko 6',
-    	tag_p : 'Normaali',
-    	tag_pre : 'Muotoiltu'
-    },
-    flash : 
-    {
-    	access : 'Skriptien pääsy',
-    	accessAlways : 'Aina',
-    	accessNever : 'Ei koskaan',
-    	accessSameDomain : 'Sama verkkotunnus',
-    	alignAbsBottom : 'Aivan alas',
-    	alignAbsMiddle : 'Aivan keskelle',
-    	alignBaseline : 'Alas (teksti)',
-    	alignTextTop : 'Ylös (teksti)',
-    	bgcolor : 'Taustaväri',
-    	chkFull : 'Salli kokoruututila',
-    	chkLoop : 'Toisto',
-    	chkMenu : 'Näytä Flash-valikko',
-    	chkPlay : 'Automaattinen käynnistys',
-    	flashvars : 'Muuttujat Flash:lle',
-    	hSpace : 'Vaakatila',
-    	properties : 'Flash-ominaisuudet',
-    	propertiesTab : 'Ominaisuudet',
-    	quality : 'Laatu',
-    	qualityAutoHigh : 'Automaattinen korkea',
-    	qualityAutoLow : 'Automaattinen matala',
-    	qualityBest : 'Paras',
-    	qualityHigh : 'Korkea',
-    	qualityLow : 'Matala',
-    	qualityMedium : 'Keskitaso',
-    	scale : 'Levitä',
-    	scaleAll : 'Näytä kaikki',
-    	scaleFit : 'Tarkka koko',
-    	scaleNoBorder : 'Ei rajaa',
-    	title : 'Flash ominaisuudet',
-    	vSpace : 'Pystytila',
-    	validateHSpace : 'Vaakatilan täytyy olla numero.',
-    	validateSrc : 'Linkille on kirjoitettava URL',
-    	validateVSpace : 'Pystytilan täytyy olla numero.',
-    	windowMode : 'Ikkuna tila',
-    	windowModeOpaque : 'Läpinäkyvyys',
-    	windowModeTransparent : 'Läpinäkyvä',
-    	windowModeWindow : 'Ikkuna'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Poista muotoilu'
-    },
-    iframe : 
-    {
-    	border : 'Näytä kehyksen reunat',
-    	noUrl : 'Anna IFrame-kehykselle lähdeosoite (src)',
-    	scrolling : 'Näytä vierityspalkit',
-    	title : 'IFrame-kehyksen ominaisuudet',
-    	toolbar : 'IFrame-kehys'
-    },
-    link : 
-    {
-    	acccessKey : 'Pikanäppäin',
-    	advanced : 'Lisäominaisuudet',
-    	advisoryContentType : 'Avustava sisällön tyyppi',
-    	advisoryTitle : 'Avustava otsikko',
-    	anchor : 
-    	{
-    		toolbar : 'Lisää ankkuri/muokkaa ankkuria',
-    		menu : 'Ankkurin ominaisuudet',
-    		title : 'Ankkurin ominaisuudet',
-    		name : 'Nimi',
-    		errorName : 'Ankkurille on kirjoitettava nimi',
-    		remove : 'Poista ankkuri'
-    	},
-    	anchorId : 'Ankkurin ID:n mukaan',
-    	anchorName : 'Ankkurin nimen mukaan',
-    	charset : 'Linkitetty kirjaimisto',
-    	cssClasses : 'Tyyliluokat',
-    	emailAddress : 'Sähköpostiosoite',
-    	emailBody : 'Viesti',
-    	emailSubject : 'Aihe',
-    	id : 'Tunniste',
-    	info : 'Linkin tiedot',
-    	langCode : 'Kielen suunta',
-    	langDir : 'Kielen suunta',
-    	langDirLTR : 'Vasemmalta oikealle (LTR)',
-    	langDirRTL : 'Oikealta vasemmalle (RTL)',
-    	menu : 'Muokkaa linkkiä',
-    	name : 'Nimi',
-    	noAnchors : '(Ei ankkureita tässä dokumentissa)',
-    	noEmail : 'Kirjoita sähköpostiosoite',
-    	noUrl : 'Linkille on kirjoitettava URL',
-    	other : '<muu>',
-    	popupDependent : 'Riippuva (Netscape)',
-    	popupFeatures : 'Popup ikkunan ominaisuudet',
-    	popupFullScreen : 'Täysi ikkuna (IE)',
-    	popupLeft : 'Vasemmalta (px)',
-    	popupLocationBar : 'Osoiterivi',
-    	popupMenuBar : 'Valikkorivi',
-    	popupResizable : 'Venytettävä',
-    	popupScrollBars : 'Vierityspalkit',
-    	popupStatusBar : 'Tilarivi',
-    	popupToolbar : 'Vakiopainikkeet',
-    	popupTop : 'Ylhäältä (px)',
-    	rel : 'Suhde',
-    	selectAnchor : 'Valitse ankkuri',
-    	styles : 'Tyyli',
-    	tabIndex : 'Tabulaattori indeksi',
-    	target : 'Kohde',
-    	targetFrame : '<kehys>',
-    	targetFrameName : 'Kohdekehyksen nimi',
-    	targetPopup : '<popup ikkuna>',
-    	targetPopupName : 'Popup ikkunan nimi',
-    	title : 'Linkki',
-    	toAnchor : 'Ankkuri tässä sivussa',
-    	toEmail : 'Sähköposti',
-    	toUrl : 'Osoite',
-    	toolbar : 'Lisää linkki/muokkaa linkkiä',
-    	type : 'Linkkityyppi',
-    	unlink : 'Poista linkki',
-    	upload : 'Lisää tiedosto'
-    },
-    smiley : 
-    {
-    	options : 'Hymiön ominaisuudet',
-    	title : 'Lisää hymiö',
-    	toolbar : 'Hymiö'
-    },
-    print : 
-    {
-    	toolbar : 'Tulosta'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Ohjeistava otsikko',
-    	cssClassInputLabel : 'Tyylitiedoston luokat',
-    	edit : 'Muokkaa Diviä',
-    	inlineStyleInputLabel : 'Sisätyyli',
-    	langDirLTRLabel : 'Vasemmalta oikealle (LTR)',
-    	langDirLabel : 'Kielen suunta',
-    	langDirRTLLabel : 'Oikealta vasemmalle (RTL)',
-    	languageCodeInputLabel : ' Kielen koodi',
-    	remove : 'Poista Div',
-    	styleSelectLabel : 'Tyyli',
-    	title : 'Luo div-kehikko',
-    	toolbar : 'Luo div-kehikko'
-    },
-    indent : 
-    {
-    	indent : 'Suurenna sisennystä',
-    	outdent : 'Pienennä sisennystä'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Liittämäsi teksti näyttäisi olevan Word-dokumentista. Haluatko siivota sen ennen liittämistä? (Suositus: Kyllä)',
-    	error : 'Liitetyn tiedon siivoaminen ei onnistunut sisäisen virheen takia',
-    	title : 'Liitä Word-dokumentista',
-    	toolbar : 'Liitä Word-dokumentista'
-    },
-    colorbutton : 
-    {
-    	auto : 'Automaattinen',
-    	bgColorTitle : 'Taustaväri',
-    	colors : 
-    	{
-    		'000' : 'Musta',
-    		'800000' : 'Kastanjanruskea',
-    		'8B4513' : 'Satulanruskea',
-    		'2F4F4F' : 'Tumma liuskekivenharmaa',
-    		'008080' : 'Sinivihreä',
-    		'000080' : 'Laivastonsininen',
-    		'4B0082' : 'Indigonsininen',
-    		'696969' : 'Tummanharmaa',
-    		B22222 : 'Tiili',
-    		A52A2A : 'Ruskea',
-    		DAA520 : 'Kultapiisku',
-    		'006400' : 'Tummanvihreä',
-    		'40E0D0' : 'Turkoosi',
-    		'0000CD' : 'Keskisininen',
-    		'800080' : 'Purppura',
-    		'808080' : 'Harmaa',
-    		F00 : 'Punainen',
-    		FF8C00 : 'Tumma oranssi',
-    		FFD700 : 'Kulta',
-    		'008000' : 'Vihreä',
-    		'0FF' : 'Syaani',
-    		'00F' : 'Sininen',
-    		EE82EE : 'Violetti',
-    		A9A9A9 : 'Tummanharmaa',
-    		FFA07A : 'Vaaleanlohenpunainen',
-    		FFA500 : 'Oranssi',
-    		FFFF00 : 'Keltainen',
-    		'00FF00' : 'Limetin vihreä',
-    		AFEEEE : 'Haalea turkoosi',
-    		ADD8E6 : 'Vaaleansininen',
-    		DDA0DD : 'Luumu',
-    		D3D3D3 : 'Vaaleanharmaa',
-    		FFF0F5 : 'Laventelinpunainen',
-    		FAEBD7 : 'Antiikinvalkoinen',
-    		FFFFE0 : 'Vaaleankeltainen',
-    		F0FFF0 : 'Hunajameloni',
-    		F0FFFF : 'Asurinsininen',
-    		F0F8FF : 'Alice Blue -sininen',
-    		E6E6FA : 'Lavanteli',
-    		FFF : 'Valkoinen'
-    	},
-    	more : 'Lisää värejä...',
-    	panelTitle : 'Värit',
-    	textColorTitle : 'Tekstiväri'
-    },
-    list : 
-    {
-    	bulletedlist : 'Luettelomerkit',
-    	numberedlist : 'Numerointi'
+    	toolbar : 'Tallenna'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['fi'] = {
     	validateHSpace : 'HSpace-määrityksen täytyy olla kokonaisluku.',
     	validateVSpace : 'VSpace-määrityksen täytyy olla kokonaisluku.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Etsi',
-    	findOptions : 'Hakuasetukset',
-    	findWhat : 'Etsi mitä:',
-    	matchCase : 'Sama kirjainkoko',
-    	matchCyclic : 'Kierrä ympäri',
-    	matchWord : 'Koko sana',
-    	notFoundMsg : 'Etsittyä tekstiä ei löytynyt.',
-    	replace : 'Korvaa',
-    	replaceAll : 'Korvaa kaikki',
-    	replaceSuccessMsg : '%1 esiintymä(ä) korvattu.',
-    	replaceWith : 'Korvaa tällä:',
-    	title : 'Etsi ja korvaa'
+    	alt : 'Sivunvaihto',
+    	toolbar : 'Lisää sivunvaihto'
     },
     showblocks : 
     {
     	toolbar : 'Näytä elementit'
+    },
+    indent : 
+    {
+    	indent : 'Suurenna sisennystä',
+    	outdent : 'Pienennä sisennystä'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['fi'] = {
     		typeUrl : 'Osoite'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Lisää murtoviiva'
-    },
-    pagebreak : 
-    {
-    	alt : 'Sivunvaihto',
-    	toolbar : 'Lisää sivunvaihto'
-    },
-    stylescombo : 
-    {
-    	label : 'Tyyli',
-    	panelTitle : 'Muotoilujen tyylit',
-    	panelTitle1 : 'Lohkojen tyylit',
-    	panelTitle2 : 'Rivinsisäiset tyylit',
-    	panelTitle3 : 'Objektien tyylit'
-    },
     bidi : 
     {
     	ltr : 'Tekstin suunta vasemmalta oikealle',
     	rtl : 'Tekstin suunta oikealta vasemmalle'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Lihavoitu',
-    	italic : 'Kursivoitu',
-    	strike : 'Yliviivattu',
-    	subscript : 'Alaindeksi',
-    	superscript : 'Yläindeksi',
-    	underline : 'Alleviivattu'
+    	eleLabel : 'Elementin polku',
+    	eleTitle : '%1 elementti'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Ankkuri',
+    	flash : 'Flash animaatio',
+    	hiddenfield : 'Piilokenttä',
+    	iframe : 'IFrame-kehys',
+    	unknown : 'Tuntematon objekti'
+    },
+    smiley : 
+    {
+    	options : 'Hymiön ominaisuudet',
+    	title : 'Lisää hymiö',
+    	toolbar : 'Hymiö'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. Kaikki oikeuden pidätetään.',
+    	dlgTitle : 'Tietoa CKEditorista',
+    	help : 'Katso ohjeet: $1.',
+    	moreInfo : 'Lisenssitiedot löytyvät kotisivuiltamme:',
+    	title : 'Tietoa CKEditorista',
+    	userGuide : 'CKEditorin käyttäjäopas'
+    },
+    newpage : 
+    {
+    	toolbar : 'Tyhjennä'
+    },
+    format : 
+    {
+    	label : 'Muotoilu',
+    	panelTitle : 'Muotoilu',
+    	tag_address : 'Osoite',
+    	tag_div : 'Normaali (DIV)',
+    	tag_h1 : 'Otsikko 1',
+    	tag_h2 : 'Otsikko 2',
+    	tag_h3 : 'Otsikko 3',
+    	tag_h4 : 'Otsikko 4',
+    	tag_h5 : 'Otsikko 5',
+    	tag_h6 : 'Otsikko 6',
+    	tag_p : 'Normaali',
+    	tag_pre : 'Muotoiltu'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Poista muotoilu'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['fi'] = {
     	widthPx : 'pikseliä',
     	widthUnit : 'leveysyksikkö'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Lisää kappale tähän.'
+    	options : 'Erikoismerkin ominaisuudet',
+    	title : 'Valitse erikoismerkki',
+    	toolbar : 'Lisää erikoismerkki'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Tallenna'
+    	armenian : 'Armeenialainen numerointi',
+    	bulletedTitle : 'Numeroimattoman listan ominaisuudet',
+    	circle : 'Ympyrä',
+    	decimal : 'Desimaalit (1, 2, 3, jne.)',
+    	decimalLeadingZero : 'Desimaalit, alussa nolla (01, 02, 03, jne.)',
+    	disc : 'Levy',
+    	georgian : 'Georgialainen numerointi (an, ban, gan, etc.)',
+    	lowerAlpha : 'Pienet aakkoset (a, b, c, d, e, jne.)',
+    	lowerGreek : 'Pienet kreikkalaiset (alpha, beta, gamma, jne.)',
+    	lowerRoman : 'Pienet roomalaiset (i, ii, iii, iv, v, jne.)',
+    	none : 'Ei mikään',
+    	notset : '<ei asetettu>',
+    	numberedTitle : 'Numeroidun listan ominaisuudet',
+    	square : 'Neliö',
+    	start : 'Alku',
+    	type : 'Tyyppi',
+    	upperAlpha : 'Isot aakkoset (A, B, C, D, E, jne.)',
+    	upperRoman : 'Isot roomalaiset (I, II, III, IV, V, jne.)',
+    	validateStartNumber : 'Listan ensimmäisen numeron tulee olla kokonaisluku.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Ankkuri',
-    	flash : 'Flash animaatio',
-    	hiddenfield : 'Piilokenttä',
-    	iframe : 'IFrame-kehys',
-    	unknown : 'Tuntematon objekti'
+    	border : 'Näytä kehyksen reunat',
+    	noUrl : 'Anna IFrame-kehykselle lähdeosoite (src)',
+    	scrolling : 'Näytä vierityspalkit',
+    	title : 'IFrame-kehyksen ominaisuudet',
+    	toolbar : 'IFrame-kehys'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Elementin polku',
-    	eleTitle : '%1 elementti'
+    	access : 'Skriptien pääsy',
+    	accessAlways : 'Aina',
+    	accessNever : 'Ei koskaan',
+    	accessSameDomain : 'Sama verkkotunnus',
+    	alignAbsBottom : 'Aivan alas',
+    	alignAbsMiddle : 'Aivan keskelle',
+    	alignBaseline : 'Alas (teksti)',
+    	alignTextTop : 'Ylös (teksti)',
+    	bgcolor : 'Taustaväri',
+    	chkFull : 'Salli kokoruututila',
+    	chkLoop : 'Toisto',
+    	chkMenu : 'Näytä Flash-valikko',
+    	chkPlay : 'Automaattinen käynnistys',
+    	flashvars : 'Muuttujat Flash:lle',
+    	hSpace : 'Vaakatila',
+    	properties : 'Flash-ominaisuudet',
+    	propertiesTab : 'Ominaisuudet',
+    	quality : 'Laatu',
+    	qualityAutoHigh : 'Automaattinen korkea',
+    	qualityAutoLow : 'Automaattinen matala',
+    	qualityBest : 'Paras',
+    	qualityHigh : 'Korkea',
+    	qualityLow : 'Matala',
+    	qualityMedium : 'Keskitaso',
+    	scale : 'Levitä',
+    	scaleAll : 'Näytä kaikki',
+    	scaleFit : 'Tarkka koko',
+    	scaleNoBorder : 'Ei rajaa',
+    	title : 'Flash ominaisuudet',
+    	vSpace : 'Pystytila',
+    	validateHSpace : 'Vaakatilan täytyy olla numero.',
+    	validateSrc : 'Linkille on kirjoitettava URL',
+    	validateVSpace : 'Pystytilan täytyy olla numero.',
+    	windowMode : 'Ikkuna tila',
+    	windowModeOpaque : 'Läpinäkyvyys',
+    	windowModeTransparent : 'Läpinäkyvä',
+    	windowModeWindow : 'Ikkuna'
+    },
+    find : 
+    {
+    	find : 'Etsi',
+    	findOptions : 'Hakuasetukset',
+    	findWhat : 'Etsi mitä:',
+    	matchCase : 'Sama kirjainkoko',
+    	matchCyclic : 'Kierrä ympäri',
+    	matchWord : 'Koko sana',
+    	notFoundMsg : 'Etsittyä tekstiä ei löytynyt.',
+    	replace : 'Korvaa',
+    	replaceAll : 'Korvaa kaikki',
+    	replaceSuccessMsg : '%1 esiintymä(ä) korvattu.',
+    	replaceWith : 'Korvaa tällä:',
+    	title : 'Etsi ja korvaa'
+    },
+    colorbutton : 
+    {
+    	auto : 'Automaattinen',
+    	bgColorTitle : 'Taustaväri',
+    	colors : 
+    	{
+    		'000' : 'Musta',
+    		'800000' : 'Kastanjanruskea',
+    		'8B4513' : 'Satulanruskea',
+    		'2F4F4F' : 'Tumma liuskekivenharmaa',
+    		'008080' : 'Sinivihreä',
+    		'000080' : 'Laivastonsininen',
+    		'4B0082' : 'Indigonsininen',
+    		'696969' : 'Tummanharmaa',
+    		B22222 : 'Tiili',
+    		A52A2A : 'Ruskea',
+    		DAA520 : 'Kultapiisku',
+    		'006400' : 'Tummanvihreä',
+    		'40E0D0' : 'Turkoosi',
+    		'0000CD' : 'Keskisininen',
+    		'800080' : 'Purppura',
+    		'808080' : 'Harmaa',
+    		F00 : 'Punainen',
+    		FF8C00 : 'Tumma oranssi',
+    		FFD700 : 'Kulta',
+    		'008000' : 'Vihreä',
+    		'0FF' : 'Syaani',
+    		'00F' : 'Sininen',
+    		EE82EE : 'Violetti',
+    		A9A9A9 : 'Tummanharmaa',
+    		FFA07A : 'Vaaleanlohenpunainen',
+    		FFA500 : 'Oranssi',
+    		FFFF00 : 'Keltainen',
+    		'00FF00' : 'Limetin vihreä',
+    		AFEEEE : 'Haalea turkoosi',
+    		ADD8E6 : 'Vaaleansininen',
+    		DDA0DD : 'Luumu',
+    		D3D3D3 : 'Vaaleanharmaa',
+    		FFF0F5 : 'Laventelinpunainen',
+    		FAEBD7 : 'Antiikinvalkoinen',
+    		FFFFE0 : 'Vaaleankeltainen',
+    		F0FFF0 : 'Hunajameloni',
+    		F0FFFF : 'Asurinsininen',
+    		F0F8FF : 'Alice Blue -sininen',
+    		E6E6FA : 'Lavanteli',
+    		FFF : 'Valkoinen'
+    	},
+    	more : 'Lisää värejä...',
+    	panelTitle : 'Värit',
+    	textColorTitle : 'Tekstiväri'
+    },
+    undo : 
+    {
+    	redo : 'Toista',
+    	undo : 'Kumoa'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Koko',
+    		voiceLabel : 'Kirjaisimen koko',
+    		panelTitle : 'Koko'
+    	},
+    	label : 'Kirjaisinlaji',
+    	panelTitle : 'Kirjaisinlaji',
+    	voiceLabel : 'Kirjaisinlaji'
     },
     maximize : 
     {
     	maximize : 'Suurenna',
     	minimize : 'Pienennä'
     },
+    basicstyles : 
+    {
+    	bold : 'Lihavoitu',
+    	italic : 'Kursivoitu',
+    	strike : 'Yliviivattu',
+    	subscript : 'Alaindeksi',
+    	superscript : 'Yläindeksi',
+    	underline : 'Alleviivattu'
+    },
+    magicline : 
+    {
+    	title : 'Lisää kappale tähän.'
+    },
+    print : 
+    {
+    	toolbar : 'Tulosta'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Jätä huomioimatta',
+    	btnIgnoreAll : 'Jätä kaikki huomioimatta',
+    	btnReplace : 'Korvaa',
+    	btnReplaceAll : 'Korvaa kaikki',
+    	btnUndo : 'Kumoa',
+    	changeTo : 'Vaihda',
+    	errorLoading : 'Virhe ladattaessa oikolukupalvelua isännältä: %s.',
+    	ieSpellDownload : 'Oikeinkirjoituksen tarkistusta ei ole asennettu. Haluatko ladata sen nyt?',
+    	manyChanges : 'Tarkistus valmis: %1 sanaa muutettiin',
+    	noChanges : 'Tarkistus valmis: Yhtään sanaa ei muutettu',
+    	noMispell : 'Tarkistus valmis: Ei virheitä',
+    	noSuggestions : 'Ei ehdotuksia',
+    	notAvailable : 'Valitettavasti oikoluku ei ole käytössä tällä hetkellä.',
+    	notInDic : 'Ei sanakirjassa',
+    	oneChange : 'Tarkistus valmis: Yksi sana muutettiin',
+    	progress : 'Tarkistus käynnissä...',
+    	title : 'Oikoluku',
+    	toolbar : 'Tarkista oikeinkirjoitus'
+    },
+    clipboard : 
+    {
+    	copy : 'Kopioi',
+    	copyError : 'Selaimesi turva-asetukset eivät salli editorin toteuttaa kopioimista. Käytä näppäimistöä kopioimiseen (Ctrl+C).',
+    	cut : 'Leikkaa',
+    	cutError : 'Selaimesi turva-asetukset eivät salli editorin toteuttaa leikkaamista. Käytä näppäimistöä leikkaamiseen (Ctrl+X).',
+    	paste : 'Liitä',
+    	pasteArea : 'Leikealue',
+    	pasteMsg : 'Liitä painamalla (<STRONG>Ctrl+V</STRONG>) ja painamalla <STRONG>OK</STRONG>.',
+    	securityMsg : 'Selaimesi turva-asetukset eivät salli editorin käyttää leikepöytää suoraan. Sinun pitää suorittaa liittäminen tässä ikkunassa.',
+    	title : 'Liitä'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Koodi'
+    },
+    scayt : 
+    {
+    	about : 'Tietoja oikoluvusta kirjoitetaessa',
+    	aboutTab : 'Tietoa',
+    	addWord : 'Lisää sana',
+    	allCaps : 'Ohita sanat, jotka on kirjoitettu kokonaan isoilla kirjaimilla',
+    	dic_create : 'Luo',
+    	dic_delete : 'Poista',
+    	dic_field_name : 'Sanakirjan nimi',
+    	dic_info : 'Oletuksena sanakirjat tallennetaan evästeeseen, mutta evästeiden koko on kuitenkin rajallinen. Sanakirjan kasvaessa niin suureksi, ettei se enää mahdu evästeeseen, sanakirja täytyy tallentaa palvelimellemme. Tallentaaksesi sanakirjasi palvelimellemme tulee sinun antaa sille nimi. Jos olet jo tallentanut sanakirjan, anna sen nimi ja klikkaa Palauta-painiketta',
+    	dic_rename : 'Nimeä uudelleen',
+    	dic_restore : 'Palauta',
+    	dictionariesTab : 'Sanakirjat',
+    	disable : 'Poista käytöstä oikoluku kirjoitetaessa',
+    	emptyDic : 'Sanakirjan nimi on annettava.',
+    	enable : 'Ota käyttöön oikoluku kirjoitettaessa',
+    	ignore : 'Ohita',
+    	ignoreAll : 'Ohita kaikki',
+    	ignoreDomainNames : 'Ohita verkkotunnukset',
+    	langs : 'Kielet',
+    	languagesTab : 'Kielet',
+    	mixedCase : 'Ohita sanat, joissa on sekoitettu isoja ja pieniä kirjaimia',
+    	mixedWithDigits : 'Ohita sanat, joissa on numeroita',
+    	moreSuggestions : 'Lisää ehdotuksia',
+    	opera_title : 'Opera ei tue tätä ominaisuutta',
+    	options : 'Asetukset',
+    	optionsTab : 'Asetukset',
+    	title : 'Oikolue kirjoitettaessa',
+    	toggle : 'Vaihda oikoluku kirjoittaessa tilaa',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Lisää murtoviiva'
+    },
+    pastetext : 
+    {
+    	button : 'Liitä tekstinä',
+    	title : 'Liitä tekstinä'
+    },
+    contextmenu : 
+    {
+    	options : 'Pikavalikon ominaisuudet'
+    },
+    templates : 
+    {
+    	button : 'Pohjat',
+    	emptyListMsg : '(Ei määriteltyjä pohjia)',
+    	insertOption : 'Korvaa koko sisältö',
+    	options : 'Sisältöpohjan ominaisuudet',
+    	selectPromptMsg : 'Valitse editoriin avattava pohja',
+    	title : 'Sisältöpohjat'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Ohjeistava otsikko',
+    	cssClassInputLabel : 'Tyylitiedoston luokat',
+    	edit : 'Muokkaa Diviä',
+    	inlineStyleInputLabel : 'Sisätyyli',
+    	langDirLTRLabel : 'Vasemmalta oikealle (LTR)',
+    	langDirLabel : 'Kielen suunta',
+    	langDirRTLLabel : 'Oikealta vasemmalle (RTL)',
+    	languageCodeInputLabel : ' Kielen koodi',
+    	remove : 'Poista Div',
+    	styleSelectLabel : 'Tyyli',
+    	title : 'Luo div-kehikko',
+    	toolbar : 'Luo div-kehikko'
+    },
+    preview : 
+    {
+    	preview : 'Esikatsele'
+    },
+    colordialog : 
+    {
+    	clear : 'Poista',
+    	highlight : 'Korostus',
+    	options : 'Värin ominaisuudet',
+    	selected : 'Valittu',
+    	title : 'Valitse väri'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Kutista työkalupalkki',
+    	toolbarExpand : 'Laajenna työkalupalkki',
+    	toolbarGroups : 
+    	{
+    		document : 'Dokumentti',
+    		clipboard : 'Leikepöytä/Kumoa',
+    		editing : 'Muokkaus',
+    		forms : 'Lomakkeet',
+    		basicstyles : 'Perustyylit',
+    		paragraph : 'Kappale',
+    		links : 'Linkit',
+    		insert : 'Lisää',
+    		styles : 'Tyylit',
+    		colors : 'Värit',
+    		tools : 'Työkalut'
+    	},
+    	toolbars : 'Editorin työkalupalkit'
+    },
+    selectall : 
+    {
+    	toolbar : 'Valitse kaikki'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Lainaus'
+    },
+    link : 
+    {
+    	acccessKey : 'Pikanäppäin',
+    	advanced : 'Lisäominaisuudet',
+    	advisoryContentType : 'Avustava sisällön tyyppi',
+    	advisoryTitle : 'Avustava otsikko',
+    	anchor : 
+    	{
+    		toolbar : 'Lisää ankkuri/muokkaa ankkuria',
+    		menu : 'Ankkurin ominaisuudet',
+    		title : 'Ankkurin ominaisuudet',
+    		name : 'Nimi',
+    		errorName : 'Ankkurille on kirjoitettava nimi',
+    		remove : 'Poista ankkuri'
+    	},
+    	anchorId : 'Ankkurin ID:n mukaan',
+    	anchorName : 'Ankkurin nimen mukaan',
+    	charset : 'Linkitetty kirjaimisto',
+    	cssClasses : 'Tyyliluokat',
+    	emailAddress : 'Sähköpostiosoite',
+    	emailBody : 'Viesti',
+    	emailSubject : 'Aihe',
+    	id : 'Tunniste',
+    	info : 'Linkin tiedot',
+    	langCode : 'Kielen suunta',
+    	langDir : 'Kielen suunta',
+    	langDirLTR : 'Vasemmalta oikealle (LTR)',
+    	langDirRTL : 'Oikealta vasemmalle (RTL)',
+    	menu : 'Muokkaa linkkiä',
+    	name : 'Nimi',
+    	noAnchors : '(Ei ankkureita tässä dokumentissa)',
+    	noEmail : 'Kirjoita sähköpostiosoite',
+    	noUrl : 'Linkille on kirjoitettava URL',
+    	other : '<muu>',
+    	popupDependent : 'Riippuva (Netscape)',
+    	popupFeatures : 'Popup ikkunan ominaisuudet',
+    	popupFullScreen : 'Täysi ikkuna (IE)',
+    	popupLeft : 'Vasemmalta (px)',
+    	popupLocationBar : 'Osoiterivi',
+    	popupMenuBar : 'Valikkorivi',
+    	popupResizable : 'Venytettävä',
+    	popupScrollBars : 'Vierityspalkit',
+    	popupStatusBar : 'Tilarivi',
+    	popupToolbar : 'Vakiopainikkeet',
+    	popupTop : 'Ylhäältä (px)',
+    	rel : 'Suhde',
+    	selectAnchor : 'Valitse ankkuri',
+    	styles : 'Tyyli',
+    	tabIndex : 'Tabulaattori indeksi',
+    	target : 'Kohde',
+    	targetFrame : '<kehys>',
+    	targetFrameName : 'Kohdekehyksen nimi',
+    	targetPopup : '<popup ikkuna>',
+    	targetPopupName : 'Popup ikkunan nimi',
+    	title : 'Linkki',
+    	toAnchor : 'Ankkuri tässä sivussa',
+    	toEmail : 'Sähköposti',
+    	toUrl : 'Osoite',
+    	toolbar : 'Lisää linkki/muokkaa linkkiä',
+    	type : 'Linkkityyppi',
+    	unlink : 'Poista linkki',
+    	upload : 'Lisää tiedosto'
+    },
+    stylescombo : 
+    {
+    	label : 'Tyyli',
+    	panelTitle : 'Muotoilujen tyylit',
+    	panelTitle1 : 'Lohkojen tyylit',
+    	panelTitle2 : 'Rivinsisäiset tyylit',
+    	panelTitle3 : 'Objektien tyylit'
+    },
+    dir : 'ltr',
     editor : 'Rikastekstieditori',
     common : 
     {

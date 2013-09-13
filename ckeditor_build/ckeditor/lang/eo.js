@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['eo'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Kopii',
-    	copyError : 'La sekurecagordo de via TTT-legilo ne permesas, ke la redaktilo faras kopiajn operaciojn. Bonvolu uzi la klavaron por tio (Ctrl/Cmd-C).',
-    	cut : 'Eltondi',
-    	cutError : 'La sekurecagordo de via TTT-legilo ne permesas, ke la redaktilo faras eltondajn operaciojn. Bonvolu uzi la klavaron por tio (Ctrl/Cmd-X).',
-    	paste : 'Interglui',
-    	pasteArea : 'Intergluoareo',
-    	pasteMsg : 'Bonvolu glui la tekston en la jenan areon per uzado de la klavaro (<strong>Ctrl/Cmd+V</strong>) kaj premu OK',
-    	securityMsg : 'Pro la sekurecagordo de via TTT-legilo, la redaktilo ne povas rekte atingi viajn datenojn en la poŝo. Bonvolu denove interglui la datenojn en tiun fenestron.',
-    	title : 'Interglui'
+    	confirmCleanup : 'La teksto, kiun vi volas interglui, ŝajnas esti kopiita el Word. Ĉu vi deziras purigi ĝin antaŭ intergluo?',
+    	error : 'Ne eblis purigi la intergluitajn datenojn pro interna eraro',
+    	title : 'Interglui el Word',
+    	toolbar : 'Interglui el Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Interglui kiel platan tekston',
-    	title : 'Interglui kiel platan tekston'
-    },
-    specialchar : 
-    {
-    	options : 'Opcioj pri Specialaj Signoj',
-    	title : 'Selekti Specialan Signon',
-    	toolbar : 'Enmeti Specialan Signon'
-    },
-    selectall : 
-    {
-    	toolbar : 'Elekti ĉion'
-    },
-    newpage : 
-    {
-    	toolbar : 'Nova Paĝo'
-    },
-    templates : 
-    {
-    	button : 'Ŝablonoj',
-    	emptyListMsg : '(Neniu ŝablono difinita)',
-    	insertOption : 'Anstataŭigi la nunan enhavon',
-    	options : 'Opcioj pri ŝablonoj',
-    	selectPromptMsg : 'Bonvolu selekti la ŝablonon por malfermi ĝin en la redaktilo',
-    	title : 'Enhavo de ŝablonoj'
-    },
-    colordialog : 
-    {
-    	clear : 'Forigi',
-    	highlight : 'Detaloj',
-    	options : 'Opcioj pri koloroj',
-    	selected : 'Selektita koloro',
-    	title : 'Selekti koloron'
-    },
-    preview : 
-    {
-    	preview : 'Vidigi Aspekton'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Grado',
-    		voiceLabel : 'Tipara grado',
-    		panelTitle : 'Tipara grado'
-    	},
-    	label : 'Tiparo',
-    	panelTitle : 'Tipara nomo',
-    	voiceLabel : 'Tiparo'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armena nombrado',
-    	bulletedTitle : 'Atributoj de Bula Listo',
-    	circle : 'Cirklo',
-    	decimal : 'Dekumaj Nombroj (1, 2, 3, ktp.)',
-    	decimalLeadingZero : 'Dekumaj Nombroj malantaŭ nulo (01, 02, 03, ktp.)',
-    	disc : 'Disko',
-    	georgian : 'Gruza nombrado (an, ban, gan, ktp.)',
-    	lowerAlpha : 'Minusklaj Literoj (a, b, c, d, e, ktp.)',
-    	lowerGreek : 'Grekaj Minusklaj Literoj (alpha, beta, gamma, ktp.)',
-    	lowerRoman : 'Minusklaj Romanaj Nombroj (i, ii, iii, iv, v, ktp.)',
-    	none : 'Neniu',
-    	notset : '<Defaŭlta>',
-    	numberedTitle : 'Atributoj de Numera Listo',
-    	square : 'kvadrato',
-    	start : 'Komenco',
-    	type : 'Tipo',
-    	upperAlpha : 'Majusklaj Literoj (A, B, C, D, E, ktp.)',
-    	upperRoman : 'Majusklaj Romanaj Nombroj (I, II, III, IV, V, ktp.)',
-    	validateStartNumber : 'La unua listero devas esti entjera nombro.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Citaĵo'
-    },
-    undo : 
-    {
-    	redo : 'Refari',
-    	undo : 'Malfari'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. Ĉiuj rajtoj rezervitaj.',
-    	dlgTitle : 'Pri CKEditor',
-    	help : 'Kontroli $1 por helpo.',
-    	moreInfo : 'Por informoj pri licenco, bonvolu viziti nian retpaĝaron:',
-    	title : 'Pri CKEditor',
-    	userGuide : 'CKEditor Uzindikoj'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Faldi la ilbreton',
-    	toolbarExpand : 'Malfaldi la ilbreton',
-    	toolbarGroups : 
-    	{
-    		document : 'Dokumento',
-    		clipboard : 'Poŝo/Malfari',
-    		editing : 'Redaktado',
-    		forms : 'Formularoj',
-    		basicstyles : 'Bazaj stiloj',
-    		paragraph : 'Paragrafo',
-    		links : 'Ligiloj',
-    		insert : 'Enmeti',
-    		styles : 'Stiloj',
-    		colors : 'Koloroj',
-    		tools : 'Iloj'
-    	},
-    	toolbars : 'Ilobretoj de la redaktilo'
-    },
-    scayt : 
-    {
-    	about : 'Pri OKDVT',
-    	aboutTab : 'Pri',
-    	addWord : 'Almeti la vorton',
-    	allCaps : 'Ignori la vortojn skribitajn nur per ĉefliteroj',
-    	dic_create : 'Krei',
-    	dic_delete : 'Forigi',
-    	dic_field_name : 'Vortaronomo',
-    	dic_info : 'Komence la vortaro de la uzanto estas konservita en kuketo. Tamen la kuketgrando estas limigita. Kiam la vortaro de la uzanto atingas grandon, kiu ne plu ebligas konservi ĝin en kuketo, tiam la vortaro povas esti konservata en niaj serviloj. Por konservi vian personan vortaron en nian servilon, vi devas indiki nomon por tiu vortaro. Se vi jam havas konservitan vortaron, bonvolu entajpi ties nomon kaj alklaki la restaŭrbutonon.',
-    	dic_rename : 'Renomi',
-    	dic_restore : 'Restaŭri',
-    	dictionariesTab : 'Vortaroj',
-    	disable : 'Malebligi OKDVT',
-    	emptyDic : 'La vortaronomo ne devus esti malplena.',
-    	enable : 'Ebligi OKDVT',
-    	ignore : 'Ignori',
-    	ignoreAll : 'Ignori ĉion',
-    	ignoreDomainNames : 'Ignori domajnajn nomojn',
-    	langs : 'Lingvoj',
-    	languagesTab : 'Lingvoj',
-    	mixedCase : 'Ignori vortojn kun miksa uskleco',
-    	mixedWithDigits : 'Ignori vortojn kun nombroj',
-    	moreSuggestions : 'Pli da sugestoj',
-    	opera_title : 'Ne subportata de Opera',
-    	options : 'Opcioj',
-    	optionsTab : 'Opcioj',
-    	title : 'OrtografiKontrolado Dum Vi Tajpas (OKDVT)',
-    	toggle : 'Baskuligi OKDVT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Ignori',
-    	btnIgnoreAll : 'Ignori Ĉion',
-    	btnReplace : 'Anstataŭigi',
-    	btnReplaceAll : 'Anstataŭigi Ĉion',
-    	btnUndo : 'Malfari',
-    	changeTo : 'Ŝanĝi al',
-    	errorLoading : 'Eraro en la servoelŝuto el la gastiga komputiko: %s.',
-    	ieSpellDownload : 'Ortografikontrolilo ne instalita. Ĉu vi volas elŝuti ĝin nun?',
-    	manyChanges : 'Ortografikontrolado finita: %1 vortoj korektitaj',
-    	noChanges : 'Ortografikontrolado finita: neniu vorto korektita',
-    	noMispell : 'Ortografikontrolado finita: neniu eraro trovita',
-    	noSuggestions : '- Neniu propono -',
-    	notAvailable : 'Bedaŭrinde la servo ne funkcias nuntempe.',
-    	notInDic : 'Ne trovita en la vortaro',
-    	oneChange : 'Ortografikontrolado finita: unu vorto korektita',
-    	progress : 'La ortografio estas kontrolata...',
-    	title : 'Kontroli la ortografion',
-    	toolbar : 'Kontroli la ortografion'
-    },
-    contextmenu : 
-    {
-    	options : 'Opcioj de Kunteksta Menuo'
+    	bulletedlist : 'Bula Listo',
+    	numberedlist : 'Numera Listo'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['eo'] = {
     	left : 'Ĝisrandigi maldekstren',
     	right : 'Ĝisrandigi dekstren'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Fonto'
-    },
-    format : 
-    {
-    	label : 'Formato',
-    	panelTitle : 'ParagrafFormato',
-    	tag_address : 'Adreso',
-    	tag_div : 'Normala (DIV)',
-    	tag_h1 : 'Titolo 1',
-    	tag_h2 : 'Titolo 2',
-    	tag_h3 : 'Titolo 3',
-    	tag_h4 : 'Titolo 4',
-    	tag_h5 : 'Titolo 5',
-    	tag_h6 : 'Titolo 6',
-    	tag_p : 'Normala',
-    	tag_pre : 'Formatita'
-    },
-    flash : 
-    {
-    	access : 'Atingi skriptojn',
-    	accessAlways : 'Ĉiam',
-    	accessNever : 'Neniam',
-    	accessSameDomain : 'Sama domajno',
-    	alignAbsBottom : 'Absoluta Malsupro',
-    	alignAbsMiddle : 'Absoluta Centro',
-    	alignBaseline : 'TekstoMalsupro',
-    	alignTextTop : 'TekstoSupro',
-    	bgcolor : 'Fona Koloro',
-    	chkFull : 'Permesi tutekranon',
-    	chkLoop : 'Iteracio',
-    	chkMenu : 'Ebligi flaŝmenuon',
-    	chkPlay : 'Aŭtomata legado',
-    	flashvars : 'Variabloj por Flaŝo',
-    	hSpace : 'Horizontala Spaco',
-    	properties : 'Flaŝatributoj',
-    	propertiesTab : 'Atributoj',
-    	quality : 'Kvalito',
-    	qualityAutoHigh : 'Aŭtomate alta',
-    	qualityAutoLow : 'Aŭtomate malalta',
-    	qualityBest : 'Plej bona',
-    	qualityHigh : 'Alta',
-    	qualityLow : 'Malalta',
-    	qualityMedium : 'Meza',
-    	scale : 'Skalo',
-    	scaleAll : 'Montri ĉion',
-    	scaleFit : 'Origina grando',
-    	scaleNoBorder : 'Neniu bordero',
-    	title : 'Flaŝatributoj',
-    	vSpace : 'Vertikala Spaco',
-    	validateHSpace : 'Horizontala Spaco devas esti nombro.',
-    	validateSrc : 'Bonvolu entajpi la retadreson (URL)',
-    	validateVSpace : 'Vertikala Spaco devas esti nombro.',
-    	windowMode : 'Fenestra reĝimo',
-    	windowModeOpaque : 'Opaka',
-    	windowModeTransparent : 'Travidebla',
-    	windowModeWindow : 'Fenestro'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Forigi Formaton'
-    },
-    iframe : 
-    {
-    	border : 'Montri borderon de kadro (frame)',
-    	noUrl : 'Bonvolu entajpi la retadreson de la ligilo al la enlinia kadro (IFrame)',
-    	scrolling : 'Ebligi rulumskalon',
-    	title : 'Atributoj de la enlinia kadro (IFrame)',
-    	toolbar : 'Enlinia kadro (IFrame)'
-    },
-    link : 
-    {
-    	acccessKey : 'Fulmoklavo',
-    	advanced : 'Speciala',
-    	advisoryContentType : 'Enhavotipo',
-    	advisoryTitle : 'Priskriba Titolo',
-    	anchor : 
-    	{
-    		toolbar : 'Ankro',
-    		menu : 'Enmeti/Ŝanĝi Ankron',
-    		title : 'Ankraj Atributoj',
-    		name : 'Ankra Nomo',
-    		errorName : 'Bv entajpi la ankran nomon',
-    		remove : 'Forigi Ankron'
-    	},
-    	anchorId : 'Per Elementidentigilo',
-    	anchorName : 'Per Ankronomo',
-    	charset : 'Signaro de la Ligita Rimedo',
-    	cssClasses : 'Klasoj de Stilfolioj',
-    	emailAddress : 'Retpoŝto',
-    	emailBody : 'Mesaĝa korpo',
-    	emailSubject : 'Mesaĝa Temo',
-    	id : 'Id',
-    	info : 'Informoj pri la Ligilo',
-    	langCode : 'Lingva Kodo',
-    	langDir : 'Skribdirekto',
-    	langDirLTR : 'De maldekstro dekstren (LTR)',
-    	langDirRTL : 'De dekstro maldekstren (RTL)',
-    	menu : 'Ŝanĝi Ligilon',
-    	name : 'Nomo',
-    	noAnchors : '<Ne disponeblas ankroj en la dokumento>',
-    	noEmail : 'Bonvolu entajpi la retpoŝtadreson',
-    	noUrl : 'Bonvolu entajpi la URL-on',
-    	other : '<alia>',
-    	popupDependent : 'Dependa (Netscape)',
-    	popupFeatures : 'Atributoj de la Ŝprucfenestro',
-    	popupFullScreen : 'Tutekrane (IE)',
-    	popupLeft : 'Maldekstra Pozicio',
-    	popupLocationBar : 'Adresobreto',
-    	popupMenuBar : 'Menubreto',
-    	popupResizable : 'Dimensiŝanĝebla',
-    	popupScrollBars : 'Rulumskaloj',
-    	popupStatusBar : 'Statobreto',
-    	popupToolbar : 'Ilobreto',
-    	popupTop : 'Supra Pozicio',
-    	rel : 'Rilato',
-    	selectAnchor : 'Elekti Ankron',
-    	styles : 'Stilo',
-    	tabIndex : 'Taba Indekso',
-    	target : 'Celo',
-    	targetFrame : '<kadro>',
-    	targetFrameName : 'Nomo de CelKadro',
-    	targetPopup : '<ŝprucfenestro>',
-    	targetPopupName : 'Nomo de Ŝprucfenestro',
-    	title : 'Ligilo',
-    	toAnchor : 'Ankri en tiu ĉi paĝo',
-    	toEmail : 'Retpoŝto',
-    	toUrl : 'URL',
-    	toolbar : 'Enmeti/Ŝanĝi Ligilon',
-    	type : 'Tipo de Ligilo',
-    	unlink : 'Forigi Ligilon',
-    	upload : 'Alŝuti'
-    },
-    smiley : 
-    {
-    	options : 'Opcioj pri mienvinjetoj',
-    	title : 'Enmeti Mienvinjeton',
-    	toolbar : 'Mienvinjeto'
-    },
-    print : 
-    {
-    	toolbar : 'Presi'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Priskriba Titolo',
-    	cssClassInputLabel : 'Stilfolioklasoj',
-    	edit : 'Redakti Div',
-    	inlineStyleInputLabel : 'Enlinia stilo',
-    	langDirLTRLabel : 'Maldekstre dekstren (angle LTR)',
-    	langDirLabel : 'Skribdirekto',
-    	langDirRTLLabel : 'Dekstre maldekstren (angle RTL)',
-    	languageCodeInputLabel : ' Lingvokodo',
-    	remove : 'Forigi Div',
-    	styleSelectLabel : 'Stilo',
-    	title : 'Krei DIV ujon',
-    	toolbar : 'Krei DIV ujon'
-    },
-    indent : 
-    {
-    	indent : 'Pligrandigi Krommarĝenon',
-    	outdent : 'Malpligrandigi Krommarĝenon'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'La teksto, kiun vi volas interglui, ŝajnas esti kopiita el Word. Ĉu vi deziras purigi ĝin antaŭ intergluo?',
-    	error : 'Ne eblis purigi la intergluitajn datenojn pro interna eraro',
-    	title : 'Interglui el Word',
-    	toolbar : 'Interglui el Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'Aŭtomata',
-    	bgColorTitle : 'Fona Koloro',
-    	colors : 
-    	{
-    		'000' : 'Nigra',
-    		'800000' : 'Kaŝtankolora',
-    		'8B4513' : 'Mezbruna',
-    		'2F4F4F' : 'Ardezgriza',
-    		'008080' : 'Marĉanaskolora',
-    		'000080' : 'Maristblua',
-    		'4B0082' : 'Indigokolora',
-    		'696969' : 'Malhelgriza',
-    		B22222 : 'Brikruĝa',
-    		A52A2A : 'Bruna',
-    		DAA520 : 'Senbrilorkolora',
-    		'006400' : 'Malhelverda',
-    		'40E0D0' : 'Turkisblua',
-    		'0000CD' : 'Reĝblua',
-    		'800080' : 'Purpura',
-    		'808080' : 'Griza',
-    		F00 : 'Ruĝa',
-    		FF8C00 : 'Malheloranĝkolora',
-    		FFD700 : 'Orkolora',
-    		'008000' : 'Verda',
-    		'0FF' : 'Verdblua',
-    		'00F' : 'Blua',
-    		EE82EE : 'Viola',
-    		A9A9A9 : 'Mezgriza',
-    		FFA07A : 'Salmokolora',
-    		FFA500 : 'Oranĝkolora',
-    		FFFF00 : 'Flava',
-    		'00FF00' : 'Limetkolora',
-    		AFEEEE : 'Helturkiskolora',
-    		ADD8E6 : 'Helblua',
-    		DDA0DD : 'Prunkolora',
-    		D3D3D3 : 'Helgriza',
-    		FFF0F5 : 'Lavendkolora vangoŝminko',
-    		FAEBD7 : 'Antikvablanka',
-    		FFFFE0 : 'Helflava',
-    		F0FFF0 : 'Vintromelonkolora',
-    		F0FFFF : 'Lazura',
-    		F0F8FF : 'Aliceblua',
-    		E6E6FA : 'Lavendkolora',
-    		FFF : 'Blanka'
-    	},
-    	more : 'Pli da Koloroj...',
-    	panelTitle : 'Koloroj',
-    	textColorTitle : 'Teksta Koloro'
-    },
-    list : 
-    {
-    	bulletedlist : 'Bula Listo',
-    	numberedlist : 'Numera Listo'
+    	toolbar : 'Konservi'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['eo'] = {
     	validateHSpace : 'La horizontala spaco devas esti entjera nombro.',
     	validateVSpace : 'La vertikala spaco devas esti entjera nombro.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Serĉi',
-    	findOptions : 'Opcioj pri Serĉado',
-    	findWhat : 'Serĉi:',
-    	matchCase : 'Kongruigi Usklecon',
-    	matchCyclic : 'Cikla Serĉado',
-    	matchWord : 'Tuta Vorto',
-    	notFoundMsg : 'La celteksto ne estas trovita.',
-    	replace : 'Anstataŭigi',
-    	replaceAll : 'Anstataŭigi Ĉion',
-    	replaceSuccessMsg : '%1 anstataŭigita(j) apero(j).',
-    	replaceWith : 'Anstataŭigi per:',
-    	title : 'Serĉi kaj Anstataŭigi'
+    	alt : 'Paĝavanco',
+    	toolbar : 'Enmeti Paĝavancon por Presado'
     },
     showblocks : 
     {
     	toolbar : 'Montri la blokojn'
+    },
+    indent : 
+    {
+    	indent : 'Pligrandigi Krommarĝenon',
+    	outdent : 'Malpligrandigi Krommarĝenon'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['eo'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Enmeti Horizontalan Linion'
-    },
-    pagebreak : 
-    {
-    	alt : 'Paĝavanco',
-    	toolbar : 'Enmeti Paĝavancon por Presado'
-    },
-    stylescombo : 
-    {
-    	label : 'Stiloj',
-    	panelTitle : 'Stiloj pri enpaĝigo',
-    	panelTitle1 : 'Stiloj de blokoj',
-    	panelTitle2 : 'Enliniaj Stiloj',
-    	panelTitle3 : 'Stiloj de objektoj'
-    },
     bidi : 
     {
     	ltr : 'Tekstdirekto de maldekstre dekstren',
     	rtl : 'Tekstdirekto de dekstre maldekstren'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Grasa',
-    	italic : 'Kursiva',
-    	strike : 'Trastreko',
-    	subscript : 'Suba indico',
-    	superscript : 'Supra indico',
-    	underline : 'Substreko'
+    	eleLabel : 'Vojo al Elementoj',
+    	eleTitle : '%1 elementoj'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Ankro',
+    	flash : 'FlaŝAnimacio',
+    	hiddenfield : 'Kaŝita kampo',
+    	iframe : 'Enlinia Kadro (IFrame)',
+    	unknown : 'Nekonata objekto'
+    },
+    smiley : 
+    {
+    	options : 'Opcioj pri mienvinjetoj',
+    	title : 'Enmeti Mienvinjeton',
+    	toolbar : 'Mienvinjeto'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. Ĉiuj rajtoj rezervitaj.',
+    	dlgTitle : 'Pri CKEditor',
+    	help : 'Kontroli $1 por helpo.',
+    	moreInfo : 'Por informoj pri licenco, bonvolu viziti nian retpaĝaron:',
+    	title : 'Pri CKEditor',
+    	userGuide : 'CKEditor Uzindikoj'
+    },
+    newpage : 
+    {
+    	toolbar : 'Nova Paĝo'
+    },
+    format : 
+    {
+    	label : 'Formato',
+    	panelTitle : 'ParagrafFormato',
+    	tag_address : 'Adreso',
+    	tag_div : 'Normala (DIV)',
+    	tag_h1 : 'Titolo 1',
+    	tag_h2 : 'Titolo 2',
+    	tag_h3 : 'Titolo 3',
+    	tag_h4 : 'Titolo 4',
+    	tag_h5 : 'Titolo 5',
+    	tag_h6 : 'Titolo 6',
+    	tag_p : 'Normala',
+    	tag_pre : 'Formatita'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Forigi Formaton'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['eo'] = {
     	widthPx : 'Rastrumeroj',
     	widthUnit : 'unuo de larĝo'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Enmeti paragrafon ĉi-tien'
+    	options : 'Opcioj pri Specialaj Signoj',
+    	title : 'Selekti Specialan Signon',
+    	toolbar : 'Enmeti Specialan Signon'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Konservi'
+    	armenian : 'Armena nombrado',
+    	bulletedTitle : 'Atributoj de Bula Listo',
+    	circle : 'Cirklo',
+    	decimal : 'Dekumaj Nombroj (1, 2, 3, ktp.)',
+    	decimalLeadingZero : 'Dekumaj Nombroj malantaŭ nulo (01, 02, 03, ktp.)',
+    	disc : 'Disko',
+    	georgian : 'Gruza nombrado (an, ban, gan, ktp.)',
+    	lowerAlpha : 'Minusklaj Literoj (a, b, c, d, e, ktp.)',
+    	lowerGreek : 'Grekaj Minusklaj Literoj (alpha, beta, gamma, ktp.)',
+    	lowerRoman : 'Minusklaj Romanaj Nombroj (i, ii, iii, iv, v, ktp.)',
+    	none : 'Neniu',
+    	notset : '<Defaŭlta>',
+    	numberedTitle : 'Atributoj de Numera Listo',
+    	square : 'kvadrato',
+    	start : 'Komenco',
+    	type : 'Tipo',
+    	upperAlpha : 'Majusklaj Literoj (A, B, C, D, E, ktp.)',
+    	upperRoman : 'Majusklaj Romanaj Nombroj (I, II, III, IV, V, ktp.)',
+    	validateStartNumber : 'La unua listero devas esti entjera nombro.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Ankro',
-    	flash : 'FlaŝAnimacio',
-    	hiddenfield : 'Kaŝita kampo',
-    	iframe : 'Enlinia Kadro (IFrame)',
-    	unknown : 'Nekonata objekto'
+    	border : 'Montri borderon de kadro (frame)',
+    	noUrl : 'Bonvolu entajpi la retadreson de la ligilo al la enlinia kadro (IFrame)',
+    	scrolling : 'Ebligi rulumskalon',
+    	title : 'Atributoj de la enlinia kadro (IFrame)',
+    	toolbar : 'Enlinia kadro (IFrame)'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Vojo al Elementoj',
-    	eleTitle : '%1 elementoj'
+    	access : 'Atingi skriptojn',
+    	accessAlways : 'Ĉiam',
+    	accessNever : 'Neniam',
+    	accessSameDomain : 'Sama domajno',
+    	alignAbsBottom : 'Absoluta Malsupro',
+    	alignAbsMiddle : 'Absoluta Centro',
+    	alignBaseline : 'TekstoMalsupro',
+    	alignTextTop : 'TekstoSupro',
+    	bgcolor : 'Fona Koloro',
+    	chkFull : 'Permesi tutekranon',
+    	chkLoop : 'Iteracio',
+    	chkMenu : 'Ebligi flaŝmenuon',
+    	chkPlay : 'Aŭtomata legado',
+    	flashvars : 'Variabloj por Flaŝo',
+    	hSpace : 'Horizontala Spaco',
+    	properties : 'Flaŝatributoj',
+    	propertiesTab : 'Atributoj',
+    	quality : 'Kvalito',
+    	qualityAutoHigh : 'Aŭtomate alta',
+    	qualityAutoLow : 'Aŭtomate malalta',
+    	qualityBest : 'Plej bona',
+    	qualityHigh : 'Alta',
+    	qualityLow : 'Malalta',
+    	qualityMedium : 'Meza',
+    	scale : 'Skalo',
+    	scaleAll : 'Montri ĉion',
+    	scaleFit : 'Origina grando',
+    	scaleNoBorder : 'Neniu bordero',
+    	title : 'Flaŝatributoj',
+    	vSpace : 'Vertikala Spaco',
+    	validateHSpace : 'Horizontala Spaco devas esti nombro.',
+    	validateSrc : 'Bonvolu entajpi la retadreson (URL)',
+    	validateVSpace : 'Vertikala Spaco devas esti nombro.',
+    	windowMode : 'Fenestra reĝimo',
+    	windowModeOpaque : 'Opaka',
+    	windowModeTransparent : 'Travidebla',
+    	windowModeWindow : 'Fenestro'
+    },
+    find : 
+    {
+    	find : 'Serĉi',
+    	findOptions : 'Opcioj pri Serĉado',
+    	findWhat : 'Serĉi:',
+    	matchCase : 'Kongruigi Usklecon',
+    	matchCyclic : 'Cikla Serĉado',
+    	matchWord : 'Tuta Vorto',
+    	notFoundMsg : 'La celteksto ne estas trovita.',
+    	replace : 'Anstataŭigi',
+    	replaceAll : 'Anstataŭigi Ĉion',
+    	replaceSuccessMsg : '%1 anstataŭigita(j) apero(j).',
+    	replaceWith : 'Anstataŭigi per:',
+    	title : 'Serĉi kaj Anstataŭigi'
+    },
+    colorbutton : 
+    {
+    	auto : 'Aŭtomata',
+    	bgColorTitle : 'Fona Koloro',
+    	colors : 
+    	{
+    		'000' : 'Nigra',
+    		'800000' : 'Kaŝtankolora',
+    		'8B4513' : 'Mezbruna',
+    		'2F4F4F' : 'Ardezgriza',
+    		'008080' : 'Marĉanaskolora',
+    		'000080' : 'Maristblua',
+    		'4B0082' : 'Indigokolora',
+    		'696969' : 'Malhelgriza',
+    		B22222 : 'Brikruĝa',
+    		A52A2A : 'Bruna',
+    		DAA520 : 'Senbrilorkolora',
+    		'006400' : 'Malhelverda',
+    		'40E0D0' : 'Turkisblua',
+    		'0000CD' : 'Reĝblua',
+    		'800080' : 'Purpura',
+    		'808080' : 'Griza',
+    		F00 : 'Ruĝa',
+    		FF8C00 : 'Malheloranĝkolora',
+    		FFD700 : 'Orkolora',
+    		'008000' : 'Verda',
+    		'0FF' : 'Verdblua',
+    		'00F' : 'Blua',
+    		EE82EE : 'Viola',
+    		A9A9A9 : 'Mezgriza',
+    		FFA07A : 'Salmokolora',
+    		FFA500 : 'Oranĝkolora',
+    		FFFF00 : 'Flava',
+    		'00FF00' : 'Limetkolora',
+    		AFEEEE : 'Helturkiskolora',
+    		ADD8E6 : 'Helblua',
+    		DDA0DD : 'Prunkolora',
+    		D3D3D3 : 'Helgriza',
+    		FFF0F5 : 'Lavendkolora vangoŝminko',
+    		FAEBD7 : 'Antikvablanka',
+    		FFFFE0 : 'Helflava',
+    		F0FFF0 : 'Vintromelonkolora',
+    		F0FFFF : 'Lazura',
+    		F0F8FF : 'Aliceblua',
+    		E6E6FA : 'Lavendkolora',
+    		FFF : 'Blanka'
+    	},
+    	more : 'Pli da Koloroj...',
+    	panelTitle : 'Koloroj',
+    	textColorTitle : 'Teksta Koloro'
+    },
+    undo : 
+    {
+    	redo : 'Refari',
+    	undo : 'Malfari'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Grado',
+    		voiceLabel : 'Tipara grado',
+    		panelTitle : 'Tipara grado'
+    	},
+    	label : 'Tiparo',
+    	panelTitle : 'Tipara nomo',
+    	voiceLabel : 'Tiparo'
     },
     maximize : 
     {
     	maximize : 'Pligrandigi',
     	minimize : 'Malgrandigi'
     },
+    basicstyles : 
+    {
+    	bold : 'Grasa',
+    	italic : 'Kursiva',
+    	strike : 'Trastreko',
+    	subscript : 'Suba indico',
+    	superscript : 'Supra indico',
+    	underline : 'Substreko'
+    },
+    magicline : 
+    {
+    	title : 'Enmeti paragrafon ĉi-tien'
+    },
+    print : 
+    {
+    	toolbar : 'Presi'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Ignori',
+    	btnIgnoreAll : 'Ignori Ĉion',
+    	btnReplace : 'Anstataŭigi',
+    	btnReplaceAll : 'Anstataŭigi Ĉion',
+    	btnUndo : 'Malfari',
+    	changeTo : 'Ŝanĝi al',
+    	errorLoading : 'Eraro en la servoelŝuto el la gastiga komputiko: %s.',
+    	ieSpellDownload : 'Ortografikontrolilo ne instalita. Ĉu vi volas elŝuti ĝin nun?',
+    	manyChanges : 'Ortografikontrolado finita: %1 vortoj korektitaj',
+    	noChanges : 'Ortografikontrolado finita: neniu vorto korektita',
+    	noMispell : 'Ortografikontrolado finita: neniu eraro trovita',
+    	noSuggestions : '- Neniu propono -',
+    	notAvailable : 'Bedaŭrinde la servo ne funkcias nuntempe.',
+    	notInDic : 'Ne trovita en la vortaro',
+    	oneChange : 'Ortografikontrolado finita: unu vorto korektita',
+    	progress : 'La ortografio estas kontrolata...',
+    	title : 'Kontroli la ortografion',
+    	toolbar : 'Kontroli la ortografion'
+    },
+    clipboard : 
+    {
+    	copy : 'Kopii',
+    	copyError : 'La sekurecagordo de via TTT-legilo ne permesas, ke la redaktilo faras kopiajn operaciojn. Bonvolu uzi la klavaron por tio (Ctrl/Cmd-C).',
+    	cut : 'Eltondi',
+    	cutError : 'La sekurecagordo de via TTT-legilo ne permesas, ke la redaktilo faras eltondajn operaciojn. Bonvolu uzi la klavaron por tio (Ctrl/Cmd-X).',
+    	paste : 'Interglui',
+    	pasteArea : 'Intergluoareo',
+    	pasteMsg : 'Bonvolu glui la tekston en la jenan areon per uzado de la klavaro (<strong>Ctrl/Cmd+V</strong>) kaj premu OK',
+    	securityMsg : 'Pro la sekurecagordo de via TTT-legilo, la redaktilo ne povas rekte atingi viajn datenojn en la poŝo. Bonvolu denove interglui la datenojn en tiun fenestron.',
+    	title : 'Interglui'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Fonto'
+    },
+    scayt : 
+    {
+    	about : 'Pri OKDVT',
+    	aboutTab : 'Pri',
+    	addWord : 'Almeti la vorton',
+    	allCaps : 'Ignori la vortojn skribitajn nur per ĉefliteroj',
+    	dic_create : 'Krei',
+    	dic_delete : 'Forigi',
+    	dic_field_name : 'Vortaronomo',
+    	dic_info : 'Komence la vortaro de la uzanto estas konservita en kuketo. Tamen la kuketgrando estas limigita. Kiam la vortaro de la uzanto atingas grandon, kiu ne plu ebligas konservi ĝin en kuketo, tiam la vortaro povas esti konservata en niaj serviloj. Por konservi vian personan vortaron en nian servilon, vi devas indiki nomon por tiu vortaro. Se vi jam havas konservitan vortaron, bonvolu entajpi ties nomon kaj alklaki la restaŭrbutonon.',
+    	dic_rename : 'Renomi',
+    	dic_restore : 'Restaŭri',
+    	dictionariesTab : 'Vortaroj',
+    	disable : 'Malebligi OKDVT',
+    	emptyDic : 'La vortaronomo ne devus esti malplena.',
+    	enable : 'Ebligi OKDVT',
+    	ignore : 'Ignori',
+    	ignoreAll : 'Ignori ĉion',
+    	ignoreDomainNames : 'Ignori domajnajn nomojn',
+    	langs : 'Lingvoj',
+    	languagesTab : 'Lingvoj',
+    	mixedCase : 'Ignori vortojn kun miksa uskleco',
+    	mixedWithDigits : 'Ignori vortojn kun nombroj',
+    	moreSuggestions : 'Pli da sugestoj',
+    	opera_title : 'Ne subportata de Opera',
+    	options : 'Opcioj',
+    	optionsTab : 'Opcioj',
+    	title : 'OrtografiKontrolado Dum Vi Tajpas (OKDVT)',
+    	toggle : 'Baskuligi OKDVT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Enmeti Horizontalan Linion'
+    },
+    pastetext : 
+    {
+    	button : 'Interglui kiel platan tekston',
+    	title : 'Interglui kiel platan tekston'
+    },
+    contextmenu : 
+    {
+    	options : 'Opcioj de Kunteksta Menuo'
+    },
+    templates : 
+    {
+    	button : 'Ŝablonoj',
+    	emptyListMsg : '(Neniu ŝablono difinita)',
+    	insertOption : 'Anstataŭigi la nunan enhavon',
+    	options : 'Opcioj pri ŝablonoj',
+    	selectPromptMsg : 'Bonvolu selekti la ŝablonon por malfermi ĝin en la redaktilo',
+    	title : 'Enhavo de ŝablonoj'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Priskriba Titolo',
+    	cssClassInputLabel : 'Stilfolioklasoj',
+    	edit : 'Redakti Div',
+    	inlineStyleInputLabel : 'Enlinia stilo',
+    	langDirLTRLabel : 'Maldekstre dekstren (angle LTR)',
+    	langDirLabel : 'Skribdirekto',
+    	langDirRTLLabel : 'Dekstre maldekstren (angle RTL)',
+    	languageCodeInputLabel : ' Lingvokodo',
+    	remove : 'Forigi Div',
+    	styleSelectLabel : 'Stilo',
+    	title : 'Krei DIV ujon',
+    	toolbar : 'Krei DIV ujon'
+    },
+    preview : 
+    {
+    	preview : 'Vidigi Aspekton'
+    },
+    colordialog : 
+    {
+    	clear : 'Forigi',
+    	highlight : 'Detaloj',
+    	options : 'Opcioj pri koloroj',
+    	selected : 'Selektita koloro',
+    	title : 'Selekti koloron'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Faldi la ilbreton',
+    	toolbarExpand : 'Malfaldi la ilbreton',
+    	toolbarGroups : 
+    	{
+    		document : 'Dokumento',
+    		clipboard : 'Poŝo/Malfari',
+    		editing : 'Redaktado',
+    		forms : 'Formularoj',
+    		basicstyles : 'Bazaj stiloj',
+    		paragraph : 'Paragrafo',
+    		links : 'Ligiloj',
+    		insert : 'Enmeti',
+    		styles : 'Stiloj',
+    		colors : 'Koloroj',
+    		tools : 'Iloj'
+    	},
+    	toolbars : 'Ilobretoj de la redaktilo'
+    },
+    selectall : 
+    {
+    	toolbar : 'Elekti ĉion'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Citaĵo'
+    },
+    link : 
+    {
+    	acccessKey : 'Fulmoklavo',
+    	advanced : 'Speciala',
+    	advisoryContentType : 'Enhavotipo',
+    	advisoryTitle : 'Priskriba Titolo',
+    	anchor : 
+    	{
+    		toolbar : 'Ankro',
+    		menu : 'Enmeti/Ŝanĝi Ankron',
+    		title : 'Ankraj Atributoj',
+    		name : 'Ankra Nomo',
+    		errorName : 'Bv entajpi la ankran nomon',
+    		remove : 'Forigi Ankron'
+    	},
+    	anchorId : 'Per Elementidentigilo',
+    	anchorName : 'Per Ankronomo',
+    	charset : 'Signaro de la Ligita Rimedo',
+    	cssClasses : 'Klasoj de Stilfolioj',
+    	emailAddress : 'Retpoŝto',
+    	emailBody : 'Mesaĝa korpo',
+    	emailSubject : 'Mesaĝa Temo',
+    	id : 'Id',
+    	info : 'Informoj pri la Ligilo',
+    	langCode : 'Lingva Kodo',
+    	langDir : 'Skribdirekto',
+    	langDirLTR : 'De maldekstro dekstren (LTR)',
+    	langDirRTL : 'De dekstro maldekstren (RTL)',
+    	menu : 'Ŝanĝi Ligilon',
+    	name : 'Nomo',
+    	noAnchors : '<Ne disponeblas ankroj en la dokumento>',
+    	noEmail : 'Bonvolu entajpi la retpoŝtadreson',
+    	noUrl : 'Bonvolu entajpi la URL-on',
+    	other : '<alia>',
+    	popupDependent : 'Dependa (Netscape)',
+    	popupFeatures : 'Atributoj de la Ŝprucfenestro',
+    	popupFullScreen : 'Tutekrane (IE)',
+    	popupLeft : 'Maldekstra Pozicio',
+    	popupLocationBar : 'Adresobreto',
+    	popupMenuBar : 'Menubreto',
+    	popupResizable : 'Dimensiŝanĝebla',
+    	popupScrollBars : 'Rulumskaloj',
+    	popupStatusBar : 'Statobreto',
+    	popupToolbar : 'Ilobreto',
+    	popupTop : 'Supra Pozicio',
+    	rel : 'Rilato',
+    	selectAnchor : 'Elekti Ankron',
+    	styles : 'Stilo',
+    	tabIndex : 'Taba Indekso',
+    	target : 'Celo',
+    	targetFrame : '<kadro>',
+    	targetFrameName : 'Nomo de CelKadro',
+    	targetPopup : '<ŝprucfenestro>',
+    	targetPopupName : 'Nomo de Ŝprucfenestro',
+    	title : 'Ligilo',
+    	toAnchor : 'Ankri en tiu ĉi paĝo',
+    	toEmail : 'Retpoŝto',
+    	toUrl : 'URL',
+    	toolbar : 'Enmeti/Ŝanĝi Ligilon',
+    	type : 'Tipo de Ligilo',
+    	unlink : 'Forigi Ligilon',
+    	upload : 'Alŝuti'
+    },
+    stylescombo : 
+    {
+    	label : 'Stiloj',
+    	panelTitle : 'Stiloj pri enpaĝigo',
+    	panelTitle1 : 'Stiloj de blokoj',
+    	panelTitle2 : 'Enliniaj Stiloj',
+    	panelTitle3 : 'Stiloj de objektoj'
+    },
+    dir : 'ltr',
     editor : 'Redaktilo por Riĉiga Teksto',
     common : 
     {

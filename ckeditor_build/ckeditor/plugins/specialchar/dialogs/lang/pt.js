@@ -1,34 +1,34 @@
 ﻿/**
  * @license Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
- * For licensing, see LICENSE.md or http://ckeditor.com/license
+ * For licensing, see LICENSE.html or http://ckeditor.com/license
  */
 
 CKEDITOR.plugins.setLang( 'specialchar', 'pt', {
 	euro: 'Símbolo do Euro',
-	lsquo: 'Aspa esquerda simples',
-	rsquo: 'Aspa direita simples',
-	ldquo: 'Aspa esquerda dupla',
-	rdquo: 'Aspa direita dupla',
+	lsquo: 'Aspas simples pra Esquerda',
+	rsquo: 'Aspas simples pra Direita',
+	ldquo: 'Aspas duplas pra Esquerda',
+	rdquo: 'Aspas duplas pra Direita',
 	ndash: 'Travessão Simples',
 	mdash: 'Travessão Longo',
 	iexcl: 'Ponto de exclamação invertido',
 	cent: 'Símbolo do Cêntimo',
 	pound: 'Símbolo da Libra',
-	curren: 'Símbolo de Moeda',
+	curren: 'Símbolo da Moeda',
 	yen: 'Símbolo do Iene',
 	brvbar: 'Barra quebrada',
 	sect: 'Símbolo de Secção',
 	uml: 'Trema',
 	copy: 'Símbolo dos Direitos de Autor',
 	ordf: 'Indicador ordinal feminino',
-	laquo: 'Aspa esquerda ângulo duplo',
+	laquo: 'Aspas ângulo duplo pra Esquerda',
 	not: 'Não Símbolo',
 	reg: 'Símbolo de Registado',
 	macr: 'Mácron',
 	deg: 'Símbolo de Grau',
 	sup2: 'Expoente 2',
 	sup3: 'Expoente 3',
-	acute: 'Acento agudo',
+	acute: 'Acento Agudo',
 	micro: 'Símbolo de Micro',
 	para: 'Símbolo de Parágrafo',
 	middot: 'Ponto do Meio',
@@ -110,16 +110,16 @@ CKEDITOR.plugins.setLang( 'specialchar', 'pt', {
 	'374': 'Letra maiúscula latina Y com circunflexo',
 	'373': 'Letra minúscula latina w com circunflexo',
 	'375': 'Letra minúscula latina y com circunflexo',
-	sbquo: 'Aspa Simples inferior-9',
-	'8219': 'Aspa Simples superior invertida-9',
-	bdquo: 'Aspa Duplas inferior-9',
+	sbquo: 'Single low-9 quotation mark', // MISSING
+	'8219': 'Single high-reversed-9 quotation mark', // MISSING
+	bdquo: 'Double low-9 quotation mark', // MISSING
 	hellip: 'Elipse Horizontal ',
 	trade: 'Símbolo de Marca Registada',
-	'9658': 'Ponteiro preto direito',
+	'9658': 'Black right-pointing pointer', // MISSING
 	bull: 'Marca',
-	rarr: 'Seta para a direita',
-	rArr: 'Seta dupla para a direita',
-	hArr: 'Seta dupla direita esquerda',
-	diams: 'Naipe diamante preto',
+	rarr: 'Rightwards arrow', // MISSING
+	rArr: 'Rightwards double arrow', // MISSING
+	hArr: 'Left right double arrow', // MISSING
+	diams: 'Black diamond suit', // MISSING
 	asymp: 'Quase igual a '
 });

@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['vi'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Sao chép',
-    	copyError : 'Các thiết lập bảo mật của trình duyệt không cho phép trình biên tập tự động thực thi lệnh sao chép. Hãy sử dụng bàn phím cho lệnh này (Ctrl/Cmd+C).',
-    	cut : 'Cắt',
-    	cutError : 'Các thiết lập bảo mật của trình duyệt không cho phép trình biên tập tự động thực thi lệnh cắt. Hãy sử dụng bàn phím cho lệnh này (Ctrl/Cmd+X).',
-    	paste : 'Dán',
-    	pasteArea : 'Khu vực dán',
-    	pasteMsg : 'Hãy dán nội dung vào trong khung bên dưới, sử dụng tổ hợp phím (<STRONG>Ctrl/Cmd+V</STRONG>) và nhấn vào nút <STRONG>Đồng ý</STRONG>.',
-    	securityMsg : 'Do thiết lập bảo mật của trình duyệt nên trình biên tập không thể truy cập trực tiếp vào nội dung đã sao chép. Bạn cần phải dán lại nội dung vào cửa sổ này.',
-    	title : 'Dán'
+    	confirmCleanup : 'Văn bản bạn muốn dán có kèm định dạng của Word. Bạn có muốn loại bỏ định dạng Word trước khi dán?',
+    	error : 'Không thể để làm sạch các dữ liệu dán do một lỗi nội bộ',
+    	title : 'Dán với định dạng Word',
+    	toolbar : 'Dán với định dạng Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Dán theo định dạng văn bản thuần',
-    	title : 'Dán theo định dạng văn bản thuần'
-    },
-    specialchar : 
-    {
-    	options : 'Tùy chọn các ký tự đặc biệt',
-    	title : 'Hãy chọn ký tự đặc biệt',
-    	toolbar : 'Chèn ký tự đặc biệt'
-    },
-    selectall : 
-    {
-    	toolbar : 'Chọn tất cả'
-    },
-    newpage : 
-    {
-    	toolbar : 'Trang mới'
-    },
-    templates : 
-    {
-    	button : 'Mẫu dựng sẵn',
-    	emptyListMsg : '(Không có mẫu dựng sẵn nào được định nghĩa)',
-    	insertOption : 'Thay thế nội dung hiện tại',
-    	options : 'Tùy chọn mẫu dựng sẵn',
-    	selectPromptMsg : 'Hãy chọn mẫu dựng sẵn để mở trong trình biên tập<br>(nội dung hiện tại sẽ bị mất):',
-    	title : 'Nội dung Mẫu dựng sẵn'
-    },
-    colordialog : 
-    {
-    	clear : 'Xóa bỏ',
-    	highlight : 'Màu chọn',
-    	options : 'Tùy chọn màu',
-    	selected : 'Màu đã chọn',
-    	title : 'Chọn màu'
-    },
-    preview : 
-    {
-    	preview : 'Xem trước'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Cỡ chữ',
-    		voiceLabel : 'Kích cỡ phông',
-    		panelTitle : 'Cỡ chữ'
-    	},
-    	label : 'Phông',
-    	panelTitle : 'Phông',
-    	voiceLabel : 'Phông'
-    },
-    liststyle : 
-    {
-    	armenian : 'Số theo kiểu Armenian',
-    	bulletedTitle : 'Thuộc tính danh sách không thứ tự',
-    	circle : 'Khuyên tròn',
-    	decimal : 'Kiểu số (1, 2, 3 ...)',
-    	decimalLeadingZero : 'Kiểu số (01, 02, 03...)',
-    	disc : 'Hình đĩa',
-    	georgian : 'Số theo kiểu Georgian (an, ban, gan...)',
-    	lowerAlpha : 'Kiểu abc thường (a, b, c, d, e...)',
-    	lowerGreek : 'Kiểu Hy Lạp (alpha, beta, gamma...)',
-    	lowerRoman : 'Số La Mã kiểu thường (i, ii, iii, iv, v...)',
-    	none : 'Không gì cả',
-    	notset : '<không thiết lập>',
-    	numberedTitle : 'Thuộc tính danh sách có thứ tự',
-    	square : 'Hình vuông',
-    	start : 'Bắt đầu',
-    	type : 'Kiểu loại',
-    	upperAlpha : 'Kiểu ABC HOA (A, B, C, D, E...)',
-    	upperRoman : 'Số La Mã kiểu HOA (I, II, III, IV, V...)',
-    	validateStartNumber : 'Số bắt đầu danh sách phải là một số nguyên.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Khối trích dẫn'
-    },
-    undo : 
-    {
-    	redo : 'Làm lại thao tác',
-    	undo : 'Khôi phục thao tác'
-    },
-    about : 
-    {
-    	copy : 'Bản quyền &copy; $1. Giữ toàn quyền.',
-    	dlgTitle : 'Thông tin về CKEditor',
-    	help : 'Kiểm tra $1 để được giúp đỡ.',
-    	moreInfo : 'Vui lòng ghé thăm trang web của chúng tôi để có thông tin về giấy phép:',
-    	title : 'Thông tin về CKEditor',
-    	userGuide : 'Hướng dẫn sử dụng CKEditor'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Thu gọn thanh công cụ',
-    	toolbarExpand : 'Mở rộng thnah công cụ',
-    	toolbarGroups : 
-    	{
-    		document : 'Tài liệu',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Chỉnh sửa',
-    		forms : 'Bảng biểu',
-    		basicstyles : 'Kiểu cơ bản',
-    		paragraph : 'Đoạn',
-    		links : 'Liên kết',
-    		insert : 'Chèn',
-    		styles : 'Kiểu',
-    		colors : 'Màu sắc',
-    		tools : 'Công cụ'
-    	},
-    	toolbars : 'Thanh công cụ'
-    },
-    scayt : 
-    {
-    	about : 'Thông tin về SCAYT',
-    	aboutTab : 'Thông tin',
-    	addWord : 'Thêm từ',
-    	allCaps : 'Không phân biệt chữ HOA chữ thường',
-    	dic_create : 'Tạo',
-    	dic_delete : 'Xóa',
-    	dic_field_name : 'Tên từ điển',
-    	dic_info : 'Ban đầu, từ điển người dùng được lưu trữ trong một cookie. Tuy nhiên, kích thước cookie bị giới hạn. Khi người sử dụng từ điển phát triển đến điểm không thể được lưu trữ trong cookie, từ điển sẽ được lưu trữ trên máy chủ của chúng tôi. Để lưu trữ từ điển cá nhân của bạn trên máy chủ của chúng tôi, bạn nên xác định một tên cho từ điển của bạn. Nếu bạn đã có một cuốn từ điển được lưu trữ, xin vui lòng gõ tên của nó và nhấn vào nút Khôi phục.',
-    	dic_rename : 'Thay tên',
-    	dic_restore : 'Phục hồi',
-    	dictionariesTab : 'Từ điển',
-    	disable : 'Tắt SCAYT',
-    	emptyDic : 'Tên của từ điển không được để trống.',
-    	enable : 'Bật SCAYT',
-    	ignore : 'Bỏ qua',
-    	ignoreAll : 'Bỏ qua tất cả',
-    	ignoreDomainNames : 'Bỏ qua tên miền',
-    	langs : 'Ngôn ngữ',
-    	languagesTab : 'Tab ngôn ngữ',
-    	mixedCase : 'Không phân biệt loại chữ',
-    	mixedWithDigits : 'Không phân biệt chữ và số',
-    	moreSuggestions : 'Đề xuất thêm',
-    	opera_title : 'Không hỗ trợ trên trình duyệt Opera',
-    	options : 'Tùy chọn',
-    	optionsTab : 'Tùy chọn',
-    	title : 'Kiểm tra chính tả ngay khi gõ chữ (SCAYT)',
-    	toggle : 'Bật tắt SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Bỏ qua',
-    	btnIgnoreAll : 'Bỏ qua tất cả',
-    	btnReplace : 'Thay thế',
-    	btnReplaceAll : 'Thay thế tất cả',
-    	btnUndo : 'Phục hồi lại',
-    	changeTo : 'Chuyển thành',
-    	errorLoading : 'Lỗi khi đang nạp dịch vụ ứng dụng: %s.',
-    	ieSpellDownload : 'Chức năng kiểm tra chính tả chưa được cài đặt. Bạn có muốn tải về ngay bây giờ?',
-    	manyChanges : 'Hoàn tất kiểm tra chính tả: %1 từ đã được thay đổi',
-    	noChanges : 'Hoàn tất kiểm tra chính tả: Không có từ nào được thay đổi',
-    	noMispell : 'Hoàn tất kiểm tra chính tả: Không có lỗi chính tả',
-    	noSuggestions : '- Không đưa ra gợi ý về từ -',
-    	notAvailable : 'Xin lỗi, dịch vụ này hiện tại không có.',
-    	notInDic : 'Không có trong từ điển',
-    	oneChange : 'Hoàn tất kiểm tra chính tả: Một từ đã được thay đổi',
-    	progress : 'Đang tiến hành kiểm tra chính tả...',
-    	title : 'Kiểm tra chính tả',
-    	toolbar : 'Kiểm tra chính tả'
-    },
-    contextmenu : 
-    {
-    	options : 'Tùy chọn menu bổ xung'
+    	bulletedlist : 'Chèn/Xoá Danh sách không thứ tự',
+    	numberedlist : 'Chèn/Xoá Danh sách có thứ tự'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['vi'] = {
     	left : 'Canh trái',
     	right : 'Canh phải'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Mã HTML'
-    },
-    format : 
-    {
-    	label : 'Định dạng',
-    	panelTitle : 'Định dạng',
-    	tag_address : 'Address',
-    	tag_div : 'Bình thường (DIV)',
-    	tag_h1 : 'Heading 1',
-    	tag_h2 : 'Heading 2',
-    	tag_h3 : 'Heading 3',
-    	tag_h4 : 'Heading 4',
-    	tag_h5 : 'Heading 5',
-    	tag_h6 : 'Heading 6',
-    	tag_p : 'Bình thường (P)',
-    	tag_pre : 'Đã thiết lập'
-    },
-    flash : 
-    {
-    	access : 'Truy cập mã',
-    	accessAlways : 'Luôn luôn',
-    	accessNever : 'Không bao giờ',
-    	accessSameDomain : 'Cùng tên miền',
-    	alignAbsBottom : 'Dưới tuyệt đối',
-    	alignAbsMiddle : 'Giữa tuyệt đối',
-    	alignBaseline : 'Đường cơ sở',
-    	alignTextTop : 'Phía trên chữ',
-    	bgcolor : 'Màu nền',
-    	chkFull : 'Cho phép toàn màn hình',
-    	chkLoop : 'Lặp',
-    	chkMenu : 'Cho phép bật menu của Flash',
-    	chkPlay : 'Tự động chạy',
-    	flashvars : 'Các biến số dành cho Flash',
-    	hSpace : 'Khoảng đệm ngang',
-    	properties : 'Thuộc tính Flash',
-    	propertiesTab : 'Thuộc tính',
-    	quality : 'Chất lượng',
-    	qualityAutoHigh : 'Cao tự động',
-    	qualityAutoLow : 'Thấp tự động',
-    	qualityBest : 'Tốt nhất',
-    	qualityHigh : 'Cao',
-    	qualityLow : 'Thấp',
-    	qualityMedium : 'Trung bình',
-    	scale : 'Tỷ lệ',
-    	scaleAll : 'Hiển thị tất cả',
-    	scaleFit : 'Vừa vặn',
-    	scaleNoBorder : 'Không đường viền',
-    	title : 'Thuộc tính Flash',
-    	vSpace : 'Khoảng đệm dọc',
-    	validateHSpace : 'Khoảng đệm ngang phải là số nguyên.',
-    	validateSrc : 'Hãy đưa vào đường dẫn liên kết',
-    	validateVSpace : 'Khoảng đệm dọc phải là số nguyên.',
-    	windowMode : 'Chế độ cửa sổ',
-    	windowModeOpaque : 'Mờ đục',
-    	windowModeTransparent : 'Trong suốt',
-    	windowModeWindow : 'Cửa sổ'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Xoá định dạng'
-    },
-    iframe : 
-    {
-    	border : 'Hiển thị viền khung',
-    	noUrl : 'Vui lòng nhập địa chỉ iframe',
-    	scrolling : 'Kích hoạt thanh cuộn',
-    	title : 'Thuộc tính iframe',
-    	toolbar : 'Iframe'
-    },
-    link : 
-    {
-    	acccessKey : 'Phím hỗ trợ truy cập',
-    	advanced : 'Mở rộng',
-    	advisoryContentType : 'Nội dung hướng dẫn',
-    	advisoryTitle : 'Nhan đề hướng dẫn',
-    	anchor : 
-    	{
-    		toolbar : 'Chèn/Sửa điểm neo',
-    		menu : 'Thuộc tính điểm neo',
-    		title : 'Thuộc tính điểm neo',
-    		name : 'Tên của điểm neo',
-    		errorName : 'Hãy nhập vào tên của điểm neo',
-    		remove : 'Xóa neo'
-    	},
-    	anchorId : 'Theo định danh thành phần',
-    	anchorName : 'Theo tên điểm neo',
-    	charset : 'Bảng mã của tài nguyên được liên kết đến',
-    	cssClasses : 'Lớp Stylesheet',
-    	emailAddress : 'Thư điện tử',
-    	emailBody : 'Nội dung thông điệp',
-    	emailSubject : 'Tiêu đề thông điệp',
-    	id : 'Định danh',
-    	info : 'Thông tin liên kết',
-    	langCode : 'Mã ngôn ngữ',
-    	langDir : 'Hướng ngôn ngữ',
-    	langDirLTR : 'Trái sang phải (LTR)',
-    	langDirRTL : 'Phải sang trái (RTL)',
-    	menu : 'Sửa liên kết',
-    	name : 'Tên',
-    	noAnchors : '(Không có điểm neo nào trong tài liệu)',
-    	noEmail : 'Hãy đưa vào địa chỉ thư điện tử',
-    	noUrl : 'Hãy đưa vào đường dẫn liên kết (URL)',
-    	other : '<khác>',
-    	popupDependent : 'Phụ thuộc (Netscape)',
-    	popupFeatures : 'Đặc điểm của cửa sổ Popup',
-    	popupFullScreen : 'Toàn màn hình (IE)',
-    	popupLeft : 'Vị trí bên trái',
-    	popupLocationBar : 'Thanh vị trí',
-    	popupMenuBar : 'Thanh Menu',
-    	popupResizable : 'Có thể thay đổi kích cỡ',
-    	popupScrollBars : 'Thanh cuộn',
-    	popupStatusBar : 'Thanh trạng thái',
-    	popupToolbar : 'Thanh công cụ',
-    	popupTop : 'Vị trí phía trên',
-    	rel : 'Quan hệ',
-    	selectAnchor : 'Chọn một điểm neo',
-    	styles : 'Kiểu (style)',
-    	tabIndex : 'Chỉ số của Tab',
-    	target : 'Đích',
-    	targetFrame : '<khung>',
-    	targetFrameName : 'Tên khung đích',
-    	targetPopup : '<cửa sổ popup>',
-    	targetPopupName : 'Tên cửa sổ Popup',
-    	title : 'Liên kết',
-    	toAnchor : 'Neo trong trang này',
-    	toEmail : 'Thư điện tử',
-    	toUrl : 'URL',
-    	toolbar : 'Chèn/Sửa liên kết',
-    	type : 'Kiểu liên kết',
-    	unlink : 'Xoá liên kết',
-    	upload : 'Tải lên'
-    },
-    smiley : 
-    {
-    	options : 'Tùy chọn hình  biểu lộ cảm xúc',
-    	title : 'Chèn hình biểu lộ cảm xúc (mặt cười)',
-    	toolbar : 'Hình biểu lộ cảm xúc (mặt cười)'
-    },
-    print : 
-    {
-    	toolbar : 'In'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Định danh (id)',
-    	advisoryTitleInputLabel : 'Nhan đề hướng dẫn',
-    	cssClassInputLabel : 'Các lớp CSS',
-    	edit : 'Chỉnh sửa',
-    	inlineStyleInputLabel : 'Kiểu nội dòng',
-    	langDirLTRLabel : 'Trái sang phải (LTR)',
-    	langDirLabel : 'Hướng ngôn ngữ',
-    	langDirRTLLabel : 'Phải qua trái (RTL)',
-    	languageCodeInputLabel : 'Mã ngôn ngữ',
-    	remove : 'Xóa bỏ',
-    	styleSelectLabel : 'Kiểu (style)',
-    	title : 'Tạo khối các thành phần',
-    	toolbar : 'Tạo khối các thành phần'
-    },
-    indent : 
-    {
-    	indent : 'Dịch vào trong',
-    	outdent : 'Dịch ra ngoài'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Văn bản bạn muốn dán có kèm định dạng của Word. Bạn có muốn loại bỏ định dạng Word trước khi dán?',
-    	error : 'Không thể để làm sạch các dữ liệu dán do một lỗi nội bộ',
-    	title : 'Dán với định dạng Word',
-    	toolbar : 'Dán với định dạng Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'Tự động',
-    	bgColorTitle : 'Màu nền',
-    	colors : 
-    	{
-    		'000' : 'Đen',
-    		'800000' : 'Maroon',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Dark Gray',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Nâu',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'Dark Green',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'Xám',
-    		F00 : 'Đỏ',
-    		FF8C00 : 'Dark Orange',
-    		FFD700 : 'Vàng',
-    		'008000' : 'Xanh lá cây',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Xanh da trời',
-    		EE82EE : 'Tím',
-    		A9A9A9 : 'Xám tối',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'Màu cam',
-    		FFFF00 : 'Vàng',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Light Grey',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'Light Yellow',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'Lavender',
-    		FFF : 'Trắng'
-    	},
-    	more : 'Màu khác...',
-    	panelTitle : 'Màu sắc',
-    	textColorTitle : 'Màu chữ'
-    },
-    list : 
-    {
-    	bulletedlist : 'Chèn/Xoá Danh sách không thứ tự',
-    	numberedlist : 'Chèn/Xoá Danh sách có thứ tự'
+    	toolbar : 'Lưu'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['vi'] = {
     	validateHSpace : 'Khoảng đệm ngang phải là một số nguyên dương',
     	validateVSpace : 'Khoảng đệm dọc phải là một số nguyên dương'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Tìm kiếm',
-    	findOptions : 'Tìm tùy chọn',
-    	findWhat : 'Tìm chuỗi:',
-    	matchCase : 'Phân biệt chữ hoa/thường',
-    	matchCyclic : 'Giống một phần',
-    	matchWord : 'Giống toàn bộ từ',
-    	notFoundMsg : 'Không tìm thấy chuỗi cần tìm.',
-    	replace : 'Thay thế',
-    	replaceAll : 'Thay thế tất cả',
-    	replaceSuccessMsg : '%1 vị trí đã được thay thế.',
-    	replaceWith : 'Thay bằng:',
-    	title : 'Tìm kiếm và thay thế'
+    	alt : 'Ngắt trang',
+    	toolbar : 'Chèn ngắt trang'
     },
     showblocks : 
     {
     	toolbar : 'Hiển thị các khối'
+    },
+    indent : 
+    {
+    	indent : 'Dịch vào trong',
+    	outdent : 'Dịch ra ngoài'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['vi'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Chèn đường phân cách ngang'
-    },
-    pagebreak : 
-    {
-    	alt : 'Ngắt trang',
-    	toolbar : 'Chèn ngắt trang'
-    },
-    stylescombo : 
-    {
-    	label : 'Kiểu',
-    	panelTitle : 'Phong cách định dạng',
-    	panelTitle1 : 'Kiểu khối',
-    	panelTitle2 : 'Kiểu trực tiếp',
-    	panelTitle3 : 'Kiểu đối tượng'
-    },
     bidi : 
     {
     	ltr : 'Văn bản hướng từ trái sang phải',
     	rtl : 'Văn bản hướng từ phải sang trái'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Đậm',
-    	italic : 'Nghiêng',
-    	strike : 'Gạch xuyên ngang',
-    	subscript : 'Chỉ số dưới',
-    	superscript : 'Chỉ số trên',
-    	underline : 'Gạch chân'
+    	eleLabel : 'Nhãn thành phần',
+    	eleTitle : '%1 thành phần'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Điểm neo',
+    	flash : 'Flash',
+    	hiddenfield : 'Trường ẩn',
+    	iframe : 'IFrame',
+    	unknown : 'Đối tượng không rõ ràng'
+    },
+    smiley : 
+    {
+    	options : 'Tùy chọn hình  biểu lộ cảm xúc',
+    	title : 'Chèn hình biểu lộ cảm xúc (mặt cười)',
+    	toolbar : 'Hình biểu lộ cảm xúc (mặt cười)'
+    },
+    about : 
+    {
+    	copy : 'Bản quyền &copy; $1. Giữ toàn quyền.',
+    	dlgTitle : 'Thông tin về CKEditor',
+    	help : 'Kiểm tra $1 để được giúp đỡ.',
+    	moreInfo : 'Vui lòng ghé thăm trang web của chúng tôi để có thông tin về giấy phép:',
+    	title : 'Thông tin về CKEditor',
+    	userGuide : 'Hướng dẫn sử dụng CKEditor'
+    },
+    newpage : 
+    {
+    	toolbar : 'Trang mới'
+    },
+    format : 
+    {
+    	label : 'Định dạng',
+    	panelTitle : 'Định dạng',
+    	tag_address : 'Address',
+    	tag_div : 'Bình thường (DIV)',
+    	tag_h1 : 'Heading 1',
+    	tag_h2 : 'Heading 2',
+    	tag_h3 : 'Heading 3',
+    	tag_h4 : 'Heading 4',
+    	tag_h5 : 'Heading 5',
+    	tag_h6 : 'Heading 6',
+    	tag_p : 'Bình thường (P)',
+    	tag_pre : 'Đã thiết lập'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Xoá định dạng'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['vi'] = {
     	widthPx : 'Điểm ảnh (px)',
     	widthUnit : 'Đơn vị'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Chèn đoạn vào đây'
+    	options : 'Tùy chọn các ký tự đặc biệt',
+    	title : 'Hãy chọn ký tự đặc biệt',
+    	toolbar : 'Chèn ký tự đặc biệt'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Lưu'
+    	armenian : 'Số theo kiểu Armenian',
+    	bulletedTitle : 'Thuộc tính danh sách không thứ tự',
+    	circle : 'Khuyên tròn',
+    	decimal : 'Kiểu số (1, 2, 3 ...)',
+    	decimalLeadingZero : 'Kiểu số (01, 02, 03...)',
+    	disc : 'Hình đĩa',
+    	georgian : 'Số theo kiểu Georgian (an, ban, gan...)',
+    	lowerAlpha : 'Kiểu abc thường (a, b, c, d, e...)',
+    	lowerGreek : 'Kiểu Hy Lạp (alpha, beta, gamma...)',
+    	lowerRoman : 'Số La Mã kiểu thường (i, ii, iii, iv, v...)',
+    	none : 'Không gì cả',
+    	notset : '<không thiết lập>',
+    	numberedTitle : 'Thuộc tính danh sách có thứ tự',
+    	square : 'Hình vuông',
+    	start : 'Bắt đầu',
+    	type : 'Kiểu loại',
+    	upperAlpha : 'Kiểu ABC HOA (A, B, C, D, E...)',
+    	upperRoman : 'Số La Mã kiểu HOA (I, II, III, IV, V...)',
+    	validateStartNumber : 'Số bắt đầu danh sách phải là một số nguyên.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Điểm neo',
-    	flash : 'Flash',
-    	hiddenfield : 'Trường ẩn',
-    	iframe : 'IFrame',
-    	unknown : 'Đối tượng không rõ ràng'
+    	border : 'Hiển thị viền khung',
+    	noUrl : 'Vui lòng nhập địa chỉ iframe',
+    	scrolling : 'Kích hoạt thanh cuộn',
+    	title : 'Thuộc tính iframe',
+    	toolbar : 'Iframe'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Nhãn thành phần',
-    	eleTitle : '%1 thành phần'
+    	access : 'Truy cập mã',
+    	accessAlways : 'Luôn luôn',
+    	accessNever : 'Không bao giờ',
+    	accessSameDomain : 'Cùng tên miền',
+    	alignAbsBottom : 'Dưới tuyệt đối',
+    	alignAbsMiddle : 'Giữa tuyệt đối',
+    	alignBaseline : 'Đường cơ sở',
+    	alignTextTop : 'Phía trên chữ',
+    	bgcolor : 'Màu nền',
+    	chkFull : 'Cho phép toàn màn hình',
+    	chkLoop : 'Lặp',
+    	chkMenu : 'Cho phép bật menu của Flash',
+    	chkPlay : 'Tự động chạy',
+    	flashvars : 'Các biến số dành cho Flash',
+    	hSpace : 'Khoảng đệm ngang',
+    	properties : 'Thuộc tính Flash',
+    	propertiesTab : 'Thuộc tính',
+    	quality : 'Chất lượng',
+    	qualityAutoHigh : 'Cao tự động',
+    	qualityAutoLow : 'Thấp tự động',
+    	qualityBest : 'Tốt nhất',
+    	qualityHigh : 'Cao',
+    	qualityLow : 'Thấp',
+    	qualityMedium : 'Trung bình',
+    	scale : 'Tỷ lệ',
+    	scaleAll : 'Hiển thị tất cả',
+    	scaleFit : 'Vừa vặn',
+    	scaleNoBorder : 'Không đường viền',
+    	title : 'Thuộc tính Flash',
+    	vSpace : 'Khoảng đệm dọc',
+    	validateHSpace : 'Khoảng đệm ngang phải là số nguyên.',
+    	validateSrc : 'Hãy đưa vào đường dẫn liên kết',
+    	validateVSpace : 'Khoảng đệm dọc phải là số nguyên.',
+    	windowMode : 'Chế độ cửa sổ',
+    	windowModeOpaque : 'Mờ đục',
+    	windowModeTransparent : 'Trong suốt',
+    	windowModeWindow : 'Cửa sổ'
+    },
+    find : 
+    {
+    	find : 'Tìm kiếm',
+    	findOptions : 'Tìm tùy chọn',
+    	findWhat : 'Tìm chuỗi:',
+    	matchCase : 'Phân biệt chữ hoa/thường',
+    	matchCyclic : 'Giống một phần',
+    	matchWord : 'Giống toàn bộ từ',
+    	notFoundMsg : 'Không tìm thấy chuỗi cần tìm.',
+    	replace : 'Thay thế',
+    	replaceAll : 'Thay thế tất cả',
+    	replaceSuccessMsg : '%1 vị trí đã được thay thế.',
+    	replaceWith : 'Thay bằng:',
+    	title : 'Tìm kiếm và thay thế'
+    },
+    colorbutton : 
+    {
+    	auto : 'Tự động',
+    	bgColorTitle : 'Màu nền',
+    	colors : 
+    	{
+    		'000' : 'Đen',
+    		'800000' : 'Maroon',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Dark Gray',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Nâu',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'Dark Green',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'Xám',
+    		F00 : 'Đỏ',
+    		FF8C00 : 'Dark Orange',
+    		FFD700 : 'Vàng',
+    		'008000' : 'Xanh lá cây',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Xanh da trời',
+    		EE82EE : 'Tím',
+    		A9A9A9 : 'Xám tối',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'Màu cam',
+    		FFFF00 : 'Vàng',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Light Grey',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'Light Yellow',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'Lavender',
+    		FFF : 'Trắng'
+    	},
+    	more : 'Màu khác...',
+    	panelTitle : 'Màu sắc',
+    	textColorTitle : 'Màu chữ'
+    },
+    undo : 
+    {
+    	redo : 'Làm lại thao tác',
+    	undo : 'Khôi phục thao tác'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Cỡ chữ',
+    		voiceLabel : 'Kích cỡ phông',
+    		panelTitle : 'Cỡ chữ'
+    	},
+    	label : 'Phông',
+    	panelTitle : 'Phông',
+    	voiceLabel : 'Phông'
     },
     maximize : 
     {
     	maximize : 'Phóng to tối đa',
     	minimize : 'Thu nhỏ'
     },
+    basicstyles : 
+    {
+    	bold : 'Đậm',
+    	italic : 'Nghiêng',
+    	strike : 'Gạch xuyên ngang',
+    	subscript : 'Chỉ số dưới',
+    	superscript : 'Chỉ số trên',
+    	underline : 'Gạch chân'
+    },
+    magicline : 
+    {
+    	title : 'Chèn đoạn vào đây'
+    },
+    print : 
+    {
+    	toolbar : 'In'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Bỏ qua',
+    	btnIgnoreAll : 'Bỏ qua tất cả',
+    	btnReplace : 'Thay thế',
+    	btnReplaceAll : 'Thay thế tất cả',
+    	btnUndo : 'Phục hồi lại',
+    	changeTo : 'Chuyển thành',
+    	errorLoading : 'Lỗi khi đang nạp dịch vụ ứng dụng: %s.',
+    	ieSpellDownload : 'Chức năng kiểm tra chính tả chưa được cài đặt. Bạn có muốn tải về ngay bây giờ?',
+    	manyChanges : 'Hoàn tất kiểm tra chính tả: %1 từ đã được thay đổi',
+    	noChanges : 'Hoàn tất kiểm tra chính tả: Không có từ nào được thay đổi',
+    	noMispell : 'Hoàn tất kiểm tra chính tả: Không có lỗi chính tả',
+    	noSuggestions : '- Không đưa ra gợi ý về từ -',
+    	notAvailable : 'Xin lỗi, dịch vụ này hiện tại không có.',
+    	notInDic : 'Không có trong từ điển',
+    	oneChange : 'Hoàn tất kiểm tra chính tả: Một từ đã được thay đổi',
+    	progress : 'Đang tiến hành kiểm tra chính tả...',
+    	title : 'Kiểm tra chính tả',
+    	toolbar : 'Kiểm tra chính tả'
+    },
+    clipboard : 
+    {
+    	copy : 'Sao chép',
+    	copyError : 'Các thiết lập bảo mật của trình duyệt không cho phép trình biên tập tự động thực thi lệnh sao chép. Hãy sử dụng bàn phím cho lệnh này (Ctrl/Cmd+C).',
+    	cut : 'Cắt',
+    	cutError : 'Các thiết lập bảo mật của trình duyệt không cho phép trình biên tập tự động thực thi lệnh cắt. Hãy sử dụng bàn phím cho lệnh này (Ctrl/Cmd+X).',
+    	paste : 'Dán',
+    	pasteArea : 'Khu vực dán',
+    	pasteMsg : 'Hãy dán nội dung vào trong khung bên dưới, sử dụng tổ hợp phím (<STRONG>Ctrl/Cmd+V</STRONG>) và nhấn vào nút <STRONG>Đồng ý</STRONG>.',
+    	securityMsg : 'Do thiết lập bảo mật của trình duyệt nên trình biên tập không thể truy cập trực tiếp vào nội dung đã sao chép. Bạn cần phải dán lại nội dung vào cửa sổ này.',
+    	title : 'Dán'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Mã HTML'
+    },
+    scayt : 
+    {
+    	about : 'Thông tin về SCAYT',
+    	aboutTab : 'Thông tin',
+    	addWord : 'Thêm từ',
+    	allCaps : 'Không phân biệt chữ HOA chữ thường',
+    	dic_create : 'Tạo',
+    	dic_delete : 'Xóa',
+    	dic_field_name : 'Tên từ điển',
+    	dic_info : 'Ban đầu, từ điển người dùng được lưu trữ trong một cookie. Tuy nhiên, kích thước cookie bị giới hạn. Khi người sử dụng từ điển phát triển đến điểm không thể được lưu trữ trong cookie, từ điển sẽ được lưu trữ trên máy chủ của chúng tôi. Để lưu trữ từ điển cá nhân của bạn trên máy chủ của chúng tôi, bạn nên xác định một tên cho từ điển của bạn. Nếu bạn đã có một cuốn từ điển được lưu trữ, xin vui lòng gõ tên của nó và nhấn vào nút Khôi phục.',
+    	dic_rename : 'Thay tên',
+    	dic_restore : 'Phục hồi',
+    	dictionariesTab : 'Từ điển',
+    	disable : 'Tắt SCAYT',
+    	emptyDic : 'Tên của từ điển không được để trống.',
+    	enable : 'Bật SCAYT',
+    	ignore : 'Bỏ qua',
+    	ignoreAll : 'Bỏ qua tất cả',
+    	ignoreDomainNames : 'Bỏ qua tên miền',
+    	langs : 'Ngôn ngữ',
+    	languagesTab : 'Tab ngôn ngữ',
+    	mixedCase : 'Không phân biệt loại chữ',
+    	mixedWithDigits : 'Không phân biệt chữ và số',
+    	moreSuggestions : 'Đề xuất thêm',
+    	opera_title : 'Không hỗ trợ trên trình duyệt Opera',
+    	options : 'Tùy chọn',
+    	optionsTab : 'Tùy chọn',
+    	title : 'Kiểm tra chính tả ngay khi gõ chữ (SCAYT)',
+    	toggle : 'Bật tắt SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Chèn đường phân cách ngang'
+    },
+    pastetext : 
+    {
+    	button : 'Dán theo định dạng văn bản thuần',
+    	title : 'Dán theo định dạng văn bản thuần'
+    },
+    contextmenu : 
+    {
+    	options : 'Tùy chọn menu bổ xung'
+    },
+    templates : 
+    {
+    	button : 'Mẫu dựng sẵn',
+    	emptyListMsg : '(Không có mẫu dựng sẵn nào được định nghĩa)',
+    	insertOption : 'Thay thế nội dung hiện tại',
+    	options : 'Tùy chọn mẫu dựng sẵn',
+    	selectPromptMsg : 'Hãy chọn mẫu dựng sẵn để mở trong trình biên tập<br>(nội dung hiện tại sẽ bị mất):',
+    	title : 'Nội dung Mẫu dựng sẵn'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Định danh (id)',
+    	advisoryTitleInputLabel : 'Nhan đề hướng dẫn',
+    	cssClassInputLabel : 'Các lớp CSS',
+    	edit : 'Chỉnh sửa',
+    	inlineStyleInputLabel : 'Kiểu nội dòng',
+    	langDirLTRLabel : 'Trái sang phải (LTR)',
+    	langDirLabel : 'Hướng ngôn ngữ',
+    	langDirRTLLabel : 'Phải qua trái (RTL)',
+    	languageCodeInputLabel : 'Mã ngôn ngữ',
+    	remove : 'Xóa bỏ',
+    	styleSelectLabel : 'Kiểu (style)',
+    	title : 'Tạo khối các thành phần',
+    	toolbar : 'Tạo khối các thành phần'
+    },
+    preview : 
+    {
+    	preview : 'Xem trước'
+    },
+    colordialog : 
+    {
+    	clear : 'Xóa bỏ',
+    	highlight : 'Màu chọn',
+    	options : 'Tùy chọn màu',
+    	selected : 'Màu đã chọn',
+    	title : 'Chọn màu'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Thu gọn thanh công cụ',
+    	toolbarExpand : 'Mở rộng thnah công cụ',
+    	toolbarGroups : 
+    	{
+    		document : 'Tài liệu',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Chỉnh sửa',
+    		forms : 'Bảng biểu',
+    		basicstyles : 'Kiểu cơ bản',
+    		paragraph : 'Đoạn',
+    		links : 'Liên kết',
+    		insert : 'Chèn',
+    		styles : 'Kiểu',
+    		colors : 'Màu sắc',
+    		tools : 'Công cụ'
+    	},
+    	toolbars : 'Thanh công cụ'
+    },
+    selectall : 
+    {
+    	toolbar : 'Chọn tất cả'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Khối trích dẫn'
+    },
+    link : 
+    {
+    	acccessKey : 'Phím hỗ trợ truy cập',
+    	advanced : 'Mở rộng',
+    	advisoryContentType : 'Nội dung hướng dẫn',
+    	advisoryTitle : 'Nhan đề hướng dẫn',
+    	anchor : 
+    	{
+    		toolbar : 'Chèn/Sửa điểm neo',
+    		menu : 'Thuộc tính điểm neo',
+    		title : 'Thuộc tính điểm neo',
+    		name : 'Tên của điểm neo',
+    		errorName : 'Hãy nhập vào tên của điểm neo',
+    		remove : 'Xóa neo'
+    	},
+    	anchorId : 'Theo định danh thành phần',
+    	anchorName : 'Theo tên điểm neo',
+    	charset : 'Bảng mã của tài nguyên được liên kết đến',
+    	cssClasses : 'Lớp Stylesheet',
+    	emailAddress : 'Thư điện tử',
+    	emailBody : 'Nội dung thông điệp',
+    	emailSubject : 'Tiêu đề thông điệp',
+    	id : 'Định danh',
+    	info : 'Thông tin liên kết',
+    	langCode : 'Mã ngôn ngữ',
+    	langDir : 'Hướng ngôn ngữ',
+    	langDirLTR : 'Trái sang phải (LTR)',
+    	langDirRTL : 'Phải sang trái (RTL)',
+    	menu : 'Sửa liên kết',
+    	name : 'Tên',
+    	noAnchors : '(Không có điểm neo nào trong tài liệu)',
+    	noEmail : 'Hãy đưa vào địa chỉ thư điện tử',
+    	noUrl : 'Hãy đưa vào đường dẫn liên kết (URL)',
+    	other : '<khác>',
+    	popupDependent : 'Phụ thuộc (Netscape)',
+    	popupFeatures : 'Đặc điểm của cửa sổ Popup',
+    	popupFullScreen : 'Toàn màn hình (IE)',
+    	popupLeft : 'Vị trí bên trái',
+    	popupLocationBar : 'Thanh vị trí',
+    	popupMenuBar : 'Thanh Menu',
+    	popupResizable : 'Có thể thay đổi kích cỡ',
+    	popupScrollBars : 'Thanh cuộn',
+    	popupStatusBar : 'Thanh trạng thái',
+    	popupToolbar : 'Thanh công cụ',
+    	popupTop : 'Vị trí phía trên',
+    	rel : 'Quan hệ',
+    	selectAnchor : 'Chọn một điểm neo',
+    	styles : 'Kiểu (style)',
+    	tabIndex : 'Chỉ số của Tab',
+    	target : 'Đích',
+    	targetFrame : '<khung>',
+    	targetFrameName : 'Tên khung đích',
+    	targetPopup : '<cửa sổ popup>',
+    	targetPopupName : 'Tên cửa sổ Popup',
+    	title : 'Liên kết',
+    	toAnchor : 'Neo trong trang này',
+    	toEmail : 'Thư điện tử',
+    	toUrl : 'URL',
+    	toolbar : 'Chèn/Sửa liên kết',
+    	type : 'Kiểu liên kết',
+    	unlink : 'Xoá liên kết',
+    	upload : 'Tải lên'
+    },
+    stylescombo : 
+    {
+    	label : 'Kiểu',
+    	panelTitle : 'Phong cách định dạng',
+    	panelTitle1 : 'Kiểu khối',
+    	panelTitle2 : 'Kiểu trực tiếp',
+    	panelTitle3 : 'Kiểu đối tượng'
+    },
+    dir : 'ltr',
     editor : 'Bộ soạn thảo văn bản có định dạng',
     common : 
     {

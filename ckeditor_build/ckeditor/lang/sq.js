@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['sq'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Kopjo',
-    	copyError : 'Të dhënat e sigurisë së shfletuesit tuaj nuk lejojnë që redaktuesi automatikisht të kryej veprimin e kopjimit. Ju lutemi shfrytëzoni tastierën për këtë veprim (Ctrl/Cmd+C).',
-    	cut : 'Preje',
-    	cutError : 'Të dhënat e sigurisë së shfletuesit tuaj nuk lejojnë që redaktuesi automatikisht të kryej veprimin e prerjes. Ju lutemi shfrytëzoni tastierën për këtë veprim (Ctrl/Cmd+X).',
-    	paste : 'Hidhe',
-    	pasteArea : 'Hapësira Hedhëse',
-    	pasteMsg : 'Ju lutemi hidhni brenda kutizës në vijim duke shfrytëzuar tastierën (<strong>Ctrl/Cmd+V</strong>) dhe shtypni Mirë.',
-    	securityMsg : 'Për shkak të dhënave të sigurisë së shfletuesit tuaj, redaktuesi nuk është në gjendje të i qaset drejtpërdrejtë të dhanve të tabelës suaj të punës. Ju duhet të hidhni atë përsëri në këtë dritare.',
-    	title : 'Hidhe'
+    	confirmCleanup : 'Teksti që dëshironi të e hidhni siç duket është kopjuar nga Word-i. Dëshironi të e pastroni para se të e hidhni?',
+    	error : 'Nuk ishte e mundur të fshiheshin të dhënat e hedhura për shkak të një gabimi të brendshëm',
+    	title : 'Hidhe nga Word-i',
+    	toolbar : 'Hidhe nga Word-i'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Hidhe si tekst të thjeshtë',
-    	title : 'Hidhe si Tekst të Thjeshtë'
-    },
-    specialchar : 
-    {
-    	options : 'Mundësitë për Karaktere Speciale',
-    	title : 'Përzgjidh Karakter Special',
-    	toolbar : 'Vendos Karakter Special'
-    },
-    selectall : 
-    {
-    	toolbar : 'Përzgjidh të Gjitha'
-    },
-    newpage : 
-    {
-    	toolbar : 'Faqe e Re'
-    },
-    templates : 
-    {
-    	button : 'Shabllonet',
-    	emptyListMsg : '(Asnjë shabllon nuk është paradefinuar)',
-    	insertOption : 'Zëvendëso përmbajtjen aktuale',
-    	options : 'Opsionet e Shabllonit',
-    	selectPromptMsg : 'Përzgjidhni shabllonin për të hapur tek redaktuesi',
-    	title : 'Përmbajtja e Shabllonit'
-    },
-    colordialog : 
-    {
-    	clear : 'Pastro',
-    	highlight : 'Thekso',
-    	options : 'Përzgjedhjet e Ngjyrave',
-    	selected : 'Ngjyra e Përzgjedhur',
-    	title : 'Përzgjidh një ngjyrë'
-    },
-    preview : 
-    {
-    	preview : 'Parashiko'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Madhësia',
-    		voiceLabel : 'Madhësia e Shkronjës',
-    		panelTitle : 'Madhësia e Shkronjës'
-    	},
-    	label : 'Shkronja',
-    	panelTitle : 'Emri i Shkronjës',
-    	voiceLabel : 'Shkronja'
-    },
-    liststyle : 
-    {
-    	armenian : 'Numërim armenian',
-    	bulletedTitle : 'Karakteristikat e Listës me Pulla',
-    	circle : 'Rreth',
-    	decimal : 'Decimal (1, 2, 3, etj.)',
-    	decimalLeadingZero : 'Decimal me zerro udhëheqëse (01, 02, 03, etj.)',
-    	disc : 'Disk',
-    	georgian : 'Numërim gjeorgjian (an, ban, gan, etj.)',
-    	lowerAlpha : 'Të vogla alfa (a, b, c, d, e, etj.)',
-    	lowerGreek : 'Të vogla greke (alpha, beta, gamma, etj.)',
-    	lowerRoman : 'Të vogla romake (i, ii, iii, iv, v, etj.)',
-    	none : 'Asnjë',
-    	notset : '<e pazgjedhur>',
-    	numberedTitle : 'Karakteristikat e Listës me Numra',
-    	square : 'Katror',
-    	start : 'Fillimi',
-    	type : 'LLoji',
-    	upperAlpha : 'Të mëdha alfa (A, B, C, D, E, etj.)',
-    	upperRoman : 'Të mëdha romake (I, II, III, IV, V, etj.)',
-    	validateStartNumber : 'Numri i fillimit të listës duhet të është numër i plotë.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Citatet'
-    },
-    undo : 
-    {
-    	redo : 'Ribëje',
-    	undo : 'Rizhbëje'
-    },
-    about : 
-    {
-    	copy : 'Të drejtat  e kopjimit &copy; $1. Të gjitha të drejtat e rezervuara.',
-    	dlgTitle : 'Rreth CKEditor',
-    	help : 'Kontrollo $1 për ndihmë.',
-    	moreInfo : 'Për informacione rreth licencave shih faqen tonë:',
-    	title : 'Rreth CKEditor',
-    	userGuide : 'Udhëzuesi i Shfrytëzuesit të CKEditor'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Zvogëlo Shiritin',
-    	toolbarExpand : 'Zgjero Shiritin',
-    	toolbarGroups : 
-    	{
-    		document : 'Dokument',
-    		clipboard : 'Tabela Punës/Ribëje',
-    		editing : 'Duke Redaktuar',
-    		forms : 'Formular',
-    		basicstyles : 'Stili Bazë',
-    		paragraph : 'Paragraf',
-    		links : 'Nyjet',
-    		insert : 'Shto',
-    		styles : 'Stil',
-    		colors : 'Ngjyrat',
-    		tools : 'Mjetet'
-    	},
-    	toolbars : 'Shiritet e Redaktuesit'
-    },
-    scayt : 
-    {
-    	about : 'About SCAYT',
-    	aboutTab : 'About',
-    	addWord : 'Add Word',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Dictionaries',
-    	disable : 'Disable SCAYT',
-    	emptyDic : 'Dictionary name should not be empty.',
-    	enable : 'Enable SCAYT',
-    	ignore : 'Ignore',
-    	ignoreAll : 'Ignore All',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Languages',
-    	languagesTab : 'Languages',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'More suggestions',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Options',
-    	optionsTab : 'Options',
-    	title : 'Spell Check As You Type',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Ignore',
-    	btnIgnoreAll : 'Ignore All',
-    	btnReplace : 'Replace',
-    	btnReplaceAll : 'Replace All',
-    	btnUndo : 'Undo',
-    	changeTo : 'Change to',
-    	errorLoading : 'Error loading application service host: %s.',
-    	ieSpellDownload : 'Spell checker not installed. Do you want to download it now?',
-    	manyChanges : 'Spell check complete: %1 words changed',
-    	noChanges : 'Spell check complete: No words changed',
-    	noMispell : 'Spell check complete: No misspellings found',
-    	noSuggestions : '- No suggestions -',
-    	notAvailable : 'Sorry, but service is unavailable now.',
-    	notInDic : 'Not in dictionary',
-    	oneChange : 'Spell check complete: One word changed',
-    	progress : 'Spell check in progress...',
-    	title : 'Spell Check',
-    	toolbar : 'Check Spelling'
-    },
-    contextmenu : 
-    {
-    	options : 'Mundësitë e Menysë së Kontekstit'
+    	bulletedlist : 'Vendos/Largo Listën me Pika',
+    	numberedlist : 'Vendos/Largo Listën me Numra'
     },
     justify : 
     {
@@ -190,243 +22,19 @@ CKEDITOR.lang['sq'] = {
     	left : 'Rreshto majtas',
     	right : 'Rreshto Djathtas'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Burimi'
-    },
-    format : 
-    {
-    	label : 'Formati',
-    	panelTitle : 'Formati i Paragrafit',
-    	tag_address : 'Adresa',
-    	tag_div : 'Normal (DIV)',
-    	tag_h1 : 'Titulli 1',
-    	tag_h2 : 'Titulli 2',
-    	tag_h3 : 'Titulli 3',
-    	tag_h4 : 'Titulli 4',
-    	tag_h5 : 'Titulli 5',
-    	tag_h6 : 'Titulli 6',
-    	tag_p : 'Normal',
-    	tag_pre : 'Formatuar'
-    },
-    flash : 
-    {
-    	access : 'Qasja në Skriptë',
-    	accessAlways : 'Gjithnjë',
-    	accessNever : 'Asnjëherë',
-    	accessSameDomain : 'Fusha e Njëjtë',
-    	alignAbsBottom : 'Abs në Fund',
-    	alignAbsMiddle : 'Abs në Mes',
-    	alignBaseline : 'Baza',
-    	alignTextTop : 'Koka e Tekstit',
-    	bgcolor : 'Ngjyra e Prapavijës',
-    	chkFull : 'Lejo Ekran të Plotë',
-    	chkLoop : 'Përsëritje',
-    	chkMenu : 'Lejo Menynë për Flash',
-    	chkPlay : 'Auto Play',
-    	flashvars : 'Variablat për Flash',
-    	hSpace : 'Hapësira Horizontale',
-    	properties : 'Karakteristikat për Flash',
-    	propertiesTab : 'Karakteristikat',
-    	quality : 'Kualiteti',
-    	qualityAutoHigh : 'Automatikisht i Lartë',
-    	qualityAutoLow : 'Automatikisht i Ulët',
-    	qualityBest : 'Më i Miri',
-    	qualityHigh : 'I Lartë',
-    	qualityLow : 'Më i Ulti',
-    	qualityMedium : 'I Mesëm',
-    	scale : 'Shkalla',
-    	scaleAll : 'Shfaq të Gjitha',
-    	scaleFit : 'Përputhje të Plotë',
-    	scaleNoBorder : 'Pa Kornizë',
-    	title : 'Rekuizitat për Flash',
-    	vSpace : 'Hapësira Vertikale',
-    	validateHSpace : 'Hapësira Horizontale duhet të është numër.',
-    	validateSrc : 'URL nuk duhet mbetur zbrazur.',
-    	validateVSpace : 'Hapësira Vertikale duhet të është numër.',
-    	windowMode : 'Window mode',
-    	windowModeOpaque : 'Errët',
-    	windowModeTransparent : 'Tejdukshëm',
-    	windowModeWindow : 'Window'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Largo Formatin'
-    },
-    iframe : 
-    {
-    	border : 'Shfaq kufirin e kornizës',
-    	noUrl : 'Ju lutemi shkruani URL-në e iframe-it',
-    	scrolling : 'Lejo shiritët zvarritës',
-    	title : 'Karakteristikat e IFrame',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Sipas ID-së së Elementit',
-    	advanced : 'Të përparuara',
-    	advisoryContentType : 'Lloji i Përmbajtjes Këshillimore',
-    	advisoryTitle : 'Titull',
-    	anchor : 
-    	{
-    		toolbar : 'Spirancë',
-    		menu : 'Redakto Spirancën',
-    		title : 'Anchor Properties',
-    		name : 'Emri i Spirancës',
-    		errorName : 'Ju lutemi shkruani emrin e spirancës',
-    		remove : 'Largo Spirancën'
-    	},
-    	anchorId : 'Sipas ID-së së Elementit',
-    	anchorName : 'Sipas Emrit të Spirancës',
-    	charset : 'Seti i Karaktereve të Burimeve të Nëdlidhura',
-    	cssClasses : 'Klasa stili CSS',
-    	emailAddress : 'Posta Elektronike',
-    	emailBody : 'Trupi i Porosisë',
-    	emailSubject : 'Titulli i Porosisë',
-    	id : 'Id',
-    	info : 'Informacione të Nyjes',
-    	langCode : 'Kod gjuhe',
-    	langDir : 'Drejtim teksti',
-    	langDirLTR : 'Nga e majta në të djathë (LTR)',
-    	langDirRTL : 'Nga e djathta në të majtë (RTL)',
-    	menu : 'Redakto Nyjen',
-    	name : 'Emër',
-    	noAnchors : '(Nuk ka asnjë spirancë në dokument)',
-    	noEmail : 'Ju lutemi shkruani postën elektronike',
-    	noUrl : 'Ju lutemi shkruani URL-në e nyjes',
-    	other : '<tjetër>',
-    	popupDependent : 'E Varur (Netscape)',
-    	popupFeatures : 'Karakteristikat e Dritares së Dialogut',
-    	popupFullScreen : 'Ekran i Plotë  (IE)',
-    	popupLeft : 'Pozita Majtas',
-    	popupLocationBar : 'Shiriti i Lokacionit',
-    	popupMenuBar : 'Shiriti i Menysë',
-    	popupResizable : 'I ndryshueshëm',
-    	popupScrollBars : 'Scroll Bars',
-    	popupStatusBar : 'Shiriti i Statutit',
-    	popupToolbar : 'Shiriti i Mejteve',
-    	popupTop : 'Top Pozita',
-    	rel : 'Marrëdhëniet',
-    	selectAnchor : 'Përzgjidh një Spirancë',
-    	styles : 'Stil',
-    	tabIndex : 'Tab Index',
-    	target : 'Objektivi',
-    	targetFrame : '<frame>',
-    	targetFrameName : 'Emri i Kornizës së Synuar',
-    	targetPopup : '<popup window>',
-    	targetPopupName : 'Emri i Dritares së Dialogut',
-    	title : 'Nyja',
-    	toAnchor : 'Lidhu me spirancën në tekst',
-    	toEmail : 'Posta Elektronike',
-    	toUrl : 'URL',
-    	toolbar : 'Nyja',
-    	type : 'Lloji i Nyjes',
-    	unlink : 'Largo Nyjen',
-    	upload : 'Ngarko'
-    },
-    smiley : 
-    {
-    	options : 'Opsionet e Ikonave',
-    	title : 'Vendos Ikonë',
-    	toolbar : 'Ikona'
-    },
-    print : 
-    {
-    	toolbar : 'Shtype'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Titull',
-    	cssClassInputLabel : 'Klasa stili CSS',
-    	edit : 'Redakto Div',
-    	inlineStyleInputLabel : 'Stili i brendshëm',
-    	langDirLTRLabel : 'Nga e majta në të djathë (LTR)',
-    	langDirLabel : 'Drejtim teksti',
-    	langDirRTLLabel : 'Nga e djathta në të majtë (RTL)',
-    	languageCodeInputLabel : 'Kodi i Gjuhës',
-    	remove : 'Largo Div',
-    	styleSelectLabel : 'Stil',
-    	title : 'Krijo Div Përmbajtës',
-    	toolbar : 'Krijo Div Përmbajtës'
-    },
-    indent : 
-    {
-    	indent : 'Rrite Identin',
-    	outdent : 'Zvogëlo Identin'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Teksti që dëshironi të e hidhni siç duket është kopjuar nga Word-i. Dëshironi të e pastroni para se të e hidhni?',
-    	error : 'Nuk ishte e mundur të fshiheshin të dhënat e hedhura për shkak të një gabimi të brendshëm',
-    	title : 'Hidhe nga Word-i',
-    	toolbar : 'Hidhe nga Word-i'
-    },
-    colorbutton : 
-    {
-    	auto : 'Automatik',
-    	bgColorTitle : 'Ngjyra e Prapavijës',
-    	colors : 
-    	{
-    		'000' : 'E zezë',
-    		'800000' : 'Ngjyrë gështenjë',
-    		'8B4513' : 'Ngjyrë Shale Kafe',
-    		'2F4F4F' : 'Ngjyrë Gri të errët ardëz',
-    		'008080' : 'Ngjyrë bajukë',
-    		'000080' : 'Ngjyrë Marine',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Gri e Errët',
-    		B22222 : 'Tullë në Flakë',
-    		A52A2A : 'Ngjytë Kafe',
-    		DAA520 : 'Shkop i Artë',
-    		'006400' : 'E Gjelbër e Errët',
-    		'40E0D0' : 'Ngjyrë e Bruztë',
-    		'0000CD' : 'E Kaltër e Mesme',
-    		'800080' : 'Vjollcë',
-    		'808080' : 'Gri',
-    		F00 : 'E Kuqe',
-    		FF8C00 : 'E Portokalltë e Errët',
-    		FFD700 : 'Ngjyrë Ari',
-    		'008000' : 'E Gjelbërt',
-    		'0FF' : 'Cyan',
-    		'00F' : 'E Kaltër',
-    		EE82EE : 'Vjollcë',
-    		A9A9A9 : 'Gri e Zbehtë',
-    		FFA07A : 'Salmon i Ndritur',
-    		FFA500 : 'E Portokalltë',
-    		FFFF00 : 'E Verdhë',
-    		'00FF00' : 'Ngjyrë Gëlqere',
-    		AFEEEE : 'Ngjyrë e Bruztë e Zbehtë',
-    		ADD8E6 : 'E Kaltër e Ndritur',
-    		DDA0DD : 'Ngjyrë Llokumi',
-    		D3D3D3 : 'Gri e Ndritur',
-    		FFF0F5 : 'Ngjyrë Purpur e Skuqur',
-    		FAEBD7 : 'E Bardhë Antike',
-    		FFFFE0 : 'E verdhë e Ndritur',
-    		F0FFF0 : 'Ngjyrë Nektari',
-    		F0FFFF : 'Ngjyrë Qielli',
-    		F0F8FF : 'E Kaltër Alice',
-    		E6E6FA : 'Ngjyrë Purpur e Zbetë',
-    		FFF : 'E bardhë'
-    	},
-    	more : 'Më Shumë Ngjyra...',
-    	panelTitle : 'Ngjyrat',
-    	textColorTitle : 'Ngjyra e Tekstit'
-    },
-    list : 
-    {
-    	bulletedlist : 'Vendos/Largo Listën me Pika',
-    	numberedlist : 'Vendos/Largo Listën me Numra'
+    	toolbar : 'Ruaje'
     },
     image : 
     {
-    	alertUrl : 'Ju lutemi shkruani URL-në e fotos',
+    	alertUrl : 'Please type the image URL',
     	alt : 'Tekst Alternativ',
     	border : 'Korniza',
     	btnUpload : 'Dërgo në server',
-    	button2Img : 'Dëshironi të e ndërroni pullën e fotos së selektuar në një foto të thjeshtë?',
+    	button2Img : 'Do you want to transform the selected image button on a simple image?',
     	hSpace : 'HSpace',
-    	img2Button : 'Dëshironi të ndryshoni foton e përzgjedhur në pullë?',
+    	img2Button : 'Do you want to transform the selected image on a image button?',
     	infoTab : 'Informacione mbi Fotografinë',
     	linkTab : 'Nyja',
     	lockRatio : 'Mbyll Racionin',
@@ -441,24 +49,19 @@ CKEDITOR.lang['sq'] = {
     	validateHSpace : 'Hapësira horizontale duhet të jetë numër i plotë.',
     	validateVSpace : 'Hapësira vertikale duhet të jetë numër i plotë.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Gjej',
-    	findOptions : 'Gjejë Alternativat',
-    	findWhat : 'Gjej çka:',
-    	matchCase : 'Rasti i përputhjes',
-    	matchCyclic : 'Përputh ciklikun',
-    	matchWord : 'Përputh fjalën e tërë',
-    	notFoundMsg : 'Teksti i caktuar nuk mundej të gjendet.',
-    	replace : 'Zëvendëso',
-    	replaceAll : 'Zëvendëso të gjitha',
-    	replaceSuccessMsg : '%1 rast(e) u zëvendësua(n).',
-    	replaceWith : 'Zëvendëso me:',
-    	title : 'Gjej dhe Zëvendëso'
+    	alt : 'Thyerja e Faqes',
+    	toolbar : 'Vendos Thyerje Faqeje për Shtyp'
     },
     showblocks : 
     {
     	toolbar : 'Shfaq Blloqet'
+    },
+    indent : 
+    {
+    	indent : 'Rrite Identin',
+    	outdent : 'Zvogëlo Identin'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['sq'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Vendos Vijë Horizontale'
-    },
-    pagebreak : 
-    {
-    	alt : 'Thyerja e Faqes',
-    	toolbar : 'Vendos Thyerje Faqeje për Shtyp'
-    },
-    stylescombo : 
-    {
-    	label : 'Stil',
-    	panelTitle : 'Stilet e Formatimit',
-    	panelTitle1 : 'Stilet e Bllokut',
-    	panelTitle2 : 'Stili i Brendshëm',
-    	panelTitle3 : 'Stilet e Objektit'
-    },
     bidi : 
     {
     	ltr : 'Drejtimi i tekstit nga e majta në të djathtë',
     	rtl : 'Drejtimi i tekstit nga e djathta në të majtë'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Trash',
-    	italic : 'Pjerrët',
-    	strike : 'Nëpërmes',
-    	subscript : 'Nën-skriptë',
-    	superscript : 'Super-skriptë',
-    	underline : 'Nënvijëzuar'
+    	eleLabel : 'Rruga e elementeve',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Spirancë',
+    	flash : 'Objekt flash',
+    	hiddenfield : 'Fushë e fshehur',
+    	iframe : 'IFrame',
+    	unknown : 'Objekt i Panjohur'
+    },
+    smiley : 
+    {
+    	options : 'Opsionet e Ikonave',
+    	title : 'Vendos Ikonë',
+    	toolbar : 'Ikona'
+    },
+    about : 
+    {
+    	copy : 'Të drejtat  e kopjimit &copy; $1. Të gjitha të drejtat e rezervuara.',
+    	dlgTitle : 'Rreth CKEditor',
+    	help : 'Kontrollo $1 për ndihmë.',
+    	moreInfo : 'Për informacione rreth licencave shih faqen tonë:',
+    	title : 'Rreth CKEditor',
+    	userGuide : 'Udhëzuesi i Shfrytëzuesit të CKEditor'
+    },
+    newpage : 
+    {
+    	toolbar : 'Faqe e Re'
+    },
+    format : 
+    {
+    	label : 'Formati',
+    	panelTitle : 'Formati i Paragrafit',
+    	tag_address : 'Adresa',
+    	tag_div : 'Normal (DIV)',
+    	tag_h1 : 'Titulli 1',
+    	tag_h2 : 'Titulli 2',
+    	tag_h3 : 'Titulli 3',
+    	tag_h4 : 'Titulli 4',
+    	tag_h5 : 'Titulli 5',
+    	tag_h6 : 'Titulli 6',
+    	tag_p : 'Normal',
+    	tag_pre : 'Formatuar'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Largo Formatin'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['sq'] = {
     	widthPx : 'piksell',
     	widthUnit : 'njësia e gjerësisë'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Vendos paragraf këtu'
+    	options : 'Mundësitë për Karaktere Speciale',
+    	title : 'Përzgjidh Karakter Special',
+    	toolbar : 'Vendos Karakter Special'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Ruaje'
+    	armenian : 'Numërim armenian',
+    	bulletedTitle : 'Karakteristikat e Listës me Pulla',
+    	circle : 'Rreth',
+    	decimal : 'Decimal (1, 2, 3, etj.)',
+    	decimalLeadingZero : 'Decimal me zerro udhëheqëse (01, 02, 03, etj.)',
+    	disc : 'Disk',
+    	georgian : 'Numërim gjeorgjian (an, ban, gan, etj.)',
+    	lowerAlpha : 'Të vogla alfa (a, b, c, d, e, etj.)',
+    	lowerGreek : 'Të vogla greke (alpha, beta, gamma, etj.)',
+    	lowerRoman : 'Të vogla romake (i, ii, iii, iv, v, etj.)',
+    	none : 'Asnjë',
+    	notset : '<e pazgjedhur>',
+    	numberedTitle : 'Karakteristikat e Listës me Numra',
+    	square : 'Katror',
+    	start : 'Fillimi',
+    	type : 'LLoji',
+    	upperAlpha : 'Të mëdha alfa (A, B, C, D, E, etj.)',
+    	upperRoman : 'Të mëdha romake (I, II, III, IV, V, etj.)',
+    	validateStartNumber : 'Numri i fillimit të listës duhet të është numër i plotë.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Spirancë',
-    	flash : 'Objekt flash',
-    	hiddenfield : 'Fushë e fshehur',
-    	iframe : 'IFrame',
-    	unknown : 'Objekt i Panjohur'
+    	border : 'Shfaq kufirin e kornizës',
+    	noUrl : 'Ju lutemi shkruani URL-në e iframe-it',
+    	scrolling : 'Lejo shiritët zvarritës',
+    	title : 'Karakteristikat e IFrame',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Rruga e elementeve',
-    	eleTitle : '%1 element'
+    	access : 'Qasja në Skriptë',
+    	accessAlways : 'Gjithnjë',
+    	accessNever : 'Asnjëherë',
+    	accessSameDomain : 'Fusha e Njëjtë',
+    	alignAbsBottom : 'Abs në Fund',
+    	alignAbsMiddle : 'Abs në Mes',
+    	alignBaseline : 'Baza',
+    	alignTextTop : 'Koka e Tekstit',
+    	bgcolor : 'Ngjyra e Prapavijës',
+    	chkFull : 'Lejo Ekran të Plotë',
+    	chkLoop : 'Përsëritje',
+    	chkMenu : 'Lejo Menynë për Flash',
+    	chkPlay : 'Auto Play',
+    	flashvars : 'Variablat për Flash',
+    	hSpace : 'Hapësira Horizontale',
+    	properties : 'Karakteristikat për Flash',
+    	propertiesTab : 'Karakteristikat',
+    	quality : 'Kualiteti',
+    	qualityAutoHigh : 'Automatikisht i Lartë',
+    	qualityAutoLow : 'Automatikisht i Ulët',
+    	qualityBest : 'Më i Miri',
+    	qualityHigh : 'I Lartë',
+    	qualityLow : 'Më i Ulti',
+    	qualityMedium : 'I Mesëm',
+    	scale : 'Shkalla',
+    	scaleAll : 'Shfaq të Gjitha',
+    	scaleFit : 'Përputhje të Plotë',
+    	scaleNoBorder : 'Pa Kornizë',
+    	title : 'Rekuizitat për Flash',
+    	vSpace : 'Hapësira Vertikale',
+    	validateHSpace : 'Hapësira Horizontale duhet të është numër.',
+    	validateSrc : 'URL nuk duhet mbetur zbrazur.',
+    	validateVSpace : 'Hapësira Vertikale duhet të është numër.',
+    	windowMode : 'Window mode',
+    	windowModeOpaque : 'Errët',
+    	windowModeTransparent : 'Tejdukshëm',
+    	windowModeWindow : 'Window'
+    },
+    find : 
+    {
+    	find : 'Gjej',
+    	findOptions : 'Gjejë Alternativat',
+    	findWhat : 'Gjej çka:',
+    	matchCase : 'Match case',
+    	matchCyclic : 'Përputh ciklikun',
+    	matchWord : 'Përputh fjalën e tërë',
+    	notFoundMsg : 'Teksti i caktuar nuk mundej të gjendet.',
+    	replace : 'Zëvendëso',
+    	replaceAll : 'Zëvendëso të gjitha',
+    	replaceSuccessMsg : '%1 rast(e) u zëvendësua(n).',
+    	replaceWith : 'Zëvendëso me:',
+    	title : 'Gjej dhe Zëvendëso'
+    },
+    colorbutton : 
+    {
+    	auto : 'Automatik',
+    	bgColorTitle : 'Ngjyra e Prapavijës',
+    	colors : 
+    	{
+    		'000' : 'E zezë',
+    		'800000' : 'Ngjyrë gështenjë',
+    		'8B4513' : 'Ngjyrë Shale Kafe',
+    		'2F4F4F' : 'Ngjyrë Gri të errët ardëz',
+    		'008080' : 'Ngjyrë bajukë',
+    		'000080' : 'Ngjyrë Marine',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Gri e Errët',
+    		B22222 : 'Tullë në Flakë',
+    		A52A2A : 'Ngjytë Kafe',
+    		DAA520 : 'Shkop i Artë',
+    		'006400' : 'E Gjelbër e Errët',
+    		'40E0D0' : 'Ngjyrë e Bruztë',
+    		'0000CD' : 'E Kaltër e Mesme',
+    		'800080' : 'Vjollcë',
+    		'808080' : 'Gri',
+    		F00 : 'E Kuqe',
+    		FF8C00 : 'E Portokalltë e Errët',
+    		FFD700 : 'Ngjyrë Ari',
+    		'008000' : 'E Gjelbërt',
+    		'0FF' : 'Cyan',
+    		'00F' : 'E Kaltër',
+    		EE82EE : 'Vjollcë',
+    		A9A9A9 : 'Gri e Zbehtë',
+    		FFA07A : 'Salmon i Ndritur',
+    		FFA500 : 'E Portokalltë',
+    		FFFF00 : 'E Verdhë',
+    		'00FF00' : 'Ngjyrë Gëlqere',
+    		AFEEEE : 'Ngjyrë e Bruztë e Zbehtë',
+    		ADD8E6 : 'E Kaltër e Ndritur',
+    		DDA0DD : 'Ngjyrë Llokumi',
+    		D3D3D3 : 'Gri e Ndritur',
+    		FFF0F5 : 'Ngjyrë Purpur e Skuqur',
+    		FAEBD7 : 'E Bardhë Antike',
+    		FFFFE0 : 'E verdhë e Ndritur',
+    		F0FFF0 : 'Ngjyrë Nektari',
+    		F0FFFF : 'Ngjyrë Qielli',
+    		F0F8FF : 'E Kaltër Alice',
+    		E6E6FA : 'Ngjyrë Purpur e Zbetë',
+    		FFF : 'E bardhë'
+    	},
+    	more : 'Më Shumë Ngjyra...',
+    	panelTitle : 'Ngjyrat',
+    	textColorTitle : 'Ngjyra e Tekstit'
+    },
+    undo : 
+    {
+    	redo : 'Ribëje',
+    	undo : 'Rizhbëje'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Madhësia',
+    		voiceLabel : 'Madhësia e Shkronjës',
+    		panelTitle : 'Madhësia e Shkronjës'
+    	},
+    	label : 'Shkronja',
+    	panelTitle : 'Emri i Shkronjës',
+    	voiceLabel : 'Shkronja'
     },
     maximize : 
     {
     	maximize : 'Zmadho',
     	minimize : 'Zvogëlo'
     },
+    basicstyles : 
+    {
+    	bold : 'Trash',
+    	italic : 'Pjerrët',
+    	strike : 'Nëpërmes',
+    	subscript : 'Nën-skriptë',
+    	superscript : 'Super-skriptë',
+    	underline : 'Nënvijëzuar'
+    },
+    magicline : 
+    {
+    	title : 'Vendos paragraf këtu'
+    },
+    print : 
+    {
+    	toolbar : 'Shtype'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Ignore',
+    	btnIgnoreAll : 'Ignore All',
+    	btnReplace : 'Replace',
+    	btnReplaceAll : 'Replace All',
+    	btnUndo : 'Undo',
+    	changeTo : 'Change to',
+    	errorLoading : 'Error loading application service host: %s.',
+    	ieSpellDownload : 'Spell checker not installed. Do you want to download it now?',
+    	manyChanges : 'Spell check complete: %1 words changed',
+    	noChanges : 'Spell check complete: No words changed',
+    	noMispell : 'Spell check complete: No misspellings found',
+    	noSuggestions : '- No suggestions -',
+    	notAvailable : 'Sorry, but service is unavailable now.',
+    	notInDic : 'Not in dictionary',
+    	oneChange : 'Spell check complete: One word changed',
+    	progress : 'Spell check in progress...',
+    	title : 'Spell Check',
+    	toolbar : 'Check Spelling'
+    },
+    clipboard : 
+    {
+    	copy : 'Kopjo',
+    	copyError : 'Të dhënat e sigurisë së shfletuesit tuaj nuk lejojnë që redaktuesi automatikisht të kryej veprimin e kopjimit. Ju lutemi shfrytëzoni tastierën për këtë veprim (Ctrl/Cmd+C).',
+    	cut : 'Preje',
+    	cutError : 'Të dhënat e sigurisë së shfletuesit tuaj nuk lejojnë që redaktuesi automatikisht të kryej veprimin e prerjes. Ju lutemi shfrytëzoni tastierën për këtë veprim (Ctrl/Cmd+X).',
+    	paste : 'Hidhe',
+    	pasteArea : 'Hapësira Hedhëse',
+    	pasteMsg : 'Ju lutemi hidhni brenda kutizës në vijim duke shfrytëzuar tastierën (<strong>Ctrl/Cmd+V</strong>) dhe shtypni Mirë.',
+    	securityMsg : 'Për shkak të dhënave të sigurisë së shfletuesit tuaj, redaktuesi nuk është në gjendje të i qaset drejtpërdrejtë të dhanve të tabelës suaj të punës. Ju duhet të hidhni atë përsëri në këtë dritare.',
+    	title : 'Hidhe'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Burimi'
+    },
+    scayt : 
+    {
+    	about : 'About SCAYT',
+    	aboutTab : 'About',
+    	addWord : 'Add Word',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Dictionaries',
+    	disable : 'Disable SCAYT',
+    	emptyDic : 'Dictionary name should not be empty.',
+    	enable : 'Enable SCAYT',
+    	ignore : 'Ignore',
+    	ignoreAll : 'Ignore All',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Languages',
+    	languagesTab : 'Languages',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'More suggestions',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Options',
+    	optionsTab : 'Options',
+    	title : 'Spell Check As You Type',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Vendos Vijë Horizontale'
+    },
+    pastetext : 
+    {
+    	button : 'Hidhe si tekst të thjeshtë',
+    	title : 'Hidhe si Tekst të Thjeshtë'
+    },
+    contextmenu : 
+    {
+    	options : 'Mundësitë e Menysë së Kontekstit'
+    },
+    templates : 
+    {
+    	button : 'Shabllonet',
+    	emptyListMsg : '(Asnjë shabllon nuk është paradefinuar)',
+    	insertOption : 'Zëvendëso përmbajtjen aktuale',
+    	options : 'Opsionet e Shabllonit',
+    	selectPromptMsg : 'Përzgjidhni shabllonin për të hapur tek redaktuesi',
+    	title : 'Përmbajtja e Shabllonit'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Titull',
+    	cssClassInputLabel : 'Klasa stili CSS',
+    	edit : 'Redakto Div',
+    	inlineStyleInputLabel : 'Stili i brendshëm',
+    	langDirLTRLabel : 'Nga e majta në të djathë (LTR)',
+    	langDirLabel : 'Drejtim teksti',
+    	langDirRTLLabel : 'Nga e djathta në të majtë (RTL)',
+    	languageCodeInputLabel : 'Kodi i Gjuhës',
+    	remove : 'Largo Div',
+    	styleSelectLabel : 'Stil',
+    	title : 'Krijo Div Përmbajtës',
+    	toolbar : 'Krijo Div Përmbajtës'
+    },
+    preview : 
+    {
+    	preview : 'Parashiko'
+    },
+    colordialog : 
+    {
+    	clear : 'Pastro',
+    	highlight : 'Thekso',
+    	options : 'Përzgjedhjet e Ngjyrave',
+    	selected : 'Ngjyra e Përzgjedhur',
+    	title : 'Përzgjidh një ngjyrë'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Zvogëlo Shiritin',
+    	toolbarExpand : 'Zgjero Shiritin',
+    	toolbarGroups : 
+    	{
+    		document : 'Dokument',
+    		clipboard : 'Tabela Punës/Ribëje',
+    		editing : 'Duke Redaktuar',
+    		forms : 'Formular',
+    		basicstyles : 'Stili Bazë',
+    		paragraph : 'Paragraf',
+    		links : 'Nyjet',
+    		insert : 'Shto',
+    		styles : 'Stil',
+    		colors : 'Ngjyrat',
+    		tools : 'Mjetet'
+    	},
+    	toolbars : 'Shiritet e Redaktuesit'
+    },
+    selectall : 
+    {
+    	toolbar : 'Përzgjidh të Gjitha'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Citatet'
+    },
+    link : 
+    {
+    	acccessKey : 'Sipas ID-së së Elementit',
+    	advanced : 'Të përparuara',
+    	advisoryContentType : 'Advisory Content Type',
+    	advisoryTitle : 'Titull',
+    	anchor : 
+    	{
+    		toolbar : 'Spirancë',
+    		menu : 'Redakto Spirancën',
+    		title : 'Anchor Properties',
+    		name : 'Emri i Spirancës',
+    		errorName : 'Ju lutemi shkruani emrin e spirancës',
+    		remove : 'Largo Spirancën'
+    	},
+    	anchorId : 'Sipas ID-së së Elementit',
+    	anchorName : 'Sipas Emrit të Spirancës',
+    	charset : 'Linked Resource Charset',
+    	cssClasses : 'Klasa stili CSS',
+    	emailAddress : 'Posta Elektronike',
+    	emailBody : 'Trupi i Porosisë',
+    	emailSubject : 'Titulli i Porosisë',
+    	id : 'Id',
+    	info : 'Informacione të Nyjes',
+    	langCode : 'Kod gjuhe',
+    	langDir : 'Drejtim teksti',
+    	langDirLTR : 'Nga e majta në të djathë (LTR)',
+    	langDirRTL : 'Nga e djathta në të majtë (RTL)',
+    	menu : 'Redakto Nyjen',
+    	name : 'Emër',
+    	noAnchors : '(Nuk ka asnjë spirancë në dokument)',
+    	noEmail : 'Ju lutemi shkruani postën elektronike',
+    	noUrl : 'Ju lutemi shkruani URL-në e nyjes',
+    	other : '<tjetër>',
+    	popupDependent : 'E Varur (Netscape)',
+    	popupFeatures : 'Popup Window Features',
+    	popupFullScreen : 'Ekran i Plotë  (IE)',
+    	popupLeft : 'Pozita Majtas',
+    	popupLocationBar : 'Shiriti i Lokacionit',
+    	popupMenuBar : 'Shiriti i Menysë',
+    	popupResizable : 'I ndryshueshëm',
+    	popupScrollBars : 'Scroll Bars',
+    	popupStatusBar : 'Shiriti i Statutit',
+    	popupToolbar : 'Shiriti i Mejteve',
+    	popupTop : 'Top Pozita',
+    	rel : 'Marrëdhëniet',
+    	selectAnchor : 'Përzgjidh një Spirancë',
+    	styles : 'Stil',
+    	tabIndex : 'Tab Index',
+    	target : 'Objektivi',
+    	targetFrame : '<frame>',
+    	targetFrameName : 'Target Frame Name',
+    	targetPopup : '<popup window>',
+    	targetPopupName : 'Popup Window Name',
+    	title : 'Nyja',
+    	toAnchor : 'Lidhu me spirancën në tekst',
+    	toEmail : 'Posta Elektronike',
+    	toUrl : 'URL',
+    	toolbar : 'Nyja',
+    	type : 'Lloji i Nyjes',
+    	unlink : 'Largo Nyjen',
+    	upload : 'Ngarko'
+    },
+    stylescombo : 
+    {
+    	label : 'Stil',
+    	panelTitle : 'Stilet e Formatimit',
+    	panelTitle1 : 'Stilet e Bllokut',
+    	panelTitle2 : 'Stili i Brendshëm',
+    	panelTitle3 : 'Stilet e Objektit'
+    },
+    dir : 'ltr',
     editor : 'Redaktues i Pasur Teksti',
     common : 
     {

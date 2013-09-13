@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['hi'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'कॉपी',
-    	copyError : 'आपके ब्राआउज़र की सुरक्षा सॅटिन्ग्स ने कॉपी करने की अनुमति नहीं प्रदान की है। (Ctrl/Cmd+C) का प्रयोग करें।',
-    	cut : 'कट',
-    	cutError : 'आपके ब्राउज़र की सुरक्षा सॅटिन्ग्स ने कट करने की अनुमति नहीं प्रदान की है। (Ctrl/Cmd+X) का प्रयोग करें।',
-    	paste : 'पेस्ट',
-    	pasteArea : 'Paste Area',
-    	pasteMsg : 'Ctrl/Cmd+V का प्रयोग करके पेस्ट करें और ठीक है करें.',
-    	securityMsg : 'आपके ब्राउज़र की सुरक्षा आपके ब्राउज़र की सुरKश सैटिंग के कारण, एडिटर आपके क्लिपबोर्ड डेटा को नहीं पा सकता है. आपको उसे इस विन्डो में दोबारा पेस्ट करना होगा.',
-    	title : 'पेस्ट'
+    	confirmCleanup : 'The text you want to paste seems to be copied from Word. Do you want to clean it before pasting?',
+    	error : 'It was not possible to clean up the pasted data due to an internal error',
+    	title : 'पेस्ट (वर्ड से)',
+    	toolbar : 'पेस्ट (वर्ड से)'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'पेस्ट (सादा टॅक्स्ट)',
-    	title : 'पेस्ट (सादा टॅक्स्ट)'
-    },
-    specialchar : 
-    {
-    	options : 'Special Character Options',
-    	title : 'विशेष करॅक्टर चुनें',
-    	toolbar : 'विशेष करॅक्टर इन्सर्ट करें'
-    },
-    selectall : 
-    {
-    	toolbar : 'सब सॅलॅक्ट करें'
-    },
-    newpage : 
-    {
-    	toolbar : 'नया पेज'
-    },
-    templates : 
-    {
-    	button : 'टॅम्प्लेट',
-    	emptyListMsg : '(कोई टॅम्प्लेट डिफ़ाइन नहीं किया गया है)',
-    	insertOption : 'मूल शब्दों को बदलें',
-    	options : 'Template Options',
-    	selectPromptMsg : 'ऍडिटर में ओपन करने हेतु टॅम्प्लेट चुनें(वर्तमान कन्टॅन्ट सेव नहीं होंगे):',
-    	title : 'कन्टेन्ट टॅम्प्लेट'
-    },
-    colordialog : 
-    {
-    	clear : 'Clear',
-    	highlight : 'Highlight',
-    	options : 'Color Options',
-    	selected : 'Selected Color',
-    	title : 'Select color'
-    },
-    preview : 
-    {
-    	preview : 'प्रीव्यू'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'साइज़',
-    		voiceLabel : 'Font Size',
-    		panelTitle : 'साइज़'
-    	},
-    	label : 'फ़ॉन्ट',
-    	panelTitle : 'फ़ॉन्ट',
-    	voiceLabel : 'फ़ॉन्ट'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armenian numbering',
-    	bulletedTitle : 'Bulleted List Properties',
-    	circle : 'Circle',
-    	decimal : 'Decimal (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
-    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
-    	none : 'None',
-    	notset : '<not set>',
-    	numberedTitle : 'Numbered List Properties',
-    	square : 'Square',
-    	start : 'Start',
-    	type : 'Type',
-    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
-    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'List start number must be a whole number.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'ब्लॉक-कोट'
-    },
-    undo : 
-    {
-    	redo : 'रीडू',
-    	undo : 'अन्डू'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. All rights reserved.',
-    	dlgTitle : 'About CKEditor',
-    	help : 'Check $1 for help.',
-    	moreInfo : 'For licensing information please visit our web site:',
-    	title : 'About CKEditor',
-    	userGuide : 'CKEditor User\'s Guide'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Collapse Toolbar',
-    	toolbarExpand : 'Expand Toolbar',
-    	toolbarGroups : 
-    	{
-    		document : 'Document',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Editing',
-    		forms : 'Forms',
-    		basicstyles : 'Basic Styles',
-    		paragraph : 'Paragraph',
-    		links : 'Links',
-    		insert : 'Insert',
-    		styles : 'Styles',
-    		colors : 'Colors',
-    		tools : 'Tools'
-    	},
-    	toolbars : 'एडिटर टूलबार'
-    },
-    scayt : 
-    {
-    	about : 'About SCAYT',
-    	aboutTab : 'About',
-    	addWord : 'Add Word',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Dictionaries',
-    	disable : 'Disable SCAYT',
-    	emptyDic : 'Dictionary name should not be empty.',
-    	enable : 'Enable SCAYT',
-    	ignore : 'Ignore',
-    	ignoreAll : 'Ignore All',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Languages',
-    	languagesTab : 'Languages',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'More suggestions',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Options',
-    	optionsTab : 'Options',
-    	title : 'Spell Check As You Type',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'इग्नोर',
-    	btnIgnoreAll : 'सभी इग्नोर करें',
-    	btnReplace : 'रिप्लेस',
-    	btnReplaceAll : 'सभी रिप्लेस करें',
-    	btnUndo : 'अन्डू',
-    	changeTo : 'इसमें बदलें',
-    	errorLoading : 'Error loading application service host: %s.',
-    	ieSpellDownload : 'स्पॅल-चॅकर इन्स्टाल नहीं किया गया है। क्या आप इसे डाउनलोड करना चाहेंगे?',
-    	manyChanges : 'वर्तनी की जाँच : %1 शब्द बदले गये',
-    	noChanges : 'वर्तनी की जाँच :कोई शब्द नहीं बदला गया',
-    	noMispell : 'वर्तनी की जाँच : कोई गलत वर्तनी (स्पॅलिंग) नहीं पाई गई',
-    	noSuggestions : '- कोई सुझाव नहीं -',
-    	notAvailable : 'Sorry, but service is unavailable now.',
-    	notInDic : 'शब्दकोश में नहीं',
-    	oneChange : 'वर्तनी की जाँच : एक शब्द बदला गया',
-    	progress : 'वर्तनी की जाँच (स्पॅल-चॅक) जारी है...',
-    	title : 'Spell Check',
-    	toolbar : 'वर्तनी (स्पेलिंग) जाँच'
-    },
-    contextmenu : 
-    {
-    	options : 'Context Menu Options'
+    	bulletedlist : 'बुलॅट सूची',
+    	numberedlist : 'अंकीय सूची'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['hi'] = {
     	left : 'बायीं तरफ',
     	right : 'दायीं तरफ'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'सोर्स'
-    },
-    format : 
-    {
-    	label : 'फ़ॉर्मैट',
-    	panelTitle : 'फ़ॉर्मैट',
-    	tag_address : 'पता',
-    	tag_div : 'शीर्षक (DIV)',
-    	tag_h1 : 'शीर्षक 1',
-    	tag_h2 : 'शीर्षक 2',
-    	tag_h3 : 'शीर्षक 3',
-    	tag_h4 : 'शीर्षक 4',
-    	tag_h5 : 'शीर्षक 5',
-    	tag_h6 : 'शीर्षक 6',
-    	tag_p : 'साधारण',
-    	tag_pre : 'फ़ॉर्मैटॅड'
-    },
-    flash : 
-    {
-    	access : 'Script Access',
-    	accessAlways : 'Always',
-    	accessNever : 'Never',
-    	accessSameDomain : 'Same domain',
-    	alignAbsBottom : 'Abs नीचे',
-    	alignAbsMiddle : 'Abs ऊपर',
-    	alignBaseline : 'मूल रेखा',
-    	alignTextTop : 'टेक्स्ट ऊपर',
-    	bgcolor : 'बैक्ग्राउन्ड रंग',
-    	chkFull : 'Allow Fullscreen',
-    	chkLoop : 'लूप',
-    	chkMenu : 'फ़्लैश मॅन्यू का प्रयोग करें',
-    	chkPlay : 'ऑटो प्ले',
-    	flashvars : 'Variables for Flash',
-    	hSpace : 'हॉरिज़ॉन्टल स्पेस',
-    	properties : 'फ़्लैश प्रॉपर्टीज़',
-    	propertiesTab : 'Properties',
-    	quality : 'Quality',
-    	qualityAutoHigh : 'Auto High',
-    	qualityAutoLow : 'Auto Low',
-    	qualityBest : 'Best',
-    	qualityHigh : 'High',
-    	qualityLow : 'Low',
-    	qualityMedium : 'Medium',
-    	scale : 'स्केल',
-    	scaleAll : 'सभी दिखायें',
-    	scaleFit : 'बिल्कुल फ़िट',
-    	scaleNoBorder : 'कोई बॉर्डर नहीं',
-    	title : 'फ़्लैश प्रॉपर्टीज़',
-    	vSpace : 'वर्टिकल स्पेस',
-    	validateHSpace : 'HSpace must be a number.',
-    	validateSrc : 'लिंक URL टाइप करें',
-    	validateVSpace : 'VSpace must be a number.',
-    	windowMode : 'Window mode',
-    	windowModeOpaque : 'Opaque',
-    	windowModeTransparent : 'Transparent',
-    	windowModeWindow : 'Window'
-    },
-    removeformat : 
-    {
-    	toolbar : 'फ़ॉर्मैट हटायें'
-    },
-    iframe : 
-    {
-    	border : 'Show frame border',
-    	noUrl : 'Please type the iframe URL',
-    	scrolling : 'Enable scrollbars',
-    	title : 'IFrame Properties',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'ऍक्सॅस की',
-    	advanced : 'ऍड्वान्स्ड',
-    	advisoryContentType : 'परामर्श कन्टॅन्ट प्रकार',
-    	advisoryTitle : 'परामर्श शीर्शक',
-    	anchor : 
-    	{
-    		toolbar : 'ऐंकर इन्सर्ट/संपादन',
-    		menu : 'ऐंकर प्रॉपर्टीज़',
-    		title : 'ऐंकर प्रॉपर्टीज़',
-    		name : 'ऐंकर का नाम',
-    		errorName : 'ऐंकर का नाम टाइप करें',
-    		remove : 'Remove Anchor'
-    	},
-    	anchorId : 'ऍलीमॅन्ट Id से',
-    	anchorName : 'ऐंकर नाम से',
-    	charset : 'लिंक रिसोर्स करॅक्टर सॅट',
-    	cssClasses : 'स्टाइल-शीट क्लास',
-    	emailAddress : 'ई-मेल पता',
-    	emailBody : 'संदेश',
-    	emailSubject : 'संदेश विषय',
-    	id : 'Id',
-    	info : 'लिंक  ',
-    	langCode : 'भाषा लिखने की दिशा',
-    	langDir : 'भाषा लिखने की दिशा',
-    	langDirLTR : 'बायें से दायें (LTR)',
-    	langDirRTL : 'दायें से बायें (RTL)',
-    	menu : 'लिंक संपादन',
-    	name : 'नाम',
-    	noAnchors : '(डॉक्यूमॅन्ट में ऐंकर्स की संख्या)',
-    	noEmail : 'ई-मेल पता टाइप करें',
-    	noUrl : 'लिंक URL टाइप करें',
-    	other : '<अन्य>',
-    	popupDependent : 'डिपेन्डॅन्ट (Netscape)',
-    	popupFeatures : 'पॉप-अप विन्डो फ़ीचर्स',
-    	popupFullScreen : 'फ़ुल स्क्रीन (IE)',
-    	popupLeft : 'बायीं तरफ',
-    	popupLocationBar : 'लोकेशन बार',
-    	popupMenuBar : 'मॅन्यू बार',
-    	popupResizable : 'Resizable',
-    	popupScrollBars : 'स्क्रॉल बार',
-    	popupStatusBar : 'स्टेटस बार',
-    	popupToolbar : 'टूल बार',
-    	popupTop : 'दायीं तरफ',
-    	rel : 'Relationship',
-    	selectAnchor : 'ऐंकर चुनें',
-    	styles : 'स्टाइल',
-    	tabIndex : 'टैब इन्डॅक्स',
-    	target : 'टार्गेट',
-    	targetFrame : '<फ़्रेम>',
-    	targetFrameName : 'टार्गेट फ़्रेम का नाम',
-    	targetPopup : '<पॉप-अप विन्डो>',
-    	targetPopupName : 'पॉप-अप विन्डो का नाम',
-    	title : 'लिंक',
-    	toAnchor : 'इस पेज का ऐंकर',
-    	toEmail : 'ई-मेल',
-    	toUrl : 'URL',
-    	toolbar : 'लिंक इन्सर्ट/संपादन',
-    	type : 'लिंक प्रकार',
-    	unlink : 'लिंक हटायें',
-    	upload : 'अपलोड'
-    },
-    smiley : 
-    {
-    	options : 'Smiley Options',
-    	title : 'स्माइली इन्सर्ट करें',
-    	toolbar : 'स्माइली'
-    },
-    print : 
-    {
-    	toolbar : 'प्रिन्ट'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'परामर्श शीर्शक',
-    	cssClassInputLabel : 'स्टाइल-शीट क्लास',
-    	edit : 'Edit Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : 'बायें से दायें (LTR)',
-    	langDirLabel : 'भाषा लिखने की दिशा',
-    	langDirRTLLabel : 'दायें से बायें (RTL)',
-    	languageCodeInputLabel : ' Language Code',
-    	remove : 'Remove Div',
-    	styleSelectLabel : 'स्टाइल',
-    	title : 'Create Div Container',
-    	toolbar : 'Create Div Container'
-    },
-    indent : 
-    {
-    	indent : 'इन्डॅन्ट बढ़ायें',
-    	outdent : 'इन्डॅन्ट कम करें'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'The text you want to paste seems to be copied from Word. Do you want to clean it before pasting?',
-    	error : 'It was not possible to clean up the pasted data due to an internal error',
-    	title : 'पेस्ट (वर्ड से)',
-    	toolbar : 'पेस्ट (वर्ड से)'
-    },
-    colorbutton : 
-    {
-    	auto : 'स्वचालित',
-    	bgColorTitle : 'बैक्ग्राउन्ड रंग',
-    	colors : 
-    	{
-    		'000' : 'Black',
-    		'800000' : 'Maroon',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Dark Gray',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Brown',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'Dark Green',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'Gray',
-    		F00 : 'Red',
-    		FF8C00 : 'Dark Orange',
-    		FFD700 : 'Gold',
-    		'008000' : 'Green',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Blue',
-    		EE82EE : 'Violet',
-    		A9A9A9 : 'Dim Gray',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'Orange',
-    		FFFF00 : 'Yellow',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Light Grey',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'Light Yellow',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'Lavender',
-    		FFF : 'White'
-    	},
-    	more : 'और रंग...',
-    	panelTitle : 'Colors',
-    	textColorTitle : 'टेक्स्ट रंग'
-    },
-    list : 
-    {
-    	bulletedlist : 'बुलॅट सूची',
-    	numberedlist : 'अंकीय सूची'
+    	toolbar : 'सेव'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['hi'] = {
     	validateHSpace : 'HSpace must be a whole number.',
     	validateVSpace : 'VSpace must be a whole number.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'खोजें',
-    	findOptions : 'Find Options',
-    	findWhat : 'यह खोजें:',
-    	matchCase : 'केस मिलायें',
-    	matchCyclic : 'Match cyclic',
-    	matchWord : 'पूरा शब्द मिलायें',
-    	notFoundMsg : 'आपके द्वारा दिया गया टेक्स्ट नहीं मिला',
-    	replace : 'रीप्लेस',
-    	replaceAll : 'सभी रिप्लेस करें',
-    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
-    	replaceWith : 'इससे रिप्लेस करें:',
-    	title : 'खोजें और बदलें'
+    	alt : 'पेज ब्रेक',
+    	toolbar : 'पेज ब्रेक इन्सर्ट् करें'
     },
     showblocks : 
     {
     	toolbar : 'ब्लॉक दिखायें'
+    },
+    indent : 
+    {
+    	indent : 'इन्डॅन्ट बढ़ायें',
+    	outdent : 'इन्डॅन्ट कम करें'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['hi'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'हॉरिज़ॉन्टल रेखा इन्सर्ट करें'
-    },
-    pagebreak : 
-    {
-    	alt : 'पेज ब्रेक',
-    	toolbar : 'पेज ब्रेक इन्सर्ट् करें'
-    },
-    stylescombo : 
-    {
-    	label : 'स्टाइल',
-    	panelTitle : 'Formatting Styles',
-    	panelTitle1 : 'Block Styles',
-    	panelTitle2 : 'Inline Styles',
-    	panelTitle3 : 'Object Styles'
-    },
     bidi : 
     {
     	ltr : 'Text direction from left to right',
     	rtl : 'Text direction from right to left'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'बोल्ड',
-    	italic : 'इटैलिक',
-    	strike : 'स्ट्राइक थ्रू',
-    	subscript : 'अधोलेख',
-    	superscript : 'अभिलेख',
-    	underline : 'रेखांकण'
+    	eleLabel : 'Elements path',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'ऐंकर इन्सर्ट/संपादन',
+    	flash : 'Flash Animation',
+    	hiddenfield : 'गुप्त फ़ील्ड',
+    	iframe : 'IFrame',
+    	unknown : 'Unknown Object'
+    },
+    smiley : 
+    {
+    	options : 'Smiley Options',
+    	title : 'स्माइली इन्सर्ट करें',
+    	toolbar : 'स्माइली'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. All rights reserved.',
+    	dlgTitle : 'About CKEditor',
+    	help : 'Check $1 for help.',
+    	moreInfo : 'For licensing information please visit our web site:',
+    	title : 'About CKEditor',
+    	userGuide : 'CKEditor User\'s Guide'
+    },
+    newpage : 
+    {
+    	toolbar : 'नया पेज'
+    },
+    format : 
+    {
+    	label : 'फ़ॉर्मैट',
+    	panelTitle : 'फ़ॉर्मैट',
+    	tag_address : 'पता',
+    	tag_div : 'शीर्षक (DIV)',
+    	tag_h1 : 'शीर्षक 1',
+    	tag_h2 : 'शीर्षक 2',
+    	tag_h3 : 'शीर्षक 3',
+    	tag_h4 : 'शीर्षक 4',
+    	tag_h5 : 'शीर्षक 5',
+    	tag_h6 : 'शीर्षक 6',
+    	tag_p : 'साधारण',
+    	tag_pre : 'फ़ॉर्मैटॅड'
+    },
+    removeformat : 
+    {
+    	toolbar : 'फ़ॉर्मैट हटायें'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['hi'] = {
     	widthPx : 'पिक्सैल',
     	widthUnit : 'width unit'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Insert paragraph here'
+    	options : 'Special Character Options',
+    	title : 'विशेष करॅक्टर चुनें',
+    	toolbar : 'विशेष करॅक्टर इन्सर्ट करें'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'सेव'
+    	armenian : 'Armenian numbering',
+    	bulletedTitle : 'Bulleted List Properties',
+    	circle : 'Circle',
+    	decimal : 'Decimal (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
+    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
+    	none : 'None',
+    	notset : '<not set>',
+    	numberedTitle : 'Numbered List Properties',
+    	square : 'Square',
+    	start : 'Start',
+    	type : 'Type',
+    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
+    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'List start number must be a whole number.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'ऐंकर इन्सर्ट/संपादन',
-    	flash : 'Flash Animation',
-    	hiddenfield : 'गुप्त फ़ील्ड',
-    	iframe : 'IFrame',
-    	unknown : 'Unknown Object'
+    	border : 'Show frame border',
+    	noUrl : 'Please type the iframe URL',
+    	scrolling : 'Enable scrollbars',
+    	title : 'IFrame Properties',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Elements path',
-    	eleTitle : '%1 element'
+    	access : 'Script Access',
+    	accessAlways : 'Always',
+    	accessNever : 'Never',
+    	accessSameDomain : 'Same domain',
+    	alignAbsBottom : 'Abs नीचे',
+    	alignAbsMiddle : 'Abs ऊपर',
+    	alignBaseline : 'मूल रेखा',
+    	alignTextTop : 'टेक्स्ट ऊपर',
+    	bgcolor : 'बैक्ग्राउन्ड रंग',
+    	chkFull : 'Allow Fullscreen',
+    	chkLoop : 'लूप',
+    	chkMenu : 'फ़्लैश मॅन्यू का प्रयोग करें',
+    	chkPlay : 'ऑटो प्ले',
+    	flashvars : 'Variables for Flash',
+    	hSpace : 'हॉरिज़ॉन्टल स्पेस',
+    	properties : 'फ़्लैश प्रॉपर्टीज़',
+    	propertiesTab : 'Properties',
+    	quality : 'Quality',
+    	qualityAutoHigh : 'Auto High',
+    	qualityAutoLow : 'Auto Low',
+    	qualityBest : 'Best',
+    	qualityHigh : 'High',
+    	qualityLow : 'Low',
+    	qualityMedium : 'Medium',
+    	scale : 'स्केल',
+    	scaleAll : 'सभी दिखायें',
+    	scaleFit : 'बिल्कुल फ़िट',
+    	scaleNoBorder : 'कोई बॉर्डर नहीं',
+    	title : 'फ़्लैश प्रॉपर्टीज़',
+    	vSpace : 'वर्टिकल स्पेस',
+    	validateHSpace : 'HSpace must be a number.',
+    	validateSrc : 'लिंक URL टाइप करें',
+    	validateVSpace : 'VSpace must be a number.',
+    	windowMode : 'Window mode',
+    	windowModeOpaque : 'Opaque',
+    	windowModeTransparent : 'Transparent',
+    	windowModeWindow : 'Window'
+    },
+    find : 
+    {
+    	find : 'खोजें',
+    	findOptions : 'Find Options',
+    	findWhat : 'यह खोजें:',
+    	matchCase : 'केस मिलायें',
+    	matchCyclic : 'Match cyclic',
+    	matchWord : 'पूरा शब्द मिलायें',
+    	notFoundMsg : 'आपके द्वारा दिया गया टेक्स्ट नहीं मिला',
+    	replace : 'रीप्लेस',
+    	replaceAll : 'सभी रिप्लेस करें',
+    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
+    	replaceWith : 'इससे रिप्लेस करें:',
+    	title : 'खोजें और बदलें'
+    },
+    colorbutton : 
+    {
+    	auto : 'स्वचालित',
+    	bgColorTitle : 'बैक्ग्राउन्ड रंग',
+    	colors : 
+    	{
+    		'000' : 'Black',
+    		'800000' : 'Maroon',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Dark Gray',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Brown',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'Dark Green',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'Gray',
+    		F00 : 'Red',
+    		FF8C00 : 'Dark Orange',
+    		FFD700 : 'Gold',
+    		'008000' : 'Green',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Blue',
+    		EE82EE : 'Violet',
+    		A9A9A9 : 'Dim Gray',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'Orange',
+    		FFFF00 : 'Yellow',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Light Grey',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'Light Yellow',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'Lavender',
+    		FFF : 'White'
+    	},
+    	more : 'और रंग...',
+    	panelTitle : 'Colors',
+    	textColorTitle : 'टेक्स्ट रंग'
+    },
+    undo : 
+    {
+    	redo : 'रीडू',
+    	undo : 'अन्डू'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'साइज़',
+    		voiceLabel : 'Font Size',
+    		panelTitle : 'साइज़'
+    	},
+    	label : 'फ़ॉन्ट',
+    	panelTitle : 'फ़ॉन्ट',
+    	voiceLabel : 'फ़ॉन्ट'
     },
     maximize : 
     {
     	maximize : 'मेक्सिमाईज़',
     	minimize : 'मिनिमाईज़'
     },
+    basicstyles : 
+    {
+    	bold : 'बोल्ड',
+    	italic : 'इटैलिक',
+    	strike : 'स्ट्राइक थ्रू',
+    	subscript : 'अधोलेख',
+    	superscript : 'अभिलेख',
+    	underline : 'रेखांकण'
+    },
+    magicline : 
+    {
+    	title : 'Insert paragraph here'
+    },
+    print : 
+    {
+    	toolbar : 'प्रिन्ट'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'इग्नोर',
+    	btnIgnoreAll : 'सभी इग्नोर करें',
+    	btnReplace : 'रिप्लेस',
+    	btnReplaceAll : 'सभी रिप्लेस करें',
+    	btnUndo : 'अन्डू',
+    	changeTo : 'इसमें बदलें',
+    	errorLoading : 'Error loading application service host: %s.',
+    	ieSpellDownload : 'स्पॅल-चॅकर इन्स्टाल नहीं किया गया है। क्या आप इसे डाउनलोड करना चाहेंगे?',
+    	manyChanges : 'वर्तनी की जाँच : %1 शब्द बदले गये',
+    	noChanges : 'वर्तनी की जाँच :कोई शब्द नहीं बदला गया',
+    	noMispell : 'वर्तनी की जाँच : कोई गलत वर्तनी (स्पॅलिंग) नहीं पाई गई',
+    	noSuggestions : '- कोई सुझाव नहीं -',
+    	notAvailable : 'Sorry, but service is unavailable now.',
+    	notInDic : 'शब्दकोश में नहीं',
+    	oneChange : 'वर्तनी की जाँच : एक शब्द बदला गया',
+    	progress : 'वर्तनी की जाँच (स्पॅल-चॅक) जारी है...',
+    	title : 'Spell Check',
+    	toolbar : 'वर्तनी (स्पेलिंग) जाँच'
+    },
+    clipboard : 
+    {
+    	copy : 'कॉपी',
+    	copyError : 'आपके ब्राआउज़र की सुरक्षा सॅटिन्ग्स ने कॉपी करने की अनुमति नहीं प्रदान की है। (Ctrl/Cmd+C) का प्रयोग करें।',
+    	cut : 'कट',
+    	cutError : 'आपके ब्राउज़र की सुरक्षा सॅटिन्ग्स ने कट करने की अनुमति नहीं प्रदान की है। (Ctrl/Cmd+X) का प्रयोग करें।',
+    	paste : 'पेस्ट',
+    	pasteArea : 'Paste Area',
+    	pasteMsg : 'Ctrl/Cmd+V का प्रयोग करके पेस्ट करें और ठीक है करें.',
+    	securityMsg : 'आपके ब्राउज़र की सुरक्षा आपके ब्राउज़र की सुरKश सैटिंग के कारण, एडिटर आपके क्लिपबोर्ड डेटा को नहीं पा सकता है. आपको उसे इस विन्डो में दोबारा पेस्ट करना होगा.',
+    	title : 'पेस्ट'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'सोर्स'
+    },
+    scayt : 
+    {
+    	about : 'About SCAYT',
+    	aboutTab : 'About',
+    	addWord : 'Add Word',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Dictionaries',
+    	disable : 'Disable SCAYT',
+    	emptyDic : 'Dictionary name should not be empty.',
+    	enable : 'Enable SCAYT',
+    	ignore : 'Ignore',
+    	ignoreAll : 'Ignore All',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Languages',
+    	languagesTab : 'Languages',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'More suggestions',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Options',
+    	optionsTab : 'Options',
+    	title : 'Spell Check As You Type',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'हॉरिज़ॉन्टल रेखा इन्सर्ट करें'
+    },
+    pastetext : 
+    {
+    	button : 'पेस्ट (सादा टॅक्स्ट)',
+    	title : 'पेस्ट (सादा टॅक्स्ट)'
+    },
+    contextmenu : 
+    {
+    	options : 'Context Menu Options'
+    },
+    templates : 
+    {
+    	button : 'टॅम्प्लेट',
+    	emptyListMsg : '(कोई टॅम्प्लेट डिफ़ाइन नहीं किया गया है)',
+    	insertOption : 'मूल शब्दों को बदलें',
+    	options : 'Template Options',
+    	selectPromptMsg : 'ऍडिटर में ओपन करने हेतु टॅम्प्लेट चुनें(वर्तमान कन्टॅन्ट सेव नहीं होंगे):',
+    	title : 'कन्टेन्ट टॅम्प्लेट'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'परामर्श शीर्शक',
+    	cssClassInputLabel : 'स्टाइल-शीट क्लास',
+    	edit : 'Edit Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : 'बायें से दायें (LTR)',
+    	langDirLabel : 'भाषा लिखने की दिशा',
+    	langDirRTLLabel : 'दायें से बायें (RTL)',
+    	languageCodeInputLabel : ' Language Code',
+    	remove : 'Remove Div',
+    	styleSelectLabel : 'स्टाइल',
+    	title : 'Create Div Container',
+    	toolbar : 'Create Div Container'
+    },
+    preview : 
+    {
+    	preview : 'प्रीव्यू'
+    },
+    colordialog : 
+    {
+    	clear : 'Clear',
+    	highlight : 'Highlight',
+    	options : 'Color Options',
+    	selected : 'Selected Color',
+    	title : 'Select color'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Collapse Toolbar',
+    	toolbarExpand : 'Expand Toolbar',
+    	toolbarGroups : 
+    	{
+    		document : 'Document',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Editing',
+    		forms : 'Forms',
+    		basicstyles : 'Basic Styles',
+    		paragraph : 'Paragraph',
+    		links : 'Links',
+    		insert : 'Insert',
+    		styles : 'Styles',
+    		colors : 'Colors',
+    		tools : 'Tools'
+    	},
+    	toolbars : 'एडिटर टूलबार'
+    },
+    selectall : 
+    {
+    	toolbar : 'सब सॅलॅक्ट करें'
+    },
+    blockquote : 
+    {
+    	toolbar : 'ब्लॉक-कोट'
+    },
+    link : 
+    {
+    	acccessKey : 'ऍक्सॅस की',
+    	advanced : 'ऍड्वान्स्ड',
+    	advisoryContentType : 'परामर्श कन्टॅन्ट प्रकार',
+    	advisoryTitle : 'परामर्श शीर्शक',
+    	anchor : 
+    	{
+    		toolbar : 'ऐंकर इन्सर्ट/संपादन',
+    		menu : 'ऐंकर प्रॉपर्टीज़',
+    		title : 'ऐंकर प्रॉपर्टीज़',
+    		name : 'ऐंकर का नाम',
+    		errorName : 'ऐंकर का नाम टाइप करें',
+    		remove : 'Remove Anchor'
+    	},
+    	anchorId : 'ऍलीमॅन्ट Id से',
+    	anchorName : 'ऐंकर नाम से',
+    	charset : 'लिंक रिसोर्स करॅक्टर सॅट',
+    	cssClasses : 'स्टाइल-शीट क्लास',
+    	emailAddress : 'ई-मेल पता',
+    	emailBody : 'संदेश',
+    	emailSubject : 'संदेश विषय',
+    	id : 'Id',
+    	info : 'लिंक  ',
+    	langCode : 'भाषा लिखने की दिशा',
+    	langDir : 'भाषा लिखने की दिशा',
+    	langDirLTR : 'बायें से दायें (LTR)',
+    	langDirRTL : 'दायें से बायें (RTL)',
+    	menu : 'लिंक संपादन',
+    	name : 'नाम',
+    	noAnchors : '(डॉक्यूमॅन्ट में ऐंकर्स की संख्या)',
+    	noEmail : 'ई-मेल पता टाइप करें',
+    	noUrl : 'लिंक URL टाइप करें',
+    	other : '<अन्य>',
+    	popupDependent : 'डिपेन्डॅन्ट (Netscape)',
+    	popupFeatures : 'पॉप-अप विन्डो फ़ीचर्स',
+    	popupFullScreen : 'फ़ुल स्क्रीन (IE)',
+    	popupLeft : 'बायीं तरफ',
+    	popupLocationBar : 'लोकेशन बार',
+    	popupMenuBar : 'मॅन्यू बार',
+    	popupResizable : 'Resizable',
+    	popupScrollBars : 'स्क्रॉल बार',
+    	popupStatusBar : 'स्टेटस बार',
+    	popupToolbar : 'टूल बार',
+    	popupTop : 'दायीं तरफ',
+    	rel : 'Relationship',
+    	selectAnchor : 'ऐंकर चुनें',
+    	styles : 'स्टाइल',
+    	tabIndex : 'टैब इन्डॅक्स',
+    	target : 'टार्गेट',
+    	targetFrame : '<फ़्रेम>',
+    	targetFrameName : 'टार्गेट फ़्रेम का नाम',
+    	targetPopup : '<पॉप-अप विन्डो>',
+    	targetPopupName : 'पॉप-अप विन्डो का नाम',
+    	title : 'लिंक',
+    	toAnchor : 'इस पेज का ऐंकर',
+    	toEmail : 'ई-मेल',
+    	toUrl : 'URL',
+    	toolbar : 'लिंक इन्सर्ट/संपादन',
+    	type : 'लिंक प्रकार',
+    	unlink : 'लिंक हटायें',
+    	upload : 'अपलोड'
+    },
+    stylescombo : 
+    {
+    	label : 'स्टाइल',
+    	panelTitle : 'Formatting Styles',
+    	panelTitle1 : 'Block Styles',
+    	panelTitle2 : 'Inline Styles',
+    	panelTitle3 : 'Object Styles'
+    },
+    dir : 'ltr',
     editor : 'रिच टेक्स्ट एडिटर',
     common : 
     {

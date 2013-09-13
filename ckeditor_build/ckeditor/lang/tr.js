@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['tr'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Kopyala',
-    	copyError : 'Gezgin yazılımınızın güvenlik ayarları düzenleyicinin otomatik kopyalama işlemine izin vermiyor. İşlem için (Ctrl/Cmd+C) tuşlarını kullanın.',
-    	cut : 'Kes',
-    	cutError : 'Gezgin yazılımınızın güvenlik ayarları düzenleyicinin otomatik kesme işlemine izin vermiyor. İşlem için (Ctrl/Cmd+X) tuşlarını kullanın.',
-    	paste : 'Yapıştır',
-    	pasteArea : 'Yapıştırma Alanı',
-    	pasteMsg : 'Lütfen aşağıdaki kutunun içine yapıştırın. (<STRONG>Ctrl/Cmd+V</STRONG>) ve <STRONG>Tamam</STRONG> butonunu tıklayın.',
-    	securityMsg : 'Gezgin yazılımınızın güvenlik ayarları düzenleyicinin direkt olarak panoya erişimine izin vermiyor. Bu pencere içine tekrar yapıştırmalısınız..',
-    	title : 'Yapıştır'
+    	confirmCleanup : 'Yapıştırmaya çalıştığınız metin Word\'den kopyalanmıştır. Yapıştırmadan önce silmek istermisiniz?',
+    	error : 'Yapıştırmadaki veri bilgisi hata düzelene kadar silinmeyecektir',
+    	title : 'Word\'den Yapıştır',
+    	toolbar : 'Word\'den Yapıştır'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Düz Metin Olarak Yapıştır',
-    	title : 'Düz Metin Olarak Yapıştır'
-    },
-    specialchar : 
-    {
-    	options : 'Özel Karakter Seçenekleri',
-    	title : 'Özel Karakter Seç',
-    	toolbar : 'Özel Karakter Ekle'
-    },
-    selectall : 
-    {
-    	toolbar : 'Tümünü Seç'
-    },
-    newpage : 
-    {
-    	toolbar : 'Yeni Sayfa'
-    },
-    templates : 
-    {
-    	button : 'Şablonlar',
-    	emptyListMsg : '(Belirli bir şablon seçilmedi)',
-    	insertOption : 'Mevcut içerik ile değiştir',
-    	options : 'Şablon Seçenekleri',
-    	selectPromptMsg : 'Düzenleyicide açmak için lütfen bir şablon seçin.<br>(hali hazırdaki içerik kaybolacaktır.):',
-    	title : 'İçerik Şablonları'
-    },
-    colordialog : 
-    {
-    	clear : 'Temizle',
-    	highlight : 'İşaretle',
-    	options : 'Renk Seçenekleri',
-    	selected : 'Seçilmiş',
-    	title : 'Renk seç'
-    },
-    preview : 
-    {
-    	preview : 'Ön İzleme'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Boyut',
-    		voiceLabel : 'Font Size',
-    		panelTitle : 'Boyut'
-    	},
-    	label : 'Yazı Türü',
-    	panelTitle : 'Yazı Türü',
-    	voiceLabel : 'Font'
-    },
-    liststyle : 
-    {
-    	armenian : 'Ermenice sayılandırma',
-    	bulletedTitle : 'Simgeli Liste Özellikleri',
-    	circle : 'Daire',
-    	decimal : 'Ondalık (1, 2, 3, vs.)',
-    	decimalLeadingZero : 'Başı sıfırlı ondalık (01, 02, 03, vs.)',
-    	disc : 'Disk',
-    	georgian : 'Gürcüce numaralandırma (an, ban, gan, vs.)',
-    	lowerAlpha : 'Küçük Alpha (a, b, c, d, e, vs.)',
-    	lowerGreek : 'Küçük Greek (alpha, beta, gamma, vs.)',
-    	lowerRoman : 'Küçük Roman (i, ii, iii, iv, v, vs.)',
-    	none : 'Yok',
-    	notset : '<ayarlanmamış>',
-    	numberedTitle : 'Sayılandırılmış Liste Özellikleri',
-    	square : 'Kare',
-    	start : 'Başla',
-    	type : 'Tipi',
-    	upperAlpha : 'Büyük Alpha (A, B, C, D, E, vs.)',
-    	upperRoman : 'Büyük Roman (I, II, III, IV, V, vs.)',
-    	validateStartNumber : 'Liste başlangıcı tam sayı olmalıdır.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Blok Oluştur'
-    },
-    undo : 
-    {
-    	redo : 'Tekrarla',
-    	undo : 'Geri Al'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. Tüm hakları saklıdır.',
-    	dlgTitle : 'CKEditor Hakkında',
-    	help : 'Yardım için $1 kontrol edin.',
-    	moreInfo : 'Lisanslama hakkında daha fazla bilgi almak için lütfen sitemizi ziyaret edin:',
-    	title : 'CKEditor Hakkında',
-    	userGuide : 'CKEditor Kullanıcı Kılavuzu'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Araç çubuklarını topla',
-    	toolbarExpand : 'Araç çubuklarını aç',
-    	toolbarGroups : 
-    	{
-    		document : 'Belge',
-    		clipboard : 'Pano/Geri al',
-    		editing : 'Düzenleme',
-    		forms : 'Formlar',
-    		basicstyles : 'Temel Stiller',
-    		paragraph : 'Paragraf',
-    		links : 'Bağlantılar',
-    		insert : 'Ekle',
-    		styles : 'Stiller',
-    		colors : 'Renkler',
-    		tools : 'Araçlar'
-    	},
-    	toolbars : 'Araç çubukları Editörü'
-    },
-    scayt : 
-    {
-    	about : 'SCAYT\'ı hakkında',
-    	aboutTab : 'Hakkında',
-    	addWord : 'Kelime Ekle',
-    	allCaps : 'Tüm büyük küçük kelimeleri yoksay',
-    	dic_create : 'Oluştur',
-    	dic_delete : 'Sil',
-    	dic_field_name : 'Sözlük adı',
-    	dic_info : 'Başlangıçta Kullanıcı Sözlüğü bir çerezde saklanır. Ancak, Çerezler boyutu sınırlıdır. Kullanıcı Sözlüğü, çerezin içinde saklanamayacağı bir noktada, bizim sunucularımızın içindeki sözlükte saklanabilir. Bizim sunucu üzerinde kişisel Sözlük saklamanız için, Sözlüğe bir ad belirtmelisiniz. Eğer zaten bir saklı Sözlük varsa, lütfen adını yazın ve Geri Yükle düğmesini tıklayın.',
-    	dic_rename : 'Yeniden adlandır',
-    	dic_restore : 'Geri al',
-    	dictionariesTab : 'Sözlükler',
-    	disable : 'SCAYT\'ı pasifleştir',
-    	emptyDic : 'Sözlük adı boş olamaz.',
-    	enable : 'SCAYT\'ı etkinleştir',
-    	ignore : 'Yoksay',
-    	ignoreAll : 'Tümünü Yoksay',
-    	ignoreDomainNames : 'Domain adlarını yoksay',
-    	langs : 'Diller',
-    	languagesTab : 'Diller',
-    	mixedCase : 'Karışık büyüklük ile Sözcükler yoksay',
-    	mixedWithDigits : 'Sayılarla Kelimeler yoksay',
-    	moreSuggestions : 'Daha fazla öneri',
-    	opera_title : 'Opera tarafından desteklenmemektedir',
-    	options : 'Seçenekler',
-    	optionsTab : 'Seçenekler',
-    	title : 'Girmiş olduğunuz kelime denetimi',
-    	toggle : 'SCAYT\'ı değiştir',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Yoksay',
-    	btnIgnoreAll : 'Tümünü Yoksay',
-    	btnReplace : 'Değiştir',
-    	btnReplaceAll : 'Tümünü Değiştir',
-    	btnUndo : 'Geri Al',
-    	changeTo : 'Şuna değiştir:',
-    	errorLoading : 'Uygulamada yüklerken hata oluştu: %s.',
-    	ieSpellDownload : 'Yazım denetimi yüklenmemiş. Şimdi yüklemek ister misiniz?',
-    	manyChanges : 'Yazım denetimi tamamlandı: %1 kelime değiştirildi',
-    	noChanges : 'Yazım denetimi tamamlandı: Hiçbir kelime değiştirilmedi',
-    	noMispell : 'Yazım denetimi tamamlandı: Yanlış yazıma rastlanmadı',
-    	noSuggestions : '- Öneri Yok -',
-    	notAvailable : 'Üzügünüz, bu servis şuanda hizmet dışıdır.',
-    	notInDic : 'Sözlükte Yok',
-    	oneChange : 'Yazım denetimi tamamlandı: Bir kelime değiştirildi',
-    	progress : 'Yazım denetimi işlemde...',
-    	title : 'Yazımı Denetle',
-    	toolbar : 'Yazım Denetimi'
-    },
-    contextmenu : 
-    {
-    	options : 'İçerik Menüsü Seçenekleri'
+    	bulletedlist : 'Simgeli Liste',
+    	numberedlist : 'Numaralı Liste'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['tr'] = {
     	left : 'Sola Dayalı',
     	right : 'Sağa Dayalı'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Kaynak'
-    },
-    format : 
-    {
-    	label : 'Biçim',
-    	panelTitle : 'Biçim',
-    	tag_address : 'Adres',
-    	tag_div : 'Paragraf (DIV)',
-    	tag_h1 : 'Başlık 1',
-    	tag_h2 : 'Başlık 2',
-    	tag_h3 : 'Başlık 3',
-    	tag_h4 : 'Başlık 4',
-    	tag_h5 : 'Başlık 5',
-    	tag_h6 : 'Başlık 6',
-    	tag_p : 'Normal',
-    	tag_pre : 'Biçimli'
-    },
-    flash : 
-    {
-    	access : 'Kod İzni',
-    	accessAlways : 'Herzaman',
-    	accessNever : 'Asla',
-    	accessSameDomain : 'Aynı domain',
-    	alignAbsBottom : 'Tam Altı',
-    	alignAbsMiddle : 'Tam Ortası',
-    	alignBaseline : 'Taban Çizgisi',
-    	alignTextTop : 'Yazı Tepeye',
-    	bgcolor : 'Arka Renk',
-    	chkFull : 'Tam ekrana İzinver',
-    	chkLoop : 'Döngü',
-    	chkMenu : 'Flash Menüsünü Kullan',
-    	chkPlay : 'Otomatik Oynat',
-    	flashvars : 'Flash Değerleri',
-    	hSpace : 'Yatay Boşluk',
-    	properties : 'Flash Özellikleri',
-    	propertiesTab : 'Özellikler',
-    	quality : 'Kalite',
-    	qualityAutoHigh : 'Otomatik Yükseklik',
-    	qualityAutoLow : 'Otomatik Düşüklük',
-    	qualityBest : 'En iyi',
-    	qualityHigh : 'Yüksek',
-    	qualityLow : 'Düşük',
-    	qualityMedium : 'Orta',
-    	scale : 'Boyutlandır',
-    	scaleAll : 'Hepsini Göster',
-    	scaleFit : 'Tam Sığdır',
-    	scaleNoBorder : 'Kenar Yok',
-    	title : 'Flash Özellikleri',
-    	vSpace : 'Dikey Boşluk',
-    	validateHSpace : 'HSpace sayı olmalıdır.',
-    	validateSrc : 'Lütfen köprü URL\'sini yazın',
-    	validateVSpace : 'VSpace sayı olmalıdır.',
-    	windowMode : 'Pencere modu',
-    	windowModeOpaque : 'Opak',
-    	windowModeTransparent : 'Şeffaf',
-    	windowModeWindow : 'Pencere'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Biçimi Kaldır'
-    },
-    iframe : 
-    {
-    	border : 'Çerceve sınırlarını göster',
-    	noUrl : 'Lütfen IFrame köprü (URL) bağlantısını yazın',
-    	scrolling : 'Kaydırma çubuklarını aktif et',
-    	title : 'IFrame Özellikleri',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Erişim Tuşu',
-    	advanced : 'Gelişmiş',
-    	advisoryContentType : 'Danışma İçerik Türü',
-    	advisoryTitle : 'Danışma Başlığı',
-    	anchor : 
-    	{
-    		toolbar : 'Bağlantı Ekle/Düzenle',
-    		menu : 'Bağlantı Özellikleri',
-    		title : 'Bağlantı Özellikleri',
-    		name : 'Bağlantı Adı',
-    		errorName : 'Lütfen bağlantı için ad giriniz',
-    		remove : 'Bağlantıyı Kaldır'
-    	},
-    	anchorId : 'Eleman Kimlik Numarası ile',
-    	anchorName : 'Bağlantı Adı ile',
-    	charset : 'Bağlı Kaynak Karakter Gurubu',
-    	cssClasses : 'Biçem Sayfası Sınıfları',
-    	emailAddress : 'E-Posta Adresi',
-    	emailBody : 'İleti Gövdesi',
-    	emailSubject : 'İleti Konusu',
-    	id : 'Id',
-    	info : 'Link Bilgisi',
-    	langCode : 'Dil Yönü',
-    	langDir : 'Dil Yönü',
-    	langDirLTR : 'Soldan Sağa (LTR)',
-    	langDirRTL : 'Sağdan Sola (RTL)',
-    	menu : 'Link Düzenle',
-    	name : 'Ad',
-    	noAnchors : '(Bu belgede hiç çapa yok)',
-    	noEmail : 'Lütfen E-posta adresini yazın',
-    	noUrl : 'Lütfen Link URL\'sini yazın',
-    	other : '<diğer>',
-    	popupDependent : 'Bağımlı (Netscape)',
-    	popupFeatures : 'Yeni Açılan Pencere Özellikleri',
-    	popupFullScreen : 'Tam Ekran (IE)',
-    	popupLeft : 'Sola Göre Konum',
-    	popupLocationBar : 'Yer Çubuğu',
-    	popupMenuBar : 'Menü Çubuğu',
-    	popupResizable : 'Resizable',
-    	popupScrollBars : 'Kaydırma Çubukları',
-    	popupStatusBar : 'Durum Çubuğu',
-    	popupToolbar : 'Araç Çubuğu',
-    	popupTop : 'Yukarıya Göre Konum',
-    	rel : 'İlişki',
-    	selectAnchor : 'Bağlantı Seç',
-    	styles : 'Biçem',
-    	tabIndex : 'Sekme İndeksi',
-    	target : 'Hedef',
-    	targetFrame : '<çerçeve>',
-    	targetFrameName : 'Hedef Çerçeve Adı',
-    	targetPopup : '<yeni açılan pencere>',
-    	targetPopupName : 'Yeni Açılan Pencere Adı',
-    	title : 'Link',
-    	toAnchor : 'Bu sayfada çapa',
-    	toEmail : 'E-Posta',
-    	toUrl : 'URL',
-    	toolbar : 'Link Ekle/Düzenle',
-    	type : 'Link Türü',
-    	unlink : 'Köprü Kaldır',
-    	upload : 'Karşıya Yükle'
-    },
-    smiley : 
-    {
-    	options : 'İfade Seçenekleri',
-    	title : 'İfade Ekle',
-    	toolbar : 'İfade'
-    },
-    print : 
-    {
-    	toolbar : 'Yazdır'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Tavsiye Başlığı',
-    	cssClassInputLabel : 'Stilltipi Sınıfı',
-    	edit : 'Div Düzenle',
-    	inlineStyleInputLabel : 'Inline Stili',
-    	langDirLTRLabel : 'Soldan sağa (LTR)',
-    	langDirLabel : 'Dil Yönü',
-    	langDirRTLLabel : 'Sağdan sola (RTL)',
-    	languageCodeInputLabel : ' Dil Kodu',
-    	remove : 'Div Kaldır',
-    	styleSelectLabel : 'Stil',
-    	title : 'Div İçeriği Oluştur',
-    	toolbar : 'Div İçeriği Oluştur'
-    },
-    indent : 
-    {
-    	indent : 'Sekme Arttır',
-    	outdent : 'Sekme Azalt'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Yapıştırmaya çalıştığınız metin Word\'den kopyalanmıştır. Yapıştırmadan önce silmek istermisiniz?',
-    	error : 'Yapıştırmadaki veri bilgisi hata düzelene kadar silinmeyecektir',
-    	title : 'Word\'den Yapıştır',
-    	toolbar : 'Word\'den Yapıştır'
-    },
-    colorbutton : 
-    {
-    	auto : 'Otomatik',
-    	bgColorTitle : 'Arka Renk',
-    	colors : 
-    	{
-    		'000' : 'Siyah',
-    		'800000' : 'Kestane',
-    		'8B4513' : 'Koyu Kahverengi',
-    		'2F4F4F' : 'Koyu Kurşuni Gri',
-    		'008080' : 'Teal',
-    		'000080' : 'Mavi',
-    		'4B0082' : 'Çivit Mavisi',
-    		'696969' : 'Silik Gri',
-    		B22222 : 'Ateş Tuğlası',
-    		A52A2A : 'Kahverengi',
-    		DAA520 : 'Altun Sırık',
-    		'006400' : 'Koyu Yeşil',
-    		'40E0D0' : 'Turkuaz',
-    		'0000CD' : 'Orta Mavi',
-    		'800080' : 'Pembe',
-    		'808080' : 'Gri',
-    		F00 : 'Kırmızı',
-    		FF8C00 : 'Koyu Portakal',
-    		FFD700 : 'Altın',
-    		'008000' : 'Yeşil',
-    		'0FF' : 'Ciyan',
-    		'00F' : 'Mavi',
-    		EE82EE : 'Menekşe',
-    		A9A9A9 : 'Koyu Gri',
-    		FFA07A : 'Açık Sarımsı',
-    		FFA500 : 'Portakal',
-    		FFFF00 : 'Sarı',
-    		'00FF00' : 'Açık Yeşil',
-    		AFEEEE : 'Sönük Turkuaz',
-    		ADD8E6 : 'Açık Mavi',
-    		DDA0DD : 'Mor',
-    		D3D3D3 : 'Açık Gri',
-    		FFF0F5 : 'Eflatun Pembe',
-    		FAEBD7 : 'Antik Beyaz',
-    		FFFFE0 : 'Açık Sarı',
-    		F0FFF0 : 'Balsarısı',
-    		F0FFFF : 'Gök Mavisi',
-    		F0F8FF : 'Reha Mavi',
-    		E6E6FA : 'Eflatun',
-    		FFF : 'Beyaz'
-    	},
-    	more : 'Diğer renkler...',
-    	panelTitle : 'Renkler',
-    	textColorTitle : 'Yazı Rengi'
-    },
-    list : 
-    {
-    	bulletedlist : 'Simgeli Liste',
-    	numberedlist : 'Numaralı Liste'
+    	toolbar : 'Kaydet'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['tr'] = {
     	validateHSpace : 'HSpace tam sayı olmalıdır.',
     	validateVSpace : 'VSpace tam sayı olmalıdır.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Bul',
-    	findOptions : 'Seçenekleri Bul',
-    	findWhat : 'Aranan:',
-    	matchCase : 'Büyük/küçük harf duyarlı',
-    	matchCyclic : 'Eşleşen döngü',
-    	matchWord : 'Kelimenin tamamı uysun',
-    	notFoundMsg : 'Belirtilen yazı bulunamadı.',
-    	replace : 'Değiştir',
-    	replaceAll : 'Tümünü Değiştir',
-    	replaceSuccessMsg : '%1 bulunanlardan değiştirildi.',
-    	replaceWith : 'Bununla değiştir:',
-    	title : 'Bul ve Değiştir'
+    	alt : 'Sayfa Sonu',
+    	toolbar : 'Sayfa Sonu Ekle'
     },
     showblocks : 
     {
     	toolbar : 'Blokları Göster'
+    },
+    indent : 
+    {
+    	indent : 'Sekme Arttır',
+    	outdent : 'Sekme Azalt'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['tr'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Yatay Satır Ekle'
-    },
-    pagebreak : 
-    {
-    	alt : 'Sayfa Sonu',
-    	toolbar : 'Sayfa Sonu Ekle'
-    },
-    stylescombo : 
-    {
-    	label : 'Biçem',
-    	panelTitle : 'Stilleri Düzenliyor',
-    	panelTitle1 : 'Blok Stilleri',
-    	panelTitle2 : 'Inline Stilleri',
-    	panelTitle3 : 'Nesne Stilleri'
-    },
     bidi : 
     {
     	ltr : 'Metin yönü soldan sağa',
     	rtl : 'Metin yönü sağdan sola'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Kalın',
-    	italic : 'İtalik',
-    	strike : 'Üstü Çizgili',
-    	subscript : 'Alt Simge',
-    	superscript : 'Üst Simge',
-    	underline : 'Altı Çizgili'
+    	eleLabel : 'Elementlerin yolu',
+    	eleTitle : '%1 elementi'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Bağlantı',
+    	flash : 'Flash Animasyonu',
+    	hiddenfield : 'Gizli Alan',
+    	iframe : 'IFrame',
+    	unknown : 'Bilinmeyen Nesne'
+    },
+    smiley : 
+    {
+    	options : 'İfade Seçenekleri',
+    	title : 'İfade Ekle',
+    	toolbar : 'İfade'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. Tüm hakları saklıdır.',
+    	dlgTitle : 'CKEditor Hakkında',
+    	help : 'Yardım için $1 kontrol edin.',
+    	moreInfo : 'Lisanslama hakkında daha fazla bilgi almak için lütfen sitemizi ziyaret edin:',
+    	title : 'CKEditor Hakkında',
+    	userGuide : 'CKEditor Kullanıcı Kılavuzu'
+    },
+    newpage : 
+    {
+    	toolbar : 'Yeni Sayfa'
+    },
+    format : 
+    {
+    	label : 'Biçim',
+    	panelTitle : 'Biçim',
+    	tag_address : 'Adres',
+    	tag_div : 'Paragraf (DIV)',
+    	tag_h1 : 'Başlık 1',
+    	tag_h2 : 'Başlık 2',
+    	tag_h3 : 'Başlık 3',
+    	tag_h4 : 'Başlık 4',
+    	tag_h5 : 'Başlık 5',
+    	tag_h6 : 'Başlık 6',
+    	tag_p : 'Normal',
+    	tag_pre : 'Biçimli'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Biçimi Kaldır'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['tr'] = {
     	widthPx : 'piksel',
     	widthUnit : 'genişlik birimi'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Parağrafı buraya ekle'
+    	options : 'Özel Karakter Seçenekleri',
+    	title : 'Özel Karakter Seç',
+    	toolbar : 'Özel Karakter Ekle'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Kaydet'
+    	armenian : 'Ermenice sayılandırma',
+    	bulletedTitle : 'Simgeli Liste Özellikleri',
+    	circle : 'Daire',
+    	decimal : 'Ondalık (1, 2, 3, vs.)',
+    	decimalLeadingZero : 'Başı sıfırlı ondalık (01, 02, 03, vs.)',
+    	disc : 'Disk',
+    	georgian : 'Gürcüce numaralandırma (an, ban, gan, vs.)',
+    	lowerAlpha : 'Küçük Alpha (a, b, c, d, e, vs.)',
+    	lowerGreek : 'Küçük Greek (alpha, beta, gamma, vs.)',
+    	lowerRoman : 'Küçük Roman (i, ii, iii, iv, v, vs.)',
+    	none : 'Yok',
+    	notset : '<ayarlanmamış>',
+    	numberedTitle : 'Sayılandırılmış Liste Özellikleri',
+    	square : 'Kare',
+    	start : 'Başla',
+    	type : 'Tipi',
+    	upperAlpha : 'Büyük Alpha (A, B, C, D, E, vs.)',
+    	upperRoman : 'Büyük Roman (I, II, III, IV, V, vs.)',
+    	validateStartNumber : 'Liste başlangıcı tam sayı olmalıdır.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Bağlantı',
-    	flash : 'Flash Animasyonu',
-    	hiddenfield : 'Gizli Alan',
-    	iframe : 'IFrame',
-    	unknown : 'Bilinmeyen Nesne'
+    	border : 'Çerceve sınırlarını göster',
+    	noUrl : 'Lütfen IFrame köprü (URL) bağlantısını yazın',
+    	scrolling : 'Kaydırma çubuklarını aktif et',
+    	title : 'IFrame Özellikleri',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Elementlerin yolu',
-    	eleTitle : '%1 elementi'
+    	access : 'Kod İzni',
+    	accessAlways : 'Herzaman',
+    	accessNever : 'Asla',
+    	accessSameDomain : 'Aynı domain',
+    	alignAbsBottom : 'Tam Altı',
+    	alignAbsMiddle : 'Tam Ortası',
+    	alignBaseline : 'Taban Çizgisi',
+    	alignTextTop : 'Yazı Tepeye',
+    	bgcolor : 'Arka Renk',
+    	chkFull : 'Tam ekrana İzinver',
+    	chkLoop : 'Döngü',
+    	chkMenu : 'Flash Menüsünü Kullan',
+    	chkPlay : 'Otomatik Oynat',
+    	flashvars : 'Flash Değerleri',
+    	hSpace : 'Yatay Boşluk',
+    	properties : 'Flash Özellikleri',
+    	propertiesTab : 'Özellikler',
+    	quality : 'Kalite',
+    	qualityAutoHigh : 'Otomatik Yükseklik',
+    	qualityAutoLow : 'Otomatik Düşüklük',
+    	qualityBest : 'En iyi',
+    	qualityHigh : 'Yüksek',
+    	qualityLow : 'Düşük',
+    	qualityMedium : 'Orta',
+    	scale : 'Boyutlandır',
+    	scaleAll : 'Hepsini Göster',
+    	scaleFit : 'Tam Sığdır',
+    	scaleNoBorder : 'Kenar Yok',
+    	title : 'Flash Özellikleri',
+    	vSpace : 'Dikey Boşluk',
+    	validateHSpace : 'HSpace sayı olmalıdır.',
+    	validateSrc : 'Lütfen köprü URL\'sini yazın',
+    	validateVSpace : 'VSpace sayı olmalıdır.',
+    	windowMode : 'Pencere modu',
+    	windowModeOpaque : 'Opak',
+    	windowModeTransparent : 'Şeffaf',
+    	windowModeWindow : 'Pencere'
+    },
+    find : 
+    {
+    	find : 'Bul',
+    	findOptions : 'Seçenekleri Bul',
+    	findWhat : 'Aranan:',
+    	matchCase : 'Büyük/küçük harf duyarlı',
+    	matchCyclic : 'Eşleşen döngü',
+    	matchWord : 'Kelimenin tamamı uysun',
+    	notFoundMsg : 'Belirtilen yazı bulunamadı.',
+    	replace : 'Değiştir',
+    	replaceAll : 'Tümünü Değiştir',
+    	replaceSuccessMsg : '%1 bulunanlardan değiştirildi.',
+    	replaceWith : 'Bununla değiştir:',
+    	title : 'Bul ve Değiştir'
+    },
+    colorbutton : 
+    {
+    	auto : 'Otomatik',
+    	bgColorTitle : 'Arka Renk',
+    	colors : 
+    	{
+    		'000' : 'Siyah',
+    		'800000' : 'Kestane',
+    		'8B4513' : 'Koyu Kahverengi',
+    		'2F4F4F' : 'Koyu Kurşuni Gri',
+    		'008080' : 'Teal',
+    		'000080' : 'Mavi',
+    		'4B0082' : 'Çivit Mavisi',
+    		'696969' : 'Silik Gri',
+    		B22222 : 'Ateş Tuğlası',
+    		A52A2A : 'Kahverengi',
+    		DAA520 : 'Altun Sırık',
+    		'006400' : 'Koyu Yeşil',
+    		'40E0D0' : 'Turkuaz',
+    		'0000CD' : 'Orta Mavi',
+    		'800080' : 'Pembe',
+    		'808080' : 'Gri',
+    		F00 : 'Kırmızı',
+    		FF8C00 : 'Koyu Portakal',
+    		FFD700 : 'Altın',
+    		'008000' : 'Yeşil',
+    		'0FF' : 'Ciyan',
+    		'00F' : 'Mavi',
+    		EE82EE : 'Menekşe',
+    		A9A9A9 : 'Koyu Gri',
+    		FFA07A : 'Açık Sarımsı',
+    		FFA500 : 'Portakal',
+    		FFFF00 : 'Sarı',
+    		'00FF00' : 'Açık Yeşil',
+    		AFEEEE : 'Sönük Turkuaz',
+    		ADD8E6 : 'Açık Mavi',
+    		DDA0DD : 'Mor',
+    		D3D3D3 : 'Açık Gri',
+    		FFF0F5 : 'Eflatun Pembe',
+    		FAEBD7 : 'Antik Beyaz',
+    		FFFFE0 : 'Açık Sarı',
+    		F0FFF0 : 'Balsarısı',
+    		F0FFFF : 'Gök Mavisi',
+    		F0F8FF : 'Reha Mavi',
+    		E6E6FA : 'Eflatun',
+    		FFF : 'Beyaz'
+    	},
+    	more : 'Diğer renkler...',
+    	panelTitle : 'Renkler',
+    	textColorTitle : 'Yazı Rengi'
+    },
+    undo : 
+    {
+    	redo : 'Tekrarla',
+    	undo : 'Geri Al'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Boyut',
+    		voiceLabel : 'Font Size',
+    		panelTitle : 'Boyut'
+    	},
+    	label : 'Yazı Türü',
+    	panelTitle : 'Yazı Türü',
+    	voiceLabel : 'Font'
     },
     maximize : 
     {
     	maximize : 'Büyült',
     	minimize : 'Küçült'
     },
+    basicstyles : 
+    {
+    	bold : 'Kalın',
+    	italic : 'İtalik',
+    	strike : 'Üstü Çizgili',
+    	subscript : 'Alt Simge',
+    	superscript : 'Üst Simge',
+    	underline : 'Altı Çizgili'
+    },
+    magicline : 
+    {
+    	title : 'Parağrafı buraya ekle'
+    },
+    print : 
+    {
+    	toolbar : 'Yazdır'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Yoksay',
+    	btnIgnoreAll : 'Tümünü Yoksay',
+    	btnReplace : 'Değiştir',
+    	btnReplaceAll : 'Tümünü Değiştir',
+    	btnUndo : 'Geri Al',
+    	changeTo : 'Şuna değiştir:',
+    	errorLoading : 'Uygulamada yüklerken hata oluştu: %s.',
+    	ieSpellDownload : 'Yazım denetimi yüklenmemiş. Şimdi yüklemek ister misiniz?',
+    	manyChanges : 'Yazım denetimi tamamlandı: %1 kelime değiştirildi',
+    	noChanges : 'Yazım denetimi tamamlandı: Hiçbir kelime değiştirilmedi',
+    	noMispell : 'Yazım denetimi tamamlandı: Yanlış yazıma rastlanmadı',
+    	noSuggestions : '- Öneri Yok -',
+    	notAvailable : 'Üzügünüz, bu servis şuanda hizmet dışıdır.',
+    	notInDic : 'Sözlükte Yok',
+    	oneChange : 'Yazım denetimi tamamlandı: Bir kelime değiştirildi',
+    	progress : 'Yazım denetimi işlemde...',
+    	title : 'Yazımı Denetle',
+    	toolbar : 'Yazım Denetimi'
+    },
+    clipboard : 
+    {
+    	copy : 'Kopyala',
+    	copyError : 'Gezgin yazılımınızın güvenlik ayarları düzenleyicinin otomatik kopyalama işlemine izin vermiyor. İşlem için (Ctrl/Cmd+C) tuşlarını kullanın.',
+    	cut : 'Kes',
+    	cutError : 'Gezgin yazılımınızın güvenlik ayarları düzenleyicinin otomatik kesme işlemine izin vermiyor. İşlem için (Ctrl/Cmd+X) tuşlarını kullanın.',
+    	paste : 'Yapıştır',
+    	pasteArea : 'Yapıştırma Alanı',
+    	pasteMsg : 'Lütfen aşağıdaki kutunun içine yapıştırın. (<STRONG>Ctrl/Cmd+V</STRONG>) ve <STRONG>Tamam</STRONG> butonunu tıklayın.',
+    	securityMsg : 'Gezgin yazılımınızın güvenlik ayarları düzenleyicinin direkt olarak panoya erişimine izin vermiyor. Bu pencere içine tekrar yapıştırmalısınız..',
+    	title : 'Yapıştır'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Kaynak'
+    },
+    scayt : 
+    {
+    	about : 'SCAYT\'ı hakkında',
+    	aboutTab : 'Hakkında',
+    	addWord : 'Kelime Ekle',
+    	allCaps : 'Tüm büyük küçük kelimeleri yoksay',
+    	dic_create : 'Oluştur',
+    	dic_delete : 'Sil',
+    	dic_field_name : 'Sözlük adı',
+    	dic_info : 'Başlangıçta Kullanıcı Sözlüğü bir çerezde saklanır. Ancak, Çerezler boyutu sınırlıdır. Kullanıcı Sözlüğü, çerezin içinde saklanamayacağı bir noktada, bizim sunucularımızın içindeki sözlükte saklanabilir. Bizim sunucu üzerinde kişisel Sözlük saklamanız için, Sözlüğe bir ad belirtmelisiniz. Eğer zaten bir saklı Sözlük varsa, lütfen adını yazın ve Geri Yükle düğmesini tıklayın.',
+    	dic_rename : 'Yeniden adlandır',
+    	dic_restore : 'Geri al',
+    	dictionariesTab : 'Sözlükler',
+    	disable : 'SCAYT\'ı pasifleştir',
+    	emptyDic : 'Sözlük adı boş olamaz.',
+    	enable : 'SCAYT\'ı etkinleştir',
+    	ignore : 'Yoksay',
+    	ignoreAll : 'Tümünü Yoksay',
+    	ignoreDomainNames : 'Domain adlarını yoksay',
+    	langs : 'Diller',
+    	languagesTab : 'Diller',
+    	mixedCase : 'Karışık büyüklük ile Sözcükler yoksay',
+    	mixedWithDigits : 'Sayılarla Kelimeler yoksay',
+    	moreSuggestions : 'Daha fazla öneri',
+    	opera_title : 'Opera tarafından desteklenmemektedir',
+    	options : 'Seçenekler',
+    	optionsTab : 'Seçenekler',
+    	title : 'Girmiş olduğunuz kelime denetimi',
+    	toggle : 'SCAYT\'ı değiştir',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Yatay Satır Ekle'
+    },
+    pastetext : 
+    {
+    	button : 'Düz Metin Olarak Yapıştır',
+    	title : 'Düz Metin Olarak Yapıştır'
+    },
+    contextmenu : 
+    {
+    	options : 'İçerik Menüsü Seçenekleri'
+    },
+    templates : 
+    {
+    	button : 'Şablonlar',
+    	emptyListMsg : '(Belirli bir şablon seçilmedi)',
+    	insertOption : 'Mevcut içerik ile değiştir',
+    	options : 'Şablon Seçenekleri',
+    	selectPromptMsg : 'Düzenleyicide açmak için lütfen bir şablon seçin.<br>(hali hazırdaki içerik kaybolacaktır.):',
+    	title : 'İçerik Şablonları'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Tavsiye Başlığı',
+    	cssClassInputLabel : 'Stilltipi Sınıfı',
+    	edit : 'Div Düzenle',
+    	inlineStyleInputLabel : 'Inline Stili',
+    	langDirLTRLabel : 'Soldan sağa (LTR)',
+    	langDirLabel : 'Dil Yönü',
+    	langDirRTLLabel : 'Sağdan sola (RTL)',
+    	languageCodeInputLabel : ' Dil Kodu',
+    	remove : 'Div Kaldır',
+    	styleSelectLabel : 'Stil',
+    	title : 'Div İçeriği Oluştur',
+    	toolbar : 'Div İçeriği Oluştur'
+    },
+    preview : 
+    {
+    	preview : 'Ön İzleme'
+    },
+    colordialog : 
+    {
+    	clear : 'Temizle',
+    	highlight : 'İşaretle',
+    	options : 'Renk Seçenekleri',
+    	selected : 'Seçilmiş',
+    	title : 'Renk seç'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Araç çubuklarını topla',
+    	toolbarExpand : 'Araç çubuklarını aç',
+    	toolbarGroups : 
+    	{
+    		document : 'Belge',
+    		clipboard : 'Pano/Geri al',
+    		editing : 'Düzenleme',
+    		forms : 'Formlar',
+    		basicstyles : 'Temel Stiller',
+    		paragraph : 'Paragraf',
+    		links : 'Bağlantılar',
+    		insert : 'Ekle',
+    		styles : 'Stiller',
+    		colors : 'Renkler',
+    		tools : 'Araçlar'
+    	},
+    	toolbars : 'Araç çubukları Editörü'
+    },
+    selectall : 
+    {
+    	toolbar : 'Tümünü Seç'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Blok Oluştur'
+    },
+    link : 
+    {
+    	acccessKey : 'Erişim Tuşu',
+    	advanced : 'Gelişmiş',
+    	advisoryContentType : 'Danışma İçerik Türü',
+    	advisoryTitle : 'Danışma Başlığı',
+    	anchor : 
+    	{
+    		toolbar : 'Bağlantı Ekle/Düzenle',
+    		menu : 'Bağlantı Özellikleri',
+    		title : 'Bağlantı Özellikleri',
+    		name : 'Bağlantı Adı',
+    		errorName : 'Lütfen bağlantı için ad giriniz',
+    		remove : 'Bağlantıyı Kaldır'
+    	},
+    	anchorId : 'Eleman Kimlik Numarası ile',
+    	anchorName : 'Bağlantı Adı ile',
+    	charset : 'Bağlı Kaynak Karakter Gurubu',
+    	cssClasses : 'Biçem Sayfası Sınıfları',
+    	emailAddress : 'E-Posta Adresi',
+    	emailBody : 'İleti Gövdesi',
+    	emailSubject : 'İleti Konusu',
+    	id : 'Id',
+    	info : 'Link Bilgisi',
+    	langCode : 'Dil Yönü',
+    	langDir : 'Dil Yönü',
+    	langDirLTR : 'Soldan Sağa (LTR)',
+    	langDirRTL : 'Sağdan Sola (RTL)',
+    	menu : 'Link Düzenle',
+    	name : 'Ad',
+    	noAnchors : '(Bu belgede hiç çapa yok)',
+    	noEmail : 'Lütfen E-posta adresini yazın',
+    	noUrl : 'Lütfen Link URL\'sini yazın',
+    	other : '<diğer>',
+    	popupDependent : 'Bağımlı (Netscape)',
+    	popupFeatures : 'Yeni Açılan Pencere Özellikleri',
+    	popupFullScreen : 'Tam Ekran (IE)',
+    	popupLeft : 'Sola Göre Konum',
+    	popupLocationBar : 'Yer Çubuğu',
+    	popupMenuBar : 'Menü Çubuğu',
+    	popupResizable : 'Resizable',
+    	popupScrollBars : 'Kaydırma Çubukları',
+    	popupStatusBar : 'Durum Çubuğu',
+    	popupToolbar : 'Araç Çubuğu',
+    	popupTop : 'Yukarıya Göre Konum',
+    	rel : 'İlişki',
+    	selectAnchor : 'Bağlantı Seç',
+    	styles : 'Biçem',
+    	tabIndex : 'Sekme İndeksi',
+    	target : 'Hedef',
+    	targetFrame : '<çerçeve>',
+    	targetFrameName : 'Hedef Çerçeve Adı',
+    	targetPopup : '<yeni açılan pencere>',
+    	targetPopupName : 'Yeni Açılan Pencere Adı',
+    	title : 'Link',
+    	toAnchor : 'Bu sayfada çapa',
+    	toEmail : 'E-Posta',
+    	toUrl : 'URL',
+    	toolbar : 'Link Ekle/Düzenle',
+    	type : 'Link Türü',
+    	unlink : 'Köprü Kaldır',
+    	upload : 'Karşıya Yükle'
+    },
+    stylescombo : 
+    {
+    	label : 'Biçem',
+    	panelTitle : 'Stilleri Düzenliyor',
+    	panelTitle1 : 'Blok Stilleri',
+    	panelTitle2 : 'Inline Stilleri',
+    	panelTitle3 : 'Nesne Stilleri'
+    },
+    dir : 'ltr',
     editor : 'Zengin Metin Editörü',
     common : 
     {

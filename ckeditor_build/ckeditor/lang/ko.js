@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['ko'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : '복사하기',
-    	copyError : '브라우저의 보안설정때문에 복사하기 기능을 실행할 수 없습니다. 키보드 명령을 사용하십시요.  (Ctrl/Cmd+C).',
-    	cut : '잘라내기',
-    	cutError : '브라우저의 보안설정때문에 잘라내기 기능을 실행할 수 없습니다. 키보드 명령을 사용하십시요. (Ctrl/Cmd+X).',
-    	paste : '붙여넣기',
-    	pasteArea : '범위 붙여넣기',
-    	pasteMsg : '키보드의 (<STRONG>Ctrl/Cmd+V</STRONG>) 를 이용해서 상자안에 붙여넣고 <STRONG>OK</STRONG> 를 누르세요.',
-    	securityMsg : '브러우저 보안 설정으로 인해, 클립보드의 자료를 직접 접근할 수 없습니다. 이 창에 다시 붙여넣기 하십시오.',
-    	title : '붙여넣기'
+    	confirmCleanup : '붙여 넣기 할 텍스트는 MS Word에서 복사 한 것입니다. 붙여 넣기 전에 MS Word 포멧을 삭제 하시겠습니까?',
+    	error : '내부 오류로 붙여 넣은 데이터를 정리 할 수 없습니다.',
+    	title : 'MS Word 형식에서 붙여넣기',
+    	toolbar : 'MS Word 형식에서 붙여넣기'
     },
-    pastetext : 
+    list : 
     {
-    	button : '텍스트로 붙여넣기',
-    	title : '텍스트로 붙여넣기'
-    },
-    specialchar : 
-    {
-    	options : '특수문자 옵션',
-    	title : '특수문자 선택',
-    	toolbar : '특수문자 삽입'
-    },
-    selectall : 
-    {
-    	toolbar : '전체선택'
-    },
-    newpage : 
-    {
-    	toolbar : '새 문서'
-    },
-    templates : 
-    {
-    	button : '템플릿',
-    	emptyListMsg : '(템플릿이 없습니다.)',
-    	insertOption : '현재 내용 바꾸기',
-    	options : '템플릿 옵션',
-    	selectPromptMsg : '에디터에서 사용할 템플릿을 선택하십시요.<br>(지금까지 작성된 내용은 사라집니다.):',
-    	title : '내용 템플릿'
-    },
-    colordialog : 
-    {
-    	clear : '제거',
-    	highlight : '하이라이트',
-    	options : '색상 옵션',
-    	selected : '색상 선택됨',
-    	title : '색상 선택'
-    },
-    preview : 
-    {
-    	preview : '미리보기'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : '글자 크기',
-    		voiceLabel : 'Font Size',
-    		panelTitle : '글자 크기'
-    	},
-    	label : '폰트',
-    	panelTitle : '폰트',
-    	voiceLabel : '폰트'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armenian numbering',
-    	bulletedTitle : 'Bulleted List Properties',
-    	circle : 'Circle',
-    	decimal : 'Decimal (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
-    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
-    	none : 'None',
-    	notset : '<not set>',
-    	numberedTitle : 'Numbered List Properties',
-    	square : 'Square',
-    	start : 'Start',
-    	type : 'Type',
-    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
-    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'List start number must be a whole number.'
-    },
-    blockquote : 
-    {
-    	toolbar : '인용 블록'
-    },
-    undo : 
-    {
-    	redo : '재실행',
-    	undo : '취소'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. All rights reserved.',
-    	dlgTitle : 'CKEditor 에 대하여',
-    	help : '도움이 필요하시면 $1 를 확인하세요',
-    	moreInfo : '라이센스에 대한  정보를 보고싶다면 우리의 웹 사이트를 방문하세요:',
-    	title : 'CKEditor에 대하여',
-    	userGuide : 'CKEditor User\'s Guide'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : '툴바 삭제',
-    	toolbarExpand : '확장 툴바',
-    	toolbarGroups : 
-    	{
-    		document : 'Document',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Editing',
-    		forms : 'Forms',
-    		basicstyles : 'Basic Styles',
-    		paragraph : 'Paragraph',
-    		links : 'Links',
-    		insert : 'Insert',
-    		styles : 'Styles',
-    		colors : 'Colors',
-    		tools : 'Tools'
-    	},
-    	toolbars : '편집자용 툴바들'
-    },
-    scayt : 
-    {
-    	about : 'About SCAYT',
-    	aboutTab : 'About',
-    	addWord : 'Add Word',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Dictionaries',
-    	disable : 'Disable SCAYT',
-    	emptyDic : 'Dictionary name should not be empty.',
-    	enable : 'Enable SCAYT',
-    	ignore : 'Ignore',
-    	ignoreAll : 'Ignore All',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Languages',
-    	languagesTab : 'Languages',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'More suggestions',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Options',
-    	optionsTab : 'Options',
-    	title : 'Spell Check As You Type',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : '건너뜀',
-    	btnIgnoreAll : '모두 건너뜀',
-    	btnReplace : '변경',
-    	btnReplaceAll : '모두 변경',
-    	btnUndo : '취소',
-    	changeTo : '변경할 단어',
-    	errorLoading : 'Error loading application service host: %s.',
-    	ieSpellDownload : '철자 검사기가 철치되지 않았습니다. 지금 다운로드하시겠습니까?',
-    	manyChanges : '철자검사 완료: %1 단어가 변경되었습니다.',
-    	noChanges : '철자검사 완료: 변경된 단어가 없습니다.',
-    	noMispell : '철자검사 완료: 잘못된 철자가 없습니다.',
-    	noSuggestions : '- 추천단어 없음 -',
-    	notAvailable : 'Sorry, but service is unavailable now.',
-    	notInDic : '사전에 없는 단어',
-    	oneChange : '철자검사 완료: 단어가 변경되었습니다.',
-    	progress : '철자검사를 진행중입니다...',
-    	title : 'Spell Check',
-    	toolbar : '철자검사'
-    },
-    contextmenu : 
-    {
-    	options : '컨텍스트 메뉴 옵션'
+    	bulletedlist : '순서없는 목록',
+    	numberedlist : '순서있는 목록'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['ko'] = {
     	left : '왼쪽 정렬',
     	right : '오른쪽 정렬'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : '소스'
-    },
-    format : 
-    {
-    	label : '포맷',
-    	panelTitle : '포맷',
-    	tag_address : 'Address',
-    	tag_div : '기본 (DIV)',
-    	tag_h1 : 'Heading 1',
-    	tag_h2 : 'Heading 2',
-    	tag_h3 : 'Heading 3',
-    	tag_h4 : 'Heading 4',
-    	tag_h5 : 'Heading 5',
-    	tag_h6 : 'Heading 6',
-    	tag_p : 'Normal',
-    	tag_pre : 'Formatted'
-    },
-    flash : 
-    {
-    	access : 'Script Access',
-    	accessAlways : 'Always',
-    	accessNever : 'Never',
-    	accessSameDomain : 'Same domain',
-    	alignAbsBottom : '줄아래(Abs Bottom)',
-    	alignAbsMiddle : '줄중간(Abs Middle)',
-    	alignBaseline : '기준선',
-    	alignTextTop : '글자상단',
-    	bgcolor : '배경 색상',
-    	chkFull : 'Allow Fullscreen',
-    	chkLoop : '반복',
-    	chkMenu : '플래쉬메뉴 가능',
-    	chkPlay : '자동재생',
-    	flashvars : 'Variables for Flash',
-    	hSpace : '수평여백',
-    	properties : '플래쉬 속성',
-    	propertiesTab : 'Properties',
-    	quality : 'Quality',
-    	qualityAutoHigh : 'Auto High',
-    	qualityAutoLow : 'Auto Low',
-    	qualityBest : 'Best',
-    	qualityHigh : 'High',
-    	qualityLow : 'Low',
-    	qualityMedium : 'Medium',
-    	scale : '영역',
-    	scaleAll : '모두보기',
-    	scaleFit : '영역자동조절',
-    	scaleNoBorder : '경계선없음',
-    	title : '플래쉬 등록정보',
-    	vSpace : '수직여백',
-    	validateHSpace : 'HSpace must be a number.',
-    	validateSrc : '링크 URL을 입력하십시요.',
-    	validateVSpace : 'VSpace must be a number.',
-    	windowMode : 'Window mode',
-    	windowModeOpaque : 'Opaque',
-    	windowModeTransparent : 'Transparent',
-    	windowModeWindow : 'Window'
-    },
-    removeformat : 
-    {
-    	toolbar : '포맷 지우기'
-    },
-    iframe : 
-    {
-    	border : '프레임 테두리 표시',
-    	noUrl : 'iframe 대응 URL을 입력해주세요.',
-    	scrolling : '스크롤바 사용',
-    	title : 'IFrame 속성',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : '엑세스 키',
-    	advanced : '자세히',
-    	advisoryContentType : 'Advisory Content Type',
-    	advisoryTitle : 'Advisory Title',
-    	anchor : 
-    	{
-    		toolbar : '책갈피 삽입/변경',
-    		menu : '책갈피 속성',
-    		title : '책갈피 속성',
-    		name : '책갈피 이름',
-    		errorName : '책갈피 이름을 입력하십시요.',
-    		remove : 'Remove Anchor'
-    	},
-    	anchorId : '책갈피 ID',
-    	anchorName : '책갈피 이름',
-    	charset : 'Linked Resource Charset',
-    	cssClasses : 'Stylesheet Classes',
-    	emailAddress : '이메일 주소',
-    	emailBody : '내용',
-    	emailSubject : '제목',
-    	id : 'ID',
-    	info : '링크 정보',
-    	langCode : '쓰기 방향',
-    	langDir : '쓰기 방향',
-    	langDirLTR : '왼쪽에서 오른쪽 (LTR)',
-    	langDirRTL : '오른쪽에서 왼쪽 (RTL)',
-    	menu : '링크 수정',
-    	name : 'Name',
-    	noAnchors : '(문서에 책갈피가 없습니다.)',
-    	noEmail : '이메일주소를 입력하십시요.',
-    	noUrl : '링크 URL을 입력하십시요.',
-    	other : '<기타>',
-    	popupDependent : 'Dependent (Netscape)',
-    	popupFeatures : '팝업창 설정',
-    	popupFullScreen : '전체화면 (IE)',
-    	popupLeft : '왼쪽 위치',
-    	popupLocationBar : '주소표시줄',
-    	popupMenuBar : '메뉴바',
-    	popupResizable : '크기 조절 가능',
-    	popupScrollBars : '스크롤바',
-    	popupStatusBar : '상태바',
-    	popupToolbar : '툴바',
-    	popupTop : '윗쪽 위치',
-    	rel : 'Relationship',
-    	selectAnchor : '책갈피 선택',
-    	styles : 'Style',
-    	tabIndex : '탭 순서',
-    	target : '타겟',
-    	targetFrame : '<프레임>',
-    	targetFrameName : '타겟 프레임 이름',
-    	targetPopup : '<팝업창>',
-    	targetPopupName : '팝업창 이름',
-    	title : '링크',
-    	toAnchor : '책갈피',
-    	toEmail : '이메일',
-    	toUrl : 'URL',
-    	toolbar : '링크 삽입/변경',
-    	type : '링크 종류',
-    	unlink : '링크 삭제',
-    	upload : '업로드'
-    },
-    smiley : 
-    {
-    	options : '이모티콘 옵션',
-    	title : '아이콘 삽입',
-    	toolbar : '아이콘'
-    },
-    print : 
-    {
-    	toolbar : '인쇄하기'
-    },
-    div : 
-    {
-    	IdInputLabel : 'ID',
-    	advisoryTitleInputLabel : 'Advisory Title',
-    	cssClassInputLabel : 'Stylesheet Classes',
-    	edit : 'Edit Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : '왼쪽에서 오른쪽 (LTR)',
-    	langDirLabel : '쓰기 방향',
-    	langDirRTLLabel : '오른쪽에서 왼쪽 (RTL)',
-    	languageCodeInputLabel : ' Language Code',
-    	remove : 'Remove Div',
-    	styleSelectLabel : 'Style',
-    	title : 'Create Div Container',
-    	toolbar : 'Create Div Container'
-    },
-    indent : 
-    {
-    	indent : '들여쓰기',
-    	outdent : '내어쓰기'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : '붙여 넣기 할 텍스트는 MS Word에서 복사 한 것입니다. 붙여 넣기 전에 MS Word 포멧을 삭제 하시겠습니까?',
-    	error : '내부 오류로 붙여 넣은 데이터를 정리 할 수 없습니다.',
-    	title : 'MS Word 형식에서 붙여넣기',
-    	toolbar : 'MS Word 형식에서 붙여넣기'
-    },
-    colorbutton : 
-    {
-    	auto : '기본색상',
-    	bgColorTitle : '배경 색상',
-    	colors : 
-    	{
-    		'000' : 'Black',
-    		'800000' : 'Maroon',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Dark Gray',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Brown',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'Dark Green',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'Gray',
-    		F00 : 'Red',
-    		FF8C00 : 'Dark Orange',
-    		FFD700 : 'Gold',
-    		'008000' : 'Green',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Blue',
-    		EE82EE : 'Violet',
-    		A9A9A9 : 'Dim Gray',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'Orange',
-    		FFFF00 : 'Yellow',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Light Grey',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'Light Yellow',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'Lavender',
-    		FFF : 'White'
-    	},
-    	more : '색상선택...',
-    	panelTitle : 'Colors',
-    	textColorTitle : '글자 색상'
-    },
-    list : 
-    {
-    	bulletedlist : '순서없는 목록',
-    	numberedlist : '순서있는 목록'
+    	toolbar : '저장하기'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['ko'] = {
     	validateHSpace : '가로 길이는 정수여야 합니다.',
     	validateVSpace : '세로 길이는 정수여야 합니다.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : '찾기',
-    	findOptions : 'Find Options',
-    	findWhat : '찾을 문자열:',
-    	matchCase : '대소문자 구분',
-    	matchCyclic : 'Match cyclic',
-    	matchWord : '온전한 단어',
-    	notFoundMsg : '문자열을 찾을 수 없습니다.',
-    	replace : '바꾸기',
-    	replaceAll : '모두 바꾸기',
-    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
-    	replaceWith : '바꿀 문자열:',
-    	title : '찾기 & 바꾸기'
+    	alt : '패이지 나누기',
+    	toolbar : '인쇄시 페이지 나누기 삽입'
     },
     showblocks : 
     {
     	toolbar : '블록 보기'
+    },
+    indent : 
+    {
+    	indent : '들여쓰기',
+    	outdent : '내어쓰기'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['ko'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : '수평선 삽입'
-    },
-    pagebreak : 
-    {
-    	alt : '패이지 나누기',
-    	toolbar : '인쇄시 페이지 나누기 삽입'
-    },
-    stylescombo : 
-    {
-    	label : '스타일',
-    	panelTitle : '전체 구성 스타일',
-    	panelTitle1 : '블록 스타일',
-    	panelTitle2 : '인라인 스타일',
-    	panelTitle3 : '오브젝트 스타일'
-    },
     bidi : 
     {
     	ltr : '택스트 방향이 왼쪽에서 오른쪽으로 ',
     	rtl : '택스트 방향이 오른쪽에서 왼쪽으로'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : '진하게',
-    	italic : '이텔릭',
-    	strike : '취소선',
-    	subscript : '아래 첨자',
-    	superscript : '위 첨자',
-    	underline : '밑줄'
+    	eleLabel : '요소 위치',
+    	eleTitle : '%1 요소'
+    },
+    fakeobjects : 
+    {
+    	anchor : '책갈피 삽입/변경',
+    	flash : 'Flash Animation',
+    	hiddenfield : '숨김필드',
+    	iframe : 'IFrame',
+    	unknown : 'Unknown Object'
+    },
+    smiley : 
+    {
+    	options : '이모티콘 옵션',
+    	title : '아이콘 삽입',
+    	toolbar : '아이콘'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. All rights reserved.',
+    	dlgTitle : 'CKEditor 에 대하여',
+    	help : '도움이 필요하시면 $1 를 확인하세요',
+    	moreInfo : '라이센스에 대한  정보를 보고싶다면 우리의 웹 사이트를 방문하세요:',
+    	title : 'CKEditor에 대하여',
+    	userGuide : 'CKEditor User\'s Guide'
+    },
+    newpage : 
+    {
+    	toolbar : '새 문서'
+    },
+    format : 
+    {
+    	label : '포맷',
+    	panelTitle : '포맷',
+    	tag_address : 'Address',
+    	tag_div : '기본 (DIV)',
+    	tag_h1 : 'Heading 1',
+    	tag_h2 : 'Heading 2',
+    	tag_h3 : 'Heading 3',
+    	tag_h4 : 'Heading 4',
+    	tag_h5 : 'Heading 5',
+    	tag_h6 : 'Heading 6',
+    	tag_p : 'Normal',
+    	tag_pre : 'Formatted'
+    },
+    removeformat : 
+    {
+    	toolbar : '포맷 지우기'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['ko'] = {
     	widthPx : '픽셀',
     	widthUnit : '폭 단위'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : '여기에 그래프 삽입'
+    	options : '특수문자 옵션',
+    	title : '특수문자 선택',
+    	toolbar : '특수문자 삽입'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : '저장하기'
+    	armenian : 'Armenian numbering',
+    	bulletedTitle : 'Bulleted List Properties',
+    	circle : 'Circle',
+    	decimal : 'Decimal (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
+    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
+    	none : 'None',
+    	notset : '<not set>',
+    	numberedTitle : 'Numbered List Properties',
+    	square : 'Square',
+    	start : 'Start',
+    	type : 'Type',
+    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
+    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'List start number must be a whole number.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : '책갈피 삽입/변경',
-    	flash : 'Flash Animation',
-    	hiddenfield : '숨김필드',
-    	iframe : 'IFrame',
-    	unknown : 'Unknown Object'
+    	border : '프레임 테두리 표시',
+    	noUrl : 'iframe 대응 URL을 입력해주세요.',
+    	scrolling : '스크롤바 사용',
+    	title : 'IFrame 속성',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : '요소 위치',
-    	eleTitle : '%1 요소'
+    	access : 'Script Access',
+    	accessAlways : 'Always',
+    	accessNever : 'Never',
+    	accessSameDomain : 'Same domain',
+    	alignAbsBottom : '줄아래(Abs Bottom)',
+    	alignAbsMiddle : '줄중간(Abs Middle)',
+    	alignBaseline : '기준선',
+    	alignTextTop : '글자상단',
+    	bgcolor : '배경 색상',
+    	chkFull : 'Allow Fullscreen',
+    	chkLoop : '반복',
+    	chkMenu : '플래쉬메뉴 가능',
+    	chkPlay : '자동재생',
+    	flashvars : 'Variables for Flash',
+    	hSpace : '수평여백',
+    	properties : '플래쉬 속성',
+    	propertiesTab : 'Properties',
+    	quality : 'Quality',
+    	qualityAutoHigh : 'Auto High',
+    	qualityAutoLow : 'Auto Low',
+    	qualityBest : 'Best',
+    	qualityHigh : 'High',
+    	qualityLow : 'Low',
+    	qualityMedium : 'Medium',
+    	scale : '영역',
+    	scaleAll : '모두보기',
+    	scaleFit : '영역자동조절',
+    	scaleNoBorder : '경계선없음',
+    	title : '플래쉬 등록정보',
+    	vSpace : '수직여백',
+    	validateHSpace : 'HSpace must be a number.',
+    	validateSrc : '링크 URL을 입력하십시요.',
+    	validateVSpace : 'VSpace must be a number.',
+    	windowMode : 'Window mode',
+    	windowModeOpaque : 'Opaque',
+    	windowModeTransparent : 'Transparent',
+    	windowModeWindow : 'Window'
+    },
+    find : 
+    {
+    	find : '찾기',
+    	findOptions : 'Find Options',
+    	findWhat : '찾을 문자열:',
+    	matchCase : '대소문자 구분',
+    	matchCyclic : 'Match cyclic',
+    	matchWord : '온전한 단어',
+    	notFoundMsg : '문자열을 찾을 수 없습니다.',
+    	replace : '바꾸기',
+    	replaceAll : '모두 바꾸기',
+    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
+    	replaceWith : '바꿀 문자열:',
+    	title : '찾기 & 바꾸기'
+    },
+    colorbutton : 
+    {
+    	auto : '기본색상',
+    	bgColorTitle : '배경 색상',
+    	colors : 
+    	{
+    		'000' : 'Black',
+    		'800000' : 'Maroon',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Dark Gray',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Brown',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'Dark Green',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'Gray',
+    		F00 : 'Red',
+    		FF8C00 : 'Dark Orange',
+    		FFD700 : 'Gold',
+    		'008000' : 'Green',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Blue',
+    		EE82EE : 'Violet',
+    		A9A9A9 : 'Dim Gray',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'Orange',
+    		FFFF00 : 'Yellow',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Light Grey',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'Light Yellow',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'Lavender',
+    		FFF : 'White'
+    	},
+    	more : '색상선택...',
+    	panelTitle : 'Colors',
+    	textColorTitle : '글자 색상'
+    },
+    undo : 
+    {
+    	redo : '재실행',
+    	undo : '취소'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : '글자 크기',
+    		voiceLabel : 'Font Size',
+    		panelTitle : '글자 크기'
+    	},
+    	label : '폰트',
+    	panelTitle : '폰트',
+    	voiceLabel : '폰트'
     },
     maximize : 
     {
     	maximize : '최대',
     	minimize : '최소'
     },
+    basicstyles : 
+    {
+    	bold : '진하게',
+    	italic : '이텔릭',
+    	strike : '취소선',
+    	subscript : '아래 첨자',
+    	superscript : '위 첨자',
+    	underline : '밑줄'
+    },
+    magicline : 
+    {
+    	title : '여기에 그래프 삽입'
+    },
+    print : 
+    {
+    	toolbar : '인쇄하기'
+    },
+    wsc : 
+    {
+    	btnIgnore : '건너뜀',
+    	btnIgnoreAll : '모두 건너뜀',
+    	btnReplace : '변경',
+    	btnReplaceAll : '모두 변경',
+    	btnUndo : '취소',
+    	changeTo : '변경할 단어',
+    	errorLoading : 'Error loading application service host: %s.',
+    	ieSpellDownload : '철자 검사기가 철치되지 않았습니다. 지금 다운로드하시겠습니까?',
+    	manyChanges : '철자검사 완료: %1 단어가 변경되었습니다.',
+    	noChanges : '철자검사 완료: 변경된 단어가 없습니다.',
+    	noMispell : '철자검사 완료: 잘못된 철자가 없습니다.',
+    	noSuggestions : '- 추천단어 없음 -',
+    	notAvailable : 'Sorry, but service is unavailable now.',
+    	notInDic : '사전에 없는 단어',
+    	oneChange : '철자검사 완료: 단어가 변경되었습니다.',
+    	progress : '철자검사를 진행중입니다...',
+    	title : 'Spell Check',
+    	toolbar : '철자검사'
+    },
+    clipboard : 
+    {
+    	copy : '복사하기',
+    	copyError : '브라우저의 보안설정때문에 복사하기 기능을 실행할 수 없습니다. 키보드 명령을 사용하십시요.  (Ctrl/Cmd+C).',
+    	cut : '잘라내기',
+    	cutError : '브라우저의 보안설정때문에 잘라내기 기능을 실행할 수 없습니다. 키보드 명령을 사용하십시요. (Ctrl/Cmd+X).',
+    	paste : '붙여넣기',
+    	pasteArea : '범위 붙여넣기',
+    	pasteMsg : '키보드의 (<STRONG>Ctrl/Cmd+V</STRONG>) 를 이용해서 상자안에 붙여넣고 <STRONG>OK</STRONG> 를 누르세요.',
+    	securityMsg : '브러우저 보안 설정으로 인해, 클립보드의 자료를 직접 접근할 수 없습니다. 이 창에 다시 붙여넣기 하십시오.',
+    	title : '붙여넣기'
+    },
+    sourcearea : 
+    {
+    	toolbar : '소스'
+    },
+    scayt : 
+    {
+    	about : 'About SCAYT',
+    	aboutTab : 'About',
+    	addWord : 'Add Word',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Dictionaries',
+    	disable : 'Disable SCAYT',
+    	emptyDic : 'Dictionary name should not be empty.',
+    	enable : 'Enable SCAYT',
+    	ignore : 'Ignore',
+    	ignoreAll : 'Ignore All',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Languages',
+    	languagesTab : 'Languages',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'More suggestions',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Options',
+    	optionsTab : 'Options',
+    	title : 'Spell Check As You Type',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : '수평선 삽입'
+    },
+    pastetext : 
+    {
+    	button : '텍스트로 붙여넣기',
+    	title : '텍스트로 붙여넣기'
+    },
+    contextmenu : 
+    {
+    	options : '컨텍스트 메뉴 옵션'
+    },
+    templates : 
+    {
+    	button : '템플릿',
+    	emptyListMsg : '(템플릿이 없습니다.)',
+    	insertOption : '현재 내용 바꾸기',
+    	options : '템플릿 옵션',
+    	selectPromptMsg : '에디터에서 사용할 템플릿을 선택하십시요.<br>(지금까지 작성된 내용은 사라집니다.):',
+    	title : '내용 템플릿'
+    },
+    div : 
+    {
+    	IdInputLabel : 'ID',
+    	advisoryTitleInputLabel : 'Advisory Title',
+    	cssClassInputLabel : 'Stylesheet Classes',
+    	edit : 'Edit Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : '왼쪽에서 오른쪽 (LTR)',
+    	langDirLabel : '쓰기 방향',
+    	langDirRTLLabel : '오른쪽에서 왼쪽 (RTL)',
+    	languageCodeInputLabel : ' Language Code',
+    	remove : 'Remove Div',
+    	styleSelectLabel : 'Style',
+    	title : 'Create Div Container',
+    	toolbar : 'Create Div Container'
+    },
+    preview : 
+    {
+    	preview : '미리보기'
+    },
+    colordialog : 
+    {
+    	clear : '제거',
+    	highlight : '하이라이트',
+    	options : '색상 옵션',
+    	selected : '색상 선택됨',
+    	title : '색상 선택'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : '툴바 삭제',
+    	toolbarExpand : '확장 툴바',
+    	toolbarGroups : 
+    	{
+    		document : 'Document',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Editing',
+    		forms : 'Forms',
+    		basicstyles : 'Basic Styles',
+    		paragraph : 'Paragraph',
+    		links : 'Links',
+    		insert : 'Insert',
+    		styles : 'Styles',
+    		colors : 'Colors',
+    		tools : 'Tools'
+    	},
+    	toolbars : '편집자용 툴바들'
+    },
+    selectall : 
+    {
+    	toolbar : '전체선택'
+    },
+    blockquote : 
+    {
+    	toolbar : '인용 블록'
+    },
+    link : 
+    {
+    	acccessKey : '엑세스 키',
+    	advanced : '자세히',
+    	advisoryContentType : 'Advisory Content Type',
+    	advisoryTitle : 'Advisory Title',
+    	anchor : 
+    	{
+    		toolbar : '책갈피 삽입/변경',
+    		menu : '책갈피 속성',
+    		title : '책갈피 속성',
+    		name : '책갈피 이름',
+    		errorName : '책갈피 이름을 입력하십시요.',
+    		remove : 'Remove Anchor'
+    	},
+    	anchorId : '책갈피 ID',
+    	anchorName : '책갈피 이름',
+    	charset : 'Linked Resource Charset',
+    	cssClasses : 'Stylesheet Classes',
+    	emailAddress : '이메일 주소',
+    	emailBody : '내용',
+    	emailSubject : '제목',
+    	id : 'ID',
+    	info : '링크 정보',
+    	langCode : '쓰기 방향',
+    	langDir : '쓰기 방향',
+    	langDirLTR : '왼쪽에서 오른쪽 (LTR)',
+    	langDirRTL : '오른쪽에서 왼쪽 (RTL)',
+    	menu : '링크 수정',
+    	name : 'Name',
+    	noAnchors : '(문서에 책갈피가 없습니다.)',
+    	noEmail : '이메일주소를 입력하십시요.',
+    	noUrl : '링크 URL을 입력하십시요.',
+    	other : '<기타>',
+    	popupDependent : 'Dependent (Netscape)',
+    	popupFeatures : '팝업창 설정',
+    	popupFullScreen : '전체화면 (IE)',
+    	popupLeft : '왼쪽 위치',
+    	popupLocationBar : '주소표시줄',
+    	popupMenuBar : '메뉴바',
+    	popupResizable : '크기 조절 가능',
+    	popupScrollBars : '스크롤바',
+    	popupStatusBar : '상태바',
+    	popupToolbar : '툴바',
+    	popupTop : '윗쪽 위치',
+    	rel : 'Relationship',
+    	selectAnchor : '책갈피 선택',
+    	styles : 'Style',
+    	tabIndex : '탭 순서',
+    	target : '타겟',
+    	targetFrame : '<프레임>',
+    	targetFrameName : '타겟 프레임 이름',
+    	targetPopup : '<팝업창>',
+    	targetPopupName : '팝업창 이름',
+    	title : '링크',
+    	toAnchor : '책갈피',
+    	toEmail : '이메일',
+    	toUrl : 'URL',
+    	toolbar : '링크 삽입/변경',
+    	type : '링크 종류',
+    	unlink : '링크 삭제',
+    	upload : '업로드'
+    },
+    stylescombo : 
+    {
+    	label : '스타일',
+    	panelTitle : '전체 구성 스타일',
+    	panelTitle1 : '블록 스타일',
+    	panelTitle2 : '인라인 스타일',
+    	panelTitle3 : '오브젝트 스타일'
+    },
+    dir : 'ltr',
     editor : 'Rich Text Editor',
     common : 
     {

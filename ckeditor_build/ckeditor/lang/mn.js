@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['mn'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Хуулах',
-    	copyError : 'Таны browser-ын хамгаалалтын тохиргоо editor-д автоматаар хуулах үйлдэлийг зөвшөөрөхгүй байна. (Ctrl/Cmd+C) товчны хослолыг ашиглана уу.',
-    	cut : 'Хайчлах',
-    	cutError : 'Таны browser-ын хамгаалалтын тохиргоо editor-д автоматаар хайчлах үйлдэлийг зөвшөөрөхгүй байна. (Ctrl/Cmd+X) товчны хослолыг ашиглана уу.',
-    	paste : 'Буулгах',
-    	pasteArea : 'Paste Area',
-    	pasteMsg : '(<strong>Ctrl/Cmd+V</strong>) товчийг ашиглан paste хийнэ үү. Мөн <strong>OK</strong> дар.',
-    	securityMsg : 'Таны үзүүлэгч/browser/-н хамгаалалтын тохиргооноос болоод editor clipboard өгөгдөлрүү шууд хандах боломжгүй. Энэ цонход дахин paste хийхийг оролд.',
-    	title : 'Буулгах'
+    	confirmCleanup : 'The text you want to paste seems to be copied from Word. Do you want to clean it before pasting?',
+    	error : 'It was not possible to clean up the pasted data due to an internal error',
+    	title : 'Word-оос буулгах',
+    	toolbar : 'Word-оос буулгах'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Энгийн бичвэрээр буулгах',
-    	title : 'Энгийн бичвэрээр буулгах'
-    },
-    specialchar : 
-    {
-    	options : 'Special Character Options',
-    	title : 'Онцгой тэмдэгт сонгох',
-    	toolbar : 'Онцгой тэмдэгт оруулах'
-    },
-    selectall : 
-    {
-    	toolbar : 'Бүгдийг нь сонгох'
-    },
-    newpage : 
-    {
-    	toolbar : 'Шинэ хуудас'
-    },
-    templates : 
-    {
-    	button : 'Загварууд',
-    	emptyListMsg : '(Загвар тодорхойлогдоогүй байна)',
-    	insertOption : 'Одоогийн агууллагыг дарж бичих',
-    	options : 'Template Options',
-    	selectPromptMsg : 'Загварыг нээж editor-рүү сонгож оруулна уу<br />(Одоогийн агууллагыг устаж магадгүй):',
-    	title : 'Загварын агуулга'
-    },
-    colordialog : 
-    {
-    	clear : 'Clear',
-    	highlight : 'Highlight',
-    	options : 'Color Options',
-    	selected : 'Selected Color',
-    	title : 'Select color'
-    },
-    preview : 
-    {
-    	preview : 'Уридчлан харах'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Хэмжээ',
-    		voiceLabel : 'Үсгийн хэмжээ',
-    		panelTitle : 'Үсгийн хэмжээ'
-    	},
-    	label : 'Үсгийн хэлбэр',
-    	panelTitle : 'Үгсийн хэлбэрийн нэр',
-    	voiceLabel : 'Үгсийн хэлбэр'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armenian numbering',
-    	bulletedTitle : 'Bulleted List Properties',
-    	circle : 'Circle',
-    	decimal : 'Decimal (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
-    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
-    	none : 'None',
-    	notset : '<not set>',
-    	numberedTitle : 'Numbered List Properties',
-    	square : 'Square',
-    	start : 'Start',
-    	type : 'Төрөл',
-    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
-    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'List start number must be a whole number.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Ишлэл хэсэг'
-    },
-    undo : 
-    {
-    	redo : 'Өмнөх үйлдлээ сэргээх',
-    	undo : 'Хүчингүй болгох'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. All rights reserved.',
-    	dlgTitle : 'About CKEditor',
-    	help : 'Check $1 for help.',
-    	moreInfo : 'For licensing information please visit our web site:',
-    	title : 'About CKEditor',
-    	userGuide : 'CKEditor User\'s Guide'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Collapse Toolbar',
-    	toolbarExpand : 'Expand Toolbar',
-    	toolbarGroups : 
-    	{
-    		document : 'Document',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Editing',
-    		forms : 'Forms',
-    		basicstyles : 'Basic Styles',
-    		paragraph : 'Paragraph',
-    		links : 'Холбоосууд',
-    		insert : 'Оруулах',
-    		styles : 'Загварууд',
-    		colors : 'Онгөнүүд',
-    		tools : 'Хэрэгслүүд'
-    	},
-    	toolbars : 'Болосруулагчийн хэрэгслийн самбар'
-    },
-    scayt : 
-    {
-    	about : 'About SCAYT',
-    	aboutTab : 'About',
-    	addWord : 'Add Word',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Бий болгох',
-    	dic_delete : 'Устгах',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Нэрийг солих',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Толь бичгүүд',
-    	disable : 'Disable SCAYT',
-    	emptyDic : 'Dictionary name should not be empty.',
-    	enable : 'Enable SCAYT',
-    	ignore : 'Ignore',
-    	ignoreAll : 'Ignore All',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Хэлүүд',
-    	languagesTab : 'Хэлүүд',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'More suggestions',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Сонголт',
-    	optionsTab : 'Сонголт',
-    	title : 'Spell Check As You Type',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Зөвшөөрөх',
-    	btnIgnoreAll : 'Бүгдийг зөвшөөрөх',
-    	btnReplace : 'Солих',
-    	btnReplaceAll : 'Бүгдийг Дарж бичих',
-    	btnUndo : 'Буцаах',
-    	changeTo : 'Өөрчлөх',
-    	errorLoading : 'Error loading application service host: %s.',
-    	ieSpellDownload : 'Дүрэм шалгагч суугаагүй байна. Татаж авахыг хүсч байна уу?',
-    	manyChanges : 'Дүрэм шалгаад дууссан: %1 үг өөрчлөгдсөн',
-    	noChanges : 'Дүрэм шалгаад дууссан: үг өөрчлөгдөөгүй',
-    	noMispell : 'Дүрэм шалгаад дууссан: Алдаа олдсонгүй',
-    	noSuggestions : '- Тайлбаргүй -',
-    	notAvailable : 'Sorry, but service is unavailable now.',
-    	notInDic : 'Толь бичиггүй',
-    	oneChange : 'Дүрэм шалгаад дууссан: 1 үг өөрчлөгдсөн',
-    	progress : 'Дүрэм шалгаж байгаа үйл явц...',
-    	title : 'Spell Check',
-    	toolbar : 'Үгийн дүрэх шалгах'
-    },
-    contextmenu : 
-    {
-    	options : 'Context Menu Options'
+    	bulletedlist : 'Цэгтэй жагсаалт',
+    	numberedlist : 'Дугаарлагдсан жагсаалт'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['mn'] = {
     	left : 'Зүүн талд тулгах',
     	right : 'Баруун талд тулгах'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Код'
-    },
-    format : 
-    {
-    	label : 'Параргафын загвар',
-    	panelTitle : 'Параргафын загвар',
-    	tag_address : 'Хаяг',
-    	tag_div : 'Paragraph (DIV)',
-    	tag_h1 : 'Гарчиг 1',
-    	tag_h2 : 'Гарчиг 2',
-    	tag_h3 : 'Гарчиг 3',
-    	tag_h4 : 'Гарчиг 4',
-    	tag_h5 : 'Гарчиг 5',
-    	tag_h6 : 'Гарчиг 6',
-    	tag_p : 'Хэвийн',
-    	tag_pre : 'Formatted'
-    },
-    flash : 
-    {
-    	access : 'Script Access',
-    	accessAlways : 'Онцлогууд',
-    	accessNever : 'Хэзээ ч үгүй',
-    	accessSameDomain : 'Байнга',
-    	alignAbsBottom : 'Abs доод талд',
-    	alignAbsMiddle : 'Abs Дунд талд',
-    	alignBaseline : 'Baseline',
-    	alignTextTop : 'Текст дээр',
-    	bgcolor : 'Дэвсгэр өнгө',
-    	chkFull : 'Allow Fullscreen',
-    	chkLoop : 'Давтах',
-    	chkMenu : 'Флаш цэс идвэхжүүлэх',
-    	chkPlay : 'Автоматаар тоглох',
-    	flashvars : 'Variables for Flash',
-    	hSpace : 'Хөндлөн зай',
-    	properties : 'Флаш шинж чанар',
-    	propertiesTab : 'Properties',
-    	quality : 'Quality',
-    	qualityAutoHigh : 'Auto High',
-    	qualityAutoLow : 'Auto Low',
-    	qualityBest : 'Best',
-    	qualityHigh : 'High',
-    	qualityLow : 'Low',
-    	qualityMedium : 'Medium',
-    	scale : 'Өргөгтгөх',
-    	scaleAll : 'Бүгдийг харуулах',
-    	scaleFit : 'Яг тааруулах',
-    	scaleNoBorder : 'Хүрээгүй',
-    	title : 'Флаш  шинж чанар',
-    	vSpace : 'Босоо зай',
-    	validateHSpace : 'HSpace must be a number.',
-    	validateSrc : 'Линк URL-ээ төрөлжүүлнэ үү',
-    	validateVSpace : 'VSpace must be a number.',
-    	windowMode : 'Window mode',
-    	windowModeOpaque : 'Opaque',
-    	windowModeTransparent : 'Transparent',
-    	windowModeWindow : 'Window'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Параргафын загварыг авч хаях'
-    },
-    iframe : 
-    {
-    	border : 'Show frame border',
-    	noUrl : 'Please type the iframe URL',
-    	scrolling : 'Enable scrollbars',
-    	title : 'IFrame Properties',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Холбох түлхүүр',
-    	advanced : 'Нэмэлт',
-    	advisoryContentType : 'Зөвлөлдөх төрлийн агуулга',
-    	advisoryTitle : 'Зөвлөлдөх гарчиг',
-    	anchor : 
-    	{
-    		toolbar : 'Зангуу',
-    		menu : 'Зангууг болосруулах',
-    		title : 'Зангуугийн шинж чанар',
-    		name : 'Зангуугийн нэр',
-    		errorName : 'Зангуугийн нэрийг оруулна уу',
-    		remove : 'Зангууг устгах'
-    	},
-    	anchorId : 'Элемэнтйн Id нэрээр',
-    	anchorName : 'Зангуугийн нэрээр',
-    	charset : 'Тэмдэгт оноох нөөцөд холбогдсон',
-    	cssClasses : 'Stylesheet классууд',
-    	emailAddress : 'Э-шуудангийн хаяг',
-    	emailBody : 'Зурвасны их бие',
-    	emailSubject : 'Зурвасны гарчиг',
-    	id : 'Id',
-    	info : 'Холбоосын тухай мэдээлэл',
-    	langCode : 'Хэлний код',
-    	langDir : 'Хэлний чиглэл',
-    	langDirLTR : 'Зүүнээс баруун (LTR)',
-    	langDirRTL : 'Баруунаас зүүн (RTL)',
-    	menu : 'Холбоос засварлах',
-    	name : 'Нэр',
-    	noAnchors : '(Баримт бичиг зангуугүй байна)',
-    	noEmail : 'Э-шуудангий хаягаа шивнэ үү',
-    	noUrl : 'Холбоосны URL хаягийг шивнэ үү',
-    	other : '<other>',
-    	popupDependent : 'Хамаатай (Netscape)',
-    	popupFeatures : 'Popup цонхны онцлог',
-    	popupFullScreen : 'Цонх дүүргэх (Internet Explorer)',
-    	popupLeft : 'Зүүн байрлал',
-    	popupLocationBar : 'Location хэсэг',
-    	popupMenuBar : 'Цэсний самбар',
-    	popupResizable : 'Resizable',
-    	popupScrollBars : 'Скрол хэсэгүүд',
-    	popupStatusBar : 'Статус хэсэг',
-    	popupToolbar : 'Багажны самбар',
-    	popupTop : 'Дээд байрлал',
-    	rel : 'Relationship',
-    	selectAnchor : 'Нэг зангууг сонгоно уу',
-    	styles : 'Загвар',
-    	tabIndex : 'Tab индекс',
-    	target : 'Байрлал',
-    	targetFrame : '<Агуулах хүрээ>',
-    	targetFrameName : 'Очих фремын нэр',
-    	targetPopup : '<popup цонх>',
-    	targetPopupName : 'Popup цонхны нэр',
-    	title : 'Холбоос',
-    	toAnchor : 'Энэ бичвэр дэх зангуу руу очих холбоос',
-    	toEmail : 'Э-захиа',
-    	toUrl : 'цахим хуудасны хаяг (URL)',
-    	toolbar : 'Холбоос',
-    	type : 'Линкийн төрөл',
-    	unlink : 'Холбоос авч хаях',
-    	upload : 'Хуулах'
-    },
-    smiley : 
-    {
-    	options : 'Smiley Options',
-    	title : 'Тодорхойлолт оруулах',
-    	toolbar : 'Тодорхойлолт'
-    },
-    print : 
-    {
-    	toolbar : 'Хэвлэх'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Зөвлөлдөх гарчиг',
-    	cssClassInputLabel : 'Stylesheet классууд',
-    	edit : 'Edit Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : 'Зүүн талаас баруун тишээ (LTR)',
-    	langDirLabel : 'Хэлний чиглэл',
-    	langDirRTLLabel : 'Баруун талаас зүүн тишээ (RTL)',
-    	languageCodeInputLabel : ' Language Code',
-    	remove : 'Remove Div',
-    	styleSelectLabel : 'Загвар',
-    	title : 'Div гэдэг хэсэг бий болгох',
-    	toolbar : 'Div гэдэг хэсэг бий болгох'
-    },
-    indent : 
-    {
-    	indent : 'Догол мөр хасах',
-    	outdent : 'Догол мөр нэмэх'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'The text you want to paste seems to be copied from Word. Do you want to clean it before pasting?',
-    	error : 'It was not possible to clean up the pasted data due to an internal error',
-    	title : 'Word-оос буулгах',
-    	toolbar : 'Word-оос буулгах'
-    },
-    colorbutton : 
-    {
-    	auto : 'Автоматаар',
-    	bgColorTitle : 'Дэвсгэр өнгө',
-    	colors : 
-    	{
-    		'000' : 'Хар',
-    		'800000' : 'Хүрэн',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Dark Gray',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Brown',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'Dark Green',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'Саарал',
-    		F00 : 'Улаан',
-    		FF8C00 : 'Dark Orange',
-    		FFD700 : 'Алт',
-    		'008000' : 'Ногоон',
-    		'0FF' : 'Цэнхэр',
-    		'00F' : 'Хөх',
-    		EE82EE : 'Ягаан',
-    		A9A9A9 : 'Dim Gray',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'Улбар шар',
-    		FFFF00 : 'Шар',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Цайвар саарал',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'Light Yellow',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'Lavender',
-    		FFF : 'Цагаан'
-    	},
-    	more : 'Нэмэлт өнгөнүүд...',
-    	panelTitle : 'Өнгөнүүд',
-    	textColorTitle : 'Бичвэрийн өнгө'
-    },
-    list : 
-    {
-    	bulletedlist : 'Цэгтэй жагсаалт',
-    	numberedlist : 'Дугаарлагдсан жагсаалт'
+    	toolbar : 'Хадгалах'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['mn'] = {
     	validateHSpace : 'HSpace must be a whole number.',
     	validateVSpace : 'VSpace must be a whole number.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Хайх',
-    	findOptions : 'Хайх сонголтууд',
-    	findWhat : 'Хайх үг/үсэг:',
-    	matchCase : 'Тэнцэх төлөв',
-    	matchCyclic : 'Match cyclic',
-    	matchWord : 'Тэнцэх бүтэн үг',
-    	notFoundMsg : 'Хайсан бичвэрийг олсонгүй.',
-    	replace : 'Орлуулах',
-    	replaceAll : 'Бүгдийг нь солих',
-    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
-    	replaceWith : 'Солих үг:',
-    	title : 'Хайж орлуулах'
+    	alt : 'Page Break',
+    	toolbar : 'Хуудас тусгаарлагч оруулах'
     },
     showblocks : 
     {
     	toolbar : 'Хавтангуудыг харуулах'
+    },
+    indent : 
+    {
+    	indent : 'Догол мөр хасах',
+    	outdent : 'Догол мөр нэмэх'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['mn'] = {
     		typeUrl : 'цахим хуудасны хаяг (URL)'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Хөндлөн зураас оруулах'
-    },
-    pagebreak : 
-    {
-    	alt : 'Page Break',
-    	toolbar : 'Хуудас тусгаарлагч оруулах'
-    },
-    stylescombo : 
-    {
-    	label : 'Загвар',
-    	panelTitle : 'Загвар хэлбэржүүлэх',
-    	panelTitle1 : 'Block Styles',
-    	panelTitle2 : 'Inline Styles',
-    	panelTitle3 : 'Object Styles'
-    },
     bidi : 
     {
     	ltr : 'Зүүнээс баруун тийш бичлэг',
     	rtl : 'Баруунаас зүүн тийш бичлэг'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Тод бүдүүн',
-    	italic : 'Налуу',
-    	strike : 'Дундуур нь зураастай болгох',
-    	subscript : 'Суурь болгох',
-    	superscript : 'Зэрэг болгох',
-    	underline : 'Доогуур нь зураастай болгох'
+    	eleLabel : 'Elements path',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Зангуу',
+    	flash : 'Flash Animation',
+    	hiddenfield : 'Нууц талбар',
+    	iframe : 'IFrame',
+    	unknown : 'Unknown Object'
+    },
+    smiley : 
+    {
+    	options : 'Smiley Options',
+    	title : 'Тодорхойлолт оруулах',
+    	toolbar : 'Тодорхойлолт'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. All rights reserved.',
+    	dlgTitle : 'About CKEditor',
+    	help : 'Check $1 for help.',
+    	moreInfo : 'For licensing information please visit our web site:',
+    	title : 'About CKEditor',
+    	userGuide : 'CKEditor User\'s Guide'
+    },
+    newpage : 
+    {
+    	toolbar : 'Шинэ хуудас'
+    },
+    format : 
+    {
+    	label : 'Параргафын загвар',
+    	panelTitle : 'Параргафын загвар',
+    	tag_address : 'Хаяг',
+    	tag_div : 'Paragraph (DIV)',
+    	tag_h1 : 'Гарчиг 1',
+    	tag_h2 : 'Гарчиг 2',
+    	tag_h3 : 'Гарчиг 3',
+    	tag_h4 : 'Гарчиг 4',
+    	tag_h5 : 'Гарчиг 5',
+    	tag_h6 : 'Гарчиг 6',
+    	tag_p : 'Хэвийн',
+    	tag_pre : 'Formatted'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Параргафын загварыг авч хаях'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['mn'] = {
     	widthPx : 'цэг',
     	widthUnit : 'өргөний нэгж'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Insert paragraph here'
+    	options : 'Special Character Options',
+    	title : 'Онцгой тэмдэгт сонгох',
+    	toolbar : 'Онцгой тэмдэгт оруулах'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Хадгалах'
+    	armenian : 'Armenian numbering',
+    	bulletedTitle : 'Bulleted List Properties',
+    	circle : 'Circle',
+    	decimal : 'Decimal (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
+    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
+    	none : 'None',
+    	notset : '<not set>',
+    	numberedTitle : 'Numbered List Properties',
+    	square : 'Square',
+    	start : 'Start',
+    	type : 'Төрөл',
+    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
+    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'List start number must be a whole number.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Зангуу',
-    	flash : 'Flash Animation',
-    	hiddenfield : 'Нууц талбар',
-    	iframe : 'IFrame',
-    	unknown : 'Unknown Object'
+    	border : 'Show frame border',
+    	noUrl : 'Please type the iframe URL',
+    	scrolling : 'Enable scrollbars',
+    	title : 'IFrame Properties',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Elements path',
-    	eleTitle : '%1 element'
+    	access : 'Script Access',
+    	accessAlways : 'Онцлогууд',
+    	accessNever : 'Хэзээ ч үгүй',
+    	accessSameDomain : 'Байнга',
+    	alignAbsBottom : 'Abs доод талд',
+    	alignAbsMiddle : 'Abs Дунд талд',
+    	alignBaseline : 'Baseline',
+    	alignTextTop : 'Текст дээр',
+    	bgcolor : 'Дэвсгэр өнгө',
+    	chkFull : 'Allow Fullscreen',
+    	chkLoop : 'Давтах',
+    	chkMenu : 'Флаш цэс идвэхжүүлэх',
+    	chkPlay : 'Автоматаар тоглох',
+    	flashvars : 'Variables for Flash',
+    	hSpace : 'Хөндлөн зай',
+    	properties : 'Флаш шинж чанар',
+    	propertiesTab : 'Properties',
+    	quality : 'Quality',
+    	qualityAutoHigh : 'Auto High',
+    	qualityAutoLow : 'Auto Low',
+    	qualityBest : 'Best',
+    	qualityHigh : 'High',
+    	qualityLow : 'Low',
+    	qualityMedium : 'Medium',
+    	scale : 'Өргөгтгөх',
+    	scaleAll : 'Бүгдийг харуулах',
+    	scaleFit : 'Яг тааруулах',
+    	scaleNoBorder : 'Хүрээгүй',
+    	title : 'Флаш  шинж чанар',
+    	vSpace : 'Босоо зай',
+    	validateHSpace : 'HSpace must be a number.',
+    	validateSrc : 'Линк URL-ээ төрөлжүүлнэ үү',
+    	validateVSpace : 'VSpace must be a number.',
+    	windowMode : 'Window mode',
+    	windowModeOpaque : 'Opaque',
+    	windowModeTransparent : 'Transparent',
+    	windowModeWindow : 'Window'
+    },
+    find : 
+    {
+    	find : 'Хайх',
+    	findOptions : 'Хайх сонголтууд',
+    	findWhat : 'Хайх үг/үсэг:',
+    	matchCase : 'Тэнцэх төлөв',
+    	matchCyclic : 'Match cyclic',
+    	matchWord : 'Тэнцэх бүтэн үг',
+    	notFoundMsg : 'Хайсан бичвэрийг олсонгүй.',
+    	replace : 'Орлуулах',
+    	replaceAll : 'Бүгдийг нь солих',
+    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
+    	replaceWith : 'Солих үг:',
+    	title : 'Хайж орлуулах'
+    },
+    colorbutton : 
+    {
+    	auto : 'Автоматаар',
+    	bgColorTitle : 'Дэвсгэр өнгө',
+    	colors : 
+    	{
+    		'000' : 'Хар',
+    		'800000' : 'Хүрэн',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Dark Gray',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Brown',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'Dark Green',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'Саарал',
+    		F00 : 'Улаан',
+    		FF8C00 : 'Dark Orange',
+    		FFD700 : 'Алт',
+    		'008000' : 'Ногоон',
+    		'0FF' : 'Цэнхэр',
+    		'00F' : 'Хөх',
+    		EE82EE : 'Ягаан',
+    		A9A9A9 : 'Dim Gray',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'Улбар шар',
+    		FFFF00 : 'Шар',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Цайвар саарал',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'Light Yellow',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'Lavender',
+    		FFF : 'Цагаан'
+    	},
+    	more : 'Нэмэлт өнгөнүүд...',
+    	panelTitle : 'Өнгөнүүд',
+    	textColorTitle : 'Бичвэрийн өнгө'
+    },
+    undo : 
+    {
+    	redo : 'Өмнөх үйлдлээ сэргээх',
+    	undo : 'Хүчингүй болгох'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Хэмжээ',
+    		voiceLabel : 'Үсгийн хэмжээ',
+    		panelTitle : 'Үсгийн хэмжээ'
+    	},
+    	label : 'Үсгийн хэлбэр',
+    	panelTitle : 'Үгсийн хэлбэрийн нэр',
+    	voiceLabel : 'Үгсийн хэлбэр'
     },
     maximize : 
     {
     	maximize : 'Дэлгэц дүүргэх',
     	minimize : 'Цонхыг багсгаж харуулах'
     },
+    basicstyles : 
+    {
+    	bold : 'Тод бүдүүн',
+    	italic : 'Налуу',
+    	strike : 'Дундуур нь зураастай болгох',
+    	subscript : 'Суурь болгох',
+    	superscript : 'Зэрэг болгох',
+    	underline : 'Доогуур нь зураастай болгох'
+    },
+    magicline : 
+    {
+    	title : 'Insert paragraph here'
+    },
+    print : 
+    {
+    	toolbar : 'Хэвлэх'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Зөвшөөрөх',
+    	btnIgnoreAll : 'Бүгдийг зөвшөөрөх',
+    	btnReplace : 'Солих',
+    	btnReplaceAll : 'Бүгдийг Дарж бичих',
+    	btnUndo : 'Буцаах',
+    	changeTo : 'Өөрчлөх',
+    	errorLoading : 'Error loading application service host: %s.',
+    	ieSpellDownload : 'Дүрэм шалгагч суугаагүй байна. Татаж авахыг хүсч байна уу?',
+    	manyChanges : 'Дүрэм шалгаад дууссан: %1 үг өөрчлөгдсөн',
+    	noChanges : 'Дүрэм шалгаад дууссан: үг өөрчлөгдөөгүй',
+    	noMispell : 'Дүрэм шалгаад дууссан: Алдаа олдсонгүй',
+    	noSuggestions : '- Тайлбаргүй -',
+    	notAvailable : 'Sorry, but service is unavailable now.',
+    	notInDic : 'Толь бичиггүй',
+    	oneChange : 'Дүрэм шалгаад дууссан: 1 үг өөрчлөгдсөн',
+    	progress : 'Дүрэм шалгаж байгаа үйл явц...',
+    	title : 'Spell Check',
+    	toolbar : 'Үгийн дүрэх шалгах'
+    },
+    clipboard : 
+    {
+    	copy : 'Хуулах',
+    	copyError : 'Таны browser-ын хамгаалалтын тохиргоо editor-д автоматаар хуулах үйлдэлийг зөвшөөрөхгүй байна. (Ctrl/Cmd+C) товчны хослолыг ашиглана уу.',
+    	cut : 'Хайчлах',
+    	cutError : 'Таны browser-ын хамгаалалтын тохиргоо editor-д автоматаар хайчлах үйлдэлийг зөвшөөрөхгүй байна. (Ctrl/Cmd+X) товчны хослолыг ашиглана уу.',
+    	paste : 'Буулгах',
+    	pasteArea : 'Paste Area',
+    	pasteMsg : '(<strong>Ctrl/Cmd+V</strong>) товчийг ашиглан paste хийнэ үү. Мөн <strong>OK</strong> дар.',
+    	securityMsg : 'Таны үзүүлэгч/browser/-н хамгаалалтын тохиргооноос болоод editor clipboard өгөгдөлрүү шууд хандах боломжгүй. Энэ цонход дахин paste хийхийг оролд.',
+    	title : 'Буулгах'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Код'
+    },
+    scayt : 
+    {
+    	about : 'About SCAYT',
+    	aboutTab : 'About',
+    	addWord : 'Add Word',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Бий болгох',
+    	dic_delete : 'Устгах',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Нэрийг солих',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Толь бичгүүд',
+    	disable : 'Disable SCAYT',
+    	emptyDic : 'Dictionary name should not be empty.',
+    	enable : 'Enable SCAYT',
+    	ignore : 'Ignore',
+    	ignoreAll : 'Ignore All',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Хэлүүд',
+    	languagesTab : 'Хэлүүд',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'More suggestions',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Сонголт',
+    	optionsTab : 'Сонголт',
+    	title : 'Spell Check As You Type',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Хөндлөн зураас оруулах'
+    },
+    pastetext : 
+    {
+    	button : 'Энгийн бичвэрээр буулгах',
+    	title : 'Энгийн бичвэрээр буулгах'
+    },
+    contextmenu : 
+    {
+    	options : 'Context Menu Options'
+    },
+    templates : 
+    {
+    	button : 'Загварууд',
+    	emptyListMsg : '(Загвар тодорхойлогдоогүй байна)',
+    	insertOption : 'Одоогийн агууллагыг дарж бичих',
+    	options : 'Template Options',
+    	selectPromptMsg : 'Загварыг нээж editor-рүү сонгож оруулна уу<br />(Одоогийн агууллагыг устаж магадгүй):',
+    	title : 'Загварын агуулга'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Зөвлөлдөх гарчиг',
+    	cssClassInputLabel : 'Stylesheet классууд',
+    	edit : 'Edit Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : 'Зүүн талаас баруун тишээ (LTR)',
+    	langDirLabel : 'Хэлний чиглэл',
+    	langDirRTLLabel : 'Баруун талаас зүүн тишээ (RTL)',
+    	languageCodeInputLabel : ' Language Code',
+    	remove : 'Remove Div',
+    	styleSelectLabel : 'Загвар',
+    	title : 'Div гэдэг хэсэг бий болгох',
+    	toolbar : 'Div гэдэг хэсэг бий болгох'
+    },
+    preview : 
+    {
+    	preview : 'Уридчлан харах'
+    },
+    colordialog : 
+    {
+    	clear : 'Clear',
+    	highlight : 'Highlight',
+    	options : 'Color Options',
+    	selected : 'Selected Color',
+    	title : 'Select color'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Collapse Toolbar',
+    	toolbarExpand : 'Expand Toolbar',
+    	toolbarGroups : 
+    	{
+    		document : 'Document',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Editing',
+    		forms : 'Forms',
+    		basicstyles : 'Basic Styles',
+    		paragraph : 'Paragraph',
+    		links : 'Холбоосууд',
+    		insert : 'Оруулах',
+    		styles : 'Загварууд',
+    		colors : 'Онгөнүүд',
+    		tools : 'Хэрэгслүүд'
+    	},
+    	toolbars : 'Болосруулагчийн хэрэгслийн самбар'
+    },
+    selectall : 
+    {
+    	toolbar : 'Бүгдийг нь сонгох'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Ишлэл хэсэг'
+    },
+    link : 
+    {
+    	acccessKey : 'Холбох түлхүүр',
+    	advanced : 'Нэмэлт',
+    	advisoryContentType : 'Зөвлөлдөх төрлийн агуулга',
+    	advisoryTitle : 'Зөвлөлдөх гарчиг',
+    	anchor : 
+    	{
+    		toolbar : 'Зангуу',
+    		menu : 'Зангууг болосруулах',
+    		title : 'Зангуугийн шинж чанар',
+    		name : 'Зангуугийн нэр',
+    		errorName : 'Зангуугийн нэрийг оруулна уу',
+    		remove : 'Зангууг устгах'
+    	},
+    	anchorId : 'Элемэнтйн Id нэрээр',
+    	anchorName : 'Зангуугийн нэрээр',
+    	charset : 'Тэмдэгт оноох нөөцөд холбогдсон',
+    	cssClasses : 'Stylesheet классууд',
+    	emailAddress : 'Э-шуудангийн хаяг',
+    	emailBody : 'Зурвасны их бие',
+    	emailSubject : 'Зурвасны гарчиг',
+    	id : 'Id',
+    	info : 'Холбоосын тухай мэдээлэл',
+    	langCode : 'Хэлний код',
+    	langDir : 'Хэлний чиглэл',
+    	langDirLTR : 'Зүүнээс баруун (LTR)',
+    	langDirRTL : 'Баруунаас зүүн (RTL)',
+    	menu : 'Холбоос засварлах',
+    	name : 'Нэр',
+    	noAnchors : '(Баримт бичиг зангуугүй байна)',
+    	noEmail : 'Э-шуудангий хаягаа шивнэ үү',
+    	noUrl : 'Холбоосны URL хаягийг шивнэ үү',
+    	other : '<other>',
+    	popupDependent : 'Хамаатай (Netscape)',
+    	popupFeatures : 'Popup цонхны онцлог',
+    	popupFullScreen : 'Цонх дүүргэх (Internet Explorer)',
+    	popupLeft : 'Зүүн байрлал',
+    	popupLocationBar : 'Location хэсэг',
+    	popupMenuBar : 'Цэсний самбар',
+    	popupResizable : 'Resizable',
+    	popupScrollBars : 'Скрол хэсэгүүд',
+    	popupStatusBar : 'Статус хэсэг',
+    	popupToolbar : 'Багажны самбар',
+    	popupTop : 'Дээд байрлал',
+    	rel : 'Relationship',
+    	selectAnchor : 'Нэг зангууг сонгоно уу',
+    	styles : 'Загвар',
+    	tabIndex : 'Tab индекс',
+    	target : 'Байрлал',
+    	targetFrame : '<Агуулах хүрээ>',
+    	targetFrameName : 'Очих фремын нэр',
+    	targetPopup : '<popup цонх>',
+    	targetPopupName : 'Popup цонхны нэр',
+    	title : 'Холбоос',
+    	toAnchor : 'Энэ бичвэр дэх зангуу руу очих холбоос',
+    	toEmail : 'Э-захиа',
+    	toUrl : 'цахим хуудасны хаяг (URL)',
+    	toolbar : 'Холбоос',
+    	type : 'Линкийн төрөл',
+    	unlink : 'Холбоос авч хаях',
+    	upload : 'Хуулах'
+    },
+    stylescombo : 
+    {
+    	label : 'Загвар',
+    	panelTitle : 'Загвар хэлбэржүүлэх',
+    	panelTitle1 : 'Block Styles',
+    	panelTitle2 : 'Inline Styles',
+    	panelTitle3 : 'Object Styles'
+    },
+    dir : 'ltr',
     editor : 'Хэлбэрт бичвэр боловсруулагч',
     common : 
     {

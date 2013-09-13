@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['ro'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Copiază',
-    	copyError : 'Setările de securitate ale navigatorului (browser) pe care îl folosiţi nu permit editorului să execute automat operaţiunea de copiere. Vă rugăm folosiţi tastatura (Ctrl/Cmd+C).',
-    	cut : 'Taie',
-    	cutError : 'Setările de securitate ale navigatorului (browser) pe care îl folosiţi nu permit editorului să execute automat operaţiunea de tăiere. Vă rugăm folosiţi tastatura (Ctrl/Cmd+X).',
-    	paste : 'Adaugă',
-    	pasteArea : 'Suprafața de adăugare',
-    	pasteMsg : 'Vă rugăm adăugaţi în căsuţa următoare folosind tastatura (<strong>Ctrl/Cmd+V</strong>) şi apăsaţi OK',
-    	securityMsg : 'Din cauza setărilor de securitate ale programului dvs. cu care navigaţi pe internet (browser), editorul nu poate accesa direct datele din clipboard. Va trebui să adăugaţi din nou datele în această fereastră.',
-    	title : 'Adaugă'
+    	confirmCleanup : 'Textul pe care doriți să-l lipiți este din Word. Doriți curățarea textului înante de a-l adăuga?',
+    	error : 'Nu a fost posibilă curățarea datelor adăugate datorită unei erori interne',
+    	title : 'Adaugă din Word',
+    	toolbar : 'Adaugă din Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Adaugă ca text simplu (Plain Text)',
-    	title : 'Adaugă ca text simplu (Plain Text)'
-    },
-    specialchar : 
-    {
-    	options : 'Opțiuni caractere speciale',
-    	title : 'Selectează caracter special',
-    	toolbar : 'Inserează caracter special'
-    },
-    selectall : 
-    {
-    	toolbar : 'Selectează tot'
-    },
-    newpage : 
-    {
-    	toolbar : 'Pagină nouă'
-    },
-    templates : 
-    {
-    	button : 'Template-uri (şabloane)',
-    	emptyListMsg : '(Niciun template (şablon) definit)',
-    	insertOption : 'Înlocuieşte cuprinsul actual',
-    	options : 'Opțiuni șabloane',
-    	selectPromptMsg : 'Vă rugăm selectaţi template-ul (şablonul) ce se va deschide în editor<br>(conţinutul actual va fi pierdut):',
-    	title : 'Template-uri (şabloane) de conţinut'
-    },
-    colordialog : 
-    {
-    	clear : 'Clear',
-    	highlight : 'Highlight',
-    	options : 'Color Options',
-    	selected : 'Selected Color',
-    	title : 'Select color'
-    },
-    preview : 
-    {
-    	preview : 'Previzualizare'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Mărime',
-    		voiceLabel : 'Font Size',
-    		panelTitle : 'Mărime'
-    	},
-    	label : 'Font',
-    	panelTitle : 'Font',
-    	voiceLabel : 'Font'
-    },
-    liststyle : 
-    {
-    	armenian : 'Numerotare armeniană',
-    	bulletedTitle : 'Proprietățile listei cu simboluri',
-    	circle : 'Cerc',
-    	decimal : 'Decimale (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Decimale cu zero în față (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Numerotare georgiană (an, ban, gan, etc.)',
-    	lowerAlpha : 'Litere mici (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Litere grecești mici (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Cifre romane mici (i, ii, iii, iv, v, etc.)',
-    	none : 'Nimic',
-    	notset : '<nesetat>',
-    	numberedTitle : 'Proprietățile listei numerotate',
-    	square : 'Pătrat',
-    	start : 'Start',
-    	type : 'Tip',
-    	upperAlpha : 'Litere mari (A, B, C, D, E, etc.)',
-    	upperRoman : 'Cifre romane mari (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'Începutul listei trebuie să fie un număr întreg.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Citat'
-    },
-    undo : 
-    {
-    	redo : 'Starea ulterioară (redo)',
-    	undo : 'Starea anterioară (undo)'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. All rights reserved.',
-    	dlgTitle : 'About CKEditor',
-    	help : 'Check $1 for help.',
-    	moreInfo : 'For licensing information please visit our web site:',
-    	title : 'About CKEditor',
-    	userGuide : 'CKEditor User\'s Guide'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Micșorează Bara',
-    	toolbarExpand : 'Mărește Bara',
-    	toolbarGroups : 
-    	{
-    		document : 'Document',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Editing',
-    		forms : 'Forms',
-    		basicstyles : 'Basic Styles',
-    		paragraph : 'Paragraph',
-    		links : 'Links',
-    		insert : 'Insert',
-    		styles : 'Styles',
-    		colors : 'Colors',
-    		tools : 'Tools'
-    	},
-    	toolbars : 'Editează bara de unelte'
-    },
-    scayt : 
-    {
-    	about : 'About SCAYT',
-    	aboutTab : 'About',
-    	addWord : 'Add Word',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Dictionaries',
-    	disable : 'Disable SCAYT',
-    	emptyDic : 'Dictionary name should not be empty.',
-    	enable : 'Enable SCAYT',
-    	ignore : 'Ignore',
-    	ignoreAll : 'Ignore All',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Languages',
-    	languagesTab : 'Languages',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'More suggestions',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Options',
-    	optionsTab : 'Options',
-    	title : 'Spell Check As You Type',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Ignoră',
-    	btnIgnoreAll : 'Ignoră toate',
-    	btnReplace : 'Înlocuieşte',
-    	btnReplaceAll : 'Înlocuieşte tot',
-    	btnUndo : 'Starea anterioară (undo)',
-    	changeTo : 'Schimbă în',
-    	errorLoading : 'Eroare în lansarea aplicației service host %s.',
-    	ieSpellDownload : 'Unealta pentru verificat textul (Spell checker) neinstalată. Doriţi să o descărcaţi acum?',
-    	manyChanges : 'Verificarea textului terminată: 1% cuvinte modificate',
-    	noChanges : 'Verificarea textului terminată: Niciun cuvânt modificat',
-    	noMispell : 'Verificarea textului terminată: Nicio greşeală găsită',
-    	noSuggestions : '- Fără sugestii -',
-    	notAvailable : 'Scuzați, dar serviciul nu este disponibil momentan.',
-    	notInDic : 'Nu e în dicţionar',
-    	oneChange : 'Verificarea textului terminată: Un cuvânt modificat',
-    	progress : 'Verificarea textului în desfăşurare...',
-    	title : 'Spell Check',
-    	toolbar : 'Verifică scrierea textului'
-    },
-    contextmenu : 
-    {
-    	options : 'Opțiuni Meniu Contextual'
+    	bulletedlist : 'Inserează / Elimină Listă cu puncte',
+    	numberedlist : 'Inserează / Elimină Listă numerotată'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['ro'] = {
     	left : 'Aliniere la stânga',
     	right : 'Aliniere la dreapta'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Sursa'
-    },
-    format : 
-    {
-    	label : 'Formatare',
-    	panelTitle : 'Formatare',
-    	tag_address : 'Adresă',
-    	tag_div : 'Normal (DIV)',
-    	tag_h1 : 'Heading 1',
-    	tag_h2 : 'Heading 2',
-    	tag_h3 : 'Heading 3',
-    	tag_h4 : 'Heading 4',
-    	tag_h5 : 'Heading 5',
-    	tag_h6 : 'Heading 6',
-    	tag_p : 'Normal',
-    	tag_pre : 'Formatat'
-    },
-    flash : 
-    {
-    	access : 'Acces script',
-    	accessAlways : 'Întotdeauna',
-    	accessNever : 'Niciodată',
-    	accessSameDomain : 'Același domeniu',
-    	alignAbsBottom : 'Jos absolut (Abs Bottom)',
-    	alignAbsMiddle : 'Mijloc absolut (Abs Middle)',
-    	alignBaseline : 'Linia de jos (Baseline)',
-    	alignTextTop : 'Text sus',
-    	bgcolor : 'Coloarea fundalului',
-    	chkFull : 'Permite pe tot ecranul',
-    	chkLoop : 'Repetă (Loop)',
-    	chkMenu : 'Activează meniul flash',
-    	chkPlay : 'Rulează automat',
-    	flashvars : 'Variabile pentru flash',
-    	hSpace : 'HSpace',
-    	properties : 'Proprietăţile flashului',
-    	propertiesTab : 'Proprietăți',
-    	quality : 'Calitate',
-    	qualityAutoHigh : 'Auto înaltă',
-    	qualityAutoLow : 'Auto Joasă',
-    	qualityBest : 'Cea mai bună',
-    	qualityHigh : 'Înaltă',
-    	qualityLow : 'Joasă',
-    	qualityMedium : 'Medie',
-    	scale : 'Scală',
-    	scaleAll : 'Arată tot',
-    	scaleFit : 'Potriveşte',
-    	scaleNoBorder : 'Fără bordură (No border)',
-    	title : 'Proprietăţile flashului',
-    	vSpace : 'VSpace',
-    	validateHSpace : 'Hspace trebuie să fie un număr.',
-    	validateSrc : 'Vă rugăm să scrieţi URL-ul',
-    	validateVSpace : 'VSpace trebuie să fie un număr',
-    	windowMode : 'Mod fereastră',
-    	windowModeOpaque : 'Opacă',
-    	windowModeTransparent : 'Transparentă',
-    	windowModeWindow : 'Fereastră'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Înlătură formatarea'
-    },
-    iframe : 
-    {
-    	border : 'Show frame border',
-    	noUrl : 'Please type the iframe URL',
-    	scrolling : 'Enable scrollbars',
-    	title : 'IFrame Properties',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Tasta de acces',
-    	advanced : 'Avansat',
-    	advisoryContentType : 'Tipul consultativ al titlului',
-    	advisoryTitle : 'Titlul consultativ',
-    	anchor : 
-    	{
-    		toolbar : 'Inserează/Editează ancoră',
-    		menu : 'Proprietăţi ancoră',
-    		title : 'Proprietăţi ancoră',
-    		name : 'Numele ancorei',
-    		errorName : 'Vă rugăm scrieţi numele ancorei',
-    		remove : 'Elimină ancora'
-    	},
-    	anchorId : 'după Id-ul elementului',
-    	anchorName : 'după numele ancorei',
-    	charset : 'Setul de caractere al resursei legate',
-    	cssClasses : 'Clasele cu stilul paginii (CSS)',
-    	emailAddress : 'Adresă de e-mail',
-    	emailBody : 'Opțiuni Meniu Contextual',
-    	emailSubject : 'Subiectul mesajului',
-    	id : 'Id',
-    	info : 'Informaţii despre link (Legătură web)',
-    	langCode : 'Direcţia cuvintelor',
-    	langDir : 'Direcţia cuvintelor',
-    	langDirLTR : 'stânga-dreapta (LTR)',
-    	langDirRTL : 'dreapta-stânga (RTL)',
-    	menu : 'Editează Link',
-    	name : 'Nume',
-    	noAnchors : '(Nicio ancoră disponibilă în document)',
-    	noEmail : 'Vă rugăm să scrieţi adresa de e-mail',
-    	noUrl : 'Vă rugăm să scrieţi URL-ul',
-    	other : '<alt>',
-    	popupDependent : 'Dependent (Netscape)',
-    	popupFeatures : 'Proprietăţile ferestrei popup',
-    	popupFullScreen : 'Tot ecranul (Full Screen)(IE)',
-    	popupLeft : 'Poziţia la stânga',
-    	popupLocationBar : 'Bara de locaţie',
-    	popupMenuBar : 'Bara de meniu',
-    	popupResizable : 'Redimensionabil',
-    	popupScrollBars : 'Bare de derulare',
-    	popupStatusBar : 'Bara de status',
-    	popupToolbar : 'Bara de opţiuni',
-    	popupTop : 'Poziţia la dreapta',
-    	rel : 'Relație',
-    	selectAnchor : 'Selectaţi o ancoră',
-    	styles : 'Stil',
-    	tabIndex : 'Indexul tabului',
-    	target : 'Ţintă (Target)',
-    	targetFrame : '<frame>',
-    	targetFrameName : 'Numele frameului ţintă',
-    	targetPopup : '<fereastra popup>',
-    	targetPopupName : 'Numele ferestrei popup',
-    	title : 'Link (Legătură web)',
-    	toAnchor : 'Ancoră în această pagină',
-    	toEmail : 'E-Mail',
-    	toUrl : 'URL',
-    	toolbar : 'Inserează/Editează link (legătură web)',
-    	type : 'Tipul link-ului (al legăturii web)',
-    	unlink : 'Înlătură link (legătură web)',
-    	upload : 'Încarcă'
-    },
-    smiley : 
-    {
-    	options : 'Opțiuni figuri expresive',
-    	title : 'Inserează o figură expresivă (Emoticon)',
-    	toolbar : 'Figură expresivă (Emoticon)'
-    },
-    print : 
-    {
-    	toolbar : 'Printează'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Titlul consultativ',
-    	cssClassInputLabel : 'Clasele cu stilul paginii (CSS)',
-    	edit : 'Edit Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : 'stânga-dreapta (LTR)',
-    	langDirLabel : 'Direcţia cuvintelor',
-    	langDirRTLLabel : 'dreapta-stânga (RTL)',
-    	languageCodeInputLabel : 'Codul limbii',
-    	remove : 'Remove Div',
-    	styleSelectLabel : 'Stil',
-    	title : 'Create Div Container',
-    	toolbar : 'Create Div Container'
-    },
-    indent : 
-    {
-    	indent : 'Creşte indentarea',
-    	outdent : 'Scade indentarea'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Textul pe care doriți să-l lipiți este din Word. Doriți curățarea textului înante de a-l adăuga?',
-    	error : 'Nu a fost posibilă curățarea datelor adăugate datorită unei erori interne',
-    	title : 'Adaugă din Word',
-    	toolbar : 'Adaugă din Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'Automatic',
-    	bgColorTitle : 'Coloarea fundalului',
-    	colors : 
-    	{
-    		'000' : 'Black',
-    		'800000' : 'Maroon',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Dark Gray',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Brown',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'Dark Green',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'Gray',
-    		F00 : 'Red',
-    		FF8C00 : 'Dark Orange',
-    		FFD700 : 'Gold',
-    		'008000' : 'Green',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Blue',
-    		EE82EE : 'Violet',
-    		A9A9A9 : 'Dim Gray',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'Orange',
-    		FFFF00 : 'Yellow',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Light Grey',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'Light Yellow',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'Lavender',
-    		FFF : 'White'
-    	},
-    	more : 'Mai multe culori...',
-    	panelTitle : 'Colors',
-    	textColorTitle : 'Culoarea textului'
-    },
-    list : 
-    {
-    	bulletedlist : 'Inserează / Elimină Listă cu puncte',
-    	numberedlist : 'Inserează / Elimină Listă numerotată'
+    	toolbar : 'Salvează'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['ro'] = {
     	validateHSpace : 'Hspace trebuie să fie un număr întreg.',
     	validateVSpace : 'Vspace trebuie să fie un număr întreg.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Găseşte',
-    	findOptions : 'Find Options',
-    	findWhat : 'Găseşte:',
-    	matchCase : 'Deosebeşte majuscule de minuscule (Match case)',
-    	matchCyclic : 'Potrivește ciclic',
-    	matchWord : 'Doar cuvintele întregi',
-    	notFoundMsg : 'Textul specificat nu a fost găsit.',
-    	replace : 'Înlocuieşte',
-    	replaceAll : 'Înlocuieşte tot',
-    	replaceSuccessMsg : '%1 căutări înlocuite.',
-    	replaceWith : 'Înlocuieşte cu:',
-    	title : 'Găseşte şi înlocuieşte'
+    	alt : 'Page Break',
+    	toolbar : 'Inserează separator de pagină (Page Break)'
     },
     showblocks : 
     {
     	toolbar : 'Arată blocurile'
+    },
+    indent : 
+    {
+    	indent : 'Creşte indentarea',
+    	outdent : 'Scade indentarea'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['ro'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Inserează linie orizontală'
-    },
-    pagebreak : 
-    {
-    	alt : 'Page Break',
-    	toolbar : 'Inserează separator de pagină (Page Break)'
-    },
-    stylescombo : 
-    {
-    	label : 'Stil',
-    	panelTitle : 'Formatarea stilurilor',
-    	panelTitle1 : 'Block Styles',
-    	panelTitle2 : 'Inline Styles',
-    	panelTitle3 : 'Object Styles'
-    },
     bidi : 
     {
     	ltr : 'Text direction from left to right',
     	rtl : 'Text direction from right to left'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Îngroşat (bold)',
-    	italic : 'Înclinat (italic)',
-    	strike : 'Tăiat (strike through)',
-    	subscript : 'Indice (subscript)',
-    	superscript : 'Putere (superscript)',
-    	underline : 'Subliniat (underline)'
+    	eleLabel : 'Calea elementelor',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Inserează/Editează ancoră',
+    	flash : 'Flash Animation',
+    	hiddenfield : 'Câmp ascuns (HiddenField)',
+    	iframe : 'IFrame',
+    	unknown : 'Unknown Object'
+    },
+    smiley : 
+    {
+    	options : 'Opțiuni figuri expresive',
+    	title : 'Inserează o figură expresivă (Emoticon)',
+    	toolbar : 'Figură expresivă (Emoticon)'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. All rights reserved.',
+    	dlgTitle : 'About CKEditor',
+    	help : 'Check $1 for help.',
+    	moreInfo : 'For licensing information please visit our web site:',
+    	title : 'About CKEditor',
+    	userGuide : 'CKEditor User\'s Guide'
+    },
+    newpage : 
+    {
+    	toolbar : 'Pagină nouă'
+    },
+    format : 
+    {
+    	label : 'Formatare',
+    	panelTitle : 'Formatare',
+    	tag_address : 'Adresă',
+    	tag_div : 'Normal (DIV)',
+    	tag_h1 : 'Heading 1',
+    	tag_h2 : 'Heading 2',
+    	tag_h3 : 'Heading 3',
+    	tag_h4 : 'Heading 4',
+    	tag_h5 : 'Heading 5',
+    	tag_h6 : 'Heading 6',
+    	tag_p : 'Normal',
+    	tag_pre : 'Formatat'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Înlătură formatarea'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['ro'] = {
     	widthPx : 'pixeli',
     	widthUnit : 'unitate lățime'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Insert paragraph here'
+    	options : 'Opțiuni caractere speciale',
+    	title : 'Selectează caracter special',
+    	toolbar : 'Inserează caracter special'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Salvează'
+    	armenian : 'Numerotare armeniană',
+    	bulletedTitle : 'Proprietățile listei cu simboluri',
+    	circle : 'Cerc',
+    	decimal : 'Decimale (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Decimale cu zero în față (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Numerotare georgiană (an, ban, gan, etc.)',
+    	lowerAlpha : 'Litere mici (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Litere grecești mici (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Cifre romane mici (i, ii, iii, iv, v, etc.)',
+    	none : 'Nimic',
+    	notset : '<nesetat>',
+    	numberedTitle : 'Proprietățile listei numerotate',
+    	square : 'Pătrat',
+    	start : 'Start',
+    	type : 'Tip',
+    	upperAlpha : 'Litere mari (A, B, C, D, E, etc.)',
+    	upperRoman : 'Cifre romane mari (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'Începutul listei trebuie să fie un număr întreg.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Inserează/Editează ancoră',
-    	flash : 'Flash Animation',
-    	hiddenfield : 'Câmp ascuns (HiddenField)',
-    	iframe : 'IFrame',
-    	unknown : 'Unknown Object'
+    	border : 'Show frame border',
+    	noUrl : 'Please type the iframe URL',
+    	scrolling : 'Enable scrollbars',
+    	title : 'IFrame Properties',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Calea elementelor',
-    	eleTitle : '%1 element'
+    	access : 'Acces script',
+    	accessAlways : 'Întotdeauna',
+    	accessNever : 'Niciodată',
+    	accessSameDomain : 'Același domeniu',
+    	alignAbsBottom : 'Jos absolut (Abs Bottom)',
+    	alignAbsMiddle : 'Mijloc absolut (Abs Middle)',
+    	alignBaseline : 'Linia de jos (Baseline)',
+    	alignTextTop : 'Text sus',
+    	bgcolor : 'Coloarea fundalului',
+    	chkFull : 'Permite pe tot ecranul',
+    	chkLoop : 'Repetă (Loop)',
+    	chkMenu : 'Activează meniul flash',
+    	chkPlay : 'Rulează automat',
+    	flashvars : 'Variabile pentru flash',
+    	hSpace : 'HSpace',
+    	properties : 'Proprietăţile flashului',
+    	propertiesTab : 'Proprietăți',
+    	quality : 'Calitate',
+    	qualityAutoHigh : 'Auto înaltă',
+    	qualityAutoLow : 'Auto Joasă',
+    	qualityBest : 'Cea mai bună',
+    	qualityHigh : 'Înaltă',
+    	qualityLow : 'Joasă',
+    	qualityMedium : 'Medie',
+    	scale : 'Scală',
+    	scaleAll : 'Arată tot',
+    	scaleFit : 'Potriveşte',
+    	scaleNoBorder : 'Fără bordură (No border)',
+    	title : 'Proprietăţile flashului',
+    	vSpace : 'VSpace',
+    	validateHSpace : 'Hspace trebuie să fie un număr.',
+    	validateSrc : 'Vă rugăm să scrieţi URL-ul',
+    	validateVSpace : 'VSpace trebuie să fie un număr',
+    	windowMode : 'Mod fereastră',
+    	windowModeOpaque : 'Opacă',
+    	windowModeTransparent : 'Transparentă',
+    	windowModeWindow : 'Fereastră'
+    },
+    find : 
+    {
+    	find : 'Găseşte',
+    	findOptions : 'Find Options',
+    	findWhat : 'Găseşte:',
+    	matchCase : 'Deosebeşte majuscule de minuscule (Match case)',
+    	matchCyclic : 'Potrivește ciclic',
+    	matchWord : 'Doar cuvintele întregi',
+    	notFoundMsg : 'Textul specificat nu a fost găsit.',
+    	replace : 'Înlocuieşte',
+    	replaceAll : 'Înlocuieşte tot',
+    	replaceSuccessMsg : '%1 căutări înlocuite.',
+    	replaceWith : 'Înlocuieşte cu:',
+    	title : 'Găseşte şi înlocuieşte'
+    },
+    colorbutton : 
+    {
+    	auto : 'Automatic',
+    	bgColorTitle : 'Coloarea fundalului',
+    	colors : 
+    	{
+    		'000' : 'Black',
+    		'800000' : 'Maroon',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Dark Gray',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Brown',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'Dark Green',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'Gray',
+    		F00 : 'Red',
+    		FF8C00 : 'Dark Orange',
+    		FFD700 : 'Gold',
+    		'008000' : 'Green',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Blue',
+    		EE82EE : 'Violet',
+    		A9A9A9 : 'Dim Gray',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'Orange',
+    		FFFF00 : 'Yellow',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Light Grey',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'Light Yellow',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'Lavender',
+    		FFF : 'White'
+    	},
+    	more : 'Mai multe culori...',
+    	panelTitle : 'Colors',
+    	textColorTitle : 'Culoarea textului'
+    },
+    undo : 
+    {
+    	redo : 'Starea ulterioară (redo)',
+    	undo : 'Starea anterioară (undo)'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Mărime',
+    		voiceLabel : 'Font Size',
+    		panelTitle : 'Mărime'
+    	},
+    	label : 'Font',
+    	panelTitle : 'Font',
+    	voiceLabel : 'Font'
     },
     maximize : 
     {
     	maximize : 'Mărește',
     	minimize : 'Micșorează'
     },
+    basicstyles : 
+    {
+    	bold : 'Îngroşat (bold)',
+    	italic : 'Înclinat (italic)',
+    	strike : 'Tăiat (strike through)',
+    	subscript : 'Indice (subscript)',
+    	superscript : 'Putere (superscript)',
+    	underline : 'Subliniat (underline)'
+    },
+    magicline : 
+    {
+    	title : 'Insert paragraph here'
+    },
+    print : 
+    {
+    	toolbar : 'Printează'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Ignoră',
+    	btnIgnoreAll : 'Ignoră toate',
+    	btnReplace : 'Înlocuieşte',
+    	btnReplaceAll : 'Înlocuieşte tot',
+    	btnUndo : 'Starea anterioară (undo)',
+    	changeTo : 'Schimbă în',
+    	errorLoading : 'Eroare în lansarea aplicației service host %s.',
+    	ieSpellDownload : 'Unealta pentru verificat textul (Spell checker) neinstalată. Doriţi să o descărcaţi acum?',
+    	manyChanges : 'Verificarea textului terminată: 1% cuvinte modificate',
+    	noChanges : 'Verificarea textului terminată: Niciun cuvânt modificat',
+    	noMispell : 'Verificarea textului terminată: Nicio greşeală găsită',
+    	noSuggestions : '- Fără sugestii -',
+    	notAvailable : 'Scuzați, dar serviciul nu este disponibil momentan.',
+    	notInDic : 'Nu e în dicţionar',
+    	oneChange : 'Verificarea textului terminată: Un cuvânt modificat',
+    	progress : 'Verificarea textului în desfăşurare...',
+    	title : 'Spell Check',
+    	toolbar : 'Verifică scrierea textului'
+    },
+    clipboard : 
+    {
+    	copy : 'Copiază',
+    	copyError : 'Setările de securitate ale navigatorului (browser) pe care îl folosiţi nu permit editorului să execute automat operaţiunea de copiere. Vă rugăm folosiţi tastatura (Ctrl/Cmd+C).',
+    	cut : 'Taie',
+    	cutError : 'Setările de securitate ale navigatorului (browser) pe care îl folosiţi nu permit editorului să execute automat operaţiunea de tăiere. Vă rugăm folosiţi tastatura (Ctrl/Cmd+X).',
+    	paste : 'Adaugă',
+    	pasteArea : 'Suprafața de adăugare',
+    	pasteMsg : 'Vă rugăm adăugaţi în căsuţa următoare folosind tastatura (<strong>Ctrl/Cmd+V</strong>) şi apăsaţi OK',
+    	securityMsg : 'Din cauza setărilor de securitate ale programului dvs. cu care navigaţi pe internet (browser), editorul nu poate accesa direct datele din clipboard. Va trebui să adăugaţi din nou datele în această fereastră.',
+    	title : 'Adaugă'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Sursa'
+    },
+    scayt : 
+    {
+    	about : 'About SCAYT',
+    	aboutTab : 'About',
+    	addWord : 'Add Word',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Dictionaries',
+    	disable : 'Disable SCAYT',
+    	emptyDic : 'Dictionary name should not be empty.',
+    	enable : 'Enable SCAYT',
+    	ignore : 'Ignore',
+    	ignoreAll : 'Ignore All',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Languages',
+    	languagesTab : 'Languages',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'More suggestions',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Options',
+    	optionsTab : 'Options',
+    	title : 'Spell Check As You Type',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Inserează linie orizontală'
+    },
+    pastetext : 
+    {
+    	button : 'Adaugă ca text simplu (Plain Text)',
+    	title : 'Adaugă ca text simplu (Plain Text)'
+    },
+    contextmenu : 
+    {
+    	options : 'Opțiuni Meniu Contextual'
+    },
+    templates : 
+    {
+    	button : 'Template-uri (şabloane)',
+    	emptyListMsg : '(Niciun template (şablon) definit)',
+    	insertOption : 'Înlocuieşte cuprinsul actual',
+    	options : 'Opțiuni șabloane',
+    	selectPromptMsg : 'Vă rugăm selectaţi template-ul (şablonul) ce se va deschide în editor<br>(conţinutul actual va fi pierdut):',
+    	title : 'Template-uri (şabloane) de conţinut'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Titlul consultativ',
+    	cssClassInputLabel : 'Clasele cu stilul paginii (CSS)',
+    	edit : 'Edit Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : 'stânga-dreapta (LTR)',
+    	langDirLabel : 'Direcţia cuvintelor',
+    	langDirRTLLabel : 'dreapta-stânga (RTL)',
+    	languageCodeInputLabel : 'Codul limbii',
+    	remove : 'Remove Div',
+    	styleSelectLabel : 'Stil',
+    	title : 'Create Div Container',
+    	toolbar : 'Create Div Container'
+    },
+    preview : 
+    {
+    	preview : 'Previzualizare'
+    },
+    colordialog : 
+    {
+    	clear : 'Clear',
+    	highlight : 'Highlight',
+    	options : 'Color Options',
+    	selected : 'Selected Color',
+    	title : 'Select color'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Micșorează Bara',
+    	toolbarExpand : 'Mărește Bara',
+    	toolbarGroups : 
+    	{
+    		document : 'Document',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Editing',
+    		forms : 'Forms',
+    		basicstyles : 'Basic Styles',
+    		paragraph : 'Paragraph',
+    		links : 'Links',
+    		insert : 'Insert',
+    		styles : 'Styles',
+    		colors : 'Colors',
+    		tools : 'Tools'
+    	},
+    	toolbars : 'Editează bara de unelte'
+    },
+    selectall : 
+    {
+    	toolbar : 'Selectează tot'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Citat'
+    },
+    link : 
+    {
+    	acccessKey : 'Tasta de acces',
+    	advanced : 'Avansat',
+    	advisoryContentType : 'Tipul consultativ al titlului',
+    	advisoryTitle : 'Titlul consultativ',
+    	anchor : 
+    	{
+    		toolbar : 'Inserează/Editează ancoră',
+    		menu : 'Proprietăţi ancoră',
+    		title : 'Proprietăţi ancoră',
+    		name : 'Numele ancorei',
+    		errorName : 'Vă rugăm scrieţi numele ancorei',
+    		remove : 'Elimină ancora'
+    	},
+    	anchorId : 'după Id-ul elementului',
+    	anchorName : 'după numele ancorei',
+    	charset : 'Setul de caractere al resursei legate',
+    	cssClasses : 'Clasele cu stilul paginii (CSS)',
+    	emailAddress : 'Adresă de e-mail',
+    	emailBody : 'Opțiuni Meniu Contextual',
+    	emailSubject : 'Subiectul mesajului',
+    	id : 'Id',
+    	info : 'Informaţii despre link (Legătură web)',
+    	langCode : 'Direcţia cuvintelor',
+    	langDir : 'Direcţia cuvintelor',
+    	langDirLTR : 'stânga-dreapta (LTR)',
+    	langDirRTL : 'dreapta-stânga (RTL)',
+    	menu : 'Editează Link',
+    	name : 'Nume',
+    	noAnchors : '(Nicio ancoră disponibilă în document)',
+    	noEmail : 'Vă rugăm să scrieţi adresa de e-mail',
+    	noUrl : 'Vă rugăm să scrieţi URL-ul',
+    	other : '<alt>',
+    	popupDependent : 'Dependent (Netscape)',
+    	popupFeatures : 'Proprietăţile ferestrei popup',
+    	popupFullScreen : 'Tot ecranul (Full Screen)(IE)',
+    	popupLeft : 'Poziţia la stânga',
+    	popupLocationBar : 'Bara de locaţie',
+    	popupMenuBar : 'Bara de meniu',
+    	popupResizable : 'Redimensionabil',
+    	popupScrollBars : 'Bare de derulare',
+    	popupStatusBar : 'Bara de status',
+    	popupToolbar : 'Bara de opţiuni',
+    	popupTop : 'Poziţia la dreapta',
+    	rel : 'Relație',
+    	selectAnchor : 'Selectaţi o ancoră',
+    	styles : 'Stil',
+    	tabIndex : 'Indexul tabului',
+    	target : 'Ţintă (Target)',
+    	targetFrame : '<frame>',
+    	targetFrameName : 'Numele frameului ţintă',
+    	targetPopup : '<fereastra popup>',
+    	targetPopupName : 'Numele ferestrei popup',
+    	title : 'Link (Legătură web)',
+    	toAnchor : 'Ancoră în această pagină',
+    	toEmail : 'E-Mail',
+    	toUrl : 'URL',
+    	toolbar : 'Inserează/Editează link (legătură web)',
+    	type : 'Tipul link-ului (al legăturii web)',
+    	unlink : 'Înlătură link (legătură web)',
+    	upload : 'Încarcă'
+    },
+    stylescombo : 
+    {
+    	label : 'Stil',
+    	panelTitle : 'Formatarea stilurilor',
+    	panelTitle1 : 'Block Styles',
+    	panelTitle2 : 'Inline Styles',
+    	panelTitle3 : 'Object Styles'
+    },
+    dir : 'ltr',
     editor : 'Rich Text Editor',
     common : 
     {

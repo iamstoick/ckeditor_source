@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['gl'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Copiar',
-    	copyError : 'Os axustes de seguranza do seu navegador non permiten que o editor realice automaticamente as tarefas de copia. Use o teclado para iso (Ctrl/Cmd+C).',
-    	cut : 'Cortar',
-    	cutError : 'Os axustes de seguranza do seu navegador non permiten que o editor realice automaticamente as tarefas de corte. Use o teclado para iso (Ctrl/Cmd+X).',
-    	paste : 'Pegar',
-    	pasteArea : 'Zona de pegado',
-    	pasteMsg : 'Pegue dentro do seguinte cadro usando o teclado (<STRONG>Ctrl/Cmd+V</STRONG>) e prema en Aceptar',
-    	securityMsg : 'Por mor da configuración de seguranza do seu navegador, o editor non ten acceso ao portapapeis. É necesario pegalo novamente nesta xanela.',
-    	title : 'Pegar'
+    	confirmCleanup : 'O texto que quere pegar semella ser copiado desde o Word. Quere depuralo antes de pegalo?',
+    	error : 'Non foi posíbel depurar os datos pegados por mor dun erro interno',
+    	title : 'Pegar desde Word',
+    	toolbar : 'Pegar desde Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Pegar como texto simple',
-    	title : 'Pegar como texto simple'
-    },
-    specialchar : 
-    {
-    	options : 'Opcións de caracteres especiais',
-    	title : 'Seleccione un carácter especial',
-    	toolbar : 'Inserir un carácter especial'
-    },
-    selectall : 
-    {
-    	toolbar : 'Seleccionar todo'
-    },
-    newpage : 
-    {
-    	toolbar : 'Páxina nova'
-    },
-    templates : 
-    {
-    	button : 'Modelos',
-    	emptyListMsg : '(Non hai modelos definidos)',
-    	insertOption : 'Substituír o contido actual',
-    	options : 'Opcións de modelos',
-    	selectPromptMsg : 'Seleccione o modelo a abrir no editor',
-    	title : 'Modelos de contido'
-    },
-    colordialog : 
-    {
-    	clear : 'Limpar',
-    	highlight : 'Resaltar',
-    	options : 'Opcións de cor',
-    	selected : 'Cor seleccionado',
-    	title : 'Seleccione unha cor'
-    },
-    preview : 
-    {
-    	preview : 'Vista previa'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Tamaño',
-    		voiceLabel : 'Tamaño da letra',
-    		panelTitle : 'Tamaño da letra'
-    	},
-    	label : 'Tipo de letra',
-    	panelTitle : 'Nome do tipo de letra',
-    	voiceLabel : 'Tipo de letra'
-    },
-    liststyle : 
-    {
-    	armenian : 'Numeración armenia',
-    	bulletedTitle : 'Propiedades da lista viñeteada',
-    	circle : 'Circulo',
-    	decimal : 'Decimal (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Decimal con cero á esquerda (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Numeración xeorxiana (an, ban, gan, etc.)',
-    	lowerAlpha : 'Alfabeto en minúsculas (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Grego en minúsculas (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Números romanos en minúsculas (i, ii, iii, iv, v, etc.)',
-    	none : 'Ningún',
-    	notset : '<sen estabelecer>',
-    	numberedTitle : 'Propiedades da lista numerada',
-    	square : 'Cadrado',
-    	start : 'Inicio',
-    	type : 'Tipo',
-    	upperAlpha : 'Alfabeto en maiúsculas (A, B, C, D, E, etc.)',
-    	upperRoman : 'Números romanos en maiúsculas (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'O número de inicio da lista debe ser un número enteiro.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Cita'
-    },
-    undo : 
-    {
-    	redo : 'Refacer',
-    	undo : 'Desfacer'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. Todos os dereitos reservados.',
-    	dlgTitle : 'Sobre o CKEditor',
-    	help : 'Consulte $1 para obter axuda.',
-    	moreInfo : 'Para obter  información sobre a licenza, visite o noso sitio web:',
-    	title : 'Sobre o CKEditor',
-    	userGuide : 'Guía do usuario do CKEditor'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Contraer a barra de ferramentas',
-    	toolbarExpand : 'Expandir a barra de ferramentas',
-    	toolbarGroups : 
-    	{
-    		document : 'Documento',
-    		clipboard : 'Portapapeis/desfacer',
-    		editing : 'Edición',
-    		forms : 'Formularios',
-    		basicstyles : 'Estilos básicos',
-    		paragraph : 'Paragrafo',
-    		links : 'Ligazóns',
-    		insert : 'Inserir',
-    		styles : 'Estilos',
-    		colors : 'Cores',
-    		tools : 'Ferramentas'
-    	},
-    	toolbars : 'Barras de ferramentas do editor'
-    },
-    scayt : 
-    {
-    	about : 'About SCAYT',
-    	aboutTab : 'About',
-    	addWord : 'Add Word',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Dictionaries',
-    	disable : 'Disable SCAYT',
-    	emptyDic : 'Dictionary name should not be empty.',
-    	enable : 'Enable SCAYT',
-    	ignore : 'Ignore',
-    	ignoreAll : 'Ignore All',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Languages',
-    	languagesTab : 'Languages',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'More suggestions',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Options',
-    	optionsTab : 'Options',
-    	title : 'Spell Check As You Type',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Ignorar',
-    	btnIgnoreAll : 'Ignorar Todas',
-    	btnReplace : 'Substituir',
-    	btnReplaceAll : 'Substituir Todas',
-    	btnUndo : 'Desfacer',
-    	changeTo : 'Cambiar a',
-    	errorLoading : 'Error loading application service host: %s.',
-    	ieSpellDownload : 'O corrector ortográfico non está instalado. ¿Quere descargalo agora?',
-    	manyChanges : 'Corrección ortográfica rematada: %1 verbas substituidas',
-    	noChanges : 'Corrección ortográfica rematada: Non se substituiu nengunha verba',
-    	noMispell : 'Corrección ortográfica rematada: Non se atoparon erros',
-    	noSuggestions : '- Sen candidatos -',
-    	notAvailable : 'Sorry, but service is unavailable now.',
-    	notInDic : 'Non está no diccionario',
-    	oneChange : 'Corrección ortográfica rematada: Unha verba substituida',
-    	progress : 'Corrección ortográfica en progreso...',
-    	title : 'Spell Check',
-    	toolbar : 'Corrección Ortográfica'
-    },
-    contextmenu : 
-    {
-    	options : 'Opcións do menú contextual'
+    	bulletedlist : 'Inserir/retirar lista viñeteada',
+    	numberedlist : 'Inserir/retirar lista numerada'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['gl'] = {
     	left : 'Aliñar á esquerda',
     	right : 'Aliñar á dereita'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Orixe'
-    },
-    format : 
-    {
-    	label : 'Formato',
-    	panelTitle : 'Formato do parágrafo',
-    	tag_address : 'Enderezo',
-    	tag_div : 'Normal  (DIV)',
-    	tag_h1 : 'Enacabezado 1',
-    	tag_h2 : 'Encabezado 2',
-    	tag_h3 : 'Encabezado 3',
-    	tag_h4 : 'Encabezado 4',
-    	tag_h5 : 'Encabezado 5',
-    	tag_h6 : 'Encabezado 6',
-    	tag_p : 'Normal',
-    	tag_pre : 'Formatado'
-    },
-    flash : 
-    {
-    	access : 'Acceso de scripts',
-    	accessAlways : 'Sempre',
-    	accessNever : 'Nunca',
-    	accessSameDomain : 'Mesmo dominio',
-    	alignAbsBottom : 'Abs Inferior',
-    	alignAbsMiddle : 'Abs centro',
-    	alignBaseline : 'Liña de base',
-    	alignTextTop : 'Tope do texto',
-    	bgcolor : 'Cor do fondo',
-    	chkFull : 'Permitir pantalla completa',
-    	chkLoop : 'Repetir',
-    	chkMenu : 'Activar o menú do «Flash»',
-    	chkPlay : 'Reprodución auomática',
-    	flashvars : 'Opcións do «Flash»',
-    	hSpace : 'Esp. Horiz.',
-    	properties : 'Propiedades do «Flash»',
-    	propertiesTab : 'Propiedades',
-    	quality : 'Calidade',
-    	qualityAutoHigh : 'Alta, automática',
-    	qualityAutoLow : 'Baixa, automática',
-    	qualityBest : 'A mellor',
-    	qualityHigh : 'Alta',
-    	qualityLow : 'Baixa',
-    	qualityMedium : 'Media',
-    	scale : 'Escalar',
-    	scaleAll : 'Amosar todo',
-    	scaleFit : 'Encaixar axustando',
-    	scaleNoBorder : 'Sen bordo',
-    	title : 'Propiedades do «Flash»',
-    	vSpace : 'Esp.Vert.',
-    	validateHSpace : 'O espazado horizontal debe ser un número.',
-    	validateSrc : 'O URL non pode estar baleiro.',
-    	validateVSpace : 'O espazado vertical debe ser un número.',
-    	windowMode : 'Modo da xanela',
-    	windowModeOpaque : 'Opaca',
-    	windowModeTransparent : 'Transparente',
-    	windowModeWindow : 'Xanela'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Retirar o formato'
-    },
-    iframe : 
-    {
-    	border : 'Amosar o bordo do marco',
-    	noUrl : 'Escriba o enderezo do iframe',
-    	scrolling : 'Activar as barras de desprazamento',
-    	title : 'Propiedades do iFrame',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Chave de acceso',
-    	advanced : 'Avanzado',
-    	advisoryContentType : 'Tipo de contido informativo',
-    	advisoryTitle : 'Título',
-    	anchor : 
-    	{
-    		toolbar : 'Ancoraxe',
-    		menu : 'Editar a ancoraxe',
-    		title : 'Propiedades da ancoraxe',
-    		name : 'Nome da ancoraxe',
-    		errorName : 'Escriba o nome da ancoraxe',
-    		remove : 'Retirar a ancoraxe'
-    	},
-    	anchorId : 'Polo ID do elemento',
-    	anchorName : 'Polo nome da ancoraxe',
-    	charset : 'Codificación do recurso ligado',
-    	cssClasses : 'Clases da folla de estilos',
-    	emailAddress : 'Enderezo de correo',
-    	emailBody : 'Corpo da mensaxe',
-    	emailSubject : 'Asunto da mensaxe',
-    	id : 'ID',
-    	info : 'Información da ligazón',
-    	langCode : 'Código do idioma',
-    	langDir : 'Dirección de escritura do idioma',
-    	langDirLTR : 'Esquerda a dereita (LTR)',
-    	langDirRTL : 'Dereita a esquerda (RTL)',
-    	menu : 'Editar a ligazón',
-    	name : 'Nome',
-    	noAnchors : '(Non hai ancoraxes dispoñíbeis no documento)',
-    	noEmail : 'Escriba o enderezo de correo',
-    	noUrl : 'Escriba a ligazón URL',
-    	other : '<outro>',
-    	popupDependent : 'Dependente (Netscape)',
-    	popupFeatures : 'Características da xanela emerxente',
-    	popupFullScreen : 'Pantalla completa (IE)',
-    	popupLeft : 'Posición esquerda',
-    	popupLocationBar : 'Barra de localización',
-    	popupMenuBar : 'Barra do menú',
-    	popupResizable : 'Redimensionábel',
-    	popupScrollBars : 'Barras de desprazamento',
-    	popupStatusBar : 'Barra de estado',
-    	popupToolbar : 'Barra de ferramentas',
-    	popupTop : 'Posición superior',
-    	rel : 'Relación',
-    	selectAnchor : 'Seleccionar unha ancoraxe',
-    	styles : 'Estilo',
-    	tabIndex : 'Índice de tabulación',
-    	target : 'Destino',
-    	targetFrame : '<marco>',
-    	targetFrameName : 'Nome do marco de destino',
-    	targetPopup : '<xanela emerxente>',
-    	targetPopupName : 'Nome da xanela emerxente',
-    	title : 'Ligazón',
-    	toAnchor : 'Ligar coa ancoraxe no testo',
-    	toEmail : 'Correo',
-    	toUrl : 'URL',
-    	toolbar : 'Ligazón',
-    	type : 'Tipo de ligazón',
-    	unlink : 'Eliminar a ligazón',
-    	upload : 'Enviar'
-    },
-    smiley : 
-    {
-    	options : 'Opcións de emoticonas',
-    	title : 'Inserir unha emoticona',
-    	toolbar : 'Emoticona'
-    },
-    print : 
-    {
-    	toolbar : 'Imprimir'
-    },
-    div : 
-    {
-    	IdInputLabel : 'ID',
-    	advisoryTitleInputLabel : 'Título',
-    	cssClassInputLabel : 'Clases da folla de estilos',
-    	edit : 'Editar Div',
-    	inlineStyleInputLabel : 'Estilo de liña',
-    	langDirLTRLabel : 'Esquerda a dereita (LTR)',
-    	langDirLabel : 'Dirección de escritura do idioma',
-    	langDirRTLLabel : 'Dereita a esquerda (RTL)',
-    	languageCodeInputLabel : 'Código do idioma',
-    	remove : 'Retirar Div',
-    	styleSelectLabel : 'Estilo',
-    	title : 'Crear un contedor Div',
-    	toolbar : 'Crear un contedor Div'
-    },
-    indent : 
-    {
-    	indent : 'Aumentar a sangría',
-    	outdent : 'Reducir a sangría'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'O texto que quere pegar semella ser copiado desde o Word. Quere depuralo antes de pegalo?',
-    	error : 'Non foi posíbel depurar os datos pegados por mor dun erro interno',
-    	title : 'Pegar desde Word',
-    	toolbar : 'Pegar desde Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'Automático',
-    	bgColorTitle : 'Cor do fondo',
-    	colors : 
-    	{
-    		'000' : 'Negro',
-    		'800000' : 'Marrón escuro',
-    		'8B4513' : 'Ocre',
-    		'2F4F4F' : 'Pizarra escuro',
-    		'008080' : 'Verde azulado',
-    		'000080' : 'Azul mariño',
-    		'4B0082' : 'Índigo',
-    		'696969' : 'Gris escuro',
-    		B22222 : 'Ladrillo',
-    		A52A2A : 'Marrón',
-    		DAA520 : 'Dourado escuro',
-    		'006400' : 'Verde escuro',
-    		'40E0D0' : 'Turquesa',
-    		'0000CD' : 'Azul medio',
-    		'800080' : 'Púrpura',
-    		'808080' : 'Gris',
-    		F00 : 'Vermello',
-    		FF8C00 : 'Laranxa escuro',
-    		FFD700 : 'Dourado',
-    		'008000' : 'Verde',
-    		'0FF' : 'Cian',
-    		'00F' : 'Azul',
-    		EE82EE : 'Violeta',
-    		A9A9A9 : 'Gris medio',
-    		FFA07A : 'Salmón claro',
-    		FFA500 : 'Laranxa',
-    		FFFF00 : 'Amarelo',
-    		'00FF00' : 'Lima',
-    		AFEEEE : 'Turquesa pálido',
-    		ADD8E6 : 'Azul claro',
-    		DDA0DD : 'Violeta pálido',
-    		D3D3D3 : 'Verde claro',
-    		FFF0F5 : 'Lavanda vermello',
-    		FAEBD7 : 'Branco antigo',
-    		FFFFE0 : 'Amarelo claro',
-    		F0FFF0 : 'Mel',
-    		F0FFFF : 'Azul celeste',
-    		F0F8FF : 'Azul pálido',
-    		E6E6FA : 'Lavanda',
-    		FFF : 'Branco'
-    	},
-    	more : 'Máis cores...',
-    	panelTitle : 'Cores',
-    	textColorTitle : 'Cor do texto'
-    },
-    list : 
-    {
-    	bulletedlist : 'Inserir/retirar lista viñeteada',
-    	numberedlist : 'Inserir/retirar lista numerada'
+    	toolbar : 'Gardar'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['gl'] = {
     	validateHSpace : 'O espazado horizontal debe ser un número.',
     	validateVSpace : 'O espazado vertical debe ser un número.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Buscar',
-    	findOptions : 'Buscar opcións',
-    	findWhat : 'Texto a buscar:',
-    	matchCase : 'Coincidir Mai./min.',
-    	matchCyclic : 'Coincidencia cíclica',
-    	matchWord : 'Coincidencia coa palabra completa',
-    	notFoundMsg : 'Non se atopou o texto indicado.',
-    	replace : 'Substituir',
-    	replaceAll : 'Substituír todo',
-    	replaceSuccessMsg : '%1 concorrencia(s) substituída(s).',
-    	replaceWith : 'Substituír con:',
-    	title : 'Buscar e substituír'
+    	alt : 'Quebra de páxina',
+    	toolbar : 'Inserir quebra de páxina'
     },
     showblocks : 
     {
     	toolbar : 'Amosar os bloques'
+    },
+    indent : 
+    {
+    	indent : 'Aumentar a sangría',
+    	outdent : 'Reducir a sangría'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['gl'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Inserir unha liña horizontal'
-    },
-    pagebreak : 
-    {
-    	alt : 'Quebra de páxina',
-    	toolbar : 'Inserir quebra de páxina'
-    },
-    stylescombo : 
-    {
-    	label : 'Estilos',
-    	panelTitle : 'Estilos de formatando',
-    	panelTitle1 : 'Estilos de bloque',
-    	panelTitle2 : 'Estilos de carácter',
-    	panelTitle3 : 'Estilos de obxecto'
-    },
     bidi : 
     {
     	ltr : 'Dirección do texto de esquerda a dereita',
     	rtl : 'Dirección do texto de dereita a esquerda'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Negra',
-    	italic : 'Cursiva',
-    	strike : 'Riscado',
-    	subscript : 'Subíndice',
-    	superscript : 'Superíndice',
-    	underline : 'Subliñado'
+    	eleLabel : 'Ruta dos elementos',
+    	eleTitle : 'Elemento %1'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Ancoraxe',
+    	flash : 'Animación «Flash»',
+    	hiddenfield : 'Campo agochado',
+    	iframe : 'IFrame',
+    	unknown : 'Obxecto descoñecido'
+    },
+    smiley : 
+    {
+    	options : 'Opcións de emoticonas',
+    	title : 'Inserir unha emoticona',
+    	toolbar : 'Emoticona'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. Todos os dereitos reservados.',
+    	dlgTitle : 'Sobre o CKEditor',
+    	help : 'Consulte $1 para obter axuda.',
+    	moreInfo : 'Para obter  información sobre a licenza, visite o noso sitio web:',
+    	title : 'Sobre o CKEditor',
+    	userGuide : 'Guía do usuario do CKEditor'
+    },
+    newpage : 
+    {
+    	toolbar : 'Páxina nova'
+    },
+    format : 
+    {
+    	label : 'Formato',
+    	panelTitle : 'Formato do parágrafo',
+    	tag_address : 'Enderezo',
+    	tag_div : 'Normal  (DIV)',
+    	tag_h1 : 'Enacabezado 1',
+    	tag_h2 : 'Encabezado 2',
+    	tag_h3 : 'Encabezado 3',
+    	tag_h4 : 'Encabezado 4',
+    	tag_h5 : 'Encabezado 5',
+    	tag_h6 : 'Encabezado 6',
+    	tag_p : 'Normal',
+    	tag_pre : 'Formatado'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Retirar o formato'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['gl'] = {
     	widthPx : 'píxeles',
     	widthUnit : 'unidade do largo'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Inserir aquí o parágrafo'
+    	options : 'Opcións de caracteres especiais',
+    	title : 'Seleccione un carácter especial',
+    	toolbar : 'Inserir un carácter especial'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Gardar'
+    	armenian : 'Numeración armenia',
+    	bulletedTitle : 'Propiedades da lista viñeteada',
+    	circle : 'Circulo',
+    	decimal : 'Decimal (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Decimal con cero á esquerda (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Numeración xeorxiana (an, ban, gan, etc.)',
+    	lowerAlpha : 'Alfabeto en minúsculas (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Grego en minúsculas (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Números romanos en minúsculas (i, ii, iii, iv, v, etc.)',
+    	none : 'Ningún',
+    	notset : '<sen estabelecer>',
+    	numberedTitle : 'Propiedades da lista numerada',
+    	square : 'Cadrado',
+    	start : 'Inicio',
+    	type : 'Tipo',
+    	upperAlpha : 'Alfabeto en maiúsculas (A, B, C, D, E, etc.)',
+    	upperRoman : 'Números romanos en maiúsculas (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'O número de inicio da lista debe ser un número enteiro.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Ancoraxe',
-    	flash : 'Animación «Flash»',
-    	hiddenfield : 'Campo agochado',
-    	iframe : 'IFrame',
-    	unknown : 'Obxecto descoñecido'
+    	border : 'Amosar o bordo do marco',
+    	noUrl : 'Escriba o enderezo do iframe',
+    	scrolling : 'Activar as barras de desprazamento',
+    	title : 'Propiedades do iFrame',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Ruta dos elementos',
-    	eleTitle : 'Elemento %1'
+    	access : 'Acceso de scripts',
+    	accessAlways : 'Sempre',
+    	accessNever : 'Nunca',
+    	accessSameDomain : 'Mesmo dominio',
+    	alignAbsBottom : 'Abs Inferior',
+    	alignAbsMiddle : 'Abs centro',
+    	alignBaseline : 'Liña de base',
+    	alignTextTop : 'Tope do texto',
+    	bgcolor : 'Cor do fondo',
+    	chkFull : 'Permitir pantalla completa',
+    	chkLoop : 'Repetir',
+    	chkMenu : 'Activar o menú do «Flash»',
+    	chkPlay : 'Reprodución auomática',
+    	flashvars : 'Opcións do «Flash»',
+    	hSpace : 'Esp. Horiz.',
+    	properties : 'Propiedades do «Flash»',
+    	propertiesTab : 'Propiedades',
+    	quality : 'Calidade',
+    	qualityAutoHigh : 'Alta, automática',
+    	qualityAutoLow : 'Baixa, automática',
+    	qualityBest : 'A mellor',
+    	qualityHigh : 'Alta',
+    	qualityLow : 'Baixa',
+    	qualityMedium : 'Media',
+    	scale : 'Escalar',
+    	scaleAll : 'Amosar todo',
+    	scaleFit : 'Encaixar axustando',
+    	scaleNoBorder : 'Sen bordo',
+    	title : 'Propiedades do «Flash»',
+    	vSpace : 'Esp.Vert.',
+    	validateHSpace : 'O espazado horizontal debe ser un número.',
+    	validateSrc : 'O URL non pode estar baleiro.',
+    	validateVSpace : 'O espazado vertical debe ser un número.',
+    	windowMode : 'Modo da xanela',
+    	windowModeOpaque : 'Opaca',
+    	windowModeTransparent : 'Transparente',
+    	windowModeWindow : 'Xanela'
+    },
+    find : 
+    {
+    	find : 'Buscar',
+    	findOptions : 'Buscar opcións',
+    	findWhat : 'Texto a buscar:',
+    	matchCase : 'Coincidir Mai./min.',
+    	matchCyclic : 'Coincidencia cíclica',
+    	matchWord : 'Coincidencia coa palabra completa',
+    	notFoundMsg : 'Non se atopou o texto indicado.',
+    	replace : 'Substituir',
+    	replaceAll : 'Substituír todo',
+    	replaceSuccessMsg : '%1 concorrencia(s) substituída(s).',
+    	replaceWith : 'Substituír con:',
+    	title : 'Buscar e substituír'
+    },
+    colorbutton : 
+    {
+    	auto : 'Automático',
+    	bgColorTitle : 'Cor do fondo',
+    	colors : 
+    	{
+    		'000' : 'Negro',
+    		'800000' : 'Marrón escuro',
+    		'8B4513' : 'Ocre',
+    		'2F4F4F' : 'Pizarra escuro',
+    		'008080' : 'Verde azulado',
+    		'000080' : 'Azul mariño',
+    		'4B0082' : 'Índigo',
+    		'696969' : 'Gris escuro',
+    		B22222 : 'Ladrillo',
+    		A52A2A : 'Marrón',
+    		DAA520 : 'Dourado escuro',
+    		'006400' : 'Verde escuro',
+    		'40E0D0' : 'Turquesa',
+    		'0000CD' : 'Azul medio',
+    		'800080' : 'Púrpura',
+    		'808080' : 'Gris',
+    		F00 : 'Vermello',
+    		FF8C00 : 'Laranxa escuro',
+    		FFD700 : 'Dourado',
+    		'008000' : 'Verde',
+    		'0FF' : 'Cian',
+    		'00F' : 'Azul',
+    		EE82EE : 'Violeta',
+    		A9A9A9 : 'Gris medio',
+    		FFA07A : 'Salmón claro',
+    		FFA500 : 'Laranxa',
+    		FFFF00 : 'Amarelo',
+    		'00FF00' : 'Lima',
+    		AFEEEE : 'Turquesa pálido',
+    		ADD8E6 : 'Azul claro',
+    		DDA0DD : 'Violeta pálido',
+    		D3D3D3 : 'Verde claro',
+    		FFF0F5 : 'Lavanda vermello',
+    		FAEBD7 : 'Branco antigo',
+    		FFFFE0 : 'Amarelo claro',
+    		F0FFF0 : 'Mel',
+    		F0FFFF : 'Azul celeste',
+    		F0F8FF : 'Azul pálido',
+    		E6E6FA : 'Lavanda',
+    		FFF : 'Branco'
+    	},
+    	more : 'Máis cores...',
+    	panelTitle : 'Cores',
+    	textColorTitle : 'Cor do texto'
+    },
+    undo : 
+    {
+    	redo : 'Refacer',
+    	undo : 'Desfacer'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Tamaño',
+    		voiceLabel : 'Tamaño da letra',
+    		panelTitle : 'Tamaño da letra'
+    	},
+    	label : 'Tipo de letra',
+    	panelTitle : 'Nome do tipo de letra',
+    	voiceLabel : 'Tipo de letra'
     },
     maximize : 
     {
     	maximize : 'Maximizar',
     	minimize : 'Minimizar'
     },
+    basicstyles : 
+    {
+    	bold : 'Negra',
+    	italic : 'Cursiva',
+    	strike : 'Riscado',
+    	subscript : 'Subíndice',
+    	superscript : 'Superíndice',
+    	underline : 'Subliñado'
+    },
+    magicline : 
+    {
+    	title : 'Inserir aquí o parágrafo'
+    },
+    print : 
+    {
+    	toolbar : 'Imprimir'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Ignorar',
+    	btnIgnoreAll : 'Ignorar Todas',
+    	btnReplace : 'Substituir',
+    	btnReplaceAll : 'Substituir Todas',
+    	btnUndo : 'Desfacer',
+    	changeTo : 'Cambiar a',
+    	errorLoading : 'Error loading application service host: %s.',
+    	ieSpellDownload : 'O corrector ortográfico non está instalado. ¿Quere descargalo agora?',
+    	manyChanges : 'Corrección ortográfica rematada: %1 verbas substituidas',
+    	noChanges : 'Corrección ortográfica rematada: Non se substituiu nengunha verba',
+    	noMispell : 'Corrección ortográfica rematada: Non se atoparon erros',
+    	noSuggestions : '- Sen candidatos -',
+    	notAvailable : 'Sorry, but service is unavailable now.',
+    	notInDic : 'Non está no diccionario',
+    	oneChange : 'Corrección ortográfica rematada: Unha verba substituida',
+    	progress : 'Corrección ortográfica en progreso...',
+    	title : 'Spell Check',
+    	toolbar : 'Corrección Ortográfica'
+    },
+    clipboard : 
+    {
+    	copy : 'Copiar',
+    	copyError : 'Os axustes de seguranza do seu navegador non permiten que o editor realice automaticamente as tarefas de copia. Use o teclado para iso (Ctrl/Cmd+C).',
+    	cut : 'Cortar',
+    	cutError : 'Os axustes de seguranza do seu navegador non permiten que o editor realice automaticamente as tarefas de corte. Use o teclado para iso (Ctrl/Cmd+X).',
+    	paste : 'Pegar',
+    	pasteArea : 'Zona de pegado',
+    	pasteMsg : 'Pegue dentro do seguinte cadro usando o teclado (<STRONG>Ctrl/Cmd+V</STRONG>) e prema en Aceptar',
+    	securityMsg : 'Por mor da configuración de seguranza do seu navegador, o editor non ten acceso ao portapapeis. É necesario pegalo novamente nesta xanela.',
+    	title : 'Pegar'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Orixe'
+    },
+    scayt : 
+    {
+    	about : 'About SCAYT',
+    	aboutTab : 'About',
+    	addWord : 'Add Word',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Dictionaries',
+    	disable : 'Disable SCAYT',
+    	emptyDic : 'Dictionary name should not be empty.',
+    	enable : 'Enable SCAYT',
+    	ignore : 'Ignore',
+    	ignoreAll : 'Ignore All',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Languages',
+    	languagesTab : 'Languages',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'More suggestions',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Options',
+    	optionsTab : 'Options',
+    	title : 'Spell Check As You Type',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Inserir unha liña horizontal'
+    },
+    pastetext : 
+    {
+    	button : 'Pegar como texto simple',
+    	title : 'Pegar como texto simple'
+    },
+    contextmenu : 
+    {
+    	options : 'Opcións do menú contextual'
+    },
+    templates : 
+    {
+    	button : 'Modelos',
+    	emptyListMsg : '(Non hai modelos definidos)',
+    	insertOption : 'Substituír o contido actual',
+    	options : 'Opcións de modelos',
+    	selectPromptMsg : 'Seleccione o modelo a abrir no editor',
+    	title : 'Modelos de contido'
+    },
+    div : 
+    {
+    	IdInputLabel : 'ID',
+    	advisoryTitleInputLabel : 'Título',
+    	cssClassInputLabel : 'Clases da folla de estilos',
+    	edit : 'Editar Div',
+    	inlineStyleInputLabel : 'Estilo de liña',
+    	langDirLTRLabel : 'Esquerda a dereita (LTR)',
+    	langDirLabel : 'Dirección de escritura do idioma',
+    	langDirRTLLabel : 'Dereita a esquerda (RTL)',
+    	languageCodeInputLabel : 'Código do idioma',
+    	remove : 'Retirar Div',
+    	styleSelectLabel : 'Estilo',
+    	title : 'Crear un contedor Div',
+    	toolbar : 'Crear un contedor Div'
+    },
+    preview : 
+    {
+    	preview : 'Vista previa'
+    },
+    colordialog : 
+    {
+    	clear : 'Limpar',
+    	highlight : 'Resaltar',
+    	options : 'Opcións de cor',
+    	selected : 'Cor seleccionado',
+    	title : 'Seleccione unha cor'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Contraer a barra de ferramentas',
+    	toolbarExpand : 'Expandir a barra de ferramentas',
+    	toolbarGroups : 
+    	{
+    		document : 'Documento',
+    		clipboard : 'Portapapeis/desfacer',
+    		editing : 'Edición',
+    		forms : 'Formularios',
+    		basicstyles : 'Estilos básicos',
+    		paragraph : 'Paragrafo',
+    		links : 'Ligazóns',
+    		insert : 'Inserir',
+    		styles : 'Estilos',
+    		colors : 'Cores',
+    		tools : 'Ferramentas'
+    	},
+    	toolbars : 'Barras de ferramentas do editor'
+    },
+    selectall : 
+    {
+    	toolbar : 'Seleccionar todo'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Cita'
+    },
+    link : 
+    {
+    	acccessKey : 'Chave de acceso',
+    	advanced : 'Avanzado',
+    	advisoryContentType : 'Tipo de contido informativo',
+    	advisoryTitle : 'Título',
+    	anchor : 
+    	{
+    		toolbar : 'Ancoraxe',
+    		menu : 'Editar a ancoraxe',
+    		title : 'Propiedades da ancoraxe',
+    		name : 'Nome da ancoraxe',
+    		errorName : 'Escriba o nome da ancoraxe',
+    		remove : 'Retirar a ancoraxe'
+    	},
+    	anchorId : 'Polo ID do elemento',
+    	anchorName : 'Polo nome da ancoraxe',
+    	charset : 'Codificación do recurso ligado',
+    	cssClasses : 'Clases da folla de estilos',
+    	emailAddress : 'Enderezo de correo',
+    	emailBody : 'Corpo da mensaxe',
+    	emailSubject : 'Asunto da mensaxe',
+    	id : 'ID',
+    	info : 'Información da ligazón',
+    	langCode : 'Código do idioma',
+    	langDir : 'Dirección de escritura do idioma',
+    	langDirLTR : 'Esquerda a dereita (LTR)',
+    	langDirRTL : 'Dereita a esquerda (RTL)',
+    	menu : 'Editar a ligazón',
+    	name : 'Nome',
+    	noAnchors : '(Non hai ancoraxes dispoñíbeis no documento)',
+    	noEmail : 'Escriba o enderezo de correo',
+    	noUrl : 'Escriba a ligazón URL',
+    	other : '<outro>',
+    	popupDependent : 'Dependente (Netscape)',
+    	popupFeatures : 'Características da xanela emerxente',
+    	popupFullScreen : 'Pantalla completa (IE)',
+    	popupLeft : 'Posición esquerda',
+    	popupLocationBar : 'Barra de localización',
+    	popupMenuBar : 'Barra do menú',
+    	popupResizable : 'Redimensionábel',
+    	popupScrollBars : 'Barras de desprazamento',
+    	popupStatusBar : 'Barra de estado',
+    	popupToolbar : 'Barra de ferramentas',
+    	popupTop : 'Posición superior',
+    	rel : 'Relación',
+    	selectAnchor : 'Seleccionar unha ancoraxe',
+    	styles : 'Estilo',
+    	tabIndex : 'Índice de tabulación',
+    	target : 'Destino',
+    	targetFrame : '<marco>',
+    	targetFrameName : 'Nome do marco de destino',
+    	targetPopup : '<xanela emerxente>',
+    	targetPopupName : 'Nome da xanela emerxente',
+    	title : 'Ligazón',
+    	toAnchor : 'Ligar coa ancoraxe no testo',
+    	toEmail : 'Correo',
+    	toUrl : 'URL',
+    	toolbar : 'Ligazón',
+    	type : 'Tipo de ligazón',
+    	unlink : 'Eliminar a ligazón',
+    	upload : 'Enviar'
+    },
+    stylescombo : 
+    {
+    	label : 'Estilos',
+    	panelTitle : 'Estilos de formatando',
+    	panelTitle1 : 'Estilos de bloque',
+    	panelTitle2 : 'Estilos de carácter',
+    	panelTitle3 : 'Estilos de obxecto'
+    },
+    dir : 'ltr',
     editor : 'Editor de texto mellorado',
     common : 
     {

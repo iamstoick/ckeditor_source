@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['ku'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'لەبەرگرتنەوە',
-    	copyError : 'پارێزی وێبگەڕەکەت ڕێگەنادات بەسەرنووسەکە لە لکاندنی دەقی خۆکارارنە. تکایە لەبری ئەمە ئەم فەرمانە بەکاربهێنە بەداگرتنی کلیلی (Ctrl/Cmd+C).',
-    	cut : 'بڕین',
-    	cutError : 'پارێزی وێبگەڕەکەت ڕێگەنادات بە سەرنووسەکە لەبڕینی خۆکارانە. تکایە لەبری ئەمە ئەم فەرمانە بەکاربهێنە بەداگرتنی کلیلی (Ctrl/Cmd+X).',
-    	paste : 'لکاندن',
-    	pasteArea : 'ناوچەی لکاندن',
-    	pasteMsg : 'تکایە بیلکێنە لەناوەوەی ئەم سنوقە لەڕێی تەختەکلیلەکەت بە بەکارهێنانی کلیلی (<STRONG>Ctrl/Cmd+V</STRONG>) دووای کلیکی باشە بکە.',
-    	securityMsg : 'بەهۆی شێوەپێدانی پارێزی وێبگەڕەکەت، سەرنووسەکه ناتوانێت دەستبگەیەنێت بەهەڵگیراوەکە ڕاستەوخۆ. بۆیه پێویسته دووباره بیلکێنیت لەم پەنجەرەیه.',
-    	title : 'لکاندن'
+    	confirmCleanup : 'ئەم دەقەی بەتەمای بیلکێنی پێدەچێت له word هێنرابێت. دەتەوێت پاکی بکەیوه پێش ئەوەی بیلکێنی؟',
+    	error : 'هیچ ڕێگەیەك نەبوو لەلکاندنی دەقەکه بەهۆی هەڵەیەکی ناوەخۆیی',
+    	title : 'لکاندنی لەلایەن Word',
+    	toolbar : 'لکاندنی لەڕێی Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'لکاندنی وەك دەقی ڕوون',
-    	title : 'لکاندنی وەك دەقی ڕوون'
-    },
-    specialchar : 
-    {
-    	options : 'هەڵبژاردەی نووسەی تایبەتی',
-    	title : 'هەڵبژاردنی نووسەی تایبەتی',
-    	toolbar : 'دانانی نووسەی تایبەتی'
-    },
-    selectall : 
-    {
-    	toolbar : 'دیاریکردنی هەمووی'
-    },
-    newpage : 
-    {
-    	toolbar : 'پەڕەیەکی نوێ'
-    },
-    templates : 
-    {
-    	button : 'ڕووکار',
-    	emptyListMsg : '(هیچ ڕووکارێك دیارینەکراوە)',
-    	insertOption : 'لە شوێن دانانی ئەم پێکهاتانەی ئێستا',
-    	options : 'هەڵبژاردەکانی ڕووکار',
-    	selectPromptMsg : 'ڕووکارێك هەڵبژێره بۆ کردنەوەی له سەرنووسەر:',
-    	title : 'پێکهاتەی ڕووکار'
-    },
-    colordialog : 
-    {
-    	clear : 'پاکیکەوە',
-    	highlight : 'نیشانکردن',
-    	options : 'هەڵبژاردەی ڕەنگەکان',
-    	selected : 'ڕەنگی هەڵبژێردراو',
-    	title : 'هەڵبژاردنی ڕەنگ'
-    },
-    preview : 
-    {
-    	preview : 'پێشبینین'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'گەورەیی',
-    		voiceLabel : 'گەورەیی فۆنت',
-    		panelTitle : 'گەورەیی فۆنت'
-    	},
-    	label : 'فۆنت',
-    	panelTitle : 'ناوی فۆنت',
-    	voiceLabel : 'فۆنت'
-    },
-    liststyle : 
-    {
-    	armenian : 'ئاراستەی ژمارەی ئەرمەنی',
-    	bulletedTitle : 'خاسیەتی لیستی خاڵی',
-    	circle : 'بازنه',
-    	decimal : 'ژمارە (1, 2, 3, وە هیتر.)',
-    	decimalLeadingZero : 'ژمارە سفڕی لەپێشەوه (01, 02, 03, وە هیتر.)',
-    	disc : 'پەپکە',
-    	georgian : 'ئاراستەی ژمارەی جۆڕجی (an, ban, gan, وە هیتر.)',
-    	lowerAlpha : 'ئەلفابێی بچووك (a, b, c, d, e, وە هیتر.)',
-    	lowerGreek : 'یۆنانی بچووك (alpha, beta, gamma, وە هیتر.)',
-    	lowerRoman : 'ژمارەی ڕۆمی بچووك (i, ii, iii, iv, v, وە هیتر.)',
-    	none : 'هیچ',
-    	notset : '<دانەندراوه>',
-    	numberedTitle : 'خاسیەتی لیستی ژمارەیی',
-    	square : 'چووراگۆشە',
-    	start : 'دەستپێکردن',
-    	type : 'جۆر',
-    	upperAlpha : 'ئەلفابێی گەوره (A, B, C, D, E, وە هیتر.)',
-    	upperRoman : 'ژمارەی ڕۆمی گەوره (I, II, III, IV, V, وە هیتر.)',
-    	validateStartNumber : 'دەستپێکەری لیستی ژمارەیی دەبێت تەنها ژمارە بێت.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'بەربەستکردنی ووتەی وەرگیراو'
-    },
-    undo : 
-    {
-    	redo : 'هەڵگەڕاندنەوە',
-    	undo : 'پووچکردنەوە'
-    },
-    about : 
-    {
-    	copy : 'مافی لەبەرگەرتنەوەی &copy; $1. گشتی پارێزراوه. ورگێڕانی بۆ کوردی لەلایەن هۆژە کۆیی.',
-    	dlgTitle : 'دەربارەی CKEditor',
-    	help : 'سەیری $1 بکه بۆ یارمەتی.',
-    	moreInfo : 'بۆ زانیاری زیاتر دەربارەی مۆڵەتی بەکارهێنان، تکایه سەردانی ماڵپەڕەکەمان بکه:',
-    	title : 'دەربارەی CKEditor',
-    	userGuide : 'ڕێپیشاندەری CKEditors'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'شاردنەوی هێڵی تووڵامراز',
-    	toolbarExpand : 'نیشاندانی هێڵی تووڵامراز',
-    	toolbarGroups : 
-    	{
-    		document : 'پەڕه',
-    		clipboard : 'بڕین/پووچکردنەوە',
-    		editing : 'چاکسازی',
-    		forms : 'داڕشتە',
-    		basicstyles : 'شێوازی بنچینەیی',
-    		paragraph : 'بڕگە',
-    		links : 'بەستەر',
-    		insert : 'خستنە ناو',
-    		styles : 'شێواز',
-    		colors : 'ڕەنگەکان',
-    		tools : 'ئامرازەکان'
-    	},
-    	toolbars : 'تووڵامرازی دەسکاریکەر'
-    },
-    scayt : 
-    {
-    	about : 'دهربارهی SCAYT',
-    	aboutTab : 'دهربارهی',
-    	addWord : 'زیادکردنی ووشه',
-    	allCaps : 'پشتگوێخستنی وشانهی پێکهاتووه لهپیتی گهوره',
-    	dic_create : 'درووستکردن',
-    	dic_delete : 'سڕینهوه',
-    	dic_field_name : 'ناوی فهرههنگ',
-    	dic_info : 'لهبنچینهدا فهرههنگی بهکارهێنهر کۆگاکردن کراوه له شهکرۆکه Cookie, ههرچۆنێك بێت شهکۆرکه سنووردار کراوه له قهباره کۆگاکردن.کاتێك فهرههنگی بهکارهێنهر گهیشته ئهم خاڵهی کهناتوانرێت زیاتر کۆگاکردن بکرێت له شهکرۆکه، ئهوسا فهرههنگهکه پێویسته کۆگابکرێت له ڕاژهکهی ئێمه. بۆ کۆگاکردنی زانیاری تایبهتی فهرههنگهکه له ڕاژهکهی ئێمه, پێویسته ناوێك ههڵبژێریت بۆ فهرههنگهکه. گهر تۆ فهرههنگێکی کۆگاکراوت ههیه, تکایه ناوی فهرههنگهکه بنووسه وه کلیکی دوگمهی گهڕاندنهوه بکه.',
-    	dic_rename : 'گۆڕینی ناو',
-    	dic_restore : 'گهڕاندنهوه',
-    	dictionariesTab : 'فهرههنگهکان',
-    	disable : 'ناچالاککردنی SCAYT',
-    	emptyDic : 'ناوی فهرههنگ نابێت خاڵی بێت.',
-    	enable : 'چالاککردنی SCAYT',
-    	ignore : 'پشتگوێخستن',
-    	ignoreAll : 'پشتگوێخستنی ههمووی',
-    	ignoreDomainNames : 'پشتگوێخستنی دۆمهین',
-    	langs : 'زمانهکان',
-    	languagesTab : 'زمانهکان',
-    	mixedCase : 'پشتگوێخستنی وشانهی پێکهاتووه لهپیتی گهورهو بچووك',
-    	mixedWithDigits : 'پشتگوێخستنی وشانهی پێکهاتووه لهژماره',
-    	moreSuggestions : 'پێشنیاری زیاتر',
-    	opera_title : 'پشتیوانی نهکراوه لهلایهن Opera',
-    	options : 'ههڵبژارده',
-    	optionsTab : 'ههڵبژارده',
-    	title : 'پشکنینی نووسه لهکاتی نووسین',
-    	toggle : 'گۆڕینی SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'پشتگوێ کردن',
-    	btnIgnoreAll : 'پشتگوێکردنی ههمووی',
-    	btnReplace : 'لهبریدانن',
-    	btnReplaceAll : 'لهبریدانانی ههمووی',
-    	btnUndo : 'پووچکردنهوه',
-    	changeTo : 'گۆڕینی بۆ',
-    	errorLoading : 'ههڵه لههێنانی داخوازینامهی خانهخۆێی ڕاژه: %s.',
-    	ieSpellDownload : 'پشکنینی ڕێنووس دانهمزراوه. دهتهوێت ئێستا دایبگریت?',
-    	manyChanges : 'پشکنینی ڕێنووس کۆتای هات: لهسهدا %1 ی وشهکان گۆڕدرا',
-    	noChanges : 'پشکنینی ڕێنووس کۆتای هات: هیچ وشهیهك نۆگۆڕدرا',
-    	noMispell : 'پشکنینی ڕێنووس کۆتای هات: هیچ ههڵهیهکی ڕێنووس نهدۆزراوه',
-    	noSuggestions : '- هیچ پێشنیارێك -',
-    	notAvailable : 'ببووره، لهمکاتهدا ڕاژهکه لهبهردهستا نیه.',
-    	notInDic : 'لهفهرههنگ دانیه',
-    	oneChange : 'پشکنینی ڕێنووس کۆتای هات: یهك وشه گۆڕدرا',
-    	progress : 'پشکنینی ڕێنووس لهبهردهوامبوون دایه...',
-    	title : 'پشکنینی ڕێنووس',
-    	toolbar : 'پشکنینی ڕێنووس'
-    },
-    contextmenu : 
-    {
-    	options : 'هەڵبژاردەی لیستەی کلیکی دەستی ڕاست'
+    	bulletedlist : 'دانان/لابردنی خاڵی لیست',
+    	numberedlist : 'دانان/لابردنی ژمارەی لیست'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['ku'] = {
     	left : 'بەهێڵ کردنی چەپ',
     	right : 'بەهێڵ کردنی ڕاست'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'سەرچاوە'
-    },
-    format : 
-    {
-    	label : 'ڕازاندنەوە',
-    	panelTitle : 'بەشی ڕازاندنەوه',
-    	tag_address : 'ناونیشان',
-    	tag_div : '(DIV)-ی ئاسایی',
-    	tag_h1 : 'سەرنووسەی ١',
-    	tag_h2 : 'سەرنووسەی ٢',
-    	tag_h3 : 'سەرنووسەی ٣',
-    	tag_h4 : 'سەرنووسەی ٤',
-    	tag_h5 : 'سەرنووسەی ٥',
-    	tag_h6 : 'سەرنووسەی ٦',
-    	tag_p : 'ئاسایی',
-    	tag_pre : 'شێوازکراو'
-    },
-    flash : 
-    {
-    	access : 'دەستپێگەیشتنی نووسراو',
-    	accessAlways : 'هەمیشه',
-    	accessNever : 'هەرگیز',
-    	accessSameDomain : 'هەمان دۆمەین',
-    	alignAbsBottom : 'له ژێرەوه',
-    	alignAbsMiddle : 'لەناوەند',
-    	alignBaseline : 'هێڵەبنەڕەت',
-    	alignTextTop : 'دەق لەسەرەوه',
-    	bgcolor : 'ڕەنگی پاشبنەما',
-    	chkFull : 'ڕێپێدان بە پڕی شاشه',
-    	chkLoop : 'گرێ',
-    	chkMenu : 'چالاککردنی لیستەی فلاش',
-    	chkPlay : 'پێکردنی یان لێدانی خۆکار',
-    	flashvars : 'گۆڕاوەکان بۆ فلاش',
-    	hSpace : 'بۆشایی ئاسۆیی',
-    	properties : 'خاسیەتی فلاش',
-    	propertiesTab : 'خاسیەت',
-    	quality : 'جۆرایەتی',
-    	qualityAutoHigh : 'بەرزی خۆکار',
-    	qualityAutoLow : 'نزمی خۆکار',
-    	qualityBest : 'باشترین',
-    	qualityHigh : 'بەرزی',
-    	qualityLow : 'نزم',
-    	qualityMedium : 'مامناوەند',
-    	scale : 'پێوانه',
-    	scaleAll : 'نیشاندانی هەموو',
-    	scaleFit : 'بەوردی بگونجێت',
-    	scaleNoBorder : 'بێ پەراوێز',
-    	title : 'خاسیەتی فلاش',
-    	vSpace : 'بۆشایی ئەستونی',
-    	validateHSpace : 'بۆشایی ئاسۆیی دەبێت ژمارە بێت.',
-    	validateSrc : 'ناونیشانی بەستەر نابێت خاڵی بێت',
-    	validateVSpace : 'بۆشایی ئەستونی دەبێت ژماره بێت.',
-    	windowMode : 'شێوازی پەنجەره',
-    	windowModeOpaque : 'ناڕوون',
-    	windowModeTransparent : 'ڕۆشن',
-    	windowModeWindow : 'پەنجەره'
-    },
-    removeformat : 
-    {
-    	toolbar : 'لابردنی داڕشتەکە'
-    },
-    iframe : 
-    {
-    	border : 'نیشاندانی لاکێشه بە چوواردەوری چووارچێوە',
-    	noUrl : 'تکایه ناونیشانی بەستەر بنووسه بۆ چووارچێوه',
-    	scrolling : 'چالاککردنی هاتووچۆپێکردن',
-    	title : 'دیالۆگی چووارچێوه',
-    	toolbar : 'چووارچێوه'
-    },
-    link : 
-    {
-    	acccessKey : 'کلیلی دەستپێگەیشتن',
-    	advanced : 'پێشکەوتوو',
-    	advisoryContentType : 'جۆری ناوەڕۆکی ڕاویژکار',
-    	advisoryTitle : 'ڕاوێژکاری سەردێڕ',
-    	anchor : 
-    	{
-    		toolbar : 'دانان/چاکسازی لەنگەر',
-    		menu : 'چاکسازی لەنگەر',
-    		title : 'خاسیەتی لەنگەر',
-    		name : 'ناوی لەنگەر',
-    		errorName : 'تکایه ناوی لەنگەر بنووسه',
-    		remove : 'لابردنی لەنگەر'
-    	},
-    	anchorId : 'بەپێی ناسنامەی توخم',
-    	anchorName : 'بەپێی ناوی لەنگەر',
-    	charset : 'بەستەری سەرچاوەی نووسە',
-    	cssClasses : 'شێوازی چینی پەڕه',
-    	emailAddress : 'ناونیشانی ئیمەیل',
-    	emailBody : 'ناوەڕۆکی نامە',
-    	emailSubject : 'بابەتی نامە',
-    	id : 'ناسنامە',
-    	info : 'زانیاری بەستەر',
-    	langCode : 'هێمای زمان',
-    	langDir : 'ئاراستەی زمان',
-    	langDirLTR : 'چەپ بۆ ڕاست (LTR)',
-    	langDirRTL : 'ڕاست بۆ چەپ (RTL)',
-    	menu : 'چاکسازی بەستەر',
-    	name : 'ناو',
-    	noAnchors : '(هیچ جۆرێکی لەنگەر ئامادە نیە لەم پەڕەیه)',
-    	noEmail : 'تکایە ناونیشانی ئیمەیل بنووسە',
-    	noUrl : 'تکایە ناونیشانی بەستەر بنووسە',
-    	other : '<هیتر>',
-    	popupDependent : 'پێوەبەستراو (Netscape)',
-    	popupFeatures : 'خاسیەتی پەنجەرەی سەرهەڵدەر',
-    	popupFullScreen : 'پڕ بەپڕی شاشە (IE)',
-    	popupLeft : 'جێگای چەپ',
-    	popupLocationBar : 'هێڵی ناونیشانی بەستەر',
-    	popupMenuBar : 'هێڵی لیسته',
-    	popupResizable : 'توانای گۆڕینی قەباره',
-    	popupScrollBars : 'هێڵی هاتووچۆپێکردن',
-    	popupStatusBar : 'هێڵی دۆخ',
-    	popupToolbar : 'هێڵی تووڵامراز',
-    	popupTop : 'جێگای سەرەوە',
-    	rel : 'پەیوەندی',
-    	selectAnchor : 'هەڵبژاردنی لەنگەرێك',
-    	styles : 'شێواز',
-    	tabIndex : 'بازدەری تابی  ئیندێکس',
-    	target : 'ئامانج',
-    	targetFrame : '<چووارچێوە>',
-    	targetFrameName : 'ناوی ئامانجی چووارچێوە',
-    	targetPopup : '<پەنجەرەی سەرهەڵدەر>',
-    	targetPopupName : 'ناوی پەنجەرەی سەرهەڵدەر',
-    	title : 'بەستەر',
-    	toAnchor : 'بەستەر بۆ لەنگەر له دەق',
-    	toEmail : 'ئیمەیل',
-    	toUrl : 'ناونیشانی بەستەر',
-    	toolbar : 'دانان/ڕێکخستنی بەستەر',
-    	type : 'جۆری بەستەر',
-    	unlink : 'لابردنی بەستەر',
-    	upload : 'بارکردن'
-    },
-    smiley : 
-    {
-    	options : 'هەڵبژاردەی زەردەخەنه',
-    	title : 'دانانی زەردەخەنەیەك',
-    	toolbar : 'زەردەخەنه'
-    },
-    print : 
-    {
-    	toolbar : 'چاپکردن'
-    },
-    div : 
-    {
-    	IdInputLabel : 'ناسنامە',
-    	advisoryTitleInputLabel : 'سەردێڕ',
-    	cssClassInputLabel : 'شێوازی چینی پەڕه',
-    	edit : 'چاکسازی Div',
-    	inlineStyleInputLabel : 'شێوازی ناوهێڵ',
-    	langDirLTRLabel : 'چەپ بۆ ڕاست (LTR)',
-    	langDirLabel : 'ئاراستەی زمان',
-    	langDirRTLLabel : 'ڕاست بۆ چەپ (RTL)',
-    	languageCodeInputLabel : 'هێمای زمان',
-    	remove : 'لابردنی Div',
-    	styleSelectLabel : 'شێواز',
-    	title : 'دروستکردنی لەخۆگری Div',
-    	toolbar : 'دروستکردنی لەخۆگری Div'
-    },
-    indent : 
-    {
-    	indent : 'زیادکردنی بۆشایی',
-    	outdent : 'کەمکردنەوەی بۆشایی'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'ئەم دەقەی بەتەمای بیلکێنی پێدەچێت له word هێنرابێت. دەتەوێت پاکی بکەیوه پێش ئەوەی بیلکێنی؟',
-    	error : 'هیچ ڕێگەیەك نەبوو لەلکاندنی دەقەکه بەهۆی هەڵەیەکی ناوەخۆیی',
-    	title : 'لکاندنی لەلایەن Word',
-    	toolbar : 'لکاندنی لەڕێی Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'خۆکار',
-    	bgColorTitle : 'ڕەنگی پاشبنەما',
-    	colors : 
-    	{
-    		'000' : 'ڕەش',
-    		'800000' : 'سۆرو ماڕوونی',
-    		'8B4513' : 'ماڕوونی',
-    		'2F4F4F' : 'سەوزی تاریك',
-    		'008080' : 'سەوز و شین',
-    		'000080' : 'شینی تۆخ',
-    		'4B0082' : 'مۆری تۆخ',
-    		'696969' : 'ڕەساسی تۆخ',
-    		B22222 : 'سۆری تۆخ',
-    		A52A2A : 'قاوەیی',
-    		DAA520 : 'قاوەیی بریسکەدار',
-    		'006400' : 'سەوزی تۆخ',
-    		'40E0D0' : 'شینی ناتۆخی بریسکەدار',
-    		'0000CD' : 'شینی مامناوەند',
-    		'800080' : 'پەمبەیی',
-    		'808080' : 'ڕەساسی',
-    		F00 : 'سۆر',
-    		FF8C00 : 'نارەنجی تۆخ',
-    		FFD700 : 'زەرد',
-    		'008000' : 'سەوز',
-    		'0FF' : 'شینی ئاسمانی',
-    		'00F' : 'شین',
-    		EE82EE : 'پەمەیی',
-    		A9A9A9 : 'ڕەساسی ناتۆخ',
-    		FFA07A : 'نارەنجی ناتۆخ',
-    		FFA500 : 'نارەنجی',
-    		FFFF00 : 'زەرد',
-    		'00FF00' : 'سەوز',
-    		AFEEEE : 'شینی ناتۆخ',
-    		ADD8E6 : 'شینی زۆر ناتۆخ',
-    		DDA0DD : 'پەمەیی ناتۆخ',
-    		D3D3D3 : 'ڕەساسی بریسکەدار',
-    		FFF0F5 : 'جەرگی زۆر ناتۆخ',
-    		FAEBD7 : 'جەرگی ناتۆخ',
-    		FFFFE0 : 'سپی ناتۆخ',
-    		F0FFF0 : 'هەنگوینی ناتۆخ',
-    		F0FFFF : 'شینێکی زۆر ناتۆخ',
-    		F0F8FF : 'شینێکی ئاسمانی زۆر ناتۆخ',
-    		E6E6FA : 'شیری',
-    		FFF : 'سپی'
-    	},
-    	more : 'ڕەنگی زیاتر...',
-    	panelTitle : 'ڕەنگەکان',
-    	textColorTitle : 'ڕەنگی دەق'
-    },
-    list : 
-    {
-    	bulletedlist : 'دانان/لابردنی خاڵی لیست',
-    	numberedlist : 'دانان/لابردنی ژمارەی لیست'
+    	toolbar : 'پاشکەوتکردن'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['ku'] = {
     	validateHSpace : 'بۆشایی ئاسۆیی دەبێت بەتەواوی تەنها ژمارە بێت.',
     	validateVSpace : 'بۆشایی ئەستونی دەبێت بەتەواوی تەنها ژماره بێت.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'گەڕان',
-    	findOptions : 'هەڵبژاردەکانی گەڕان',
-    	findWhat : 'گەڕان بەدووای:',
-    	matchCase : 'جیاکردنەوه لەنێوان پیتی گەورەو بچووك',
-    	matchCyclic : 'گەڕان لەهەموو پەڕەکه',
-    	matchWord : 'تەنەا هەموو وشەکه',
-    	notFoundMsg : 'هیچ دەقه گەڕانێك نەدۆزراوه.',
-    	replace : 'لەبریدانان',
-    	replaceAll : 'لەبریدانانی هەمووی',
-    	replaceSuccessMsg : ' پێشهاتە(ی) لەبری دانرا. %1',
-    	replaceWith : 'لەبریدانان به:',
-    	title : 'گەڕان و لەبریدانان'
+    	alt : 'پشووی پەڕە',
+    	toolbar : 'دانانی پشووی پەڕە بۆ چاپکردن'
     },
     showblocks : 
     {
     	toolbar : 'نیشاندانی بەربەستەکان'
+    },
+    indent : 
+    {
+    	indent : 'زیادکردنی بۆشایی',
+    	outdent : 'کەمکردنەوەی بۆشایی'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['ku'] = {
     		typeUrl : 'ناونیشانی بەستەر'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'دانانی هێلی ئاسۆیی'
-    },
-    pagebreak : 
-    {
-    	alt : 'پشووی پەڕە',
-    	toolbar : 'دانانی پشووی پەڕە بۆ چاپکردن'
-    },
-    stylescombo : 
-    {
-    	label : 'شێواز',
-    	panelTitle : 'شێوازی ڕازاندنەوە',
-    	panelTitle1 : 'شێوازی خشت',
-    	panelTitle2 : 'شێوازی ناوهێڵ',
-    	panelTitle3 : 'شێوازی بەرکار'
-    },
     bidi : 
     {
     	ltr : 'ئاراستەی نووسە لە چەپ بۆ ڕاست',
     	rtl : 'ئاراستەی نووسە لە ڕاست بۆ چەپ'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'قەڵەو',
-    	italic : 'لار',
-    	strike : 'لێدان',
-    	subscript : 'ژێرنووس',
-    	superscript : 'سەرنووس',
-    	underline : 'ژێرهێڵ'
+    	eleLabel : 'ڕێڕەوی توخمەکان',
+    	eleTitle : '%1 توخم'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'لەنگەر',
+    	flash : 'فلاش',
+    	hiddenfield : 'شاردنەوەی خانه',
+    	iframe : 'لەچوارچێوە',
+    	unknown : 'بەرکارێکی نەناسراو'
+    },
+    smiley : 
+    {
+    	options : 'هەڵبژاردەی زەردەخەنه',
+    	title : 'دانانی زەردەخەنەیەك',
+    	toolbar : 'زەردەخەنه'
+    },
+    about : 
+    {
+    	copy : 'مافی لەبەرگەرتنەوەی &copy; $1. گشتی پارێزراوه.',
+    	dlgTitle : 'دەربارەی CKEditor',
+    	help : 'سەیری $1 بکه بۆ یارمەتی.',
+    	moreInfo : 'بۆ زانیاری زیاتری مۆڵەت, تکایه سەردانی ماڵپەڕەکەمان بکه:',
+    	title : 'دەربارەی CKEditor',
+    	userGuide : 'ڕێپیشاندەری CKEditors'
+    },
+    newpage : 
+    {
+    	toolbar : 'پەڕەیەکی نوێ'
+    },
+    format : 
+    {
+    	label : 'ڕازاندنەوە',
+    	panelTitle : 'بەشی ڕازاندنەوه',
+    	tag_address : 'ناونیشان',
+    	tag_div : '(DIV)-ی ئاسایی',
+    	tag_h1 : 'سەرنووسەی ١',
+    	tag_h2 : 'سەرنووسەی ٢',
+    	tag_h3 : 'سەرنووسەی ٣',
+    	tag_h4 : 'سەرنووسەی ٤',
+    	tag_h5 : 'سەرنووسەی ٥',
+    	tag_h6 : 'سەرنووسەی ٦',
+    	tag_p : 'ئاسایی',
+    	tag_pre : 'شێوازکراو'
+    },
+    removeformat : 
+    {
+    	toolbar : 'لابردنی داڕشتەکە'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['ku'] = {
     	widthPx : 'وێنەخاڵ - پیکسل',
     	widthUnit : 'پانی یەکە'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'بڕگە لێرە دابنێ'
+    	options : 'هەڵبژاردەی نووسەی تایبەتی',
+    	title : 'هەڵبژاردنی نووسەی تایبەتی',
+    	toolbar : 'دانانی نووسەی تایبەتی'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'پاشکەوتکردن'
+    	armenian : 'ئاراستەی ژمارەی ئەرمەنی',
+    	bulletedTitle : 'خاسیەتی لیستی خاڵی',
+    	circle : 'بازنه',
+    	decimal : 'ژمارە (1, 2, 3, وە هیتر.)',
+    	decimalLeadingZero : 'ژمارە سفڕی لەپێشەوه (01, 02, 03, وە هیتر.)',
+    	disc : 'پەپکە',
+    	georgian : 'ئاراستەی ژمارەی جۆڕجی (an, ban, gan, وە هیتر.)',
+    	lowerAlpha : 'ئەلفابێی بچووك (a, b, c, d, e, وە هیتر.)',
+    	lowerGreek : 'یۆنانی بچووك (alpha, beta, gamma, وە هیتر.)',
+    	lowerRoman : 'ژمارەی ڕۆمی بچووك (i, ii, iii, iv, v, وە هیتر.)',
+    	none : 'هیچ',
+    	notset : '<دانەندراوه>',
+    	numberedTitle : 'خاسیەتی لیستی ژمارەیی',
+    	square : 'چووراگۆشە',
+    	start : 'دەستپێکردن',
+    	type : 'جۆر',
+    	upperAlpha : 'ئەلفابێی گەوره (A, B, C, D, E, وە هیتر.)',
+    	upperRoman : 'ژمارەی ڕۆمی گەوره (I, II, III, IV, V, وە هیتر.)',
+    	validateStartNumber : 'دەستپێکەری لیستی ژمارەیی دەبێت تەنها ژمارە بێت.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'لەنگەر',
-    	flash : 'فلاش',
-    	hiddenfield : 'شاردنەوەی خانه',
-    	iframe : 'لەچوارچێوە',
-    	unknown : 'بەرکارێکی نەناسراو'
+    	border : 'نیشاندانی لاکێشه بە چوواردەوری چووارچێوە',
+    	noUrl : 'تکایه ناونیشانی بەستەر بنووسه بۆ چووارچێوه',
+    	scrolling : 'چالاککردنی هاتووچۆپێکردن',
+    	title : 'دیالۆگی چووارچێوه',
+    	toolbar : 'چووارچێوه'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'ڕێڕەوی توخمەکان',
-    	eleTitle : '%1 توخم'
+    	access : 'دەستپێگەیشتنی نووسراو',
+    	accessAlways : 'هەمیشه',
+    	accessNever : 'هەرگیز',
+    	accessSameDomain : 'هەمان دۆمەین',
+    	alignAbsBottom : 'له ژێرەوه',
+    	alignAbsMiddle : 'لەناوەند',
+    	alignBaseline : 'هێڵەبنەڕەت',
+    	alignTextTop : 'دەق لەسەرەوه',
+    	bgcolor : 'ڕەنگی پاشبنەما',
+    	chkFull : 'ڕێپێدان بە پڕی شاشه',
+    	chkLoop : 'گرێ',
+    	chkMenu : 'چالاککردنی لیستەی فلاش',
+    	chkPlay : 'پێکردنی یان لێدانی خۆکار',
+    	flashvars : 'گۆڕاوەکان بۆ فلاش',
+    	hSpace : 'بۆشایی ئاسۆیی',
+    	properties : 'خاسیەتی فلاش',
+    	propertiesTab : 'خاسیەت',
+    	quality : 'جۆرایەتی',
+    	qualityAutoHigh : 'بەرزی خۆکار',
+    	qualityAutoLow : 'نزمی خۆکار',
+    	qualityBest : 'باشترین',
+    	qualityHigh : 'بەرزی',
+    	qualityLow : 'نزم',
+    	qualityMedium : 'مامناوەند',
+    	scale : 'پێوانه',
+    	scaleAll : 'نیشاندانی هەموو',
+    	scaleFit : 'بەوردی بگونجێت',
+    	scaleNoBorder : 'بێ پەراوێز',
+    	title : 'خاسیەتی فلاش',
+    	vSpace : 'بۆشایی ئەستونی',
+    	validateHSpace : 'بۆشایی ئاسۆیی دەبێت ژمارە بێت.',
+    	validateSrc : 'ناونیشانی بەستەر نابێت خاڵی بێت',
+    	validateVSpace : 'بۆشایی ئەستونی دەبێت ژماره بێت.',
+    	windowMode : 'شێوازی پەنجەره',
+    	windowModeOpaque : 'ناڕوون',
+    	windowModeTransparent : 'ڕۆشن',
+    	windowModeWindow : 'پەنجەره'
+    },
+    find : 
+    {
+    	find : 'گەڕان',
+    	findOptions : 'هەڵبژاردەکانی گەڕان',
+    	findWhat : 'گەڕان بەدووای:',
+    	matchCase : 'جیاکردنەوه لەنێوان پیتی گەورەو بچووك',
+    	matchCyclic : 'گەڕان لەهەموو پەڕەکه',
+    	matchWord : 'تەنەا هەموو وشەکه',
+    	notFoundMsg : 'هیچ دەقه گەڕانێك نەدۆزراوه.',
+    	replace : 'لەبریدانان',
+    	replaceAll : 'لەبریدانانی هەمووی',
+    	replaceSuccessMsg : ' پێشهاتە(ی) لەبری دانرا. %1',
+    	replaceWith : 'لەبریدانان به:',
+    	title : 'گەڕان و لەبریدانان'
+    },
+    colorbutton : 
+    {
+    	auto : 'خۆکار',
+    	bgColorTitle : 'ڕەنگی پاشبنەما',
+    	colors : 
+    	{
+    		'000' : 'ڕەش',
+    		'800000' : 'سۆرو ماڕوونی',
+    		'8B4513' : 'ماڕوونی',
+    		'2F4F4F' : 'سەوزی تاریك',
+    		'008080' : 'سەوز و شین',
+    		'000080' : 'شینی تۆخ',
+    		'4B0082' : 'مۆری تۆخ',
+    		'696969' : 'ڕەساسی تۆخ',
+    		B22222 : 'سۆری تۆخ',
+    		A52A2A : 'قاوەیی',
+    		DAA520 : 'قاوەیی بریسکەدار',
+    		'006400' : 'سەوزی تۆخ',
+    		'40E0D0' : 'شینی ناتۆخی بریسکەدار',
+    		'0000CD' : 'شینی مامناوەند',
+    		'800080' : 'پەمبەیی',
+    		'808080' : 'ڕەساسی',
+    		F00 : 'سۆر',
+    		FF8C00 : 'نارەنجی تۆخ',
+    		FFD700 : 'زەرد',
+    		'008000' : 'سەوز',
+    		'0FF' : 'شینی ئاسمانی',
+    		'00F' : 'شین',
+    		EE82EE : 'پەمەیی',
+    		A9A9A9 : 'ڕەساسی ناتۆخ',
+    		FFA07A : 'نارەنجی ناتۆخ',
+    		FFA500 : 'نارەنجی',
+    		FFFF00 : 'زەرد',
+    		'00FF00' : 'سەوز',
+    		AFEEEE : 'شینی ناتۆخ',
+    		ADD8E6 : 'شینی زۆر ناتۆخ',
+    		DDA0DD : 'پەمەیی ناتۆخ',
+    		D3D3D3 : 'ڕەساسی بریسکەدار',
+    		FFF0F5 : 'جەرگی زۆر ناتۆخ',
+    		FAEBD7 : 'جەرگی ناتۆخ',
+    		FFFFE0 : 'سپی ناتۆخ',
+    		F0FFF0 : 'هەنگوینی ناتۆخ',
+    		F0FFFF : 'شینێکی زۆر ناتۆخ',
+    		F0F8FF : 'شینێکی ئاسمانی زۆر ناتۆخ',
+    		E6E6FA : 'شیری',
+    		FFF : 'سپی'
+    	},
+    	more : 'ڕەنگی زیاتر...',
+    	panelTitle : 'ڕەنگەکان',
+    	textColorTitle : 'ڕەنگی دەق'
+    },
+    undo : 
+    {
+    	redo : 'هەڵگەڕاندنەوە',
+    	undo : 'پووچکردنەوە'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'گەورەیی',
+    		voiceLabel : 'گەورەیی فۆنت',
+    		panelTitle : 'گەورەیی فۆنت'
+    	},
+    	label : 'فۆنت',
+    	panelTitle : 'ناوی فۆنت',
+    	voiceLabel : 'فۆنت'
     },
     maximize : 
     {
     	maximize : 'ئەوپەڕی گەورەیی',
     	minimize : 'ئەوپەڕی بچووکی'
     },
+    basicstyles : 
+    {
+    	bold : 'قەڵەو',
+    	italic : 'لار',
+    	strike : 'لێدان',
+    	subscript : 'ژێرنووس',
+    	superscript : 'سەرنووس',
+    	underline : 'ژێرهێڵ'
+    },
+    magicline : 
+    {
+    	title : 'بڕگە لێرە دابنێ'
+    },
+    print : 
+    {
+    	toolbar : 'چاپکردن'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'پشتگوێ کردن',
+    	btnIgnoreAll : 'پشتگوێکردنی ههمووی',
+    	btnReplace : 'لهبریدانن',
+    	btnReplaceAll : 'لهبریدانانی ههمووی',
+    	btnUndo : 'پووچکردنهوه',
+    	changeTo : 'گۆڕینی بۆ',
+    	errorLoading : 'ههڵه لههێنانی داخوازینامهی خانهخۆێی ڕاژه: %s.',
+    	ieSpellDownload : 'پشکنینی ڕێنووس دانهمزراوه. دهتهوێت ئێستا دایبگریت?',
+    	manyChanges : 'پشکنینی ڕێنووس کۆتای هات: لهسهدا %1 ی وشهکان گۆڕدرا',
+    	noChanges : 'پشکنینی ڕێنووس کۆتای هات: هیچ وشهیهك نۆگۆڕدرا',
+    	noMispell : 'پشکنینی ڕێنووس کۆتای هات: هیچ ههڵهیهکی ڕێنووس نهدۆزراوه',
+    	noSuggestions : '- هیچ پێشنیارێك -',
+    	notAvailable : 'ببووره، لهمکاتهدا ڕاژهکه لهبهردهستا نیه.',
+    	notInDic : 'لهفهرههنگ دانیه',
+    	oneChange : 'پشکنینی ڕێنووس کۆتای هات: یهك وشه گۆڕدرا',
+    	progress : 'پشکنینی ڕێنووس لهبهردهوامبوون دایه...',
+    	title : 'پشکنینی ڕێنووس',
+    	toolbar : 'پشکنینی ڕێنووس'
+    },
+    clipboard : 
+    {
+    	copy : 'لەبەرگرتنەوە',
+    	copyError : 'پارێزی وێبگەڕەکەت ڕێگەنادات بەسەرنووسەکە لە لکاندنی دەقی خۆکارارنە. تکایە لەبری ئەمە ئەم فەرمانە بەکاربهێنە بەداگرتنی کلیلی (Ctrl/Cmd+C).',
+    	cut : 'بڕین',
+    	cutError : 'پارێزی وێبگەڕەکەت ڕێگەنادات بە سەرنووسەکە لەبڕینی خۆکارانە. تکایە لەبری ئەمە ئەم فەرمانە بەکاربهێنە بەداگرتنی کلیلی (Ctrl/Cmd+X).',
+    	paste : 'لکاندن',
+    	pasteArea : 'ناوچەی لکاندن',
+    	pasteMsg : 'تکایە بیلکێنە لەناوەوەی ئەم سنوقە لەڕێی تەختەکلیلەکەت بە بەکارهێنانی کلیلی (<STRONG>Ctrl/Cmd+V</STRONG>) دووای کلیکی باشە بکە.',
+    	securityMsg : 'بەهۆی شێوەپێدانی پارێزی وێبگەڕەکەت، سەرنووسەکه ناتوانێت دەستبگەیەنێت بەهەڵگیراوەکە ڕاستەوخۆ. بۆیه پێویسته دووباره بیلکێنیت لەم پەنجەرەیه.',
+    	title : 'لکاندن'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'سەرچاوە'
+    },
+    scayt : 
+    {
+    	about : 'دهربارهی SCAYT',
+    	aboutTab : 'دهربارهی',
+    	addWord : 'زیادکردنی ووشه',
+    	allCaps : 'پشتگوێخستنی وشانهی پێکهاتووه لهپیتی گهوره',
+    	dic_create : 'درووستکردن',
+    	dic_delete : 'سڕینهوه',
+    	dic_field_name : 'ناوی فهرههنگ',
+    	dic_info : 'لهبنچینهدا فهرههنگی بهکارهێنهر کۆگاکردن کراوه له شهکرۆکه Cookie, ههرچۆنێك بێت شهکۆرکه سنووردار کراوه له قهباره کۆگاکردن.کاتێك فهرههنگی بهکارهێنهر گهیشته ئهم خاڵهی کهناتوانرێت زیاتر کۆگاکردن بکرێت له شهکرۆکه، ئهوسا فهرههنگهکه پێویسته کۆگابکرێت له ڕاژهکهی ئێمه. بۆ کۆگاکردنی زانیاری تایبهتی فهرههنگهکه له ڕاژهکهی ئێمه, پێویسته ناوێك ههڵبژێریت بۆ فهرههنگهکه. گهر تۆ فهرههنگێکی کۆگاکراوت ههیه, تکایه ناوی فهرههنگهکه بنووسه وه کلیکی دوگمهی گهڕاندنهوه بکه.',
+    	dic_rename : 'گۆڕینی ناو',
+    	dic_restore : 'گهڕاندنهوه',
+    	dictionariesTab : 'فهرههنگهکان',
+    	disable : 'ناچالاککردنی SCAYT',
+    	emptyDic : 'ناوی فهرههنگ نابێت خاڵی بێت.',
+    	enable : 'چالاککردنی SCAYT',
+    	ignore : 'پشتگوێخستن',
+    	ignoreAll : 'پشتگوێخستنی ههمووی',
+    	ignoreDomainNames : 'پشتگوێخستنی دۆمهین',
+    	langs : 'زمانهکان',
+    	languagesTab : 'زمانهکان',
+    	mixedCase : 'پشتگوێخستنی وشانهی پێکهاتووه لهپیتی گهورهو بچووك',
+    	mixedWithDigits : 'پشتگوێخستنی وشانهی پێکهاتووه لهژماره',
+    	moreSuggestions : 'پێشنیاری زیاتر',
+    	opera_title : 'پشتیوانی نهکراوه لهلایهن Opera',
+    	options : 'ههڵبژارده',
+    	optionsTab : 'ههڵبژارده',
+    	title : 'پشکنینی نووسه لهکاتی نووسین',
+    	toggle : 'گۆڕینی SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'دانانی هێلی ئاسۆیی'
+    },
+    pastetext : 
+    {
+    	button : 'لکاندنی وەك دەقی ڕوون',
+    	title : 'لکاندنی وەك دەقی ڕوون'
+    },
+    contextmenu : 
+    {
+    	options : 'هەڵبژاردەی لیستەی کلیکی دەستی ڕاست'
+    },
+    templates : 
+    {
+    	button : 'ڕووکار',
+    	emptyListMsg : '(هیچ ڕووکارێك دیارینەکراوە)',
+    	insertOption : 'لە شوێن دانانی ئەم پێکهاتانەی ئێستا',
+    	options : 'هەڵبژاردەکانی ڕووکار',
+    	selectPromptMsg : 'ڕووکارێك هەڵبژێره بۆ کردنەوەی له سەرنووسەر:',
+    	title : 'پێکهاتەی ڕووکار'
+    },
+    div : 
+    {
+    	IdInputLabel : 'ناسنامە',
+    	advisoryTitleInputLabel : 'سەردێڕ',
+    	cssClassInputLabel : 'شێوازی چینی پەڕه',
+    	edit : 'چاکسازی Div',
+    	inlineStyleInputLabel : 'شێوازی ناوهێڵ',
+    	langDirLTRLabel : 'چەپ بۆ ڕاست (LTR)',
+    	langDirLabel : 'ئاراستەی زمان',
+    	langDirRTLLabel : 'ڕاست بۆ چەپ (RTL)',
+    	languageCodeInputLabel : 'هێمای زمان',
+    	remove : 'لابردنی Div',
+    	styleSelectLabel : 'شێواز',
+    	title : 'دروستکردنی لەخۆگری Div',
+    	toolbar : 'دروستکردنی لەخۆگری Div'
+    },
+    preview : 
+    {
+    	preview : 'پێشبینین'
+    },
+    colordialog : 
+    {
+    	clear : 'پاکیکەوە',
+    	highlight : 'نیشانکردن',
+    	options : 'هەڵبژاردەی ڕەنگەکان',
+    	selected : 'ڕەنگی هەڵبژێردراو',
+    	title : 'هەڵبژاردنی ڕەنگ'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'شاردنەوی هێڵی تووڵامراز',
+    	toolbarExpand : 'نیشاندانی هێڵی تووڵامراز',
+    	toolbarGroups : 
+    	{
+    		document : 'پەڕه',
+    		clipboard : 'بڕین/پووچکردنەوە',
+    		editing : 'چاکسازی',
+    		forms : 'داڕشتە',
+    		basicstyles : 'شێوازی بنچینەیی',
+    		paragraph : 'بڕگە',
+    		links : 'بەستەر',
+    		insert : 'خستنە ناو',
+    		styles : 'شێواز',
+    		colors : 'ڕەنگەکان',
+    		tools : 'ئامرازەکان'
+    	},
+    	toolbars : 'تووڵامرازی دەسکاریکەر'
+    },
+    selectall : 
+    {
+    	toolbar : 'دیاریکردنی هەمووی'
+    },
+    blockquote : 
+    {
+    	toolbar : 'بەربەستکردنی ووتەی وەرگیراو'
+    },
+    link : 
+    {
+    	acccessKey : 'کلیلی دەستپێگەیشتن',
+    	advanced : 'پێشکەوتوو',
+    	advisoryContentType : 'جۆری ناوەڕۆکی ڕاویژکار',
+    	advisoryTitle : 'ڕاوێژکاری سەردێڕ',
+    	anchor : 
+    	{
+    		toolbar : 'دانان/چاکسازی لەنگەر',
+    		menu : 'چاکسازی لەنگەر',
+    		title : 'خاسیەتی لەنگەر',
+    		name : 'ناوی لەنگەر',
+    		errorName : 'تکایه ناوی لەنگەر بنووسه',
+    		remove : 'لابردنی لەنگەر'
+    	},
+    	anchorId : 'بەپێی ناسنامەی توخم',
+    	anchorName : 'بەپێی ناوی لەنگەر',
+    	charset : 'بەستەری سەرچاوەی نووسە',
+    	cssClasses : 'شێوازی چینی پەڕه',
+    	emailAddress : 'ناونیشانی ئیمەیل',
+    	emailBody : 'ناوەڕۆکی نامە',
+    	emailSubject : 'بابەتی نامە',
+    	id : 'ناسنامە',
+    	info : 'زانیاری بەستەر',
+    	langCode : 'هێمای زمان',
+    	langDir : 'ئاراستەی زمان',
+    	langDirLTR : 'چەپ بۆ ڕاست (LTR)',
+    	langDirRTL : 'ڕاست بۆ چەپ (RTL)',
+    	menu : 'چاکسازی بەستەر',
+    	name : 'ناو',
+    	noAnchors : '(هیچ جۆرێکی لەنگەر ئامادە نیە لەم پەڕەیه)',
+    	noEmail : 'تکایە ناونیشانی ئیمەیل بنووسە',
+    	noUrl : 'تکایە ناونیشانی بەستەر بنووسە',
+    	other : '<هیتر>',
+    	popupDependent : 'پێوەبەستراو (Netscape)',
+    	popupFeatures : 'خاسیەتی پەنجەرەی سەرهەڵدەر',
+    	popupFullScreen : 'پڕ بەپڕی شاشە (IE)',
+    	popupLeft : 'جێگای چەپ',
+    	popupLocationBar : 'هێڵی ناونیشانی بەستەر',
+    	popupMenuBar : 'هێڵی لیسته',
+    	popupResizable : 'توانای گۆڕینی قەباره',
+    	popupScrollBars : 'هێڵی هاتووچۆپێکردن',
+    	popupStatusBar : 'هێڵی دۆخ',
+    	popupToolbar : 'هێڵی تووڵامراز',
+    	popupTop : 'جێگای سەرەوە',
+    	rel : 'پەیوەندی',
+    	selectAnchor : 'هەڵبژاردنی لەنگەرێك',
+    	styles : 'شێواز',
+    	tabIndex : 'بازدەری تابی  ئیندێکس',
+    	target : 'ئامانج',
+    	targetFrame : '<چووارچێوە>',
+    	targetFrameName : 'ناوی ئامانجی چووارچێوە',
+    	targetPopup : '<پەنجەرەی سەرهەڵدەر>',
+    	targetPopupName : 'ناوی پەنجەرەی سەرهەڵدەر',
+    	title : 'بەستەر',
+    	toAnchor : 'بەستەر بۆ لەنگەر له دەق',
+    	toEmail : 'ئیمەیل',
+    	toUrl : 'ناونیشانی بەستەر',
+    	toolbar : 'دانان/ڕێکخستنی بەستەر',
+    	type : 'جۆری بەستەر',
+    	unlink : 'لابردنی بەستەر',
+    	upload : 'بارکردن'
+    },
+    stylescombo : 
+    {
+    	label : 'شێواز',
+    	panelTitle : 'شێوازی ڕازاندنەوە',
+    	panelTitle1 : 'شێوازی خشت',
+    	panelTitle2 : 'شێوازی ناوهێڵ',
+    	panelTitle3 : 'شێوازی بەرکار'
+    },
+    dir : 'rtl',
     editor : 'سەرنووسەی دەقی بە پیت',
     common : 
     {

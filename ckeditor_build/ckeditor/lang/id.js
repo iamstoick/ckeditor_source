@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['id'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Salin',
-    	copyError : 'Pengaturan keamanan peramban anda tidak mengizinkan editor untuk mengeksekusi operasi menyalin secara otomatis. Mohon gunakan papan tuts (Ctrl/Cmd+C)',
-    	cut : 'Potong',
-    	cutError : 'Your browser security settings don\'t permit the editor to automatically execute cutting operations. Please use the keyboard for that (Ctrl/Cmd+X).',
-    	paste : 'Tempel',
-    	pasteArea : 'Area Tempel',
-    	pasteMsg : 'Please paste inside the following box using the keyboard (<strong>Ctrl/Cmd+V</strong>) and hit OK',
-    	securityMsg : 'Because of your browser security settings, the editor is not able to access your clipboard data directly. You are required to paste it again in this window.',
-    	title : 'Tempel'
+    	confirmCleanup : 'Teks yang ingin anda tempel sepertinya di salin dari Word. Apakah anda mau membersihkannya sebelum menempel?',
+    	error : 'Tidak mungkin membersihkan data yang ditempel dikerenakan kesalahan internal',
+    	title : 'Tempel dari Word',
+    	toolbar : 'Tempel dari Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Tempel sebagai teks polos',
-    	title : 'Tempel sebagai Teks Polos'
-    },
-    specialchar : 
-    {
-    	options : 'Opsi spesial karakter',
-    	title : 'Pilih spesial karakter',
-    	toolbar : 'Sisipkan spesial karakter'
-    },
-    selectall : 
-    {
-    	toolbar : 'Pilih Semua'
-    },
-    newpage : 
-    {
-    	toolbar : 'Halaman Baru'
-    },
-    templates : 
-    {
-    	button : 'Contoh',
-    	emptyListMsg : '(Tidak ada contoh didefinisikan)',
-    	insertOption : 'Ganti konten sebenarnya',
-    	options : 'Opsi Contoh',
-    	selectPromptMsg : 'Mohon pilih contoh untuk dibuka di editor',
-    	title : 'Contoh Konten'
-    },
-    colordialog : 
-    {
-    	clear : 'Clear',
-    	highlight : 'Highlight',
-    	options : 'Color Options',
-    	selected : 'Selected Color',
-    	title : 'Select color'
-    },
-    preview : 
-    {
-    	preview : 'Pratinjau'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Ukuran',
-    		voiceLabel : 'Font Size',
-    		panelTitle : 'Font Size'
-    	},
-    	label : 'Font',
-    	panelTitle : 'Font Name',
-    	voiceLabel : 'Font'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armenian numbering',
-    	bulletedTitle : 'Bulleted List Properties',
-    	circle : 'Lingkaran',
-    	decimal : 'Desimal (1, 2, 3, dst.)',
-    	decimalLeadingZero : 'Desimal diawali angka nol (01, 02, 03, dst.)',
-    	disc : 'Cakram',
-    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
-    	lowerAlpha : 'Huruf Kecil (a, b, c, d, e, dst.)',
-    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Angka Romawi (i, ii, iii, iv, v, dst.)',
-    	none : 'Tidak ada',
-    	notset : '<tidak diatur>',
-    	numberedTitle : 'Numbered List Properties',
-    	square : 'Persegi',
-    	start : 'Mulai',
-    	type : 'Tipe',
-    	upperAlpha : 'Huruf Besar (A, B, C, D, E, dst.)',
-    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'List start number must be a whole number.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Kutipan Blok'
-    },
-    undo : 
-    {
-    	redo : 'Kembali lakukan',
-    	undo : 'Batalkan perlakuan'
-    },
-    about : 
-    {
-    	copy : 'Hak cipta &copy; $1. All rights reserved.',
-    	dlgTitle : 'Tentang CKEditor',
-    	help : 'Cel $1 untuk bantuan.',
-    	moreInfo : 'Untuk informasi lisensi silahkan kunjungi web site kami:',
-    	title : 'Tentang CKEditor',
-    	userGuide : 'Petunjuk Pengguna CKEditor'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Ciutkan Toolbar',
-    	toolbarExpand : 'Bentangkan Toolbar',
-    	toolbarGroups : 
-    	{
-    		document : 'Dokumen',
-    		clipboard : 'Papan klip / Kembalikan perlakuan',
-    		editing : 'Sunting',
-    		forms : 'Formulir',
-    		basicstyles : 'Gaya Dasar',
-    		paragraph : 'Paragraf',
-    		links : 'Tautan',
-    		insert : 'Sisip',
-    		styles : 'Gaya',
-    		colors : 'Warna',
-    		tools : 'Alat'
-    	},
-    	toolbars : 'Editor toolbars'
-    },
-    scayt : 
-    {
-    	about : 'About SCAYT',
-    	aboutTab : 'About',
-    	addWord : 'Add Word',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Dictionaries',
-    	disable : 'Disable SCAYT',
-    	emptyDic : 'Dictionary name should not be empty.',
-    	enable : 'Enable SCAYT',
-    	ignore : 'Ignore',
-    	ignoreAll : 'Ignore All',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Languages',
-    	languagesTab : 'Languages',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'More suggestions',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Options',
-    	optionsTab : 'Options',
-    	title : 'Spell Check As You Type',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Ignore',
-    	btnIgnoreAll : 'Ignore All',
-    	btnReplace : 'Replace',
-    	btnReplaceAll : 'Replace All',
-    	btnUndo : 'Undo',
-    	changeTo : 'Change to',
-    	errorLoading : 'Error loading application service host: %s.',
-    	ieSpellDownload : 'Spell checker not installed. Do you want to download it now?',
-    	manyChanges : 'Spell check complete: %1 words changed',
-    	noChanges : 'Spell check complete: No words changed',
-    	noMispell : 'Spell check complete: No misspellings found',
-    	noSuggestions : '- No suggestions -',
-    	notAvailable : 'Sorry, but service is unavailable now.',
-    	notInDic : 'Not in dictionary',
-    	oneChange : 'Spell check complete: One word changed',
-    	progress : 'Spell check in progress...',
-    	title : 'Spell Check',
-    	toolbar : 'Check Spelling'
-    },
-    contextmenu : 
-    {
-    	options : 'Opsi Konteks Pilihan'
+    	bulletedlist : 'Sisip/Hapus Daftar Bullet',
+    	numberedlist : 'Sisip/Hapus Daftar Bernomor'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['id'] = {
     	left : 'Align Left',
     	right : 'Align Right'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Sumber'
-    },
-    format : 
-    {
-    	label : 'Bentuk',
-    	panelTitle : 'Bentuk Paragraf',
-    	tag_address : 'Alamat',
-    	tag_div : 'Normal (DIV)',
-    	tag_h1 : 'Heading 1',
-    	tag_h2 : 'Heading 2',
-    	tag_h3 : 'Heading 3',
-    	tag_h4 : 'Heading 4',
-    	tag_h5 : 'Heading 5',
-    	tag_h6 : 'Heading 6',
-    	tag_p : 'Normal',
-    	tag_pre : 'Membentuk'
-    },
-    flash : 
-    {
-    	access : 'Script Access',
-    	accessAlways : 'Selalu',
-    	accessNever : 'Tidak Pernah',
-    	accessSameDomain : 'Domain yang sama',
-    	alignAbsBottom : 'Abs Bottom',
-    	alignAbsMiddle : 'Abs Middle',
-    	alignBaseline : 'Dasar',
-    	alignTextTop : 'Text Top',
-    	bgcolor : 'Warna Latar Belakang',
-    	chkFull : 'Izinkan Layar Penuh',
-    	chkLoop : 'Loop',
-    	chkMenu : 'Enable Flash Menu',
-    	chkPlay : 'Mainkan Otomatis',
-    	flashvars : 'Variables for Flash',
-    	hSpace : 'HSpace',
-    	properties : 'Flash Properties',
-    	propertiesTab : 'Properti',
-    	quality : 'Kualitas',
-    	qualityAutoHigh : 'Tinggi Otomatis',
-    	qualityAutoLow : 'Rendah Otomatis',
-    	qualityBest : 'Terbaik',
-    	qualityHigh : 'Tinggi',
-    	qualityLow : 'Rendah',
-    	qualityMedium : 'Sedang',
-    	scale : 'Scale',
-    	scaleAll : 'Perlihatkan semua',
-    	scaleFit : 'Exact Fit',
-    	scaleNoBorder : 'Tanpa Batas',
-    	title : 'Flash Properties',
-    	vSpace : 'VSpace',
-    	validateHSpace : 'HSpace harus sebuah angka',
-    	validateSrc : 'URL tidak boleh kosong',
-    	validateVSpace : 'VSpace harus sebuah angka',
-    	windowMode : 'Window mode',
-    	windowModeOpaque : 'Opaque',
-    	windowModeTransparent : 'Transparan',
-    	windowModeWindow : 'Jendela'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Hapus Format'
-    },
-    iframe : 
-    {
-    	border : 'Show frame border',
-    	noUrl : 'Please type the iframe URL',
-    	scrolling : 'Enable scrollbars',
-    	title : 'IFrame Properties',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Access Key',
-    	advanced : 'Advanced',
-    	advisoryContentType : 'Advisory Content Type',
-    	advisoryTitle : 'Penasehat Judul',
-    	anchor : 
-    	{
-    		toolbar : 'Anchor',
-    		menu : 'Edit Anchor',
-    		title : 'Anchor Properties',
-    		name : 'Anchor Name',
-    		errorName : 'Please type the anchor name',
-    		remove : 'Remove Anchor'
-    	},
-    	anchorId : 'By Element Id',
-    	anchorName : 'By Anchor Name',
-    	charset : 'Linked Resource Charset',
-    	cssClasses : 'Kelas Stylesheet',
-    	emailAddress : 'E-Mail Address',
-    	emailBody : 'Message Body',
-    	emailSubject : 'Message Subject',
-    	id : 'Id',
-    	info : 'Link Info',
-    	langCode : 'Kode Bahasa',
-    	langDir : 'Arah Bahasa',
-    	langDirLTR : 'Kiri ke Kanan (LTR)',
-    	langDirRTL : 'Kanan ke Kiri (RTL)',
-    	menu : 'Edit Link',
-    	name : 'Nama',
-    	noAnchors : '(No anchors available in the document)',
-    	noEmail : 'Please type the e-mail address',
-    	noUrl : 'Please type the link URL',
-    	other : '<other>',
-    	popupDependent : 'Dependent (Netscape)',
-    	popupFeatures : 'Popup Window Features',
-    	popupFullScreen : 'Full Screen (IE)',
-    	popupLeft : 'Left Position',
-    	popupLocationBar : 'Location Bar',
-    	popupMenuBar : 'Menu Bar',
-    	popupResizable : 'Resizable',
-    	popupScrollBars : 'Scroll Bars',
-    	popupStatusBar : 'Status Bar',
-    	popupToolbar : 'Toolbar',
-    	popupTop : 'Top Position',
-    	rel : 'Relationship',
-    	selectAnchor : 'Select an Anchor',
-    	styles : 'Gaya',
-    	tabIndex : 'Tab Index',
-    	target : 'Sasaran',
-    	targetFrame : '<frame>',
-    	targetFrameName : 'Target Frame Name',
-    	targetPopup : '<popup window>',
-    	targetPopupName : 'Popup Window Name',
-    	title : 'Tautan',
-    	toAnchor : 'Link to anchor in the text',
-    	toEmail : 'E-mail',
-    	toUrl : 'URL',
-    	toolbar : 'Tautan',
-    	type : 'Link Type',
-    	unlink : 'Unlink',
-    	upload : 'Unggah'
-    },
-    smiley : 
-    {
-    	options : 'Opsi Smiley',
-    	title : 'Sisip sebuah Smiley',
-    	toolbar : 'Smiley'
-    },
-    print : 
-    {
-    	toolbar : 'Cetak'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Penasehat Judul',
-    	cssClassInputLabel : 'Kelas Stylesheet',
-    	edit : 'Sunting Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : 'Kiri ke Kanan (LTR)',
-    	langDirLabel : 'Arah Bahasa',
-    	langDirRTLLabel : 'Kanan ke Kiri (RTL)',
-    	languageCodeInputLabel : 'Kode Bahasa',
-    	remove : 'Hapus Div',
-    	styleSelectLabel : 'Gaya',
-    	title : 'Ciptakan Wadah Div',
-    	toolbar : 'Cipatakan Wadah Div'
-    },
-    indent : 
-    {
-    	indent : 'Tingkatkan Lekuk',
-    	outdent : 'Kurangi Lekuk'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Teks yang ingin anda tempel sepertinya di salin dari Word. Apakah anda mau membersihkannya sebelum menempel?',
-    	error : 'Tidak mungkin membersihkan data yang ditempel dikerenakan kesalahan internal',
-    	title : 'Tempel dari Word',
-    	toolbar : 'Tempel dari Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'Automatic',
-    	bgColorTitle : 'Warna Latar Belakang',
-    	colors : 
-    	{
-    		'000' : 'Black',
-    		'800000' : 'Maroon',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Dark Gray',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Brown',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'Dark Green',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'Gray',
-    		F00 : 'Red',
-    		FF8C00 : 'Dark Orange',
-    		FFD700 : 'Gold',
-    		'008000' : 'Green',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Blue',
-    		EE82EE : 'Violet',
-    		A9A9A9 : 'Dim Gray',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'Orange',
-    		FFFF00 : 'Yellow',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Light Grey',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'Light Yellow',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'Lavender',
-    		FFF : 'White'
-    	},
-    	more : 'More Colors...',
-    	panelTitle : 'Warna',
-    	textColorTitle : 'Text Color'
-    },
-    list : 
-    {
-    	bulletedlist : 'Sisip/Hapus Daftar Bullet',
-    	numberedlist : 'Sisip/Hapus Daftar Bernomor'
+    	toolbar : 'Simpan'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['id'] = {
     	validateHSpace : 'HSpace must be a whole number.',
     	validateVSpace : 'VSpace must be a whole number.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Temukan',
-    	findOptions : 'Opsi menemukan',
-    	findWhat : 'Temukan apa:',
-    	matchCase : 'Match case',
-    	matchCyclic : 'Match cyclic',
-    	matchWord : 'Match whole word',
-    	notFoundMsg : 'The specified text was not found.',
-    	replace : 'Ganti',
-    	replaceAll : 'Ganti Semua',
-    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
-    	replaceWith : 'Ganti dengan:',
-    	title : 'Temukan dan Ganti'
+    	alt : 'Page Break',
+    	toolbar : 'Insert Page Break for Printing'
     },
     showblocks : 
     {
     	toolbar : 'Perlihatkan Blok'
+    },
+    indent : 
+    {
+    	indent : 'Tingkatkan Lekuk',
+    	outdent : 'Kurangi Lekuk'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['id'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Sisip Garis Horisontal'
-    },
-    pagebreak : 
-    {
-    	alt : 'Halaman Istirahat',
-    	toolbar : 'Sisip Halaman Istirahat untuk Pencetakan '
-    },
-    stylescombo : 
-    {
-    	label : 'Gaya',
-    	panelTitle : 'Formatting Styles',
-    	panelTitle1 : 'Block Styles',
-    	panelTitle2 : 'Inline Styles',
-    	panelTitle3 : 'Object Styles'
-    },
     bidi : 
     {
     	ltr : 'Arah penulisan dari kiri ke kanan.',
     	rtl : 'Arah penulisan dari kanan ke kiri.'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Huruf Tebal',
-    	italic : 'Huruf Miring',
-    	strike : 'Strike Through',
-    	subscript : 'Subscript',
-    	superscript : 'Superscript',
-    	underline : 'Garis Bawah'
+    	eleLabel : 'Elements path',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Anchor',
+    	flash : 'Flash Animation',
+    	hiddenfield : 'Kolom Tersembunyi',
+    	iframe : 'IFrame',
+    	unknown : 'Unknown Object'
+    },
+    smiley : 
+    {
+    	options : 'Opsi Smiley',
+    	title : 'Sisip sebuah Smiley',
+    	toolbar : 'Smiley'
+    },
+    about : 
+    {
+    	copy : 'Hak cipta &copy; $1. All rights reserved.',
+    	dlgTitle : 'Tentang CKEditor',
+    	help : 'Cel $1 untuk bantuan.',
+    	moreInfo : 'Untuk informasi lisensi silahkan kunjungi web site kami:',
+    	title : 'Tentang CKEditor',
+    	userGuide : 'Petunjuk Pengguna CKEditor'
+    },
+    newpage : 
+    {
+    	toolbar : 'Halaman Baru'
+    },
+    format : 
+    {
+    	label : 'Bentuk',
+    	panelTitle : 'Bentuk Paragraf',
+    	tag_address : 'Alamat',
+    	tag_div : 'Normal (DIV)',
+    	tag_h1 : 'Heading 1',
+    	tag_h2 : 'Heading 2',
+    	tag_h3 : 'Heading 3',
+    	tag_h4 : 'Heading 4',
+    	tag_h5 : 'Heading 5',
+    	tag_h6 : 'Heading 6',
+    	tag_p : 'Normal',
+    	tag_pre : 'Membentuk'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Remove Format'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['id'] = {
     	widthPx : 'piksel',
     	widthUnit : 'lebar satuan'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Masukkan paragraf disini'
+    	options : 'Opsi spesial karakter',
+    	title : 'Pilih spesial karakter',
+    	toolbar : 'Sisipkan spesial karakter'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Simpan'
+    	armenian : 'Armenian numbering',
+    	bulletedTitle : 'Bulleted List Properties',
+    	circle : 'Lingkaran',
+    	decimal : 'Desimal (1, 2, 3, dst.)',
+    	decimalLeadingZero : 'Desimal diawali angka nol (01, 02, 03, dst.)',
+    	disc : 'Cakram',
+    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
+    	lowerAlpha : 'Huruf Kecil (a, b, c, d, e, dst.)',
+    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Angka Romawi (i, ii, iii, iv, v, dst.)',
+    	none : 'Tidak ada',
+    	notset : '<tidak diatur>',
+    	numberedTitle : 'Numbered List Properties',
+    	square : 'Persegi',
+    	start : 'Mulai',
+    	type : 'Tipe',
+    	upperAlpha : 'Huruf Besar (A, B, C, D, E, dst.)',
+    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'List start number must be a whole number.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Anchor',
-    	flash : 'Animasi Flash',
-    	hiddenfield : 'Kolom Tersembunyi',
-    	iframe : 'IFrame',
-    	unknown : 'Obyek Tak Dikenal'
+    	border : 'Show frame border',
+    	noUrl : 'Please type the iframe URL',
+    	scrolling : 'Enable scrollbars',
+    	title : 'IFrame Properties',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Elements path',
-    	eleTitle : '%1 element'
+    	access : 'Script Access',
+    	accessAlways : 'Always',
+    	accessNever : 'Never',
+    	accessSameDomain : 'Same domain',
+    	alignAbsBottom : 'Abs Bottom',
+    	alignAbsMiddle : 'Abs Middle',
+    	alignBaseline : 'Dasar',
+    	alignTextTop : 'Text Top',
+    	bgcolor : 'Background color',
+    	chkFull : 'Allow Fullscreen',
+    	chkLoop : 'Loop',
+    	chkMenu : 'Enable Flash Menu',
+    	chkPlay : 'Auto Play',
+    	flashvars : 'Variables for Flash',
+    	hSpace : 'HSpace',
+    	properties : 'Flash Properties',
+    	propertiesTab : 'Properties',
+    	quality : 'Quality',
+    	qualityAutoHigh : 'Auto High',
+    	qualityAutoLow : 'Auto Low',
+    	qualityBest : 'Best',
+    	qualityHigh : 'High',
+    	qualityLow : 'Low',
+    	qualityMedium : 'Medium',
+    	scale : 'Scale',
+    	scaleAll : 'Show all',
+    	scaleFit : 'Exact Fit',
+    	scaleNoBorder : 'No Border',
+    	title : 'Flash Properties',
+    	vSpace : 'VSpace',
+    	validateHSpace : 'HSpace must be a number.',
+    	validateSrc : 'URL must not be empty.',
+    	validateVSpace : 'VSpace must be a number.',
+    	windowMode : 'Window mode',
+    	windowModeOpaque : 'Opaque',
+    	windowModeTransparent : 'Transparent',
+    	windowModeWindow : 'Window'
+    },
+    find : 
+    {
+    	find : 'Temukan',
+    	findOptions : 'Opsi menemukan',
+    	findWhat : 'Temukan apa:',
+    	matchCase : 'Match case',
+    	matchCyclic : 'Match cyclic',
+    	matchWord : 'Match whole word',
+    	notFoundMsg : 'The specified text was not found.',
+    	replace : 'Ganti',
+    	replaceAll : 'Ganti Semua',
+    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
+    	replaceWith : 'Ganti dengan:',
+    	title : 'Temukan dan Ganti'
+    },
+    colorbutton : 
+    {
+    	auto : 'Automatic',
+    	bgColorTitle : 'Warna Latar Belakang',
+    	colors : 
+    	{
+    		'000' : 'Black',
+    		'800000' : 'Maroon',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Dark Gray',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Brown',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'Dark Green',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'Gray',
+    		F00 : 'Red',
+    		FF8C00 : 'Dark Orange',
+    		FFD700 : 'Gold',
+    		'008000' : 'Green',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Blue',
+    		EE82EE : 'Violet',
+    		A9A9A9 : 'Dim Gray',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'Orange',
+    		FFFF00 : 'Yellow',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Light Grey',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'Light Yellow',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'Lavender',
+    		FFF : 'White'
+    	},
+    	more : 'More Colors...',
+    	panelTitle : 'Warna',
+    	textColorTitle : 'Text Color'
+    },
+    undo : 
+    {
+    	redo : 'Kembali lakukan',
+    	undo : 'Batalkan perlakuan'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Ukuran',
+    		voiceLabel : 'Font Size',
+    		panelTitle : 'Font Size'
+    	},
+    	label : 'Font',
+    	panelTitle : 'Font Name',
+    	voiceLabel : 'Font'
     },
     maximize : 
     {
     	maximize : 'Memperbesar',
     	minimize : 'Memperkecil'
     },
+    basicstyles : 
+    {
+    	bold : 'Huruf Tebal',
+    	italic : 'Huruf Miring',
+    	strike : 'Strike Through',
+    	subscript : 'Subscript',
+    	superscript : 'Superscript',
+    	underline : 'Garis Bawah'
+    },
+    magicline : 
+    {
+    	title : 'Masukkan paragraf disini'
+    },
+    print : 
+    {
+    	toolbar : 'Cetak'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Ignore',
+    	btnIgnoreAll : 'Ignore All',
+    	btnReplace : 'Replace',
+    	btnReplaceAll : 'Replace All',
+    	btnUndo : 'Undo',
+    	changeTo : 'Change to',
+    	errorLoading : 'Error loading application service host: %s.',
+    	ieSpellDownload : 'Spell checker not installed. Do you want to download it now?',
+    	manyChanges : 'Spell check complete: %1 words changed',
+    	noChanges : 'Spell check complete: No words changed',
+    	noMispell : 'Spell check complete: No misspellings found',
+    	noSuggestions : '- No suggestions -',
+    	notAvailable : 'Sorry, but service is unavailable now.',
+    	notInDic : 'Not in dictionary',
+    	oneChange : 'Spell check complete: One word changed',
+    	progress : 'Spell check in progress...',
+    	title : 'Spell Check',
+    	toolbar : 'Check Spelling'
+    },
+    clipboard : 
+    {
+    	copy : 'Salin',
+    	copyError : 'Pengaturan keamanan peramban anda tidak mengizinkan editor untuk mengeksekusi operasi menyalin secara otomatis. Mohon gunakan papan tuts (Ctrl/Cmd+C)',
+    	cut : 'Potong',
+    	cutError : 'Your browser security settings don\'t permit the editor to automatically execute cutting operations. Please use the keyboard for that (Ctrl/Cmd+X).',
+    	paste : 'Tempel',
+    	pasteArea : 'Area Tempel',
+    	pasteMsg : 'Please paste inside the following box using the keyboard (<strong>Ctrl/Cmd+V</strong>) and hit OK',
+    	securityMsg : 'Because of your browser security settings, the editor is not able to access your clipboard data directly. You are required to paste it again in this window.',
+    	title : 'Tempel'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Sumber'
+    },
+    scayt : 
+    {
+    	about : 'About SCAYT',
+    	aboutTab : 'About',
+    	addWord : 'Add Word',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Dictionaries',
+    	disable : 'Disable SCAYT',
+    	emptyDic : 'Dictionary name should not be empty.',
+    	enable : 'Enable SCAYT',
+    	ignore : 'Ignore',
+    	ignoreAll : 'Ignore All',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Languages',
+    	languagesTab : 'Languages',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'More suggestions',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Options',
+    	optionsTab : 'Options',
+    	title : 'Spell Check As You Type',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Insert Horizontal Line'
+    },
+    pastetext : 
+    {
+    	button : 'Tempel sebagai teks polos',
+    	title : 'Tempel sebagai Teks Polos'
+    },
+    contextmenu : 
+    {
+    	options : 'Context Menu Options'
+    },
+    templates : 
+    {
+    	button : 'Contoh',
+    	emptyListMsg : '(Tidak ada contoh didefinisikan)',
+    	insertOption : 'Ganti konten sebenarnya',
+    	options : 'Opsi Contoh',
+    	selectPromptMsg : 'Mohon pilih contoh untuk dibuka di editor',
+    	title : 'Contoh Konten'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Penasehat Judul',
+    	cssClassInputLabel : 'Kelas Stylesheet',
+    	edit : 'Sunting Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : 'Kiri ke Kanan (LTR)',
+    	langDirLabel : 'Arah Bahasa',
+    	langDirRTLLabel : 'Kanan ke Kiri (RTL)',
+    	languageCodeInputLabel : 'Kode Bahasa',
+    	remove : 'Hapus Div',
+    	styleSelectLabel : 'Gaya',
+    	title : 'Ciptakan Wadah Div',
+    	toolbar : 'Cipatakan Wadah Div'
+    },
+    preview : 
+    {
+    	preview : 'Pratinjau'
+    },
+    colordialog : 
+    {
+    	clear : 'Clear',
+    	highlight : 'Highlight',
+    	options : 'Color Options',
+    	selected : 'Selected Color',
+    	title : 'Select color'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Ciutkan Toolbar',
+    	toolbarExpand : 'Bentangkan Toolbar',
+    	toolbarGroups : 
+    	{
+    		document : 'Dokumen',
+    		clipboard : 'Papan klip / Kembalikan perlakuan',
+    		editing : 'Sunting',
+    		forms : 'Formulir',
+    		basicstyles : 'Gaya Dasar',
+    		paragraph : 'Paragraf',
+    		links : 'Tautan',
+    		insert : 'Sisip',
+    		styles : 'Gaya',
+    		colors : 'Warna',
+    		tools : 'Alat'
+    	},
+    	toolbars : 'Editor toolbars'
+    },
+    selectall : 
+    {
+    	toolbar : 'Select All'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Block Quote'
+    },
+    link : 
+    {
+    	acccessKey : 'Access Key',
+    	advanced : 'Advanced',
+    	advisoryContentType : 'Advisory Content Type',
+    	advisoryTitle : 'Penasehat Judul',
+    	anchor : 
+    	{
+    		toolbar : 'Anchor',
+    		menu : 'Edit Anchor',
+    		title : 'Anchor Properties',
+    		name : 'Anchor Name',
+    		errorName : 'Please type the anchor name',
+    		remove : 'Remove Anchor'
+    	},
+    	anchorId : 'By Element Id',
+    	anchorName : 'By Anchor Name',
+    	charset : 'Linked Resource Charset',
+    	cssClasses : 'Kelas Stylesheet',
+    	emailAddress : 'E-Mail Address',
+    	emailBody : 'Message Body',
+    	emailSubject : 'Message Subject',
+    	id : 'Id',
+    	info : 'Link Info',
+    	langCode : 'Kode Bahasa',
+    	langDir : 'Arah Bahasa',
+    	langDirLTR : 'Kiri ke Kanan (LTR)',
+    	langDirRTL : 'Kanan ke Kiri (RTL)',
+    	menu : 'Edit Link',
+    	name : 'Nama',
+    	noAnchors : '(No anchors available in the document)',
+    	noEmail : 'Please type the e-mail address',
+    	noUrl : 'Please type the link URL',
+    	other : '<other>',
+    	popupDependent : 'Dependent (Netscape)',
+    	popupFeatures : 'Popup Window Features',
+    	popupFullScreen : 'Full Screen (IE)',
+    	popupLeft : 'Left Position',
+    	popupLocationBar : 'Location Bar',
+    	popupMenuBar : 'Menu Bar',
+    	popupResizable : 'Resizable',
+    	popupScrollBars : 'Scroll Bars',
+    	popupStatusBar : 'Status Bar',
+    	popupToolbar : 'Toolbar',
+    	popupTop : 'Top Position',
+    	rel : 'Relationship',
+    	selectAnchor : 'Select an Anchor',
+    	styles : 'Gaya',
+    	tabIndex : 'Tab Index',
+    	target : 'Sasaran',
+    	targetFrame : '<frame>',
+    	targetFrameName : 'Target Frame Name',
+    	targetPopup : '<popup window>',
+    	targetPopupName : 'Popup Window Name',
+    	title : 'Tautan',
+    	toAnchor : 'Link to anchor in the text',
+    	toEmail : 'E-mail',
+    	toUrl : 'URL',
+    	toolbar : 'Tautan',
+    	type : 'Link Type',
+    	unlink : 'Unlink',
+    	upload : 'Unggah'
+    },
+    stylescombo : 
+    {
+    	label : 'Gaya',
+    	panelTitle : 'Formatting Styles',
+    	panelTitle1 : 'Block Styles',
+    	panelTitle2 : 'Inline Styles',
+    	panelTitle3 : 'Object Styles'
+    },
+    dir : 'ltr',
     editor : 'Rich Text Editor',
     common : 
     {

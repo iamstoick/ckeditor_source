@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['sr'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Копирај',
-    	copyError : 'Сигурносна подешавања Вашег претраживача не дозвољавају операције аутоматског копирања текста. Молимо Вас да користите пречицу са тастатуре (Ctrl/Cmd+C).',
-    	cut : 'Исеци',
-    	cutError : 'Сигурносна подешавања Вашег претраживача не дозвољавају операције аутоматског исецања текста. Молимо Вас да користите пречицу са тастатуре (Ctrl/Cmd+X).',
-    	paste : 'Залепи',
-    	pasteArea : 'Залепи зону',
-    	pasteMsg : 'Молимо Вас да залепите унутар доње површине користећи тастатурну пречицу (<STRONG>Ctrl/Cmd+V</STRONG>) и да притиснете <STRONG>OK</STRONG>.',
-    	securityMsg : 'Због сигурносних подешавања претраживача, едитор не може да приступи оставу. Требате да га поново залепите у овом прозору.',
-    	title : 'Залепи'
+    	confirmCleanup : 'The text you want to paste seems to be copied from Word. Do you want to clean it before pasting?',
+    	error : 'It was not possible to clean up the pasted data due to an internal error',
+    	title : 'Залепи из Worda',
+    	toolbar : 'Залепи из Worda'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Залепи као чист текст',
-    	title : 'Залепи као чист текст'
-    },
-    specialchar : 
-    {
-    	options : 'Опције специјалног карактера',
-    	title : 'Одаберите специјални карактер',
-    	toolbar : 'Унеси специјални карактер'
-    },
-    selectall : 
-    {
-    	toolbar : 'Означи све'
-    },
-    newpage : 
-    {
-    	toolbar : 'Нова страница'
-    },
-    templates : 
-    {
-    	button : 'Обрасци',
-    	emptyListMsg : '(Нема дефинисаних образаца)',
-    	insertOption : 'Replace actual contents',
-    	options : 'Template Options',
-    	selectPromptMsg : 'Молимо Вас да одаберете образац који ће бити примењен на страницу (тренутни садржај ће бити обрисан):',
-    	title : 'Обрасци за садржај'
-    },
-    colordialog : 
-    {
-    	clear : 'Clear',
-    	highlight : 'Highlight',
-    	options : 'Color Options',
-    	selected : 'Selected Color',
-    	title : 'Select color'
-    },
-    preview : 
-    {
-    	preview : 'Изглед странице'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Величина фонта',
-    		voiceLabel : 'Font Size',
-    		panelTitle : 'Величина фонта'
-    	},
-    	label : 'Фонт',
-    	panelTitle : 'Фонт',
-    	voiceLabel : 'Фонт'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armenian numbering',
-    	bulletedTitle : 'Bulleted List Properties',
-    	circle : 'Circle',
-    	decimal : 'Decimal (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
-    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
-    	none : 'None',
-    	notset : '<not set>',
-    	numberedTitle : 'Numbered List Properties',
-    	square : 'Square',
-    	start : 'Start',
-    	type : 'Type',
-    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
-    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'List start number must be a whole number.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Block Quote'
-    },
-    undo : 
-    {
-    	redo : 'Понови акцију',
-    	undo : 'Поништи акцију'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. All rights reserved.',
-    	dlgTitle : 'About CKEditor',
-    	help : 'Check $1 for help.',
-    	moreInfo : 'For licensing information please visit our web site:',
-    	title : 'About CKEditor',
-    	userGuide : 'CKEditor User\'s Guide'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Склопи алатну траку',
-    	toolbarExpand : 'Прошири алатну траку',
-    	toolbarGroups : 
-    	{
-    		document : 'Document',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Editing',
-    		forms : 'Forms',
-    		basicstyles : 'Basic Styles',
-    		paragraph : 'Paragraph',
-    		links : 'Links',
-    		insert : 'Insert',
-    		styles : 'Styles',
-    		colors : 'Colors',
-    		tools : 'Tools'
-    	},
-    	toolbars : 'Едитор алатне траке'
-    },
-    scayt : 
-    {
-    	about : 'About SCAYT',
-    	aboutTab : 'About',
-    	addWord : 'Add Word',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Dictionaries',
-    	disable : 'Disable SCAYT',
-    	emptyDic : 'Dictionary name should not be empty.',
-    	enable : 'Enable SCAYT',
-    	ignore : 'Ignore',
-    	ignoreAll : 'Ignore All',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Languages',
-    	languagesTab : 'Languages',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'More suggestions',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Options',
-    	optionsTab : 'Options',
-    	title : 'Spell Check As You Type',
-    	toggle : 'Toggle SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Игнориши',
-    	btnIgnoreAll : 'Игнориши све',
-    	btnReplace : 'Замени',
-    	btnReplaceAll : 'Замени све',
-    	btnUndo : 'Врати акцију',
-    	changeTo : 'Измени',
-    	errorLoading : 'Error loading application service host: %s.',
-    	ieSpellDownload : 'Провера спеловања није инсталирана. Да ли желите да је скинете са Интернета?',
-    	manyChanges : 'Провера спеловања завршена:  %1 реч(и) је измењено',
-    	noChanges : 'Провера спеловања завршена: Није измењена ниједна реч',
-    	noMispell : 'Провера спеловања завршена: грешке нису пронађене',
-    	noSuggestions : '- Без сугестија -',
-    	notAvailable : 'Sorry, but service is unavailable now.',
-    	notInDic : 'Није у речнику',
-    	oneChange : 'Провера спеловања завршена: Измењена је једна реч',
-    	progress : 'Провера спеловања у току...',
-    	title : 'Spell Check',
-    	toolbar : 'Провери спеловање'
-    },
-    contextmenu : 
-    {
-    	options : 'Context Menu Options'
+    	bulletedlist : 'Ненабројива листа',
+    	numberedlist : 'Набројиву листу'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['sr'] = {
     	left : 'Лево равнање',
     	right : 'Десно равнање'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Kôд'
-    },
-    format : 
-    {
-    	label : 'Формат',
-    	panelTitle : 'Формат',
-    	tag_address : 'Adresa',
-    	tag_div : 'Нормално (DIV)',
-    	tag_h1 : 'Heading 1',
-    	tag_h2 : 'Heading 2',
-    	tag_h3 : 'Heading 3',
-    	tag_h4 : 'Heading 4',
-    	tag_h5 : 'Heading 5',
-    	tag_h6 : 'Heading 6',
-    	tag_p : 'Normal',
-    	tag_pre : 'Formatirano'
-    },
-    flash : 
-    {
-    	access : 'Script Access',
-    	accessAlways : 'Always',
-    	accessNever : 'Never',
-    	accessSameDomain : 'Same domain',
-    	alignAbsBottom : 'Abs доле',
-    	alignAbsMiddle : 'Abs средина',
-    	alignBaseline : 'Базно',
-    	alignTextTop : 'Врх текста',
-    	bgcolor : 'Боја позадине',
-    	chkFull : 'Allow Fullscreen',
-    	chkLoop : 'Понављај',
-    	chkMenu : 'Укључи флеш мени',
-    	chkPlay : 'Аутоматски старт',
-    	flashvars : 'Variables for Flash',
-    	hSpace : 'HSpace',
-    	properties : 'Особине Флеша',
-    	propertiesTab : 'Properties',
-    	quality : 'Quality',
-    	qualityAutoHigh : 'Auto High',
-    	qualityAutoLow : 'Auto Low',
-    	qualityBest : 'Best',
-    	qualityHigh : 'High',
-    	qualityLow : 'Low',
-    	qualityMedium : 'Medium',
-    	scale : 'Скалирај',
-    	scaleAll : 'Прикажи све',
-    	scaleFit : 'Попуни површину',
-    	scaleNoBorder : 'Без ивице',
-    	title : 'Особине флеша',
-    	vSpace : 'VSpace',
-    	validateHSpace : 'HSpace must be a number.',
-    	validateSrc : 'Унесите УРЛ линка',
-    	validateVSpace : 'VSpace must be a number.',
-    	windowMode : 'Window mode',
-    	windowModeOpaque : 'Opaque',
-    	windowModeTransparent : 'Transparent',
-    	windowModeWindow : 'Window'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Уклони форматирање'
-    },
-    iframe : 
-    {
-    	border : 'Show frame border',
-    	noUrl : 'Please type the iframe URL',
-    	scrolling : 'Enable scrollbars',
-    	title : 'IFrame Properties',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Приступни тастер',
-    	advanced : 'Напредни тагови',
-    	advisoryContentType : 'Advisory врста садржаја',
-    	advisoryTitle : 'Advisory наслов',
-    	anchor : 
-    	{
-    		toolbar : 'Унеси/измени сидро',
-    		menu : 'Особине сидра',
-    		title : 'Особине сидра',
-    		name : 'Име сидра',
-    		errorName : 'Молимо Вас да унесете име сидра',
-    		remove : 'Remove Anchor'
-    	},
-    	anchorId : 'Пo Ид-jу елемента',
-    	anchorName : 'По називу сидра',
-    	charset : 'Linked Resource Charset',
-    	cssClasses : 'Stylesheet класе',
-    	emailAddress : 'Адреса електронске поште',
-    	emailBody : 'Садржај поруке',
-    	emailSubject : 'Наслов',
-    	id : 'Ид',
-    	info : 'Линк инфо',
-    	langCode : 'Смер језика',
-    	langDir : 'Смер језика',
-    	langDirLTR : 'С лева на десно (LTR)',
-    	langDirRTL : 'С десна на лево (RTL)',
-    	menu : 'Промени линк',
-    	name : 'Назив',
-    	noAnchors : '(Нема доступних сидра)',
-    	noEmail : 'Откуцајте адресу електронске поште',
-    	noUrl : 'Унесите УРЛ линка',
-    	other : '<друго>',
-    	popupDependent : 'Зависно (Netscape)',
-    	popupFeatures : 'Могућности искачућег прозора',
-    	popupFullScreen : 'Приказ преко целог екрана (ИE)',
-    	popupLeft : 'Од леве ивице екрана (пиксела)',
-    	popupLocationBar : 'Локација',
-    	popupMenuBar : 'Контекстни мени',
-    	popupResizable : 'Величина се мења',
-    	popupScrollBars : 'Скрол бар',
-    	popupStatusBar : 'Статусна линија',
-    	popupToolbar : 'Toolbar',
-    	popupTop : 'Од врха екрана (пиксела)',
-    	rel : 'Однос',
-    	selectAnchor : 'Одабери сидро',
-    	styles : 'Стил',
-    	tabIndex : 'Таб индекс',
-    	target : 'Meтa',
-    	targetFrame : '<оквир>',
-    	targetFrameName : 'Назив одредишног фрејма',
-    	targetPopup : '<искачући прозор>',
-    	targetPopupName : 'Назив искачућег прозора',
-    	title : 'Линк',
-    	toAnchor : 'Сидро на овој страници',
-    	toEmail : 'Eлектронска пошта',
-    	toUrl : 'УРЛ',
-    	toolbar : 'Унеси/измени линк',
-    	type : 'Врста линка',
-    	unlink : 'Уклони линк',
-    	upload : 'Пошаљи'
-    },
-    smiley : 
-    {
-    	options : 'Smiley Options',
-    	title : 'Унеси смајлија',
-    	toolbar : 'Смајли'
-    },
-    print : 
-    {
-    	toolbar : 'Штампа'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Advisory Title',
-    	cssClassInputLabel : 'Stylesheet Classes',
-    	edit : 'Edit Div',
-    	inlineStyleInputLabel : 'Inline Style',
-    	langDirLTRLabel : 'Left to Right (LTR)',
-    	langDirLabel : 'Language Direction',
-    	langDirRTLLabel : 'Right to Left (RTL)',
-    	languageCodeInputLabel : ' Language Code',
-    	remove : 'Remove Div',
-    	styleSelectLabel : 'Style',
-    	title : 'Create Div Container',
-    	toolbar : 'Create Div Container'
-    },
-    indent : 
-    {
-    	indent : 'Увећај леву маргину',
-    	outdent : 'Смањи леву маргину'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'The text you want to paste seems to be copied from Word. Do you want to clean it before pasting?',
-    	error : 'It was not possible to clean up the pasted data due to an internal error',
-    	title : 'Залепи из Worda',
-    	toolbar : 'Залепи из Worda'
-    },
-    colorbutton : 
-    {
-    	auto : 'Аутоматски',
-    	bgColorTitle : 'Боја позадине',
-    	colors : 
-    	{
-    		'000' : 'Black',
-    		'800000' : 'Maroon',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Dark Gray',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Brown',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'Dark Green',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'Gray',
-    		F00 : 'Red',
-    		FF8C00 : 'Dark Orange',
-    		FFD700 : 'Gold',
-    		'008000' : 'Green',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Blue',
-    		EE82EE : 'Violet',
-    		A9A9A9 : 'Dim Gray',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'Orange',
-    		FFFF00 : 'Yellow',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Light Grey',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'Light Yellow',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'Lavender',
-    		FFF : 'White'
-    	},
-    	more : 'Више боја...',
-    	panelTitle : 'Colors',
-    	textColorTitle : 'Боја текста'
-    },
-    list : 
-    {
-    	bulletedlist : 'Ненабројива листа',
-    	numberedlist : 'Набројиву листу'
+    	toolbar : 'Сачувај'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['sr'] = {
     	validateHSpace : 'HSpace треба да буде цифра.',
     	validateVSpace : 'VSpace треба да буде цифра.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Претрага',
-    	findOptions : 'Find Options',
-    	findWhat : 'Пронађи:',
-    	matchCase : 'Разликуј велика и мала слова',
-    	matchCyclic : 'Match cyclic',
-    	matchWord : 'Упореди целе речи',
-    	notFoundMsg : 'Тражени текст није пронађен.',
-    	replace : 'Замена',
-    	replaceAll : 'Замени све',
-    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
-    	replaceWith : 'Замени са:',
-    	title : 'Find and Replace'
+    	alt : 'Page Break',
+    	toolbar : 'Insert Page Break for Printing'
     },
     showblocks : 
     {
     	toolbar : 'Show Blocks'
+    },
+    indent : 
+    {
+    	indent : 'Увећај леву маргину',
+    	outdent : 'Смањи леву маргину'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['sr'] = {
     		typeUrl : 'УРЛ'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Унеси хоризонталну линију'
-    },
-    pagebreak : 
-    {
-    	alt : 'Page Break',
-    	toolbar : 'Insert Page Break for Printing'
-    },
-    stylescombo : 
-    {
-    	label : 'Стил',
-    	panelTitle : 'Formatting Styles',
-    	panelTitle1 : 'Block Styles',
-    	panelTitle2 : 'Inline Styles',
-    	panelTitle3 : 'Object Styles'
-    },
     bidi : 
     {
     	ltr : 'Text direction from left to right',
     	rtl : 'Text direction from right to left'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Подебљано',
-    	italic : 'Курзив',
-    	strike : 'Прецртано',
-    	subscript : 'Индекс',
-    	superscript : 'Степен',
-    	underline : 'Подвучено'
+    	eleLabel : 'Elements path',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Anchor',
+    	flash : 'Flash Animation',
+    	hiddenfield : 'Hidden Field',
+    	iframe : 'IFrame',
+    	unknown : 'Unknown Object'
+    },
+    smiley : 
+    {
+    	options : 'Smiley Options',
+    	title : 'Унеси смајлија',
+    	toolbar : 'Смајли'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. All rights reserved.',
+    	dlgTitle : 'About CKEditor',
+    	help : 'Check $1 for help.',
+    	moreInfo : 'For licensing information please visit our web site:',
+    	title : 'About CKEditor',
+    	userGuide : 'CKEditor User\'s Guide'
+    },
+    newpage : 
+    {
+    	toolbar : 'Нова страница'
+    },
+    format : 
+    {
+    	label : 'Формат',
+    	panelTitle : 'Формат',
+    	tag_address : 'Adresa',
+    	tag_div : 'Нормално (DIV)',
+    	tag_h1 : 'Heading 1',
+    	tag_h2 : 'Heading 2',
+    	tag_h3 : 'Heading 3',
+    	tag_h4 : 'Heading 4',
+    	tag_h5 : 'Heading 5',
+    	tag_h6 : 'Heading 6',
+    	tag_p : 'Normal',
+    	tag_pre : 'Formatirano'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Уклони форматирање'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['sr'] = {
     	widthPx : 'пиксела',
     	widthUnit : 'јединица ширине'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Insert paragraph here'
+    	options : 'Опције специјалног карактера',
+    	title : 'Одаберите специјални карактер',
+    	toolbar : 'Унеси специјални карактер'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Сачувај'
+    	armenian : 'Armenian numbering',
+    	bulletedTitle : 'Bulleted List Properties',
+    	circle : 'Circle',
+    	decimal : 'Decimal (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
+    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
+    	none : 'None',
+    	notset : '<not set>',
+    	numberedTitle : 'Numbered List Properties',
+    	square : 'Square',
+    	start : 'Start',
+    	type : 'Type',
+    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
+    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'List start number must be a whole number.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Anchor',
-    	flash : 'Flash Animation',
-    	hiddenfield : 'Hidden Field',
-    	iframe : 'IFrame',
-    	unknown : 'Unknown Object'
+    	border : 'Show frame border',
+    	noUrl : 'Please type the iframe URL',
+    	scrolling : 'Enable scrollbars',
+    	title : 'IFrame Properties',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Elements path',
-    	eleTitle : '%1 element'
+    	access : 'Script Access',
+    	accessAlways : 'Always',
+    	accessNever : 'Never',
+    	accessSameDomain : 'Same domain',
+    	alignAbsBottom : 'Abs доле',
+    	alignAbsMiddle : 'Abs средина',
+    	alignBaseline : 'Базно',
+    	alignTextTop : 'Врх текста',
+    	bgcolor : 'Боја позадине',
+    	chkFull : 'Allow Fullscreen',
+    	chkLoop : 'Понављај',
+    	chkMenu : 'Укључи флеш мени',
+    	chkPlay : 'Аутоматски старт',
+    	flashvars : 'Variables for Flash',
+    	hSpace : 'HSpace',
+    	properties : 'Особине Флеша',
+    	propertiesTab : 'Properties',
+    	quality : 'Quality',
+    	qualityAutoHigh : 'Auto High',
+    	qualityAutoLow : 'Auto Low',
+    	qualityBest : 'Best',
+    	qualityHigh : 'High',
+    	qualityLow : 'Low',
+    	qualityMedium : 'Medium',
+    	scale : 'Скалирај',
+    	scaleAll : 'Прикажи све',
+    	scaleFit : 'Попуни површину',
+    	scaleNoBorder : 'Без ивице',
+    	title : 'Особине флеша',
+    	vSpace : 'VSpace',
+    	validateHSpace : 'HSpace must be a number.',
+    	validateSrc : 'Унесите УРЛ линка',
+    	validateVSpace : 'VSpace must be a number.',
+    	windowMode : 'Window mode',
+    	windowModeOpaque : 'Opaque',
+    	windowModeTransparent : 'Transparent',
+    	windowModeWindow : 'Window'
+    },
+    find : 
+    {
+    	find : 'Претрага',
+    	findOptions : 'Find Options',
+    	findWhat : 'Пронађи:',
+    	matchCase : 'Разликуј велика и мала слова',
+    	matchCyclic : 'Match cyclic',
+    	matchWord : 'Упореди целе речи',
+    	notFoundMsg : 'Тражени текст није пронађен.',
+    	replace : 'Замена',
+    	replaceAll : 'Замени све',
+    	replaceSuccessMsg : '%1 occurrence(s) replaced.',
+    	replaceWith : 'Замени са:',
+    	title : 'Find and Replace'
+    },
+    colorbutton : 
+    {
+    	auto : 'Аутоматски',
+    	bgColorTitle : 'Боја позадине',
+    	colors : 
+    	{
+    		'000' : 'Black',
+    		'800000' : 'Maroon',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Dark Gray',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Brown',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'Dark Green',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'Gray',
+    		F00 : 'Red',
+    		FF8C00 : 'Dark Orange',
+    		FFD700 : 'Gold',
+    		'008000' : 'Green',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Blue',
+    		EE82EE : 'Violet',
+    		A9A9A9 : 'Dim Gray',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'Orange',
+    		FFFF00 : 'Yellow',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Light Grey',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'Light Yellow',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'Lavender',
+    		FFF : 'White'
+    	},
+    	more : 'Више боја...',
+    	panelTitle : 'Colors',
+    	textColorTitle : 'Боја текста'
+    },
+    undo : 
+    {
+    	redo : 'Понови акцију',
+    	undo : 'Поништи акцију'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Величина фонта',
+    		voiceLabel : 'Font Size',
+    		panelTitle : 'Величина фонта'
+    	},
+    	label : 'Фонт',
+    	panelTitle : 'Фонт',
+    	voiceLabel : 'Фонт'
     },
     maximize : 
     {
     	maximize : 'Maximize',
     	minimize : 'Minimize'
     },
+    basicstyles : 
+    {
+    	bold : 'Подебљано',
+    	italic : 'Курзив',
+    	strike : 'Прецртано',
+    	subscript : 'Индекс',
+    	superscript : 'Степен',
+    	underline : 'Подвучено'
+    },
+    magicline : 
+    {
+    	title : 'Insert paragraph here'
+    },
+    print : 
+    {
+    	toolbar : 'Штампа'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Игнориши',
+    	btnIgnoreAll : 'Игнориши све',
+    	btnReplace : 'Замени',
+    	btnReplaceAll : 'Замени све',
+    	btnUndo : 'Врати акцију',
+    	changeTo : 'Измени',
+    	errorLoading : 'Error loading application service host: %s.',
+    	ieSpellDownload : 'Провера спеловања није инсталирана. Да ли желите да је скинете са Интернета?',
+    	manyChanges : 'Провера спеловања завршена:  %1 реч(и) је измењено',
+    	noChanges : 'Провера спеловања завршена: Није измењена ниједна реч',
+    	noMispell : 'Провера спеловања завршена: грешке нису пронађене',
+    	noSuggestions : '- Без сугестија -',
+    	notAvailable : 'Sorry, but service is unavailable now.',
+    	notInDic : 'Није у речнику',
+    	oneChange : 'Провера спеловања завршена: Измењена је једна реч',
+    	progress : 'Провера спеловања у току...',
+    	title : 'Spell Check',
+    	toolbar : 'Провери спеловање'
+    },
+    clipboard : 
+    {
+    	copy : 'Копирај',
+    	copyError : 'Сигурносна подешавања Вашег претраживача не дозвољавају операције аутоматског копирања текста. Молимо Вас да користите пречицу са тастатуре (Ctrl/Cmd+C).',
+    	cut : 'Исеци',
+    	cutError : 'Сигурносна подешавања Вашег претраживача не дозвољавају операције аутоматског исецања текста. Молимо Вас да користите пречицу са тастатуре (Ctrl/Cmd+X).',
+    	paste : 'Залепи',
+    	pasteArea : 'Залепи зону',
+    	pasteMsg : 'Молимо Вас да залепите унутар доње површине користећи тастатурну пречицу (<STRONG>Ctrl/Cmd+V</STRONG>) и да притиснете <STRONG>OK</STRONG>.',
+    	securityMsg : 'Због сигурносних подешавања претраживача, едитор не може да приступи оставу. Требате да га поново залепите у овом прозору.',
+    	title : 'Залепи'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Kôд'
+    },
+    scayt : 
+    {
+    	about : 'About SCAYT',
+    	aboutTab : 'About',
+    	addWord : 'Add Word',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Dictionaries',
+    	disable : 'Disable SCAYT',
+    	emptyDic : 'Dictionary name should not be empty.',
+    	enable : 'Enable SCAYT',
+    	ignore : 'Ignore',
+    	ignoreAll : 'Ignore All',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Languages',
+    	languagesTab : 'Languages',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'More suggestions',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Options',
+    	optionsTab : 'Options',
+    	title : 'Spell Check As You Type',
+    	toggle : 'Toggle SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Унеси хоризонталну линију'
+    },
+    pastetext : 
+    {
+    	button : 'Залепи као чист текст',
+    	title : 'Залепи као чист текст'
+    },
+    contextmenu : 
+    {
+    	options : 'Context Menu Options'
+    },
+    templates : 
+    {
+    	button : 'Обрасци',
+    	emptyListMsg : '(Нема дефинисаних образаца)',
+    	insertOption : 'Replace actual contents',
+    	options : 'Template Options',
+    	selectPromptMsg : 'Молимо Вас да одаберете образац који ће бити примењен на страницу (тренутни садржај ће бити обрисан):',
+    	title : 'Обрасци за садржај'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Advisory Title',
+    	cssClassInputLabel : 'Stylesheet Classes',
+    	edit : 'Edit Div',
+    	inlineStyleInputLabel : 'Inline Style',
+    	langDirLTRLabel : 'Left to Right (LTR)',
+    	langDirLabel : 'Language Direction',
+    	langDirRTLLabel : 'Right to Left (RTL)',
+    	languageCodeInputLabel : ' Language Code',
+    	remove : 'Remove Div',
+    	styleSelectLabel : 'Style',
+    	title : 'Create Div Container',
+    	toolbar : 'Create Div Container'
+    },
+    preview : 
+    {
+    	preview : 'Изглед странице'
+    },
+    colordialog : 
+    {
+    	clear : 'Clear',
+    	highlight : 'Highlight',
+    	options : 'Color Options',
+    	selected : 'Selected Color',
+    	title : 'Select color'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Склопи алатну траку',
+    	toolbarExpand : 'Прошири алатну траку',
+    	toolbarGroups : 
+    	{
+    		document : 'Document',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Editing',
+    		forms : 'Forms',
+    		basicstyles : 'Basic Styles',
+    		paragraph : 'Paragraph',
+    		links : 'Links',
+    		insert : 'Insert',
+    		styles : 'Styles',
+    		colors : 'Colors',
+    		tools : 'Tools'
+    	},
+    	toolbars : 'Едитор алатне траке'
+    },
+    selectall : 
+    {
+    	toolbar : 'Означи све'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Block Quote'
+    },
+    link : 
+    {
+    	acccessKey : 'Приступни тастер',
+    	advanced : 'Напредни тагови',
+    	advisoryContentType : 'Advisory врста садржаја',
+    	advisoryTitle : 'Advisory наслов',
+    	anchor : 
+    	{
+    		toolbar : 'Унеси/измени сидро',
+    		menu : 'Особине сидра',
+    		title : 'Особине сидра',
+    		name : 'Име сидра',
+    		errorName : 'Молимо Вас да унесете име сидра',
+    		remove : 'Remove Anchor'
+    	},
+    	anchorId : 'Пo Ид-jу елемента',
+    	anchorName : 'По називу сидра',
+    	charset : 'Linked Resource Charset',
+    	cssClasses : 'Stylesheet класе',
+    	emailAddress : 'Адреса електронске поште',
+    	emailBody : 'Садржај поруке',
+    	emailSubject : 'Наслов',
+    	id : 'Ид',
+    	info : 'Линк инфо',
+    	langCode : 'Смер језика',
+    	langDir : 'Смер језика',
+    	langDirLTR : 'С лева на десно (LTR)',
+    	langDirRTL : 'С десна на лево (RTL)',
+    	menu : 'Промени линк',
+    	name : 'Назив',
+    	noAnchors : '(Нема доступних сидра)',
+    	noEmail : 'Откуцајте адресу електронске поште',
+    	noUrl : 'Унесите УРЛ линка',
+    	other : '<друго>',
+    	popupDependent : 'Зависно (Netscape)',
+    	popupFeatures : 'Могућности искачућег прозора',
+    	popupFullScreen : 'Приказ преко целог екрана (ИE)',
+    	popupLeft : 'Од леве ивице екрана (пиксела)',
+    	popupLocationBar : 'Локација',
+    	popupMenuBar : 'Контекстни мени',
+    	popupResizable : 'Величина се мења',
+    	popupScrollBars : 'Скрол бар',
+    	popupStatusBar : 'Статусна линија',
+    	popupToolbar : 'Toolbar',
+    	popupTop : 'Од врха екрана (пиксела)',
+    	rel : 'Однос',
+    	selectAnchor : 'Одабери сидро',
+    	styles : 'Стил',
+    	tabIndex : 'Таб индекс',
+    	target : 'Meтa',
+    	targetFrame : '<оквир>',
+    	targetFrameName : 'Назив одредишног фрејма',
+    	targetPopup : '<искачући прозор>',
+    	targetPopupName : 'Назив искачућег прозора',
+    	title : 'Линк',
+    	toAnchor : 'Сидро на овој страници',
+    	toEmail : 'Eлектронска пошта',
+    	toUrl : 'УРЛ',
+    	toolbar : 'Унеси/измени линк',
+    	type : 'Врста линка',
+    	unlink : 'Уклони линк',
+    	upload : 'Пошаљи'
+    },
+    stylescombo : 
+    {
+    	label : 'Стил',
+    	panelTitle : 'Formatting Styles',
+    	panelTitle1 : 'Block Styles',
+    	panelTitle2 : 'Inline Styles',
+    	panelTitle3 : 'Object Styles'
+    },
+    dir : 'ltr',
     editor : 'Rich Text Editor',
     common : 
     {

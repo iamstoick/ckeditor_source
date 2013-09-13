@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['sl'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Kopiraj',
-    	copyError : 'Varnostne nastavitve brskalnika ne dopuščajo samodejnega kopiranja. Uporabite kombinacijo tipk na tipkovnici (Ctrl/Cmd+C).',
-    	cut : 'Izreži',
-    	cutError : 'Varnostne nastavitve brskalnika ne dopuščajo samodejnega izrezovanja. Uporabite kombinacijo tipk na tipkovnici (Ctrl/Cmd+X).',
-    	paste : 'Prilepi',
-    	pasteArea : 'Prilepi Prostor',
-    	pasteMsg : 'Prosim prilepite v sleči okvir s pomočjo tipkovnice (<STRONG>Ctrl/Cmd+V</STRONG>) in pritisnite <STRONG>V redu</STRONG>.',
-    	securityMsg : 'Zaradi varnostnih nastavitev vašega brskalnika urejevalnik ne more neposredno dostopati do odložišča. Vsebino odložišča ponovno prilepite v to okno.',
-    	title : 'Prilepi'
+    	confirmCleanup : 'Besedilo, ki ga želite prilepiti je kopirano iz Word-a. Ali ga želite očistiti, preden ga prilepite?',
+    	error : 'Ni bilo mogoče očistiti prilepljenih podatkov zaradi notranje napake',
+    	title : 'Prilepi iz Worda',
+    	toolbar : 'Prilepi iz Worda'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Prilepi kot golo besedilo',
-    	title : 'Prilepi kot golo besedilo'
-    },
-    specialchar : 
-    {
-    	options : 'Možnosti Posebnega Znaka',
-    	title : 'Izberi Posebni Znak',
-    	toolbar : 'Vstavi posebni znak'
-    },
-    selectall : 
-    {
-    	toolbar : 'Izberi vse'
-    },
-    newpage : 
-    {
-    	toolbar : 'Nova stran'
-    },
-    templates : 
-    {
-    	button : 'Predloge',
-    	emptyListMsg : '(Ni pripravljenih predlog)',
-    	insertOption : 'Zamenjaj trenutno vsebino',
-    	options : 'Možnosti Predloge',
-    	selectPromptMsg : 'Izberite predlogo, ki jo želite odpreti v urejevalniku<br>(trenutna vsebina bo izgubljena):',
-    	title : 'Vsebinske predloge'
-    },
-    colordialog : 
-    {
-    	clear : 'Počisti',
-    	highlight : 'Poudarjeno',
-    	options : 'Barvne Možnosti',
-    	selected : 'Izbrano',
-    	title : 'Izberi barvo'
-    },
-    preview : 
-    {
-    	preview : 'Predogled'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Velikost',
-    		voiceLabel : 'Velikost',
-    		panelTitle : 'Velikost'
-    	},
-    	label : 'Pisava',
-    	panelTitle : 'Pisava',
-    	voiceLabel : 'Pisava'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armenian numbering',
-    	bulletedTitle : 'Bulleted List Properties',
-    	circle : 'Circle',
-    	decimal : 'Decimal (1, 2, 3, etc.)',
-    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
-    	disc : 'Disc',
-    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
-    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
-    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
-    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
-    	none : 'None',
-    	notset : '<not set>',
-    	numberedTitle : 'Numbered List Properties',
-    	square : 'Square',
-    	start : 'Start',
-    	type : 'Type',
-    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
-    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'List start number must be a whole number.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Citat'
-    },
-    undo : 
-    {
-    	redo : 'Ponovi',
-    	undo : 'Razveljavi'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. Vse pravice pridržane.',
-    	dlgTitle : 'O programu CKEditor',
-    	help : 'Preverite $1 za pomoč.',
-    	moreInfo : 'Za informacijo o licenci prosim obiščite našo spletno stran:',
-    	title : 'O programu CKEditor',
-    	userGuide : 'CKEditor Navodila za Uporabo'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Skrči Orodno Vrstico',
-    	toolbarExpand : 'Razširi Orodno Vrstico',
-    	toolbarGroups : 
-    	{
-    		document : 'Document',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Editing',
-    		forms : 'Forms',
-    		basicstyles : 'Basic Styles',
-    		paragraph : 'Paragraph',
-    		links : 'Links',
-    		insert : 'Insert',
-    		styles : 'Styles',
-    		colors : 'Colors',
-    		tools : 'Tools'
-    	},
-    	toolbars : 'Urejevalnik orodne vrstice'
-    },
-    scayt : 
-    {
-    	about : 'O storitvi SCAYT',
-    	aboutTab : 'O storitvi',
-    	addWord : 'Dodaj besedo',
-    	allCaps : 'Ignore All-Caps Words',
-    	dic_create : 'Create',
-    	dic_delete : 'Delete',
-    	dic_field_name : 'Dictionary name',
-    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
-    	dic_rename : 'Rename',
-    	dic_restore : 'Restore',
-    	dictionariesTab : 'Slovarji',
-    	disable : 'Onemogoči SCAYT',
-    	emptyDic : 'Ime slovarja ne more biti prazno.',
-    	enable : 'Omogoči SCAYT',
-    	ignore : 'Prezri',
-    	ignoreAll : 'Prezri vse',
-    	ignoreDomainNames : 'Ignore Domain Names',
-    	langs : 'Jeziki',
-    	languagesTab : 'Jeziki',
-    	mixedCase : 'Ignore Words with Mixed Case',
-    	mixedWithDigits : 'Ignore Words with Numbers',
-    	moreSuggestions : 'Več predlogov',
-    	opera_title : 'Not supported by Opera',
-    	options : 'Možnosti',
-    	optionsTab : 'Možnosti',
-    	title : 'Črkovanje med tipkanjem',
-    	toggle : 'Preklopi SCAYT',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Prezri',
-    	btnIgnoreAll : 'Prezri vse',
-    	btnReplace : 'Zamenjaj',
-    	btnReplaceAll : 'Zamenjaj vse',
-    	btnUndo : 'Razveljavi',
-    	changeTo : 'Spremeni v',
-    	errorLoading : 'Napaka pri nalaganju storitve programa na naslovu %s.',
-    	ieSpellDownload : 'Črkovalnik ni nameščen. Ali ga želite prenesti sedaj?',
-    	manyChanges : 'Črkovanje je končano: Spremenjenih je bilo %1 besed',
-    	noChanges : 'Črkovanje je končano: Nobena beseda ni bila spremenjena',
-    	noMispell : 'Črkovanje je končano: Brez napak',
-    	noSuggestions : '- Ni predlogov -',
-    	notAvailable : 'Oprostite, storitev trenutno ni dosegljiva.',
-    	notInDic : 'Ni v slovarju',
-    	oneChange : 'Črkovanje je končano: Spremenjena je bila ena beseda',
-    	progress : 'Preverjanje črkovanja se izvaja...',
-    	title : 'Črkovalnik',
-    	toolbar : 'Preveri črkovanje'
-    },
-    contextmenu : 
-    {
-    	options : 'Možnosti Kontekstnega Menija'
+    	bulletedlist : 'Označen seznam',
+    	numberedlist : 'Oštevilčen seznam'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['sl'] = {
     	left : 'Leva poravnava',
     	right : 'Desna poravnava'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Izvorna koda'
-    },
-    format : 
-    {
-    	label : 'Oblika',
-    	panelTitle : 'Oblika',
-    	tag_address : 'Napis',
-    	tag_div : 'Navaden (DIV)',
-    	tag_h1 : 'Naslov 1',
-    	tag_h2 : 'Naslov 2',
-    	tag_h3 : 'Naslov 3',
-    	tag_h4 : 'Naslov 4',
-    	tag_h5 : 'Naslov 5',
-    	tag_h6 : 'Naslov 6',
-    	tag_p : 'Navaden',
-    	tag_pre : 'Oblikovan'
-    },
-    flash : 
-    {
-    	access : 'Dostop skript',
-    	accessAlways : 'Vedno',
-    	accessNever : 'Nikoli',
-    	accessSameDomain : 'Samo ista domena',
-    	alignAbsBottom : 'Popolnoma na dno',
-    	alignAbsMiddle : 'Popolnoma v sredino',
-    	alignBaseline : 'Na osnovno črto',
-    	alignTextTop : 'Besedilo na vrh',
-    	bgcolor : 'Barva ozadja',
-    	chkFull : 'Dovoli celozaslonski način',
-    	chkLoop : 'Ponavljanje',
-    	chkMenu : 'Omogoči Flash Meni',
-    	chkPlay : 'Samodejno predvajaj',
-    	flashvars : 'Spremenljivke za Flash',
-    	hSpace : 'Vodoravni razmik',
-    	properties : 'Lastnosti Flash',
-    	propertiesTab : 'Lastnosti',
-    	quality : 'Kakovost',
-    	qualityAutoHigh : 'Samodejno visoka',
-    	qualityAutoLow : 'Samodejno nizka',
-    	qualityBest : 'Najvišja',
-    	qualityHigh : 'Visoka',
-    	qualityLow : 'Nizka',
-    	qualityMedium : 'Srednja',
-    	scale : 'Povečava',
-    	scaleAll : 'Pokaži vse',
-    	scaleFit : 'Natančno prileganje',
-    	scaleNoBorder : 'Brez obrobe',
-    	title : 'Lastnosti Flash',
-    	vSpace : 'Navpični razmik',
-    	validateHSpace : 'Vodoravni razmik mora biti število.',
-    	validateSrc : 'Vnesite URL povezave',
-    	validateVSpace : 'Navpični razmik mora biti število.',
-    	windowMode : 'Vrsta okna',
-    	windowModeOpaque : 'Motno',
-    	windowModeTransparent : 'Prosojno',
-    	windowModeWindow : 'Okno'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Odstrani oblikovanje'
-    },
-    iframe : 
-    {
-    	border : 'Pokaži mejo okvira',
-    	noUrl : 'Prosimo, vnesite iframe URL',
-    	scrolling : 'Omogoči scrollbars',
-    	title : 'IFrame Lastnosti',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Dostopno Geslo',
-    	advanced : 'Napredno',
-    	advisoryContentType : 'Predlagani tip vsebine (content-type)',
-    	advisoryTitle : 'Predlagani naslov',
-    	anchor : 
-    	{
-    		toolbar : 'Vstavi/uredi zaznamek',
-    		menu : 'Lastnosti zaznamka',
-    		title : 'Lastnosti zaznamka',
-    		name : 'Ime zaznamka',
-    		errorName : 'Prosim vnesite ime zaznamka',
-    		remove : 'Remove Anchor'
-    	},
-    	anchorId : 'Po ID-ju elementa',
-    	anchorName : 'Po imenu zaznamka',
-    	charset : 'Kodna tabela povezanega vira',
-    	cssClasses : 'Razred stilne predloge',
-    	emailAddress : 'Elektronski naslov',
-    	emailBody : 'Vsebina sporočila',
-    	emailSubject : 'Predmet sporočila',
-    	id : 'Id',
-    	info : 'Podatki o povezavi',
-    	langCode : 'Smer jezika',
-    	langDir : 'Smer jezika',
-    	langDirLTR : 'Od leve proti desni (LTR)',
-    	langDirRTL : 'Od desne proti levi (RTL)',
-    	menu : 'Uredi povezavo',
-    	name : 'Ime',
-    	noAnchors : '(V tem dokumentu ni zaznamkov)',
-    	noEmail : 'Vnesite elektronski naslov',
-    	noUrl : 'Vnesite URL povezave',
-    	other : '<drug>',
-    	popupDependent : 'Podokno (Netscape)',
-    	popupFeatures : 'Značilnosti pojavnega okna',
-    	popupFullScreen : 'Celozaslonska slika (IE)',
-    	popupLeft : 'Lega levo',
-    	popupLocationBar : 'Naslovna vrstica',
-    	popupMenuBar : 'Menijska vrstica',
-    	popupResizable : 'Spremenljive velikosti',
-    	popupScrollBars : 'Drsniki',
-    	popupStatusBar : 'Vrstica stanja',
-    	popupToolbar : 'Orodna vrstica',
-    	popupTop : 'Lega na vrhu',
-    	rel : 'Odnos',
-    	selectAnchor : 'Izberi zaznamek',
-    	styles : 'Slog',
-    	tabIndex : 'Številka tabulatorja',
-    	target : 'Cilj',
-    	targetFrame : '<okvir>',
-    	targetFrameName : 'Ime ciljnega okvirja',
-    	targetPopup : '<pojavno okno>',
-    	targetPopupName : 'Ime pojavnega okna',
-    	title : 'Povezava',
-    	toAnchor : 'Zaznamek na tej strani',
-    	toEmail : 'Elektronski naslov',
-    	toUrl : 'URL',
-    	toolbar : 'Vstavi/uredi povezavo',
-    	type : 'Vrsta povezave',
-    	unlink : 'Odstrani povezavo',
-    	upload : 'Prenesi'
-    },
-    smiley : 
-    {
-    	options : 'Možnosti Smeška',
-    	title : 'Vstavi smeška',
-    	toolbar : 'Smeško'
-    },
-    print : 
-    {
-    	toolbar : 'Natisni'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Predlagani naslov',
-    	cssClassInputLabel : 'Razred stilne predloge',
-    	edit : 'Uredi Div',
-    	inlineStyleInputLabel : 'Inline Slog',
-    	langDirLTRLabel : 'Od leve proti desni (LTR)',
-    	langDirLabel : 'Smer jezika',
-    	langDirRTLLabel : 'Od desne proti levi (RTL)',
-    	languageCodeInputLabel : 'Koda Jezika',
-    	remove : 'Odstrani Div',
-    	styleSelectLabel : 'Slog',
-    	title : 'Ustvari Div Posodo',
-    	toolbar : 'Ustvari Div Posodo'
-    },
-    indent : 
-    {
-    	indent : 'Povečaj zamik',
-    	outdent : 'Zmanjšaj zamik'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Besedilo, ki ga želite prilepiti je kopirano iz Word-a. Ali ga želite očistiti, preden ga prilepite?',
-    	error : 'Ni bilo mogoče očistiti prilepljenih podatkov zaradi notranje napake',
-    	title : 'Prilepi iz Worda',
-    	toolbar : 'Prilepi iz Worda'
-    },
-    colorbutton : 
-    {
-    	auto : 'Samodejno',
-    	bgColorTitle : 'Barva ozadja',
-    	colors : 
-    	{
-    		'000' : 'Black',
-    		'800000' : 'Maroon',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Dark Gray',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Brown',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'Dark Green',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'Gray',
-    		F00 : 'Red',
-    		FF8C00 : 'Dark Orange',
-    		FFD700 : 'Gold',
-    		'008000' : 'Green',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Blue',
-    		EE82EE : 'Violet',
-    		A9A9A9 : 'Dim Gray',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'Orange',
-    		FFFF00 : 'Yellow',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Light Grey',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'Light Yellow',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'Lavender',
-    		FFF : 'White'
-    	},
-    	more : 'Več barv...',
-    	panelTitle : 'Colors',
-    	textColorTitle : 'Barva besedila'
-    },
-    list : 
-    {
-    	bulletedlist : 'Označen seznam',
-    	numberedlist : 'Oštevilčen seznam'
+    	toolbar : 'Shrani'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['sl'] = {
     	validateHSpace : 'HSpace mora biti celo število.',
     	validateVSpace : 'VSpace mora biti celo število.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Najdi',
-    	findOptions : 'Find Options',
-    	findWhat : 'Najdi:',
-    	matchCase : 'Razlikuj velike in male črke',
-    	matchCyclic : 'Primerjaj znake v cirilici',
-    	matchWord : 'Samo cele besede',
-    	notFoundMsg : 'Navedeno besedilo ni bilo najdeno.',
-    	replace : 'Zamenjaj',
-    	replaceAll : 'Zamenjaj vse',
-    	replaceSuccessMsg : '%1 pojavitev je bilo zamenjano.',
-    	replaceWith : 'Zamenjaj z:',
-    	title : 'Najdi in zamenjaj'
+    	alt : 'Prelom Strani',
+    	toolbar : 'Vstavi prelom strani'
     },
     showblocks : 
     {
     	toolbar : 'Prikaži ograde'
+    },
+    indent : 
+    {
+    	indent : 'Povečaj zamik',
+    	outdent : 'Zmanjšaj zamik'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['sl'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Vstavi vodoravno črto'
-    },
-    pagebreak : 
-    {
-    	alt : 'Prelom Strani',
-    	toolbar : 'Vstavi prelom strani'
-    },
-    stylescombo : 
-    {
-    	label : 'Slog',
-    	panelTitle : 'Oblikovalni Stili',
-    	panelTitle1 : 'Slogi odstavkov',
-    	panelTitle2 : 'Slogi besedila',
-    	panelTitle3 : 'Slogi objektov'
-    },
     bidi : 
     {
     	ltr : 'Smer besedila od leve proti desni',
     	rtl : 'Smer besedila od desne proti levi'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Krepko',
-    	italic : 'Ležeče',
-    	strike : 'Prečrtano',
-    	subscript : 'Podpisano',
-    	superscript : 'Nadpisano',
-    	underline : 'Podčrtano'
+    	eleLabel : 'Pot elementov',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Sidro',
+    	flash : 'Flash animacija',
+    	hiddenfield : 'Skrito polje',
+    	iframe : 'IFrame',
+    	unknown : 'Neznan objekt'
+    },
+    smiley : 
+    {
+    	options : 'Možnosti Smeška',
+    	title : 'Vstavi smeška',
+    	toolbar : 'Smeško'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. Vse pravice pridržane.',
+    	dlgTitle : 'O programu CKEditor',
+    	help : 'Preverite $1 za pomoč.',
+    	moreInfo : 'Za informacijo o licenci prosim obiščite našo spletno stran:',
+    	title : 'O programu CKEditor',
+    	userGuide : 'CKEditor Navodila za Uporabo'
+    },
+    newpage : 
+    {
+    	toolbar : 'Nova stran'
+    },
+    format : 
+    {
+    	label : 'Oblika',
+    	panelTitle : 'Oblika',
+    	tag_address : 'Napis',
+    	tag_div : 'Navaden (DIV)',
+    	tag_h1 : 'Naslov 1',
+    	tag_h2 : 'Naslov 2',
+    	tag_h3 : 'Naslov 3',
+    	tag_h4 : 'Naslov 4',
+    	tag_h5 : 'Naslov 5',
+    	tag_h6 : 'Naslov 6',
+    	tag_p : 'Navaden',
+    	tag_pre : 'Oblikovan'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Odstrani oblikovanje'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['sl'] = {
     	widthPx : 'pik',
     	widthUnit : 'enota širine'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Vstavite odstavek tukaj'
+    	options : 'Možnosti Posebnega Znaka',
+    	title : 'Izberi Posebni Znak',
+    	toolbar : 'Vstavi posebni znak'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Shrani'
+    	armenian : 'Armenian numbering',
+    	bulletedTitle : 'Bulleted List Properties',
+    	circle : 'Circle',
+    	decimal : 'Decimal (1, 2, 3, etc.)',
+    	decimalLeadingZero : 'Decimal leading zero (01, 02, 03, etc.)',
+    	disc : 'Disc',
+    	georgian : 'Georgian numbering (an, ban, gan, etc.)',
+    	lowerAlpha : 'Lower Alpha (a, b, c, d, e, etc.)',
+    	lowerGreek : 'Lower Greek (alpha, beta, gamma, etc.)',
+    	lowerRoman : 'Lower Roman (i, ii, iii, iv, v, etc.)',
+    	none : 'None',
+    	notset : '<not set>',
+    	numberedTitle : 'Numbered List Properties',
+    	square : 'Square',
+    	start : 'Start',
+    	type : 'Type',
+    	upperAlpha : 'Upper Alpha (A, B, C, D, E, etc.)',
+    	upperRoman : 'Upper Roman (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'List start number must be a whole number.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Sidro',
-    	flash : 'Flash animacija',
-    	hiddenfield : 'Skrito polje',
-    	iframe : 'IFrame',
-    	unknown : 'Neznan objekt'
+    	border : 'Pokaži mejo okvira',
+    	noUrl : 'Prosimo, vnesite iframe URL',
+    	scrolling : 'Omogoči scrollbars',
+    	title : 'IFrame Lastnosti',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Pot elementov',
-    	eleTitle : '%1 element'
+    	access : 'Dostop skript',
+    	accessAlways : 'Vedno',
+    	accessNever : 'Nikoli',
+    	accessSameDomain : 'Samo ista domena',
+    	alignAbsBottom : 'Popolnoma na dno',
+    	alignAbsMiddle : 'Popolnoma v sredino',
+    	alignBaseline : 'Na osnovno črto',
+    	alignTextTop : 'Besedilo na vrh',
+    	bgcolor : 'Barva ozadja',
+    	chkFull : 'Dovoli celozaslonski način',
+    	chkLoop : 'Ponavljanje',
+    	chkMenu : 'Omogoči Flash Meni',
+    	chkPlay : 'Samodejno predvajaj',
+    	flashvars : 'Spremenljivke za Flash',
+    	hSpace : 'Vodoravni razmik',
+    	properties : 'Lastnosti Flash',
+    	propertiesTab : 'Lastnosti',
+    	quality : 'Kakovost',
+    	qualityAutoHigh : 'Samodejno visoka',
+    	qualityAutoLow : 'Samodejno nizka',
+    	qualityBest : 'Najvišja',
+    	qualityHigh : 'Visoka',
+    	qualityLow : 'Nizka',
+    	qualityMedium : 'Srednja',
+    	scale : 'Povečava',
+    	scaleAll : 'Pokaži vse',
+    	scaleFit : 'Natančno prileganje',
+    	scaleNoBorder : 'Brez obrobe',
+    	title : 'Lastnosti Flash',
+    	vSpace : 'Navpični razmik',
+    	validateHSpace : 'Vodoravni razmik mora biti število.',
+    	validateSrc : 'Vnesite URL povezave',
+    	validateVSpace : 'Navpični razmik mora biti število.',
+    	windowMode : 'Vrsta okna',
+    	windowModeOpaque : 'Motno',
+    	windowModeTransparent : 'Prosojno',
+    	windowModeWindow : 'Okno'
+    },
+    find : 
+    {
+    	find : 'Najdi',
+    	findOptions : 'Find Options',
+    	findWhat : 'Najdi:',
+    	matchCase : 'Razlikuj velike in male črke',
+    	matchCyclic : 'Primerjaj znake v cirilici',
+    	matchWord : 'Samo cele besede',
+    	notFoundMsg : 'Navedeno besedilo ni bilo najdeno.',
+    	replace : 'Zamenjaj',
+    	replaceAll : 'Zamenjaj vse',
+    	replaceSuccessMsg : '%1 pojavitev je bilo zamenjano.',
+    	replaceWith : 'Zamenjaj z:',
+    	title : 'Najdi in zamenjaj'
+    },
+    colorbutton : 
+    {
+    	auto : 'Samodejno',
+    	bgColorTitle : 'Barva ozadja',
+    	colors : 
+    	{
+    		'000' : 'Black',
+    		'800000' : 'Maroon',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Dark Gray',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Brown',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'Dark Green',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'Gray',
+    		F00 : 'Red',
+    		FF8C00 : 'Dark Orange',
+    		FFD700 : 'Gold',
+    		'008000' : 'Green',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Blue',
+    		EE82EE : 'Violet',
+    		A9A9A9 : 'Dim Gray',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'Orange',
+    		FFFF00 : 'Yellow',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Light Grey',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'Light Yellow',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'Lavender',
+    		FFF : 'White'
+    	},
+    	more : 'Več barv...',
+    	panelTitle : 'Colors',
+    	textColorTitle : 'Barva besedila'
+    },
+    undo : 
+    {
+    	redo : 'Ponovi',
+    	undo : 'Razveljavi'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Velikost',
+    		voiceLabel : 'Velikost',
+    		panelTitle : 'Velikost'
+    	},
+    	label : 'Pisava',
+    	panelTitle : 'Pisava',
+    	voiceLabel : 'Pisava'
     },
     maximize : 
     {
     	maximize : 'Maksimiraj',
     	minimize : 'Minimiraj'
     },
+    basicstyles : 
+    {
+    	bold : 'Krepko',
+    	italic : 'Ležeče',
+    	strike : 'Prečrtano',
+    	subscript : 'Podpisano',
+    	superscript : 'Nadpisano',
+    	underline : 'Podčrtano'
+    },
+    magicline : 
+    {
+    	title : 'Vstavite odstavek tukaj'
+    },
+    print : 
+    {
+    	toolbar : 'Natisni'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Prezri',
+    	btnIgnoreAll : 'Prezri vse',
+    	btnReplace : 'Zamenjaj',
+    	btnReplaceAll : 'Zamenjaj vse',
+    	btnUndo : 'Razveljavi',
+    	changeTo : 'Spremeni v',
+    	errorLoading : 'Napaka pri nalaganju storitve programa na naslovu %s.',
+    	ieSpellDownload : 'Črkovalnik ni nameščen. Ali ga želite prenesti sedaj?',
+    	manyChanges : 'Črkovanje je končano: Spremenjenih je bilo %1 besed',
+    	noChanges : 'Črkovanje je končano: Nobena beseda ni bila spremenjena',
+    	noMispell : 'Črkovanje je končano: Brez napak',
+    	noSuggestions : '- Ni predlogov -',
+    	notAvailable : 'Oprostite, storitev trenutno ni dosegljiva.',
+    	notInDic : 'Ni v slovarju',
+    	oneChange : 'Črkovanje je končano: Spremenjena je bila ena beseda',
+    	progress : 'Preverjanje črkovanja se izvaja...',
+    	title : 'Črkovalnik',
+    	toolbar : 'Preveri črkovanje'
+    },
+    clipboard : 
+    {
+    	copy : 'Kopiraj',
+    	copyError : 'Varnostne nastavitve brskalnika ne dopuščajo samodejnega kopiranja. Uporabite kombinacijo tipk na tipkovnici (Ctrl/Cmd+C).',
+    	cut : 'Izreži',
+    	cutError : 'Varnostne nastavitve brskalnika ne dopuščajo samodejnega izrezovanja. Uporabite kombinacijo tipk na tipkovnici (Ctrl/Cmd+X).',
+    	paste : 'Prilepi',
+    	pasteArea : 'Prilepi Prostor',
+    	pasteMsg : 'Prosim prilepite v sleči okvir s pomočjo tipkovnice (<STRONG>Ctrl/Cmd+V</STRONG>) in pritisnite <STRONG>V redu</STRONG>.',
+    	securityMsg : 'Zaradi varnostnih nastavitev vašega brskalnika urejevalnik ne more neposredno dostopati do odložišča. Vsebino odložišča ponovno prilepite v to okno.',
+    	title : 'Prilepi'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Izvorna koda'
+    },
+    scayt : 
+    {
+    	about : 'O storitvi SCAYT',
+    	aboutTab : 'O storitvi',
+    	addWord : 'Dodaj besedo',
+    	allCaps : 'Ignore All-Caps Words',
+    	dic_create : 'Create',
+    	dic_delete : 'Delete',
+    	dic_field_name : 'Dictionary name',
+    	dic_info : 'Initially the User Dictionary is stored in a Cookie. However, Cookies are limited in size. When the User Dictionary grows to a point where it cannot be stored in a Cookie, then the dictionary may be stored on our server. To store your personal dictionary on our server you should specify a name for your dictionary. If you already have a stored dictionary, please type its name and click the Restore button.',
+    	dic_rename : 'Rename',
+    	dic_restore : 'Restore',
+    	dictionariesTab : 'Slovarji',
+    	disable : 'Onemogoči SCAYT',
+    	emptyDic : 'Ime slovarja ne more biti prazno.',
+    	enable : 'Omogoči SCAYT',
+    	ignore : 'Prezri',
+    	ignoreAll : 'Prezri vse',
+    	ignoreDomainNames : 'Ignore Domain Names',
+    	langs : 'Jeziki',
+    	languagesTab : 'Jeziki',
+    	mixedCase : 'Ignore Words with Mixed Case',
+    	mixedWithDigits : 'Ignore Words with Numbers',
+    	moreSuggestions : 'Več predlogov',
+    	opera_title : 'Not supported by Opera',
+    	options : 'Možnosti',
+    	optionsTab : 'Možnosti',
+    	title : 'Črkovanje med tipkanjem',
+    	toggle : 'Preklopi SCAYT',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Vstavi vodoravno črto'
+    },
+    pastetext : 
+    {
+    	button : 'Prilepi kot golo besedilo',
+    	title : 'Prilepi kot golo besedilo'
+    },
+    contextmenu : 
+    {
+    	options : 'Možnosti Kontekstnega Menija'
+    },
+    templates : 
+    {
+    	button : 'Predloge',
+    	emptyListMsg : '(Ni pripravljenih predlog)',
+    	insertOption : 'Zamenjaj trenutno vsebino',
+    	options : 'Možnosti Predloge',
+    	selectPromptMsg : 'Izberite predlogo, ki jo želite odpreti v urejevalniku<br>(trenutna vsebina bo izgubljena):',
+    	title : 'Vsebinske predloge'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Predlagani naslov',
+    	cssClassInputLabel : 'Razred stilne predloge',
+    	edit : 'Uredi Div',
+    	inlineStyleInputLabel : 'Inline Slog',
+    	langDirLTRLabel : 'Od leve proti desni (LTR)',
+    	langDirLabel : 'Smer jezika',
+    	langDirRTLLabel : 'Od desne proti levi (RTL)',
+    	languageCodeInputLabel : 'Koda Jezika',
+    	remove : 'Odstrani Div',
+    	styleSelectLabel : 'Slog',
+    	title : 'Ustvari Div Posodo',
+    	toolbar : 'Ustvari Div Posodo'
+    },
+    preview : 
+    {
+    	preview : 'Predogled'
+    },
+    colordialog : 
+    {
+    	clear : 'Počisti',
+    	highlight : 'Poudarjeno',
+    	options : 'Barvne Možnosti',
+    	selected : 'Izbrano',
+    	title : 'Izberi barvo'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Skrči Orodno Vrstico',
+    	toolbarExpand : 'Razširi Orodno Vrstico',
+    	toolbarGroups : 
+    	{
+    		document : 'Document',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Editing',
+    		forms : 'Forms',
+    		basicstyles : 'Basic Styles',
+    		paragraph : 'Paragraph',
+    		links : 'Links',
+    		insert : 'Insert',
+    		styles : 'Styles',
+    		colors : 'Colors',
+    		tools : 'Tools'
+    	},
+    	toolbars : 'Urejevalnik orodne vrstice'
+    },
+    selectall : 
+    {
+    	toolbar : 'Izberi vse'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Citat'
+    },
+    link : 
+    {
+    	acccessKey : 'Dostopno Geslo',
+    	advanced : 'Napredno',
+    	advisoryContentType : 'Predlagani tip vsebine (content-type)',
+    	advisoryTitle : 'Predlagani naslov',
+    	anchor : 
+    	{
+    		toolbar : 'Vstavi/uredi zaznamek',
+    		menu : 'Lastnosti zaznamka',
+    		title : 'Lastnosti zaznamka',
+    		name : 'Ime zaznamka',
+    		errorName : 'Prosim vnesite ime zaznamka',
+    		remove : 'Remove Anchor'
+    	},
+    	anchorId : 'Po ID-ju elementa',
+    	anchorName : 'Po imenu zaznamka',
+    	charset : 'Kodna tabela povezanega vira',
+    	cssClasses : 'Razred stilne predloge',
+    	emailAddress : 'Elektronski naslov',
+    	emailBody : 'Vsebina sporočila',
+    	emailSubject : 'Predmet sporočila',
+    	id : 'Id',
+    	info : 'Podatki o povezavi',
+    	langCode : 'Smer jezika',
+    	langDir : 'Smer jezika',
+    	langDirLTR : 'Od leve proti desni (LTR)',
+    	langDirRTL : 'Od desne proti levi (RTL)',
+    	menu : 'Uredi povezavo',
+    	name : 'Ime',
+    	noAnchors : '(V tem dokumentu ni zaznamkov)',
+    	noEmail : 'Vnesite elektronski naslov',
+    	noUrl : 'Vnesite URL povezave',
+    	other : '<drug>',
+    	popupDependent : 'Podokno (Netscape)',
+    	popupFeatures : 'Značilnosti pojavnega okna',
+    	popupFullScreen : 'Celozaslonska slika (IE)',
+    	popupLeft : 'Lega levo',
+    	popupLocationBar : 'Naslovna vrstica',
+    	popupMenuBar : 'Menijska vrstica',
+    	popupResizable : 'Spremenljive velikosti',
+    	popupScrollBars : 'Drsniki',
+    	popupStatusBar : 'Vrstica stanja',
+    	popupToolbar : 'Orodna vrstica',
+    	popupTop : 'Lega na vrhu',
+    	rel : 'Odnos',
+    	selectAnchor : 'Izberi zaznamek',
+    	styles : 'Slog',
+    	tabIndex : 'Številka tabulatorja',
+    	target : 'Cilj',
+    	targetFrame : '<okvir>',
+    	targetFrameName : 'Ime ciljnega okvirja',
+    	targetPopup : '<pojavno okno>',
+    	targetPopupName : 'Ime pojavnega okna',
+    	title : 'Povezava',
+    	toAnchor : 'Zaznamek na tej strani',
+    	toEmail : 'Elektronski naslov',
+    	toUrl : 'URL',
+    	toolbar : 'Vstavi/uredi povezavo',
+    	type : 'Vrsta povezave',
+    	unlink : 'Odstrani povezavo',
+    	upload : 'Prenesi'
+    },
+    stylescombo : 
+    {
+    	label : 'Slog',
+    	panelTitle : 'Oblikovalni Stili',
+    	panelTitle1 : 'Slogi odstavkov',
+    	panelTitle2 : 'Slogi besedila',
+    	panelTitle3 : 'Slogi objektov'
+    },
+    dir : 'ltr',
     editor : 'Bogat Urejevalnik Besedila',
     common : 
     {

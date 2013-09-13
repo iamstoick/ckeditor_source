@@ -123,11 +123,16 @@
 		NS.textNodeInfo = {};
 		NS.selectNode = {};
 		NS.selectNodeResponce = {};
+		NS.selectingLang = NS.currentLang;
 		NS.langList = null;
 		NS.langSelectbox = null;
 		NS.banner = '';
 		NS.show_grammar = null;
 		NS.div_overlay_no_check = null;
+		NS.wsc_customerId =  CKEDITOR.config.wsc_customerId;
+		NS.cust_dic_ids = CKEDITOR.config.wsc_customDictionaryIds;
+		NS.userDictionaryName = CKEDITOR.config.wsc_userDictionaryName;
+		NS.defaultLanguage = CKEDITOR.config.defaultLanguage;
 		NS.targetFromFrame = {};
 		NS.onLoadOverlay = null;
 		NS.LocalizationComing = {};
@@ -210,7 +215,7 @@
 	var nameNode, selectNode, frameId;
 
 	NS.framesetHtml = function(tab) {
-		var str = '<iframe src="' + NS.templatePath + '" id=' + NS.iframeNumber + '_' + tab + ' frameborder="0" allowtransparency="1" style="width:100%;border: 1px solid #AEB3B9;overflow: auto;background:#fff; border-radius: 3px;"></iframe>';
+		var str = '<iframe src="' + NS.templatePath + NS.serverLocation +'" id=' + NS.iframeNumber + '_' + tab + ' frameborder="0" allowtransparency="1" style="width:100%;border: 1px solid #AEB3B9;overflow: auto;background:#fff; border-radius: 3px;"></iframe>';
 		return str;
 	};
 
@@ -287,9 +292,9 @@
 		NS.setIframe(that, currentTab);
 		scope.parts.tabs.removeAllListeners();
 
+
 		scope.parts.tabs.on('click', function(event) {
 			event = event || window.event;
-
 			if (!event.data.getTarget().is('a')) {
 				return;
 			}
@@ -311,10 +316,10 @@
 		});
 	};
 
-	NS.buildSelectLang = function(aId) {
+	NS.buildSelectLang = function() {
 		var divContainer = new CKEDITOR.dom.element('div'),
 			selectContainer = new CKEDITOR.dom.element('select'),
-			id = "wscLang" + aId;
+			id = "wscLang" + NS.CKNumber;
 
 		divContainer.addClass("cke_dialog_ui_input_select");
 		divContainer.setAttribute("role", "presentation");
@@ -341,8 +346,8 @@
 
 	};
 
-	NS.buildOptionLang = function(key, aId) {
-		var id = "wscLang" + aId;
+	NS.buildOptionLang = function(key) {
+		var id = "wscLang" + NS.CKNumber;
 		var select = document.getElementById(id),
 			fragment = document.createDocumentFragment(),
 			create_option, txt_option,
@@ -400,7 +405,7 @@
 
 		thisOverlay.style.cssText = "position: absolute;" +
 			"top:30px;" +
-			"bottom:41px;" +
+			"bottom:40px;" +
 			"left:1px;" +
 			"right:1px;" +
 			"z-index: 10020;" +
@@ -473,29 +478,20 @@
 		return divContainer;
 	};
 
-	var statusGrammarTab = function(aState) {  //#19221
-		aState = aState || 'true';
-		if(aState !== null && aState == 'false'){
-			hideGrammTab();
-		}
-	};
-
 	var langConstructor = function(lang) {
 		var langSelectBox = new __constructLangSelectbox(lang),
-			selectId = "wscLang" + NS.dialog.getParentEditor().name,
+			selectId = "wscLang" + NS.CKNumber,
 			selectContainer = document.getElementById(selectId),
 			currentTabId = NS.dialog._.currentTabId,
 			frameId = NS.iframeNumber + '_' + currentTabId;
 
-		NS.buildOptionLang(langSelectBox.setLangList, NS.dialog.getParentEditor().name);
+		NS.buildOptionLang(langSelectBox.setLangList);
+
 		tabView[langSelectBox.getCurrentLangGroup(NS.selectingLang)]();
-		statusGrammarTab(NS.show_grammar);
 
 		selectContainer.onchange = function(e){
 			e = e || window.event;
 			tabView[langSelectBox.getCurrentLangGroup(this.value)]();
-			statusGrammarTab(NS.show_grammar);
-
 			NS.div_overlay.setEnable();
 
 			NS.selectingLang = this.value;
@@ -551,11 +547,16 @@
 			hideCurrentFinishChecking();
 			langConstructor(NS.langList);
 
+			if (NS.show_grammar == 'false') {
+				hideGrammTab();
+			}
+
 			var word =  disableButtonSuggest(response.word),
 				suggestionsList = '';
 
 			if (word instanceof Array) {
 				word = response.word[0];
+
 			}
 
 			word = word.split(',');
@@ -577,7 +578,6 @@
 			delete response.mocklangs;
 
 			hideCurrentFinishChecking();
-			langConstructor(NS.langList);	// Show select language for this command CKEDITOR.config.wsc_cmd
 			var firstSuggestValue = response.grammSuggest[0];// ? firstSuggestValue = response.grammSuggest[0] : firstSuggestValue = 'No suggestion for this words';
 			NS.grammerSuggest.getElement().setHtml('');
 
@@ -605,7 +605,7 @@
 			delete response.mocklangs;
 
 			hideCurrentFinishChecking();
-			langConstructor(NS.langList);	// Show select language for this command CKEDITOR.config.wsc_cmd
+
 			NS.selectNodeResponce = response;
 
 			NS.textNode['Thesaurus'].reset();
@@ -684,6 +684,10 @@
 				setBannerInPlace(response.banner);
 			} else {
 				NS.setHeightFrame();
+			}
+
+			if (NS.show_grammar == 'false') {
+				hideGrammTab();
 			}
 
 			if (udn == 'undefined') {
@@ -790,7 +794,7 @@
 	};
 
 	var sendData = function(frameTarget, cmd, sendText, reset_suggest) {
-		cmd = cmd || CKEDITOR.config.wsc_cmd;
+		cmd = cmd || CKEDITOR.config.wsc_cmd || 'spell';
 		reset_suggest = reset_suggest || false;
 		sendText = sendText || NS.dataTemp;
 
@@ -887,7 +891,7 @@
 
 
 function __constructLangSelectbox(languageGroup) {
-	if( !languageGroup ) { throw "Languages-by-groups list are required for construct selectbox"; }
+	if ( !languageGroup ) throw "Languages-by-groups list are required for construct selectbox";
 
 	var that = this,
 		o_arr = [],
@@ -898,11 +902,10 @@ function __constructLangSelectbox(languageGroup) {
 	for ( var group in languageGroup){
 		for ( var langCode in languageGroup[group]){
 			var langName = languageGroup[group][langCode];
-			if ( langName == priorLang ) {
+			if ( langName == priorLang )
 				priorLangTitle = langName;
-			} else {
+			else
 				o_arr.push( langName );
-			}
 		}
 	}
 
@@ -914,9 +917,8 @@ function __constructLangSelectbox(languageGroup) {
 	var searchGroup = function ( code ){
 		for ( var group in languageGroup){
 			for ( var langCode in languageGroup[group]){
-				if ( langCode.toUpperCase() === code.toUpperCase() ) {
+				if ( langCode.toUpperCase() === code.toUpperCase() )
 					return group;
-				}
 			}
 		}
 		return "";
@@ -943,6 +945,7 @@ function __constructLangSelectbox(languageGroup) {
 	return _return;
 }
 
+NS.CKNumber = CKEDITOR.tools.getNextNumber();
 CKEDITOR.dialog.add('checkspell', function(editor) {
 	var handlerButtons = function(event) {
 		event = event || window.event;
@@ -967,6 +970,8 @@ CKEDITOR.dialog.add('checkspell', function(editor) {
 		}
 
 	};
+	var	protocol = document.location.protocol == "file:" ? "http:" : document.location.protocol;
+	var wscCoreUrl = CKEDITOR.config.wsc_customLoaderScript  || ( protocol + '//loader.webspellchecker.net/sproxy_fck/sproxy.php?plugin=fck2&customerid=' + CKEDITOR.config.wsc_customerId + '&cmd=script&doc=wsc&schema=22');
 
 	var oneLoadFunction = null;
 
@@ -982,18 +987,6 @@ CKEDITOR.dialog.add('checkspell', function(editor) {
 			NS.dataTemp = CKEDITOR.currentInstance.getData();
 			//NS.div_overlay.setDisable();
 			NS.OverlayPlace = NS.dialog.parts.tabs.getParent().$;
-			if(CKEDITOR && CKEDITOR.config){
-				NS.wsc_customerId =  editor.config.wsc_customerId;
-				NS.cust_dic_ids = editor.config.wsc_customDictionaryIds;
-				NS.userDictionaryName = editor.config.wsc_userDictionaryName;
-				NS.defaultLanguage = CKEDITOR.config.defaultLanguage;
-				var	protocol = document.location.protocol == "file:" ? "http:" : document.location.protocol;
-				var wscCoreUrl = editor.config.wsc_customLoaderScript  || ( protocol + '//loader.webspellchecker.net/sproxy_fck/sproxy.php?plugin=fck2&customerid=' + NS.wsc_customerId + '&cmd=script&doc=wsc&schema=22');
-			} else {
-				NS.dialog.hide();
-				return;
-			}
-
 			CKEDITOR.scriptLoader.load(wscCoreUrl, function(success) {
 
 				if(CKEDITOR.config && CKEDITOR.config.wsc && CKEDITOR.config.wsc.DefaultParams){
@@ -1011,11 +1004,13 @@ CKEDITOR.dialog.add('checkspell', function(editor) {
 				}
 
 				NS.pluginPath = CKEDITOR.getUrl(editor.plugins.wsc.path);
-				NS.iframeNumber = NS.TextAreaNumber;
+				NS.iframeNumber = NS.TextAreaNumber;//'cke_frame_' + NS.CKNumber;
+				NS.serverLocation = '#server=' + NS.serverLocationHash;
 				NS.templatePath = NS.pluginPath + 'dialogs/tmp.html';
+
 				NS.LangComparer.setDefaulLangCode( NS.defaultLanguage );
 				NS.currentLang = editor.config.wsc_lang || NS.LangComparer.getSPLangCode( editor.langCode );
-				NS.selectingLang = NS.currentLang;
+
 				NS.div_overlay = new overlayBlock({
 					opacity: "1",
 					background: "#fff url(" + NS.loadIcon + ") no-repeat 50% 50%",
@@ -1023,12 +1018,11 @@ CKEDITOR.dialog.add('checkspell', function(editor) {
 
 				});
 
-				var number_ck = NS.dialog.parts.tabs.getId(),
-					dialogPartsTab = CKEDITOR.document.getById(number_ck);
-
-				dialogPartsTab.setStyle('width', '97%');
-				if (!dialogPartsTab.getElementsByTag('DIV').count()){
-					dialogPartsTab.append(NS.buildSelectLang(NS.dialog.getParentEditor().name));
+				var number_ck = NS.CKNumber + 1,
+					id_tab = CKEDITOR.document.getById('cke_dialog_tabs_' + number_ck);
+				id_tab.setStyle('width', '97%');
+				if (!id_tab.getElementsByTag('DIV').count()){
+					id_tab.append(NS.buildSelectLang());
 				}
 
 				NS.div_overlay_no_check = new overlayBlock({
@@ -1574,7 +1568,7 @@ CKEDITOR.dialog.add('checkspell', function(editor) {
 					{
 						type: 'vbox',
 						id: 'bottomGroup',
-						style: 'width:560px; margin: -10px auto; overflow: hidden;',
+						style: 'width:560px; margin: 0 auto;',
 						children: [
 							{
 								type: 'hbox',

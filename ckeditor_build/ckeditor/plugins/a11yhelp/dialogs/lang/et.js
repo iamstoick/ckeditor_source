@@ -5,7 +5,7 @@
 
 CKEDITOR.plugins.setLang( 'a11yhelp', 'et', {
 	title: 'Accessibility Instructions', // MISSING
-	contents: 'Abi sisu. Selle dialoogi sulgemiseks vajuta ESC klahvi.',
+	contents: 'Help Contents. To close this dialog press ESC.', // MISSING
 	legend: [
 		{
 		name: 'Üldine',

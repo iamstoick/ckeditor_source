@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['ug'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'نەشر ھوقۇقىغا ئىگە بەلگىسى',
-    	copyError : 'تور كۆرگۈڭىزنىڭ بىخەتەرلىك تەڭشىكى تەھرىرلىگۈچنىڭ كۆچۈر مەشغۇلاتىنى ئۆزلۈكىدىن ئىجرا قىلىشىغا يول قويمايدۇ، ھەرپتاختا تېز كۇنۇپكا (Ctrl/Cmd+C) ئارقىلىق تاماملاڭ',
-    	cut : 'كەس',
-    	cutError : 'تور كۆرگۈڭىزنىڭ بىخەتەرلىك تەڭشىكى تەھرىرلىگۈچنىڭ كەس مەشغۇلاتىنى ئۆزلۈكىدىن ئىجرا قىلىشىغا يول قويمايدۇ، ھەرپتاختا تېز كۇنۇپكا (Ctrl/Cmd+X) ئارقىلىق تاماملاڭ',
-    	paste : 'چاپلا',
-    	pasteArea : 'چاپلاش دائىرىسى',
-    	pasteMsg : 'ھەرپتاختا تېز كۇنۇپكا (<STRONG>Ctrl/Cmd+V</STRONG>) نى ئىشلىتىپ مەزمۇننى تۆۋەندىكى رامكىغا كۆچۈرۈڭ، ئاندىن <STRONG>جەزملە</STRONG>نى بېسىڭ',
-    	securityMsg : 'توركۆرگۈڭىزنىڭ بىخەتەرلىك تەڭشىكى سەۋەبىدىن بۇ تەھرىرلىگۈچ چاپلاش تاختىسىدىكى مەزمۇننى بىۋاستە زىيارەت قىلالمايدۇ، بۇ كۆزنەكتە قايتا بىر قېتىم چاپلىشىڭىز كېرەك.',
-    	title : 'چاپلا'
+    	confirmCleanup : 'سىز چاپلىماقچى بولغان مەزمۇن MS Word تىن كەلگەندەك قىلىدۇ، MS Word پىچىمىنى تازىلىۋەتكەندىن كېيىن ئاندىن چاپلامدۇ؟',
+    	error : 'ئىچكى خاتالىق سەۋەبىدىن چاپلايدىغان سانلىق مەلۇماتنى تازىلىيالمايدۇ',
+    	title : 'MS Word تىن چاپلا',
+    	toolbar : 'MS Word تىن چاپلا'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'پىچىمى يوق تېكىست سۈپىتىدە چاپلا',
-    	title : 'پىچىمى يوق تېكىست سۈپىتىدە چاپلا'
-    },
-    specialchar : 
-    {
-    	options : 'ئالاھىدە ھەرپ تاللانمىسى',
-    	title : 'ئالاھىدە ھەرپ تاللاڭ',
-    	toolbar : 'ئالاھىدە ھەرپ قىستۇر'
-    },
-    selectall : 
-    {
-    	toolbar : 'ھەممىنى تاللا'
-    },
-    newpage : 
-    {
-    	toolbar : 'يېڭى بەت'
-    },
-    templates : 
-    {
-    	button : 'قېلىپ',
-    	emptyListMsg : '(قېلىپ يوق)',
-    	insertOption : 'نۆۋەتتىكى مەزمۇننى ئالماشتۇر',
-    	options : 'قېلىپ تاللانمىسى',
-    	selectPromptMsg : 'تەھرىرلىگۈچنىڭ مەزمۇن قېلىپىنى تاللاڭ:',
-    	title : 'مەزمۇن قېلىپى'
-    },
-    colordialog : 
-    {
-    	clear : 'تازىلا',
-    	highlight : 'يورۇت',
-    	options : 'رەڭ تاللانمىسى',
-    	selected : 'رەڭ تاللاڭ',
-    	title : 'رەڭ تاللاڭ'
-    },
-    preview : 
-    {
-    	preview : 'ئالدىن كۆزەت'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'چوڭلۇقى',
-    		voiceLabel : 'خەت چوڭلۇقى',
-    		panelTitle : 'چوڭلۇقى'
-    	},
-    	label : 'خەت نۇسخا',
-    	panelTitle : 'خەت نۇسخا',
-    	voiceLabel : 'خەت نۇسخا'
-    },
-    liststyle : 
-    {
-    	armenian : 'قەدىمكى ئەرمىنىيە تەرتىپ نومۇرى شەكلى',
-    	bulletedTitle : 'تۈر بەلگە تىزىم خاسلىقى',
-    	circle : 'بوش چەمبەر',
-    	decimal : 'سان (1, 2, 3 قاتارلىق)',
-    	decimalLeadingZero : 'نۆلدىن باشلانغان سان بەلگە (01, 02, 03 قاتارلىق)',
-    	disc : 'تولدۇرۇلغان چەمبەر',
-    	georgian : 'قەدىمكى جورجىيە تەرتىپ نومۇرى شەكلى (an, ban, gan قاتارلىق)',
-    	lowerAlpha : 'ئىنگلىزچە كىچىك ھەرپ (a, b, c, d, e قاتارلىق)',
-    	lowerGreek : 'گرېكچە كىچىك ھەرپ (alpha, beta, gamma قاتارلىق)',
-    	lowerRoman : 'كىچىك ھەرپلىك رىم رەقىمى (i, ii, iii, iv, v قاتارلىق)',
-    	none : 'بەلگە يوق',
-    	notset : '‹تەڭشەلمىگەن›',
-    	numberedTitle : 'تەرتىپ نومۇر تىزىم خاسلىقى',
-    	square : 'تولدۇرۇلغان تۆت چاسا',
-    	start : 'باشلىنىش نومۇرى',
-    	type : 'بەلگە تىپى',
-    	upperAlpha : 'ئىنگلىزچە چوڭ ھەرپ (A, B, C, D, E قاتارلىق)',
-    	upperRoman : 'چوڭ ھەرپلىك رىم رەقىمى (I, II, III, IV, V قاتارلىق)',
-    	validateStartNumber : 'تىزىم باشلىنىش تەرتىپ نومۇرى چوقۇم پۈتۈن سان پىچىمىدا بولۇشى لازىم'
-    },
-    blockquote : 
-    {
-    	toolbar : 'بۆلەك نەقىل'
-    },
-    undo : 
-    {
-    	redo : 'قايتىلا ',
-    	undo : 'يېنىۋال'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. نەشر ھوقۇقىغا ئىگە',
-    	dlgTitle : 'CKEditor ھەققىدە',
-    	help : '$1 نى زىيارەت قىلىپ ياردەمگە ئېرىشىڭ',
-    	moreInfo : 'تور تۇرايىمىزنى زىيارەت قىلىپ كېلىشىمگە ئائىت تېخىمۇ كۆپ ئۇچۇرغا ئېرىشىڭ',
-    	title : 'CKEditor ھەققىدە',
-    	userGuide : 'CKEditor ئىشلەتكۈچى قوللانمىسى'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'قورال بالداقنى قاتلا',
-    	toolbarExpand : 'قورال بالداقنى ياي',
-    	toolbarGroups : 
-    	{
-    		document : 'پۈتۈك',
-    		clipboard : 'چاپلاش تاختىسى/يېنىۋال',
-    		editing : 'تەھرىر',
-    		forms : 'جەدۋەل',
-    		basicstyles : 'ئاساسىي ئۇسلۇب',
-    		paragraph : 'ئابزاس',
-    		links : 'ئۇلانما',
-    		insert : 'قىستۇر',
-    		styles : 'ئۇسلۇب',
-    		colors : 'رەڭ',
-    		tools : 'قورال'
-    	},
-    	toolbars : 'قورال بالداق'
-    },
-    scayt : 
-    {
-    	about : 'شۇئان ئىملا تەكشۈرۈش ھەققىدە',
-    	aboutTab : 'ھەققىدە',
-    	addWord : 'سۆز قوش',
-    	allCaps : 'چوڭ ھەرپتە يېزىلغان ھەممە سۆزگە پەرۋا قىلما',
-    	dic_create : 'قۇر',
-    	dic_delete : 'ئۆچۈر',
-    	dic_field_name : 'لۇغەت ئاتى',
-    	dic_info : 'باشلىنىشتا ئىشلەتكۈچى لۇغىتى Cookie  غا ساقلىنىدۇ ئەمما Cookie نىڭ سىغىمى چەكلىك بولغاچقا، ئىشلەتكۈچى لۇغىتى كۆپىيىپ Cookie  چەكلىمىسىدىن ئېشىپ كەتكەندە ساقلىغىلى بولمايدۇ، بۇ چاغدا لۇغىتىڭىزنى مۇلازىمېتىرىمىزغا ساقلىسىڭىز بولىدۇ. شەخسىي لۇغىتىڭىزنى مۇلازىمېتىرىمىزغا ساقلىماقچى بولسىڭىز لۇغىتىڭىزگە ئاتتىن بىرنى قويۇڭ، ئەگەر مۇلازىمتېرىمىزدا سىزنىڭ لۇغىتىڭىزدىن بىرسى بولسا لۇغەت ئاتىنى كىرگۈزۈپ ئەسلىگە قايتۇر توپچىسىنى بېسىڭ.',
-    	dic_rename : 'ئات ئۆزگەرت',
-    	dic_restore : 'ئەسلىگە كەلتۈر',
-    	dictionariesTab : 'لۇغەت',
-    	disable : 'شۇئان ئىملا تەكشۈرۈشنى چەكلە',
-    	emptyDic : 'لۇغەت ئاتى بوش قالمايدۇ',
-    	enable : 'شۇئان ئىملا تەكشۈرۈشنى قوزغات',
-    	ignore : 'پەرۋا قىلما',
-    	ignoreAll : 'ھەممىسىگە پەرۋا قىلما',
-    	ignoreDomainNames : 'دائىرە ئاتىغا پەرۋا قىلما',
-    	langs : 'تىل',
-    	languagesTab : 'تىل',
-    	mixedCase : 'چوڭ كىچىك ھەرپ بىلەن ئارىلاش يېزىلغان سۆزگە پەرۋا قىلما',
-    	mixedWithDigits : 'سان بار سۆزگە پەرۋا قىلما',
-    	moreSuggestions : 'تېخىمۇ كۆپ ئىملا تەۋسىيەسى',
-    	opera_title : 'Opera توركۆرگۈنى قوللىمايدۇ',
-    	options : 'تاللانما',
-    	optionsTab : 'تاللانما',
-    	title : 'شۇئان ئىملا تەكشۈر',
-    	toggle : 'شۇئان ئىملا تەكشۈرۈشنى ۋاقىتلىق توختات/قوزغات',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'پەرۋا قىلما',
-    	btnIgnoreAll : 'ھەممىگە پەرۋا قىلما',
-    	btnReplace : 'ئالماشتۇر',
-    	btnReplaceAll : 'ھەممىنى ئالماشتۇر',
-    	btnUndo : 'يېنىۋال',
-    	changeTo : 'ئۆزگەرت',
-    	errorLoading : 'لازىملىق مۇلازىمېتىرنى يۈكلىگەندە خاتالىق كۆرۈلدى: %s.',
-    	ieSpellDownload : 'ئىملا تەكشۈرۈش قىستۇرمىسى تېخى ئورنىتىلمىغان، ھازىرلا چۈشۈرەمسىز؟',
-    	manyChanges : 'ئىملا تەكشۈرۈش تامام: %1  سۆزنى ئۆزگەرتتى',
-    	noChanges : 'ئىملا تەكشۈرۈش تامام: ھېچقانداق سۆزنى ئۆزگەرتمىدى',
-    	noMispell : 'ئىملا تەكشۈرۈش تامام: ئىملا خاتالىقى بايقالمىدى',
-    	noSuggestions : '-تەكلىپ يوق-',
-    	notAvailable : 'كەچۈرۈڭ، مۇلازىمېتىرنى ۋاقتىنچە ئىشلەتكىلى بولمايدۇ',
-    	notInDic : 'لۇغەتتە يوق',
-    	oneChange : 'ئىملا تەكشۈرۈش تامام: بىر سۆزنى ئۆزگەرتتى',
-    	progress : 'ئىملا تەكشۈرۈۋاتىدۇ…',
-    	title : 'ئىملا تەكشۈر',
-    	toolbar : 'ئىملا تەكشۈر'
-    },
-    contextmenu : 
-    {
-    	options : 'قىسقا يول تىزىملىك تاللانمىسى'
+    	bulletedlist : 'تۈر بەلگە تىزىمى',
+    	numberedlist : 'تەرتىپ نومۇر تىزىمى'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['ug'] = {
     	left : 'سولغا توغرىلا',
     	right : 'ئوڭغا توغرىلا'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'مەنبە'
-    },
-    format : 
-    {
-    	label : 'پىچىم',
-    	panelTitle : 'پىچىم',
-    	tag_address : 'ئادرېس',
-    	tag_div : 'ئابزاس (DIV)',
-    	tag_h1 : 'ماۋزۇ 1',
-    	tag_h2 : 'ماۋزۇ 2',
-    	tag_h3 : 'ماۋزۇ 3',
-    	tag_h4 : 'ماۋزۇ 4',
-    	tag_h5 : 'ماۋزۇ 5',
-    	tag_h6 : 'ماۋزۇ 6',
-    	tag_p : 'ئادەتتىكى',
-    	tag_pre : 'تىزىلغان پىچىم'
-    },
-    flash : 
-    {
-    	access : 'قوليازما زىيارەتكە يول قوي',
-    	accessAlways : 'ھەمىشە',
-    	accessNever : 'ھەرگىز',
-    	accessSameDomain : 'ئوخشاش دائىرىدە',
-    	alignAbsBottom : 'مۇتلەق ئاستى',
-    	alignAbsMiddle : 'مۇتلەق ئوتتۇرا',
-    	alignBaseline : 'ئاساسىي سىزىق',
-    	alignTextTop : 'تېكىست ئۈستىدە',
-    	bgcolor : 'تەگلىك رەڭگى',
-    	chkFull : 'پۈتۈن ئېكراننى قوزغات',
-    	chkLoop : 'دەۋرىي',
-    	chkMenu : 'Flash تىزىملىكنى قوزغات',
-    	chkPlay : 'ئۆزلۈكىدىن چال',
-    	flashvars : 'Flash  ئۆزگەرگۈچى',
-    	hSpace : 'توغرىسىغا ئارىلىق',
-    	properties : 'Flash خاسلىق',
-    	propertiesTab : 'خاسلىق',
-    	quality : 'سۈپەت',
-    	qualityAutoHigh : 'يۇقىرى (ئاپتوماتىك)',
-    	qualityAutoLow : 'تۆۋەن (ئاپتوماتىك)',
-    	qualityBest : 'ئەڭ ياخشى',
-    	qualityHigh : 'يۇقىرى',
-    	qualityLow : 'تۆۋەن',
-    	qualityMedium : 'ئوتتۇرا (ئاپتوماتىك)',
-    	scale : 'نىسبىتى',
-    	scaleAll : 'ھەممىنى كۆرسەت',
-    	scaleFit : 'قەتئىي ماسلىشىش',
-    	scaleNoBorder : 'گىرۋەك يوق',
-    	title : 'ماۋزۇ',
-    	vSpace : 'بويىغا ئارىلىق',
-    	validateHSpace : 'توغرىسىغا ئارىلىق چوقۇم سان بولىدۇ',
-    	validateSrc : 'ئەسلى ھۆججەت ئادرېسىنى كىرگۈزۈڭ',
-    	validateVSpace : 'بويىغا ئارىلىق چوقۇم سان بولىدۇ',
-    	windowMode : 'كۆزنەك ھالىتى',
-    	windowModeOpaque : 'خىرە',
-    	windowModeTransparent : 'سۈزۈك',
-    	windowModeWindow : 'كۆزنەك گەۋدىسى'
-    },
-    removeformat : 
-    {
-    	toolbar : 'پىچىمنى چىقىرىۋەت'
-    },
-    iframe : 
-    {
-    	border : 'كاندۇك گىرۋەكلىرىنى كۆرسەت',
-    	noUrl : 'كاندۇكنىڭ ئادرېسى(Url)نى كىرگۈزۈڭ',
-    	scrolling : 'دومىلىما سۈرگۈچكە يول قوي',
-    	title : 'IFrame خاسلىق',
-    	toolbar : 'IFrame '
-    },
-    link : 
-    {
-    	acccessKey : 'زىيارەت كۇنۇپكا',
-    	advanced : 'ئالىي',
-    	advisoryContentType : 'مەزمۇن تىپى',
-    	advisoryTitle : 'ماۋزۇ',
-    	anchor : 
-    	{
-    		toolbar : 'لەڭگەرلىك نۇقتا ئۇلانمىسى قىستۇر/تەھرىرلە',
-    		menu : 'لەڭگەرلىك نۇقتا ئۇلانما خاسلىقى',
-    		title : 'لەڭگەرلىك نۇقتا ئۇلانما خاسلىقى',
-    		name : 'لەڭگەرلىك نۇقتا ئاتى',
-    		errorName : 'لەڭگەرلىك نۇقتا ئاتىنى كىرگۈزۈڭ',
-    		remove : 'لەڭگەرلىك نۇقتا ئۆچۈر'
-    	},
-    	anchorId : 'لەڭگەرلىك نۇقتا ID سى بويىچە',
-    	anchorName : 'لەڭگەرلىك نۇقتا ئاتى بويىچە',
-    	charset : 'ھەرپ كودلىنىشى',
-    	cssClasses : 'ئۇسلۇب خىلى ئاتى',
-    	emailAddress : 'ئادرېس',
-    	emailBody : 'مەزمۇن',
-    	emailSubject : 'ماۋزۇ',
-    	id : 'ID',
-    	info : 'ئۇلانما ئۇچۇرى',
-    	langCode : 'تىل كودى',
-    	langDir : 'تىل يۆنىلىشى',
-    	langDirLTR : 'سولدىن ئوڭغا (LTR)',
-    	langDirRTL : 'ئوڭدىن سولغا (RTL)',
-    	menu : 'ئۇلانما تەھرىر',
-    	name : 'ئات',
-    	noAnchors : '(بۇ پۈتۈكتە ئىشلەتكىلى بولىدىغان لەڭگەرلىك نۇقتا يوق)',
-    	noEmail : 'ئېلخەت ئادرېسىنى كىرگۈزۈڭ',
-    	noUrl : 'ئۇلانما ئادرېسىنى كىرگۈزۈڭ',
-    	other : '‹باشقا›',
-    	popupDependent : 'تەۋە (NS)',
-    	popupFeatures : 'قاڭقىش كۆزنەك خاسلىقى',
-    	popupFullScreen : 'پۈتۈن ئېكران (IE)',
-    	popupLeft : 'سول',
-    	popupLocationBar : 'ئادرېس بالداق',
-    	popupMenuBar : 'تىزىملىك بالداق',
-    	popupResizable : 'چوڭلۇقى ئۆزگەرتىشچان',
-    	popupScrollBars : 'دومىلىما سۈرگۈچ',
-    	popupStatusBar : 'ھالەت بالداق',
-    	popupToolbar : 'قورال بالداق',
-    	popupTop : 'ئوڭ',
-    	rel : 'باغلىنىش',
-    	selectAnchor : 'بىر لەڭگەرلىك نۇقتا تاللاڭ',
-    	styles : 'قۇر ئىچىدىكى ئۇسلۇبى',
-    	tabIndex : 'Tab تەرتىپى',
-    	target : 'نىشان',
-    	targetFrame : '‹كاندۇك›',
-    	targetFrameName : 'نىشان كاندۇك ئاتى',
-    	targetPopup : '‹قاڭقىش كۆزنەك›',
-    	targetPopupName : 'قاڭقىش كۆزنەك ئاتى',
-    	title : 'ئۇلانما',
-    	toAnchor : 'بەت ئىچىدىكى لەڭگەرلىك نۇقتا ئۇلانمىسى',
-    	toEmail : 'ئېلخەت',
-    	toUrl : 'ئادرېس',
-    	toolbar : 'ئۇلانما قىستۇر/تەھرىرلە',
-    	type : 'ئۇلانما تىپى',
-    	unlink : 'ئۇلانما بىكار قىل',
-    	upload : 'يۈكلە'
-    },
-    smiley : 
-    {
-    	options : 'چىراي ئىپادە سىنبەلگە تاللانمىسى',
-    	title : 'چىراي ئىپادە سىنبەلگە قىستۇر',
-    	toolbar : 'چىراي ئىپادە'
-    },
-    print : 
-    {
-    	toolbar : 'باس '
-    },
-    div : 
-    {
-    	IdInputLabel : 'ID',
-    	advisoryTitleInputLabel : 'ماۋزۇ',
-    	cssClassInputLabel : 'ئۇسلۇب تىپىنىڭ ئاتى',
-    	edit : 'DIV تەھرىر',
-    	inlineStyleInputLabel : 'قۇر ئىچىدىكى ئۇسلۇبى',
-    	langDirLTRLabel : 'سولدىن ئوڭغا (LTR)',
-    	langDirLabel : 'تىل يۆنىلىشى',
-    	langDirRTLLabel : 'ئوڭدىن سولغا (RTL)',
-    	languageCodeInputLabel : 'تىل كودى',
-    	remove : 'DIV چىقىرىۋەت',
-    	styleSelectLabel : 'ئۇسلۇب',
-    	title : 'DIV قاچا قۇر',
-    	toolbar : 'DIV قاچا قۇر'
-    },
-    indent : 
-    {
-    	indent : 'تارايت',
-    	outdent : 'كەڭەيت'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'سىز چاپلىماقچى بولغان مەزمۇن MS Word تىن كەلگەندەك قىلىدۇ، MS Word پىچىمىنى تازىلىۋەتكەندىن كېيىن ئاندىن چاپلامدۇ؟',
-    	error : 'ئىچكى خاتالىق سەۋەبىدىن چاپلايدىغان سانلىق مەلۇماتنى تازىلىيالمايدۇ',
-    	title : 'MS Word تىن چاپلا',
-    	toolbar : 'MS Word تىن چاپلا'
-    },
-    colorbutton : 
-    {
-    	auto : 'ئۆزلۈكىدىن',
-    	bgColorTitle : 'تەگلىك رەڭگى',
-    	colors : 
-    	{
-    		'000' : 'قارا',
-    		'800000' : 'قىزغۇچ سېرىق',
-    		'8B4513' : 'توق قوڭۇر',
-    		'2F4F4F' : 'قارامتۇل يېشىل',
-    		'008080' : 'كۆكۈش يېشىل',
-    		'000080' : 'قارامتۇل كۆك',
-    		'4B0082' : 'كۆكۈش كۈلرەڭ',
-    		'696969' : 'قارامتۇل كۈلرەڭ',
-    		B22222 : 'خىش قىزىل',
-    		A52A2A : 'قوڭۇر',
-    		DAA520 : 'ئالتۇن سېرىق',
-    		'006400' : 'توق يېشىل',
-    		'40E0D0' : 'كۆكۈچ يېشىل',
-    		'0000CD' : 'ئوتتۇراھال كۆك',
-    		'800080' : 'بىنەپشە',
-    		'808080' : 'كۈلرەڭ',
-    		F00 : 'قىزىل',
-    		FF8C00 : 'توق قىزغۇچ سېرىق',
-    		FFD700 : 'ئالتۇن',
-    		'008000' : 'يېشىل',
-    		'0FF' : 'يېشىل كۆك',
-    		'00F' : 'كۆك',
-    		EE82EE : 'قىزغۇچ بىنەپشە',
-    		A9A9A9 : 'توق كۈلرەڭ',
-    		FFA07A : 'كاۋا چېچىكى سېرىق',
-    		FFA500 : 'قىزغۇچ سېرىق',
-    		FFFF00 : 'سېرىق',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'سۇس ھاۋا رەڭ',
-    		ADD8E6 : 'ئوچۇق كۆك',
-    		DDA0DD : 'قىزغۇچ بىنەپشە',
-    		D3D3D3 : 'سۇس كۆكۈچ كۈلرەڭ',
-    		FFF0F5 : 'سۇس قىزغۇچ بىنەپشە',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'سۇس سېرىق',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'ئاسمان كۆكى',
-    		F0F8FF : 'سۇس كۆك',
-    		E6E6FA : 'سۇس بىنەپشە',
-    		FFF : 'ئاق'
-    	},
-    	more : 'باشقا رەڭ',
-    	panelTitle : 'رەڭ',
-    	textColorTitle : 'تېكىست رەڭگى'
-    },
-    list : 
-    {
-    	bulletedlist : 'تۈر بەلگە تىزىمى',
-    	numberedlist : 'تەرتىپ نومۇر تىزىمى'
+    	toolbar : 'ساقلا'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['ug'] = {
     	validateHSpace : 'توغرىسىغا ئارىلىق چوقۇم پۈتۈن سان بولىدۇ',
     	validateVSpace : 'بويىغا ئارىلىق چوقۇم پۈتۈن سان بولىدۇ'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'ئىزدە',
-    	findOptions : 'ئىزدەش تاللانمىسى',
-    	findWhat : 'ئىزدە:',
-    	matchCase : 'چوڭ كىچىك ھەرپنى پەرقلەندۈر',
-    	matchCyclic : 'ئايلانما ماسلىشىش',
-    	matchWord : 'پۈتۈن سۆز ماسلىشىش',
-    	notFoundMsg : 'بەلگىلەنگەن تېكىستنى تاپالمىدى',
-    	replace : 'ئالماشتۇر',
-    	replaceAll : 'ھەممىنى ئالماشتۇر',
-    	replaceSuccessMsg : 'جەمئى %1 جايدىكى ئالماشتۇرۇش تاماملاندى',
-    	replaceWith : 'ئالماشتۇر:',
-    	title : 'ئىزدەپ ئالماشتۇر'
+    	alt : 'بەت ئايرىغۇچ',
+    	toolbar : 'بەت ئايرىغۇچ قىستۇر'
     },
     showblocks : 
     {
     	toolbar : 'بۆلەكنى كۆرسەت'
+    },
+    indent : 
+    {
+    	indent : 'تارايت',
+    	outdent : 'كەڭەيت'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['ug'] = {
     		typeUrl : 'ئادرېس'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'توغرا سىزىق قىستۇر'
-    },
-    pagebreak : 
-    {
-    	alt : 'بەت ئايرىغۇچ',
-    	toolbar : 'بەت ئايرىغۇچ قىستۇر'
-    },
-    stylescombo : 
-    {
-    	label : 'ئۇسلۇب',
-    	panelTitle : 'ئۇسلۇب',
-    	panelTitle1 : 'بۆلەك دەرىجىسىدىكى ئېلېمېنت ئۇسلۇبى',
-    	panelTitle2 : 'ئىچكى باغلانما ئېلېمېنت ئۇسلۇبى',
-    	panelTitle3 : 'نەڭ (Object) ئېلېمېنت ئۇسلۇبى'
-    },
     bidi : 
     {
     	ltr : 'تېكىست يۆنىلىشى سولدىن ئوڭغا',
     	rtl : 'تېكىست يۆنىلىشى ئوڭدىن سولغا'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'توم',
-    	italic : 'يانتۇ',
-    	strike : 'ئۆچۈرۈش سىزىقى',
-    	subscript : 'تۆۋەن ئىندېكس',
-    	superscript : 'يۇقىرى ئىندېكس',
-    	underline : 'ئاستى سىزىق'
+    	eleLabel : 'ئېلېمېنت يولى',
+    	eleTitle : '%1 ئېلېمېنت'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'لەڭگەرلىك نۇقتا',
+    	flash : 'Flash جانلاندۇرۇم',
+    	hiddenfield : 'يوشۇرۇن دائىرە',
+    	iframe : 'IFrame',
+    	unknown : 'يوچۇن نەڭ'
+    },
+    smiley : 
+    {
+    	options : 'چىراي ئىپادە سىنبەلگە تاللانمىسى',
+    	title : 'چىراي ئىپادە سىنبەلگە قىستۇر',
+    	toolbar : 'چىراي ئىپادە'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. نەشر ھوقۇقىغا ئىگە',
+    	dlgTitle : 'CKEditor ھەققىدە',
+    	help : '$1 نى زىيارەت قىلىپ ياردەمگە ئېرىشىڭ',
+    	moreInfo : 'تور تۇرايىمىزنى زىيارەت قىلىپ كېلىشىمگە ئائىت تېخىمۇ كۆپ ئۇچۇرغا ئېرىشىڭ',
+    	title : 'CKEditor ھەققىدە',
+    	userGuide : 'CKEditor ئىشلەتكۈچى قوللانمىسى'
+    },
+    newpage : 
+    {
+    	toolbar : 'يېڭى بەت'
+    },
+    format : 
+    {
+    	label : 'پىچىم',
+    	panelTitle : 'پىچىم',
+    	tag_address : 'ئادرېس',
+    	tag_div : 'ئابزاس (DIV)',
+    	tag_h1 : 'ماۋزۇ 1',
+    	tag_h2 : 'ماۋزۇ 2',
+    	tag_h3 : 'ماۋزۇ 3',
+    	tag_h4 : 'ماۋزۇ 4',
+    	tag_h5 : 'ماۋزۇ 5',
+    	tag_h6 : 'ماۋزۇ 6',
+    	tag_p : 'ئادەتتىكى',
+    	tag_pre : 'تىزىلغان پىچىم'
+    },
+    removeformat : 
+    {
+    	toolbar : 'پىچىمنى چىقىرىۋەت'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['ug'] = {
     	widthPx : 'پىكسېل',
     	widthUnit : 'كەڭلىك بىرلىكى'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'بۇ جايغا ئابزاس قىستۇر'
+    	options : 'ئالاھىدە ھەرپ تاللانمىسى',
+    	title : 'ئالاھىدە ھەرپ تاللاڭ',
+    	toolbar : 'ئالاھىدە ھەرپ قىستۇر'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'ساقلا'
+    	armenian : 'قەدىمكى ئەرمىنىيە تەرتىپ نومۇرى شەكلى',
+    	bulletedTitle : 'تۈر بەلگە تىزىم خاسلىقى',
+    	circle : 'بوش چەمبەر',
+    	decimal : 'سان (1, 2, 3 قاتارلىق)',
+    	decimalLeadingZero : 'نۆلدىن باشلانغان سان بەلگە (01, 02, 03 قاتارلىق)',
+    	disc : 'تولدۇرۇلغان چەمبەر',
+    	georgian : 'قەدىمكى جورجىيە تەرتىپ نومۇرى شەكلى (an, ban, gan قاتارلىق)',
+    	lowerAlpha : 'ئىنگلىزچە كىچىك ھەرپ (a, b, c, d, e قاتارلىق)',
+    	lowerGreek : 'گرېكچە كىچىك ھەرپ (alpha, beta, gamma قاتارلىق)',
+    	lowerRoman : 'كىچىك ھەرپلىك رىم رەقىمى (i, ii, iii, iv, v قاتارلىق)',
+    	none : 'بەلگە يوق',
+    	notset : '‹تەڭشەلمىگەن›',
+    	numberedTitle : 'تەرتىپ نومۇر تىزىم خاسلىقى',
+    	square : 'تولدۇرۇلغان تۆت چاسا',
+    	start : 'باشلىنىش نومۇرى',
+    	type : 'بەلگە تىپى',
+    	upperAlpha : 'ئىنگلىزچە چوڭ ھەرپ (A, B, C, D, E قاتارلىق)',
+    	upperRoman : 'چوڭ ھەرپلىك رىم رەقىمى (I, II, III, IV, V قاتارلىق)',
+    	validateStartNumber : 'تىزىم باشلىنىش تەرتىپ نومۇرى چوقۇم پۈتۈن سان پىچىمىدا بولۇشى لازىم'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'لەڭگەرلىك نۇقتا',
-    	flash : 'Flash جانلاندۇرۇم',
-    	hiddenfield : 'يوشۇرۇن دائىرە',
-    	iframe : 'IFrame',
-    	unknown : 'يوچۇن نەڭ'
+    	border : 'كاندۇك گىرۋەكلىرىنى كۆرسەت',
+    	noUrl : 'كاندۇكنىڭ ئادرېسى(Url)نى كىرگۈزۈڭ',
+    	scrolling : 'دومىلىما سۈرگۈچكە يول قوي',
+    	title : 'IFrame خاسلىق',
+    	toolbar : 'IFrame '
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'ئېلېمېنت يولى',
-    	eleTitle : '%1 ئېلېمېنت'
+    	access : 'قوليازما زىيارەتكە يول قوي',
+    	accessAlways : 'ھەمىشە',
+    	accessNever : 'ھەرگىز',
+    	accessSameDomain : 'ئوخشاش دائىرىدە',
+    	alignAbsBottom : 'مۇتلەق ئاستى',
+    	alignAbsMiddle : 'مۇتلەق ئوتتۇرا',
+    	alignBaseline : 'ئاساسىي سىزىق',
+    	alignTextTop : 'تېكىست ئۈستىدە',
+    	bgcolor : 'تەگلىك رەڭگى',
+    	chkFull : 'پۈتۈن ئېكراننى قوزغات',
+    	chkLoop : 'دەۋرىي',
+    	chkMenu : 'Flash تىزىملىكنى قوزغات',
+    	chkPlay : 'ئۆزلۈكىدىن چال',
+    	flashvars : 'Flash  ئۆزگەرگۈچى',
+    	hSpace : 'توغرىسىغا ئارىلىق',
+    	properties : 'Flash خاسلىق',
+    	propertiesTab : 'خاسلىق',
+    	quality : 'سۈپەت',
+    	qualityAutoHigh : 'يۇقىرى (ئاپتوماتىك)',
+    	qualityAutoLow : 'تۆۋەن (ئاپتوماتىك)',
+    	qualityBest : 'ئەڭ ياخشى',
+    	qualityHigh : 'يۇقىرى',
+    	qualityLow : 'تۆۋەن',
+    	qualityMedium : 'ئوتتۇرا (ئاپتوماتىك)',
+    	scale : 'نىسبىتى',
+    	scaleAll : 'ھەممىنى كۆرسەت',
+    	scaleFit : 'قەتئىي ماسلىشىش',
+    	scaleNoBorder : 'گىرۋەك يوق',
+    	title : 'ماۋزۇ',
+    	vSpace : 'بويىغا ئارىلىق',
+    	validateHSpace : 'توغرىسىغا ئارىلىق چوقۇم سان بولىدۇ',
+    	validateSrc : 'ئەسلى ھۆججەت ئادرېسىنى كىرگۈزۈڭ',
+    	validateVSpace : 'بويىغا ئارىلىق چوقۇم سان بولىدۇ',
+    	windowMode : 'كۆزنەك ھالىتى',
+    	windowModeOpaque : 'خىرە',
+    	windowModeTransparent : 'سۈزۈك',
+    	windowModeWindow : 'كۆزنەك گەۋدىسى'
+    },
+    find : 
+    {
+    	find : 'ئىزدە',
+    	findOptions : 'ئىزدەش تاللانمىسى',
+    	findWhat : 'ئىزدە:',
+    	matchCase : 'چوڭ كىچىك ھەرپنى پەرقلەندۈر',
+    	matchCyclic : 'ئايلانما ماسلىشىش',
+    	matchWord : 'پۈتۈن سۆز ماسلىشىش',
+    	notFoundMsg : 'بەلگىلەنگەن تېكىستنى تاپالمىدى',
+    	replace : 'ئالماشتۇر',
+    	replaceAll : 'ھەممىنى ئالماشتۇر',
+    	replaceSuccessMsg : 'جەمئى %1 جايدىكى ئالماشتۇرۇش تاماملاندى',
+    	replaceWith : 'ئالماشتۇر:',
+    	title : 'ئىزدەپ ئالماشتۇر'
+    },
+    colorbutton : 
+    {
+    	auto : 'ئۆزلۈكىدىن',
+    	bgColorTitle : 'تەگلىك رەڭگى',
+    	colors : 
+    	{
+    		'000' : 'قارا',
+    		'800000' : 'قىزغۇچ سېرىق',
+    		'8B4513' : 'توق قوڭۇر',
+    		'2F4F4F' : 'قارامتۇل يېشىل',
+    		'008080' : 'كۆكۈش يېشىل',
+    		'000080' : 'قارامتۇل كۆك',
+    		'4B0082' : 'كۆكۈش كۈلرەڭ',
+    		'696969' : 'قارامتۇل كۈلرەڭ',
+    		B22222 : 'خىش قىزىل',
+    		A52A2A : 'قوڭۇر',
+    		DAA520 : 'ئالتۇن سېرىق',
+    		'006400' : 'توق يېشىل',
+    		'40E0D0' : 'كۆكۈچ يېشىل',
+    		'0000CD' : 'ئوتتۇراھال كۆك',
+    		'800080' : 'بىنەپشە',
+    		'808080' : 'كۈلرەڭ',
+    		F00 : 'قىزىل',
+    		FF8C00 : 'توق قىزغۇچ سېرىق',
+    		FFD700 : 'ئالتۇن',
+    		'008000' : 'يېشىل',
+    		'0FF' : 'يېشىل كۆك',
+    		'00F' : 'كۆك',
+    		EE82EE : 'قىزغۇچ بىنەپشە',
+    		A9A9A9 : 'توق كۈلرەڭ',
+    		FFA07A : 'كاۋا چېچىكى سېرىق',
+    		FFA500 : 'قىزغۇچ سېرىق',
+    		FFFF00 : 'سېرىق',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'سۇس ھاۋا رەڭ',
+    		ADD8E6 : 'ئوچۇق كۆك',
+    		DDA0DD : 'قىزغۇچ بىنەپشە',
+    		D3D3D3 : 'سۇس كۆكۈچ كۈلرەڭ',
+    		FFF0F5 : 'سۇس قىزغۇچ بىنەپشە',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'سۇس سېرىق',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'ئاسمان كۆكى',
+    		F0F8FF : 'سۇس كۆك',
+    		E6E6FA : 'سۇس بىنەپشە',
+    		FFF : 'ئاق'
+    	},
+    	more : 'باشقا رەڭ',
+    	panelTitle : 'رەڭ',
+    	textColorTitle : 'تېكىست رەڭگى'
+    },
+    undo : 
+    {
+    	redo : 'قايتىلا ',
+    	undo : 'يېنىۋال'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'چوڭلۇقى',
+    		voiceLabel : 'خەت چوڭلۇقى',
+    		panelTitle : 'چوڭلۇقى'
+    	},
+    	label : 'خەت نۇسخا',
+    	panelTitle : 'خەت نۇسخا',
+    	voiceLabel : 'خەت نۇسخا'
     },
     maximize : 
     {
     	maximize : 'چوڭايت',
     	minimize : 'كىچىكلەت'
     },
+    basicstyles : 
+    {
+    	bold : 'توم',
+    	italic : 'يانتۇ',
+    	strike : 'ئۆچۈرۈش سىزىقى',
+    	subscript : 'تۆۋەن ئىندېكس',
+    	superscript : 'يۇقىرى ئىندېكس',
+    	underline : 'ئاستى سىزىق'
+    },
+    magicline : 
+    {
+    	title : 'بۇ جايغا ئابزاس قىستۇر'
+    },
+    print : 
+    {
+    	toolbar : 'باس '
+    },
+    wsc : 
+    {
+    	btnIgnore : 'پەرۋا قىلما',
+    	btnIgnoreAll : 'ھەممىگە پەرۋا قىلما',
+    	btnReplace : 'ئالماشتۇر',
+    	btnReplaceAll : 'ھەممىنى ئالماشتۇر',
+    	btnUndo : 'يېنىۋال',
+    	changeTo : 'ئۆزگەرت',
+    	errorLoading : 'لازىملىق مۇلازىمېتىرنى يۈكلىگەندە خاتالىق كۆرۈلدى: %s.',
+    	ieSpellDownload : 'ئىملا تەكشۈرۈش قىستۇرمىسى تېخى ئورنىتىلمىغان، ھازىرلا چۈشۈرەمسىز؟',
+    	manyChanges : 'ئىملا تەكشۈرۈش تامام: %1  سۆزنى ئۆزگەرتتى',
+    	noChanges : 'ئىملا تەكشۈرۈش تامام: ھېچقانداق سۆزنى ئۆزگەرتمىدى',
+    	noMispell : 'ئىملا تەكشۈرۈش تامام: ئىملا خاتالىقى بايقالمىدى',
+    	noSuggestions : '-تەكلىپ يوق-',
+    	notAvailable : 'كەچۈرۈڭ، مۇلازىمېتىرنى ۋاقتىنچە ئىشلەتكىلى بولمايدۇ',
+    	notInDic : 'لۇغەتتە يوق',
+    	oneChange : 'ئىملا تەكشۈرۈش تامام: بىر سۆزنى ئۆزگەرتتى',
+    	progress : 'ئىملا تەكشۈرۈۋاتىدۇ…',
+    	title : 'ئىملا تەكشۈر',
+    	toolbar : 'ئىملا تەكشۈر'
+    },
+    clipboard : 
+    {
+    	copy : 'نەشر ھوقۇقىغا ئىگە بەلگىسى',
+    	copyError : 'تور كۆرگۈڭىزنىڭ بىخەتەرلىك تەڭشىكى تەھرىرلىگۈچنىڭ كۆچۈر مەشغۇلاتىنى ئۆزلۈكىدىن ئىجرا قىلىشىغا يول قويمايدۇ، ھەرپتاختا تېز كۇنۇپكا (Ctrl/Cmd+C) ئارقىلىق تاماملاڭ',
+    	cut : 'كەس',
+    	cutError : 'تور كۆرگۈڭىزنىڭ بىخەتەرلىك تەڭشىكى تەھرىرلىگۈچنىڭ كەس مەشغۇلاتىنى ئۆزلۈكىدىن ئىجرا قىلىشىغا يول قويمايدۇ، ھەرپتاختا تېز كۇنۇپكا (Ctrl/Cmd+X) ئارقىلىق تاماملاڭ',
+    	paste : 'چاپلا',
+    	pasteArea : 'چاپلاش دائىرىسى',
+    	pasteMsg : 'ھەرپتاختا تېز كۇنۇپكا (<STRONG>Ctrl/Cmd+V</STRONG>) نى ئىشلىتىپ مەزمۇننى تۆۋەندىكى رامكىغا كۆچۈرۈڭ، ئاندىن <STRONG>جەزملە</STRONG>نى بېسىڭ',
+    	securityMsg : 'توركۆرگۈڭىزنىڭ بىخەتەرلىك تەڭشىكى سەۋەبىدىن بۇ تەھرىرلىگۈچ چاپلاش تاختىسىدىكى مەزمۇننى بىۋاستە زىيارەت قىلالمايدۇ، بۇ كۆزنەكتە قايتا بىر قېتىم چاپلىشىڭىز كېرەك.',
+    	title : 'چاپلا'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'مەنبە'
+    },
+    scayt : 
+    {
+    	about : 'شۇئان ئىملا تەكشۈرۈش ھەققىدە',
+    	aboutTab : 'ھەققىدە',
+    	addWord : 'سۆز قوش',
+    	allCaps : 'چوڭ ھەرپتە يېزىلغان ھەممە سۆزگە پەرۋا قىلما',
+    	dic_create : 'قۇر',
+    	dic_delete : 'ئۆچۈر',
+    	dic_field_name : 'لۇغەت ئاتى',
+    	dic_info : 'باشلىنىشتا ئىشلەتكۈچى لۇغىتى Cookie  غا ساقلىنىدۇ ئەمما Cookie نىڭ سىغىمى چەكلىك بولغاچقا، ئىشلەتكۈچى لۇغىتى كۆپىيىپ Cookie  چەكلىمىسىدىن ئېشىپ كەتكەندە ساقلىغىلى بولمايدۇ، بۇ چاغدا لۇغىتىڭىزنى مۇلازىمېتىرىمىزغا ساقلىسىڭىز بولىدۇ. شەخسىي لۇغىتىڭىزنى مۇلازىمېتىرىمىزغا ساقلىماقچى بولسىڭىز لۇغىتىڭىزگە ئاتتىن بىرنى قويۇڭ، ئەگەر مۇلازىمتېرىمىزدا سىزنىڭ لۇغىتىڭىزدىن بىرسى بولسا لۇغەت ئاتىنى كىرگۈزۈپ ئەسلىگە قايتۇر توپچىسىنى بېسىڭ.',
+    	dic_rename : 'ئات ئۆزگەرت',
+    	dic_restore : 'ئەسلىگە كەلتۈر',
+    	dictionariesTab : 'لۇغەت',
+    	disable : 'شۇئان ئىملا تەكشۈرۈشنى چەكلە',
+    	emptyDic : 'لۇغەت ئاتى بوش قالمايدۇ',
+    	enable : 'شۇئان ئىملا تەكشۈرۈشنى قوزغات',
+    	ignore : 'پەرۋا قىلما',
+    	ignoreAll : 'ھەممىسىگە پەرۋا قىلما',
+    	ignoreDomainNames : 'دائىرە ئاتىغا پەرۋا قىلما',
+    	langs : 'تىل',
+    	languagesTab : 'تىل',
+    	mixedCase : 'چوڭ كىچىك ھەرپ بىلەن ئارىلاش يېزىلغان سۆزگە پەرۋا قىلما',
+    	mixedWithDigits : 'سان بار سۆزگە پەرۋا قىلما',
+    	moreSuggestions : 'تېخىمۇ كۆپ ئىملا تەۋسىيەسى',
+    	opera_title : 'Opera توركۆرگۈنى قوللىمايدۇ',
+    	options : 'تاللانما',
+    	optionsTab : 'تاللانما',
+    	title : 'شۇئان ئىملا تەكشۈر',
+    	toggle : 'شۇئان ئىملا تەكشۈرۈشنى ۋاقىتلىق توختات/قوزغات',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'توغرا سىزىق قىستۇر'
+    },
+    pastetext : 
+    {
+    	button : 'پىچىمى يوق تېكىست سۈپىتىدە چاپلا',
+    	title : 'پىچىمى يوق تېكىست سۈپىتىدە چاپلا'
+    },
+    contextmenu : 
+    {
+    	options : 'قىسقا يول تىزىملىك تاللانمىسى'
+    },
+    templates : 
+    {
+    	button : 'قېلىپ',
+    	emptyListMsg : '(قېلىپ يوق)',
+    	insertOption : 'نۆۋەتتىكى مەزمۇننى ئالماشتۇر',
+    	options : 'قېلىپ تاللانمىسى',
+    	selectPromptMsg : 'تەھرىرلىگۈچنىڭ مەزمۇن قېلىپىنى تاللاڭ:',
+    	title : 'مەزمۇن قېلىپى'
+    },
+    div : 
+    {
+    	IdInputLabel : 'ID',
+    	advisoryTitleInputLabel : 'ماۋزۇ',
+    	cssClassInputLabel : 'ئۇسلۇب تىپىنىڭ ئاتى',
+    	edit : 'DIV تەھرىر',
+    	inlineStyleInputLabel : 'قۇر ئىچىدىكى ئۇسلۇبى',
+    	langDirLTRLabel : 'سولدىن ئوڭغا (LTR)',
+    	langDirLabel : 'تىل يۆنىلىشى',
+    	langDirRTLLabel : 'ئوڭدىن سولغا (RTL)',
+    	languageCodeInputLabel : 'تىل كودى',
+    	remove : 'DIV چىقىرىۋەت',
+    	styleSelectLabel : 'ئۇسلۇب',
+    	title : 'DIV قاچا قۇر',
+    	toolbar : 'DIV قاچا قۇر'
+    },
+    preview : 
+    {
+    	preview : 'ئالدىن كۆزەت'
+    },
+    colordialog : 
+    {
+    	clear : 'تازىلا',
+    	highlight : 'يورۇت',
+    	options : 'رەڭ تاللانمىسى',
+    	selected : 'رەڭ تاللاڭ',
+    	title : 'رەڭ تاللاڭ'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'قورال بالداقنى قاتلا',
+    	toolbarExpand : 'قورال بالداقنى ياي',
+    	toolbarGroups : 
+    	{
+    		document : 'پۈتۈك',
+    		clipboard : 'چاپلاش تاختىسى/يېنىۋال',
+    		editing : 'تەھرىر',
+    		forms : 'جەدۋەل',
+    		basicstyles : 'ئاساسىي ئۇسلۇب',
+    		paragraph : 'ئابزاس',
+    		links : 'ئۇلانما',
+    		insert : 'قىستۇر',
+    		styles : 'ئۇسلۇب',
+    		colors : 'رەڭ',
+    		tools : 'قورال'
+    	},
+    	toolbars : 'قورال بالداق'
+    },
+    selectall : 
+    {
+    	toolbar : 'ھەممىنى تاللا'
+    },
+    blockquote : 
+    {
+    	toolbar : 'بۆلەك نەقىل'
+    },
+    link : 
+    {
+    	acccessKey : 'زىيارەت كۇنۇپكا',
+    	advanced : 'ئالىي',
+    	advisoryContentType : 'مەزمۇن تىپى',
+    	advisoryTitle : 'ماۋزۇ',
+    	anchor : 
+    	{
+    		toolbar : 'لەڭگەرلىك نۇقتا ئۇلانمىسى قىستۇر/تەھرىرلە',
+    		menu : 'لەڭگەرلىك نۇقتا ئۇلانما خاسلىقى',
+    		title : 'لەڭگەرلىك نۇقتا ئۇلانما خاسلىقى',
+    		name : 'لەڭگەرلىك نۇقتا ئاتى',
+    		errorName : 'لەڭگەرلىك نۇقتا ئاتىنى كىرگۈزۈڭ',
+    		remove : 'لەڭگەرلىك نۇقتا ئۆچۈر'
+    	},
+    	anchorId : 'لەڭگەرلىك نۇقتا ID سى بويىچە',
+    	anchorName : 'لەڭگەرلىك نۇقتا ئاتى بويىچە',
+    	charset : 'ھەرپ كودلىنىشى',
+    	cssClasses : 'ئۇسلۇب خىلى ئاتى',
+    	emailAddress : 'ئادرېس',
+    	emailBody : 'مەزمۇن',
+    	emailSubject : 'ماۋزۇ',
+    	id : 'ID',
+    	info : 'ئۇلانما ئۇچۇرى',
+    	langCode : 'تىل كودى',
+    	langDir : 'تىل يۆنىلىشى',
+    	langDirLTR : 'سولدىن ئوڭغا (LTR)',
+    	langDirRTL : 'ئوڭدىن سولغا (RTL)',
+    	menu : 'ئۇلانما تەھرىر',
+    	name : 'ئات',
+    	noAnchors : '(بۇ پۈتۈكتە ئىشلەتكىلى بولىدىغان لەڭگەرلىك نۇقتا يوق)',
+    	noEmail : 'ئېلخەت ئادرېسىنى كىرگۈزۈڭ',
+    	noUrl : 'ئۇلانما ئادرېسىنى كىرگۈزۈڭ',
+    	other : '‹باشقا›',
+    	popupDependent : 'تەۋە (NS)',
+    	popupFeatures : 'قاڭقىش كۆزنەك خاسلىقى',
+    	popupFullScreen : 'پۈتۈن ئېكران (IE)',
+    	popupLeft : 'سول',
+    	popupLocationBar : 'ئادرېس بالداق',
+    	popupMenuBar : 'تىزىملىك بالداق',
+    	popupResizable : 'چوڭلۇقى ئۆزگەرتىشچان',
+    	popupScrollBars : 'دومىلىما سۈرگۈچ',
+    	popupStatusBar : 'ھالەت بالداق',
+    	popupToolbar : 'قورال بالداق',
+    	popupTop : 'ئوڭ',
+    	rel : 'باغلىنىش',
+    	selectAnchor : 'بىر لەڭگەرلىك نۇقتا تاللاڭ',
+    	styles : 'قۇر ئىچىدىكى ئۇسلۇبى',
+    	tabIndex : 'Tab تەرتىپى',
+    	target : 'نىشان',
+    	targetFrame : '‹كاندۇك›',
+    	targetFrameName : 'نىشان كاندۇك ئاتى',
+    	targetPopup : '‹قاڭقىش كۆزنەك›',
+    	targetPopupName : 'قاڭقىش كۆزنەك ئاتى',
+    	title : 'ئۇلانما',
+    	toAnchor : 'بەت ئىچىدىكى لەڭگەرلىك نۇقتا ئۇلانمىسى',
+    	toEmail : 'ئېلخەت',
+    	toUrl : 'ئادرېس',
+    	toolbar : 'ئۇلانما قىستۇر/تەھرىرلە',
+    	type : 'ئۇلانما تىپى',
+    	unlink : 'ئۇلانما بىكار قىل',
+    	upload : 'يۈكلە'
+    },
+    stylescombo : 
+    {
+    	label : 'ئۇسلۇب',
+    	panelTitle : 'ئۇسلۇب',
+    	panelTitle1 : 'بۆلەك دەرىجىسىدىكى ئېلېمېنت ئۇسلۇبى',
+    	panelTitle2 : 'ئىچكى باغلانما ئېلېمېنت ئۇسلۇبى',
+    	panelTitle3 : 'نەڭ (Object) ئېلېمېنت ئۇسلۇبى'
+    },
+    dir : 'rtl',
     editor : 'تەھرىرلىگۈچ',
     common : 
     {

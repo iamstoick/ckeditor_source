@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['af'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'Kopiëer',
-    	copyError : 'U blaaier se sekuriteitsinstelling belet die kopiëringsaksie. Gebruik die sleutelbordkombinasie (Ctrl/Cmd+C).',
-    	cut : 'Knip',
-    	cutError : 'U blaaier se sekuriteitsinstelling belet die outomatiese knip-aksie. Gebruik die sleutelbordkombinasie (Ctrl/Cmd+X).',
-    	paste : 'Plak',
-    	pasteArea : 'Plak-area',
-    	pasteMsg : 'Plak die teks in die volgende teks-area met die sleutelbordkombinasie (<STRONG>Ctrl/Cmd+V</STRONG>) en druk <STRONG>OK</STRONG>.',
-    	securityMsg : 'Weens u blaaier se sekuriteitsinstelling is data op die knipbord nie toeganklik nie. U kan dit eers weer in hierdie venster plak.',
-    	title : 'Byvoeg'
+    	confirmCleanup : 'Die teks wat u wil plak lyk asof dit uit Word gekopiëer is. Wil u dit eers skoonmaak voordat dit geplak word?',
+    	error : 'Die geplakte teks kon nie skoongemaak word nie, weens \'n interne fout',
+    	title : 'Plak vanuit Word',
+    	toolbar : 'Plak vanuit Word'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'Plak as eenvoudige teks',
-    	title : 'Plak as eenvoudige teks'
-    },
-    specialchar : 
-    {
-    	options : 'Spesiale karakter-opsies',
-    	title : 'Kies spesiale karakter',
-    	toolbar : 'Voeg spesiaale karakter in'
-    },
-    selectall : 
-    {
-    	toolbar : 'Selekteer alles'
-    },
-    newpage : 
-    {
-    	toolbar : 'Nuwe bladsy'
-    },
-    templates : 
-    {
-    	button : 'Sjablone',
-    	emptyListMsg : '(Geen sjablone gedefineer nie)',
-    	insertOption : 'Vervang huidige inhoud',
-    	options : 'Sjabloon opsies',
-    	selectPromptMsg : 'Kies die sjabloon om te gebruik in die redigeerder (huidige inhoud gaan verlore):',
-    	title : 'Inhoud Sjablone'
-    },
-    colordialog : 
-    {
-    	clear : 'Herstel',
-    	highlight : 'Aktief',
-    	options : 'Kleuropsies',
-    	selected : 'Geselekteer',
-    	title : 'Kies kleur'
-    },
-    preview : 
-    {
-    	preview : 'Voorbeeld'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'Grootte',
-    		voiceLabel : 'Fontgrootte',
-    		panelTitle : 'Fontgrootte'
-    	},
-    	label : 'Font',
-    	panelTitle : 'Fontnaam',
-    	voiceLabel : 'Font'
-    },
-    liststyle : 
-    {
-    	armenian : 'Armeense nommering',
-    	bulletedTitle : 'Eienskappe van ongenommerde lys',
-    	circle : 'Sirkel',
-    	decimal : 'Desimale syfers (1, 2, 3, ens.)',
-    	decimalLeadingZero : 'Desimale syfers met voorloopnul (01, 02, 03, ens.)',
-    	disc : 'Skyf',
-    	georgian : 'Georgiese nommering (an, ban, gan, ens.)',
-    	lowerAlpha : 'Kleinletters (a, b, c, d, e, ens.)',
-    	lowerGreek : 'Griekse kleinletters (alpha, beta, gamma, ens.)',
-    	lowerRoman : 'Romeinse kleinletters (i, ii, iii, iv, v, ens.)',
-    	none : 'Geen',
-    	notset : '<nie ingestel nie>',
-    	numberedTitle : 'Eienskappe van genommerde lys',
-    	square : 'Vierkant',
-    	start : 'Begin',
-    	type : 'Tipe',
-    	upperAlpha : 'Hoofletters (A, B, C, D, E, ens.)',
-    	upperRoman : 'Romeinse hoofletters (I, II, III, IV, V, ens.)',
-    	validateStartNumber : 'Beginnommer van lys moet \'n heelgetal wees.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'Sitaatblok'
-    },
-    undo : 
-    {
-    	redo : 'Oordoen',
-    	undo : 'Ontdoen'
-    },
-    about : 
-    {
-    	copy : 'Kopiereg &copy; $1. Alle regte voorbehou.',
-    	dlgTitle : 'Info oor CKEditor',
-    	help : 'Check $1 for help.',
-    	moreInfo : 'Vir lisensie-informasie, besoek asb. ons webwerf:',
-    	title : 'Info oor CKEditor',
-    	userGuide : 'CKEditor User\'s Guide'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'Verklein werkbalk',
-    	toolbarExpand : 'Vergroot werkbalk',
-    	toolbarGroups : 
-    	{
-    		document : 'Document',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Editing',
-    		forms : 'Forms',
-    		basicstyles : 'Basic Styles',
-    		paragraph : 'Paragraph',
-    		links : 'Links',
-    		insert : 'Insert',
-    		styles : 'Styles',
-    		colors : 'Colors',
-    		tools : 'Tools'
-    	},
-    	toolbars : 'Editor toolbars'
-    },
-    scayt : 
-    {
-    	about : 'SCAYT info',
-    	aboutTab : 'Info',
-    	addWord : 'Voeg woord by',
-    	allCaps : 'Ignoreer woorde in hoofletters',
-    	dic_create : 'Skep',
-    	dic_delete : 'Verwijder',
-    	dic_field_name : 'Naam van woordeboek',
-    	dic_info : 'Aanvanklik word die gebruikerswoordeboek in \'n koekie gestoor. Koekies is egter beperk in grootte. Wanneer die gebruikerswoordeboek te groot vir \'n koekie geword het, kan dit op ons bediener gestoor word. Om u persoonlike woordeboek op ons bediener te stoor, gee asb. \'n naam vir u woordeboek. Indien u alreeds \'n gestoorde woordeboek het, tik die naam en kliek op die Herstel knop.',
-    	dic_rename : 'Hernoem',
-    	dic_restore : 'Herstel',
-    	dictionariesTab : 'Woordeboeke',
-    	disable : 'SCAYT af',
-    	emptyDic : 'Woordeboeknaam mag nie leeg wees nie.',
-    	enable : 'SCAYT aan',
-    	ignore : 'Ignoreer',
-    	ignoreAll : 'Ignoreer alles',
-    	ignoreDomainNames : 'Ignoreer domeinname',
-    	langs : 'Tale',
-    	languagesTab : 'Tale',
-    	mixedCase : 'Ignoreer woorde met hoof- en kleinletters',
-    	mixedWithDigits : 'Ignoreer woorde met syfers',
-    	moreSuggestions : 'Meer voorstelle',
-    	opera_title : 'Nie ondersteun deur Opera nie',
-    	options : 'Opsies',
-    	optionsTab : 'Opsies',
-    	title : 'Speltoets terwyl u tik',
-    	toggle : 'SCAYT wissel aan/af',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'Ignoreer',
-    	btnIgnoreAll : 'Ignoreer alles',
-    	btnReplace : 'Vervang',
-    	btnReplaceAll : 'vervang alles',
-    	btnUndo : 'Ontdoen',
-    	changeTo : 'Verander na',
-    	errorLoading : 'Fout by inlaai van diens: %s.',
-    	ieSpellDownload : 'Speltoetser is nie geïnstalleer nie. Wil u dit nou aflaai?',
-    	manyChanges : 'Klaar met speltoets: %1 woorde verander',
-    	noChanges : 'Klaar met speltoets: Geen woorde verander nie',
-    	noMispell : 'Klaar met speltoets: Geen foute nie',
-    	noSuggestions : '- Geen voorstel -',
-    	notAvailable : 'Jammer, hierdie diens is nie nou beskikbaar nie.',
-    	notInDic : 'Nie in woordeboek nie',
-    	oneChange : 'Klaar met speltoets: Een woord verander',
-    	progress : 'Spelling word getoets...',
-    	title : 'Speltoetser',
-    	toolbar : 'Speltoets'
-    },
-    contextmenu : 
-    {
-    	options : 'Konteks Spyskaart-opsies'
+    	bulletedlist : 'Ongenommerde lys',
+    	numberedlist : 'Genommerde lys'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['af'] = {
     	left : 'Links oplyn',
     	right : 'Regs oplyn'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'Bron'
-    },
-    format : 
-    {
-    	label : 'Opmaak',
-    	panelTitle : 'Opmaak',
-    	tag_address : 'Adres',
-    	tag_div : 'Normaal (DIV)',
-    	tag_h1 : 'Opskrif 1',
-    	tag_h2 : 'Opskrif 2',
-    	tag_h3 : 'Opskrif 3',
-    	tag_h4 : 'Opskrif 4',
-    	tag_h5 : 'Opskrif 5',
-    	tag_h6 : 'Opskrif 6',
-    	tag_p : 'Normaal',
-    	tag_pre : 'Opgemaak'
-    },
-    flash : 
-    {
-    	access : 'Skrip toegang',
-    	accessAlways : 'Altyd',
-    	accessNever : 'Nooit',
-    	accessSameDomain : 'Selfde domeinnaam',
-    	alignAbsBottom : 'Absoluut-onder',
-    	alignAbsMiddle : 'Absoluut-middel',
-    	alignBaseline : 'Basislyn',
-    	alignTextTop : 'Teks bo',
-    	bgcolor : 'Agtergrondkleur',
-    	chkFull : 'Laat volledige skerm toe',
-    	chkLoop : 'Herhaal',
-    	chkMenu : 'Flash spyskaart aan',
-    	chkPlay : 'Speel outomaties',
-    	flashvars : 'Veranderlikes vir Flash',
-    	hSpace : 'HSpasie',
-    	properties : 'Flash eienskappe',
-    	propertiesTab : 'Eienskappe',
-    	quality : 'Kwaliteit',
-    	qualityAutoHigh : 'Outomaties hoog',
-    	qualityAutoLow : 'Outomaties laag',
-    	qualityBest : 'Beste',
-    	qualityHigh : 'Hoog',
-    	qualityLow : 'Laag',
-    	qualityMedium : 'Gemiddeld',
-    	scale : 'Skaal',
-    	scaleAll : 'Wys alles',
-    	scaleFit : 'Presiese pas',
-    	scaleNoBorder : 'Geen rand',
-    	title : 'Flash eienskappe',
-    	vSpace : 'VSpasie',
-    	validateHSpace : 'HSpasie moet \'n heelgetal wees.',
-    	validateSrc : 'Voeg die URL in',
-    	validateVSpace : 'VSpasie moet \'n heelgetal wees.',
-    	windowMode : 'Venster modus',
-    	windowModeOpaque : 'Ondeursigtig',
-    	windowModeTransparent : 'Deursigtig',
-    	windowModeWindow : 'Venster'
-    },
-    removeformat : 
-    {
-    	toolbar : 'Verwyder opmaak'
-    },
-    iframe : 
-    {
-    	border : 'Wys rand van raam',
-    	noUrl : 'Gee die iframe URL',
-    	scrolling : 'Skuifbalke aan',
-    	title : 'IFrame Eienskappe',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'Toegangsleutel',
-    	advanced : 'Gevorderd',
-    	advisoryContentType : 'Aanbevole inhoudstipe',
-    	advisoryTitle : 'Aanbevole titel',
-    	anchor : 
-    	{
-    		toolbar : 'Anker byvoeg/verander',
-    		menu : 'Anker-eienskappe',
-    		title : 'Anker-eienskappe',
-    		name : 'Ankernaam',
-    		errorName : 'Voltooi die ankernaam asseblief',
-    		remove : 'Remove Anchor'
-    	},
-    	anchorId : 'Op element Id',
-    	anchorName : 'Op ankernaam',
-    	charset : 'Karakterstel van geskakelde bron',
-    	cssClasses : 'CSS klasse',
-    	emailAddress : 'E-posadres',
-    	emailBody : 'Berig-inhoud',
-    	emailSubject : 'Berig-onderwerp',
-    	id : 'Id',
-    	info : 'Skakel informasie',
-    	langCode : 'Taalkode',
-    	langDir : 'Skryfrigting',
-    	langDirLTR : 'Links na regs (LTR)',
-    	langDirRTL : 'Regs na links (RTL)',
-    	menu : 'Wysig skakel',
-    	name : 'Naam',
-    	noAnchors : '(Geen ankers beskikbaar in dokument)',
-    	noEmail : 'Gee die e-posadres',
-    	noUrl : 'Gee die skakel se URL',
-    	other : '<ander>',
-    	popupDependent : 'Afhanklik (Netscape)',
-    	popupFeatures : 'Eienskappe van opspringvenster',
-    	popupFullScreen : 'Volskerm (IE)',
-    	popupLeft : 'Posisie links',
-    	popupLocationBar : 'Adresbalk',
-    	popupMenuBar : 'Spyskaartbalk',
-    	popupResizable : 'Herskaalbaar',
-    	popupScrollBars : 'Skuifbalke',
-    	popupStatusBar : 'Statusbalk',
-    	popupToolbar : 'Werkbalk',
-    	popupTop : 'Posisie bo',
-    	rel : 'Relationship',
-    	selectAnchor : 'Kies \'n anker',
-    	styles : 'Styl',
-    	tabIndex : 'Tab indeks',
-    	target : 'Doel',
-    	targetFrame : '<raam>',
-    	targetFrameName : 'Naam van doelraam',
-    	targetPopup : '<opspringvenster>',
-    	targetPopupName : 'Naam van opspringvenster',
-    	title : 'Skakel',
-    	toAnchor : 'Anker in bladsy',
-    	toEmail : 'E-pos',
-    	toUrl : 'URL',
-    	toolbar : 'Skakel invoeg/wysig',
-    	type : 'Skakelsoort',
-    	unlink : 'Verwyder skakel',
-    	upload : 'Oplaai'
-    },
-    smiley : 
-    {
-    	options : 'Lagbekkie opsies',
-    	title : 'Voeg lagbekkie by',
-    	toolbar : 'Lagbekkie'
-    },
-    print : 
-    {
-    	toolbar : 'Druk'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Aanbevole Titel',
-    	cssClassInputLabel : 'CSS klasse',
-    	edit : 'Wysig Div',
-    	inlineStyleInputLabel : 'Inlyn Styl',
-    	langDirLTRLabel : 'Links na regs (LTR)',
-    	langDirLabel : 'Skryfrigting',
-    	langDirRTLLabel : 'Regs na links (RTL)',
-    	languageCodeInputLabel : ' Taalkode',
-    	remove : 'Verwyder Div',
-    	styleSelectLabel : 'Styl',
-    	title : 'Skep Div houer',
-    	toolbar : 'Skep Div houer'
-    },
-    indent : 
-    {
-    	indent : 'Vergroot inspring',
-    	outdent : 'Verklein inspring'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'Die teks wat u wil plak lyk asof dit uit Word gekopiëer is. Wil u dit eers skoonmaak voordat dit geplak word?',
-    	error : 'Die geplakte teks kon nie skoongemaak word nie, weens \'n interne fout',
-    	title : 'Plak vanuit Word',
-    	toolbar : 'Plak vanuit Word'
-    },
-    colorbutton : 
-    {
-    	auto : 'Outomaties',
-    	bgColorTitle : 'Agtergrondkleur',
-    	colors : 
-    	{
-    		'000' : 'Swart',
-    		'800000' : 'Meroen',
-    		'8B4513' : 'Sjokoladebruin',
-    		'2F4F4F' : 'Donkerleisteengrys',
-    		'008080' : 'Blougroen',
-    		'000080' : 'Vlootblou',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Donkergrys',
-    		B22222 : 'Rooibaksteen',
-    		A52A2A : 'Bruin',
-    		DAA520 : 'Donkergeel',
-    		'006400' : 'Donkergroen',
-    		'40E0D0' : 'Turkoois',
-    		'0000CD' : 'Middelblou',
-    		'800080' : 'Pers',
-    		'808080' : 'Grys',
-    		F00 : 'Rooi',
-    		FF8C00 : 'Donkeroranje',
-    		FFD700 : 'Goud',
-    		'008000' : 'Groen',
-    		'0FF' : 'Siaan',
-    		'00F' : 'Blou',
-    		EE82EE : 'Viooltjieblou',
-    		A9A9A9 : 'Donkergrys',
-    		FFA07A : 'Ligsalm',
-    		FFA500 : 'Oranje',
-    		FFFF00 : 'Geel',
-    		'00FF00' : 'Lemmetjie',
-    		AFEEEE : 'Ligturkoois',
-    		ADD8E6 : 'Ligblou',
-    		DDA0DD : 'Pruim',
-    		D3D3D3 : 'Liggrys',
-    		FFF0F5 : 'Linne',
-    		FAEBD7 : 'Ivoor',
-    		FFFFE0 : 'Liggeel',
-    		F0FFF0 : 'Heuningdou',
-    		F0FFFF : 'Asuur',
-    		F0F8FF : 'Ligte hemelsblou',
-    		E6E6FA : 'Laventel',
-    		FFF : 'Wit'
-    	},
-    	more : 'Meer Kleure...',
-    	panelTitle : 'Kleure',
-    	textColorTitle : 'Tekskleur'
-    },
-    list : 
-    {
-    	bulletedlist : 'Ongenommerde lys',
-    	numberedlist : 'Genommerde lys'
+    	toolbar : 'Bewaar'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['af'] = {
     	validateHSpace : 'HSpasie moet \'n heelgetal wees.',
     	validateVSpace : 'VSpasie moet \'n heelgetal wees.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'Soek',
-    	findOptions : 'Find Options',
-    	findWhat : 'Soek na:',
-    	matchCase : 'Hoof/kleinletter sensitief',
-    	matchCyclic : 'Soek deurlopend',
-    	matchWord : 'Hele woord moet voorkom',
-    	notFoundMsg : 'Teks nie gevind nie.',
-    	replace : 'Vervang',
-    	replaceAll : 'Vervang alles',
-    	replaceSuccessMsg : '%1 voorkoms(te) vervang.',
-    	replaceWith : 'Vervang met:',
-    	title : 'Soek en vervang'
+    	alt : 'Bladsy-einde',
+    	toolbar : 'Bladsy-einde invoeg'
     },
     showblocks : 
     {
     	toolbar : 'Toon blokke'
+    },
+    indent : 
+    {
+    	indent : 'Vergroot inspring',
+    	outdent : 'Verklein inspring'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['af'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'Horisontale lyn invoeg'
-    },
-    pagebreak : 
-    {
-    	alt : 'Bladsy-einde',
-    	toolbar : 'Bladsy-einde invoeg'
-    },
-    stylescombo : 
-    {
-    	label : 'Styl',
-    	panelTitle : 'Opmaak style',
-    	panelTitle1 : 'Blok style',
-    	panelTitle2 : 'Inlyn style',
-    	panelTitle3 : 'Objek style'
-    },
     bidi : 
     {
     	ltr : 'Skryfrigting van links na regs',
     	rtl : 'Skryfrigting van regs na links'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'Vet',
-    	italic : 'Skuins',
-    	strike : 'Deurstreep',
-    	subscript : 'Onderskrif',
-    	superscript : 'Bo-skrif',
-    	underline : 'Onderstreep'
+    	eleLabel : 'Elemente-pad',
+    	eleTitle : '%1 element'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'Anker',
+    	flash : 'Flash animasie',
+    	hiddenfield : 'Verborge veld',
+    	iframe : 'IFrame',
+    	unknown : 'Onbekende objek'
+    },
+    smiley : 
+    {
+    	options : 'Lagbekkie opsies',
+    	title : 'Voeg lagbekkie by',
+    	toolbar : 'Lagbekkie'
+    },
+    about : 
+    {
+    	copy : 'Kopiereg &copy; $1. Alle regte voorbehou.',
+    	dlgTitle : 'Info oor CKEditor',
+    	help : 'Check $1 for help.',
+    	moreInfo : 'Vir lisensie-informasie, besoek asb. ons webwerf:',
+    	title : 'Info oor CKEditor',
+    	userGuide : 'CKEditor User\'s Guide'
+    },
+    newpage : 
+    {
+    	toolbar : 'Nuwe bladsy'
+    },
+    format : 
+    {
+    	label : 'Opmaak',
+    	panelTitle : 'Opmaak',
+    	tag_address : 'Adres',
+    	tag_div : 'Normaal (DIV)',
+    	tag_h1 : 'Opskrif 1',
+    	tag_h2 : 'Opskrif 2',
+    	tag_h3 : 'Opskrif 3',
+    	tag_h4 : 'Opskrif 4',
+    	tag_h5 : 'Opskrif 5',
+    	tag_h6 : 'Opskrif 6',
+    	tag_p : 'Normaal',
+    	tag_pre : 'Opgemaak'
+    },
+    removeformat : 
+    {
+    	toolbar : 'Verwyder opmaak'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['af'] = {
     	widthPx : 'piksels',
     	widthUnit : 'breedte-eenheid'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Insert paragraph here'
+    	options : 'Spesiale karakter-opsies',
+    	title : 'Kies spesiale karakter',
+    	toolbar : 'Voeg spesiaale karakter in'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'Bewaar'
+    	armenian : 'Armeense nommering',
+    	bulletedTitle : 'Eienskappe van ongenommerde lys',
+    	circle : 'Sirkel',
+    	decimal : 'Desimale syfers (1, 2, 3, ens.)',
+    	decimalLeadingZero : 'Desimale syfers met voorloopnul (01, 02, 03, ens.)',
+    	disc : 'Skyf',
+    	georgian : 'Georgiese nommering (an, ban, gan, ens.)',
+    	lowerAlpha : 'Kleinletters (a, b, c, d, e, ens.)',
+    	lowerGreek : 'Griekse kleinletters (alpha, beta, gamma, ens.)',
+    	lowerRoman : 'Romeinse kleinletters (i, ii, iii, iv, v, ens.)',
+    	none : 'Geen',
+    	notset : '<nie ingestel nie>',
+    	numberedTitle : 'Eienskappe van genommerde lys',
+    	square : 'Vierkant',
+    	start : 'Begin',
+    	type : 'Tipe',
+    	upperAlpha : 'Hoofletters (A, B, C, D, E, ens.)',
+    	upperRoman : 'Romeinse hoofletters (I, II, III, IV, V, ens.)',
+    	validateStartNumber : 'Beginnommer van lys moet \'n heelgetal wees.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'Anker',
-    	flash : 'Flash animasie',
-    	hiddenfield : 'Verborge veld',
-    	iframe : 'IFrame',
-    	unknown : 'Onbekende objek'
+    	border : 'Wys rand van raam',
+    	noUrl : 'Gee die iframe URL',
+    	scrolling : 'Skuifbalke aan',
+    	title : 'IFrame Eienskappe',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'Elemente-pad',
-    	eleTitle : '%1 element'
+    	access : 'Skrip toegang',
+    	accessAlways : 'Altyd',
+    	accessNever : 'Nooit',
+    	accessSameDomain : 'Selfde domeinnaam',
+    	alignAbsBottom : 'Absoluut-onder',
+    	alignAbsMiddle : 'Absoluut-middel',
+    	alignBaseline : 'Basislyn',
+    	alignTextTop : 'Teks bo',
+    	bgcolor : 'Agtergrondkleur',
+    	chkFull : 'Laat volledige skerm toe',
+    	chkLoop : 'Herhaal',
+    	chkMenu : 'Flash spyskaart aan',
+    	chkPlay : 'Speel outomaties',
+    	flashvars : 'Veranderlikes vir Flash',
+    	hSpace : 'HSpasie',
+    	properties : 'Flash eienskappe',
+    	propertiesTab : 'Eienskappe',
+    	quality : 'Kwaliteit',
+    	qualityAutoHigh : 'Outomaties hoog',
+    	qualityAutoLow : 'Outomaties laag',
+    	qualityBest : 'Beste',
+    	qualityHigh : 'Hoog',
+    	qualityLow : 'Laag',
+    	qualityMedium : 'Gemiddeld',
+    	scale : 'Skaal',
+    	scaleAll : 'Wys alles',
+    	scaleFit : 'Presiese pas',
+    	scaleNoBorder : 'Geen rand',
+    	title : 'Flash eienskappe',
+    	vSpace : 'VSpasie',
+    	validateHSpace : 'HSpasie moet \'n heelgetal wees.',
+    	validateSrc : 'Voeg die URL in',
+    	validateVSpace : 'VSpasie moet \'n heelgetal wees.',
+    	windowMode : 'Venster modus',
+    	windowModeOpaque : 'Ondeursigtig',
+    	windowModeTransparent : 'Deursigtig',
+    	windowModeWindow : 'Venster'
+    },
+    find : 
+    {
+    	find : 'Soek',
+    	findOptions : 'Find Options',
+    	findWhat : 'Soek na:',
+    	matchCase : 'Hoof/kleinletter sensitief',
+    	matchCyclic : 'Soek deurlopend',
+    	matchWord : 'Hele woord moet voorkom',
+    	notFoundMsg : 'Teks nie gevind nie.',
+    	replace : 'Vervang',
+    	replaceAll : 'Vervang alles',
+    	replaceSuccessMsg : '%1 voorkoms(te) vervang.',
+    	replaceWith : 'Vervang met:',
+    	title : 'Soek en vervang'
+    },
+    colorbutton : 
+    {
+    	auto : 'Outomaties',
+    	bgColorTitle : 'Agtergrondkleur',
+    	colors : 
+    	{
+    		'000' : 'Swart',
+    		'800000' : 'Meroen',
+    		'8B4513' : 'Sjokoladebruin',
+    		'2F4F4F' : 'Donkerleisteengrys',
+    		'008080' : 'Blougroen',
+    		'000080' : 'Vlootblou',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Donkergrys',
+    		B22222 : 'Rooibaksteen',
+    		A52A2A : 'Bruin',
+    		DAA520 : 'Donkergeel',
+    		'006400' : 'Donkergroen',
+    		'40E0D0' : 'Turkoois',
+    		'0000CD' : 'Middelblou',
+    		'800080' : 'Pers',
+    		'808080' : 'Grys',
+    		F00 : 'Rooi',
+    		FF8C00 : 'Donkeroranje',
+    		FFD700 : 'Goud',
+    		'008000' : 'Groen',
+    		'0FF' : 'Siaan',
+    		'00F' : 'Blou',
+    		EE82EE : 'Viooltjieblou',
+    		A9A9A9 : 'Donkergrys',
+    		FFA07A : 'Ligsalm',
+    		FFA500 : 'Oranje',
+    		FFFF00 : 'Geel',
+    		'00FF00' : 'Lemmetjie',
+    		AFEEEE : 'Ligturkoois',
+    		ADD8E6 : 'Ligblou',
+    		DDA0DD : 'Pruim',
+    		D3D3D3 : 'Liggrys',
+    		FFF0F5 : 'Linne',
+    		FAEBD7 : 'Ivoor',
+    		FFFFE0 : 'Liggeel',
+    		F0FFF0 : 'Heuningdou',
+    		F0FFFF : 'Asuur',
+    		F0F8FF : 'Ligte hemelsblou',
+    		E6E6FA : 'Laventel',
+    		FFF : 'Wit'
+    	},
+    	more : 'Meer Kleure...',
+    	panelTitle : 'Kleure',
+    	textColorTitle : 'Tekskleur'
+    },
+    undo : 
+    {
+    	redo : 'Oordoen',
+    	undo : 'Ontdoen'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'Grootte',
+    		voiceLabel : 'Fontgrootte',
+    		panelTitle : 'Fontgrootte'
+    	},
+    	label : 'Font',
+    	panelTitle : 'Fontnaam',
+    	voiceLabel : 'Font'
     },
     maximize : 
     {
     	maximize : 'Maksimaliseer',
     	minimize : 'Minimaliseer'
     },
+    basicstyles : 
+    {
+    	bold : 'Vet',
+    	italic : 'Skuins',
+    	strike : 'Deurstreep',
+    	subscript : 'Onderskrif',
+    	superscript : 'Bo-skrif',
+    	underline : 'Onderstreep'
+    },
+    magicline : 
+    {
+    	title : 'Insert paragraph here'
+    },
+    print : 
+    {
+    	toolbar : 'Druk'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'Ignoreer',
+    	btnIgnoreAll : 'Ignoreer alles',
+    	btnReplace : 'Vervang',
+    	btnReplaceAll : 'vervang alles',
+    	btnUndo : 'Ontdoen',
+    	changeTo : 'Verander na',
+    	errorLoading : 'Fout by inlaai van diens: %s.',
+    	ieSpellDownload : 'Speltoetser is nie geïnstalleer nie. Wil u dit nou aflaai?',
+    	manyChanges : 'Klaar met speltoets: %1 woorde verander',
+    	noChanges : 'Klaar met speltoets: Geen woorde verander nie',
+    	noMispell : 'Klaar met speltoets: Geen foute nie',
+    	noSuggestions : '- Geen voorstel -',
+    	notAvailable : 'Jammer, hierdie diens is nie nou beskikbaar nie.',
+    	notInDic : 'Nie in woordeboek nie',
+    	oneChange : 'Klaar met speltoets: Een woord verander',
+    	progress : 'Spelling word getoets...',
+    	title : 'Speltoetser',
+    	toolbar : 'Speltoets'
+    },
+    clipboard : 
+    {
+    	copy : 'Kopiëer',
+    	copyError : 'U blaaier se sekuriteitsinstelling belet die kopiëringsaksie. Gebruik die sleutelbordkombinasie (Ctrl/Cmd+C).',
+    	cut : 'Knip',
+    	cutError : 'U blaaier se sekuriteitsinstelling belet die outomatiese knip-aksie. Gebruik die sleutelbordkombinasie (Ctrl/Cmd+X).',
+    	paste : 'Plak',
+    	pasteArea : 'Plak-area',
+    	pasteMsg : 'Plak die teks in die volgende teks-area met die sleutelbordkombinasie (<STRONG>Ctrl/Cmd+V</STRONG>) en druk <STRONG>OK</STRONG>.',
+    	securityMsg : 'Weens u blaaier se sekuriteitsinstelling is data op die knipbord nie toeganklik nie. U kan dit eers weer in hierdie venster plak.',
+    	title : 'Byvoeg'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'Bron'
+    },
+    scayt : 
+    {
+    	about : 'SCAYT info',
+    	aboutTab : 'Info',
+    	addWord : 'Voeg woord by',
+    	allCaps : 'Ignoreer woorde in hoofletters',
+    	dic_create : 'Skep',
+    	dic_delete : 'Verwijder',
+    	dic_field_name : 'Naam van woordeboek',
+    	dic_info : 'Aanvanklik word die gebruikerswoordeboek in \'n koekie gestoor. Koekies is egter beperk in grootte. Wanneer die gebruikerswoordeboek te groot vir \'n koekie geword het, kan dit op ons bediener gestoor word. Om u persoonlike woordeboek op ons bediener te stoor, gee asb. \'n naam vir u woordeboek. Indien u alreeds \'n gestoorde woordeboek het, tik die naam en kliek op die Herstel knop.',
+    	dic_rename : 'Hernoem',
+    	dic_restore : 'Herstel',
+    	dictionariesTab : 'Woordeboeke',
+    	disable : 'SCAYT af',
+    	emptyDic : 'Woordeboeknaam mag nie leeg wees nie.',
+    	enable : 'SCAYT aan',
+    	ignore : 'Ignoreer',
+    	ignoreAll : 'Ignoreer alles',
+    	ignoreDomainNames : 'Ignoreer domeinname',
+    	langs : 'Tale',
+    	languagesTab : 'Tale',
+    	mixedCase : 'Ignoreer woorde met hoof- en kleinletters',
+    	mixedWithDigits : 'Ignoreer woorde met syfers',
+    	moreSuggestions : 'Meer voorstelle',
+    	opera_title : 'Nie ondersteun deur Opera nie',
+    	options : 'Opsies',
+    	optionsTab : 'Opsies',
+    	title : 'Speltoets terwyl u tik',
+    	toggle : 'SCAYT wissel aan/af',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'Horisontale lyn invoeg'
+    },
+    pastetext : 
+    {
+    	button : 'Plak as eenvoudige teks',
+    	title : 'Plak as eenvoudige teks'
+    },
+    contextmenu : 
+    {
+    	options : 'Konteks Spyskaart-opsies'
+    },
+    templates : 
+    {
+    	button : 'Sjablone',
+    	emptyListMsg : '(Geen sjablone gedefineer nie)',
+    	insertOption : 'Vervang huidige inhoud',
+    	options : 'Sjabloon opsies',
+    	selectPromptMsg : 'Kies die sjabloon om te gebruik in die redigeerder (huidige inhoud gaan verlore):',
+    	title : 'Inhoud Sjablone'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Aanbevole Titel',
+    	cssClassInputLabel : 'CSS klasse',
+    	edit : 'Wysig Div',
+    	inlineStyleInputLabel : 'Inlyn Styl',
+    	langDirLTRLabel : 'Links na regs (LTR)',
+    	langDirLabel : 'Skryfrigting',
+    	langDirRTLLabel : 'Regs na links (RTL)',
+    	languageCodeInputLabel : ' Taalkode',
+    	remove : 'Verwyder Div',
+    	styleSelectLabel : 'Styl',
+    	title : 'Skep Div houer',
+    	toolbar : 'Skep Div houer'
+    },
+    preview : 
+    {
+    	preview : 'Voorbeeld'
+    },
+    colordialog : 
+    {
+    	clear : 'Herstel',
+    	highlight : 'Aktief',
+    	options : 'Kleuropsies',
+    	selected : 'Geselekteer',
+    	title : 'Kies kleur'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'Verklein werkbalk',
+    	toolbarExpand : 'Vergroot werkbalk',
+    	toolbarGroups : 
+    	{
+    		document : 'Document',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Editing',
+    		forms : 'Forms',
+    		basicstyles : 'Basic Styles',
+    		paragraph : 'Paragraph',
+    		links : 'Links',
+    		insert : 'Insert',
+    		styles : 'Styles',
+    		colors : 'Colors',
+    		tools : 'Tools'
+    	},
+    	toolbars : 'Editor toolbars'
+    },
+    selectall : 
+    {
+    	toolbar : 'Selekteer alles'
+    },
+    blockquote : 
+    {
+    	toolbar : 'Sitaatblok'
+    },
+    link : 
+    {
+    	acccessKey : 'Toegangsleutel',
+    	advanced : 'Gevorderd',
+    	advisoryContentType : 'Aanbevole inhoudstipe',
+    	advisoryTitle : 'Aanbevole titel',
+    	anchor : 
+    	{
+    		toolbar : 'Anker byvoeg/verander',
+    		menu : 'Anker-eienskappe',
+    		title : 'Anker-eienskappe',
+    		name : 'Ankernaam',
+    		errorName : 'Voltooi die ankernaam asseblief',
+    		remove : 'Remove Anchor'
+    	},
+    	anchorId : 'Op element Id',
+    	anchorName : 'Op ankernaam',
+    	charset : 'Karakterstel van geskakelde bron',
+    	cssClasses : 'CSS klasse',
+    	emailAddress : 'E-posadres',
+    	emailBody : 'Berig-inhoud',
+    	emailSubject : 'Berig-onderwerp',
+    	id : 'Id',
+    	info : 'Skakel informasie',
+    	langCode : 'Taalkode',
+    	langDir : 'Skryfrigting',
+    	langDirLTR : 'Links na regs (LTR)',
+    	langDirRTL : 'Regs na links (RTL)',
+    	menu : 'Wysig skakel',
+    	name : 'Naam',
+    	noAnchors : '(Geen ankers beskikbaar in dokument)',
+    	noEmail : 'Gee die e-posadres',
+    	noUrl : 'Gee die skakel se URL',
+    	other : '<ander>',
+    	popupDependent : 'Afhanklik (Netscape)',
+    	popupFeatures : 'Eienskappe van opspringvenster',
+    	popupFullScreen : 'Volskerm (IE)',
+    	popupLeft : 'Posisie links',
+    	popupLocationBar : 'Adresbalk',
+    	popupMenuBar : 'Spyskaartbalk',
+    	popupResizable : 'Herskaalbaar',
+    	popupScrollBars : 'Skuifbalke',
+    	popupStatusBar : 'Statusbalk',
+    	popupToolbar : 'Werkbalk',
+    	popupTop : 'Posisie bo',
+    	rel : 'Relationship',
+    	selectAnchor : 'Kies \'n anker',
+    	styles : 'Styl',
+    	tabIndex : 'Tab indeks',
+    	target : 'Doel',
+    	targetFrame : '<raam>',
+    	targetFrameName : 'Naam van doelraam',
+    	targetPopup : '<opspringvenster>',
+    	targetPopupName : 'Naam van opspringvenster',
+    	title : 'Skakel',
+    	toAnchor : 'Anker in bladsy',
+    	toEmail : 'E-pos',
+    	toUrl : 'URL',
+    	toolbar : 'Skakel invoeg/wysig',
+    	type : 'Skakelsoort',
+    	unlink : 'Verwyder skakel',
+    	upload : 'Oplaai'
+    },
+    stylescombo : 
+    {
+    	label : 'Styl',
+    	panelTitle : 'Opmaak style',
+    	panelTitle1 : 'Blok style',
+    	panelTitle2 : 'Inlyn style',
+    	panelTitle3 : 'Objek style'
+    },
+    dir : 'ltr',
     editor : 'Teksverwerker',
     common : 
     {

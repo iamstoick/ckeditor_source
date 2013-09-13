@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['ja'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'コピー',
-    	copyError : 'ブラウザーのセキュリティ設定によりエディタのコピー操作を自動で実行することができません。実行するには手動でキーボードの(Ctrl/Cmd+C)を使用してください。',
-    	cut : '切り取り',
-    	cutError : 'ブラウザーのセキュリティ設定によりエディタの切り取り操作を自動で実行することができません。実行するには手動でキーボードの(Ctrl/Cmd+X)を使用してください。',
-    	paste : '貼り付け',
-    	pasteArea : '貼り付け場所',
-    	pasteMsg : 'キーボード(<STRONG>Ctrl/Cmd+V</STRONG>)を使用して、次の入力エリア内で貼り付けて、<STRONG>OK</STRONG>を押してください。',
-    	securityMsg : 'ブラウザのセキュリティ設定により、エディタはクリップボードデータに直接アクセスすることができません。このウィンドウは貼り付け操作を行う度に表示されます。',
-    	title : '貼り付け'
+    	confirmCleanup : '貼り付けを行うテキストは、ワード文章からコピーされようとしています。貼り付ける前にクリーニングを行いますか？',
+    	error : '内部エラーにより貼り付けたデータがクリアできませんでした',
+    	title : 'ワード文章から貼り付け',
+    	toolbar : 'ワード文章から貼り付け'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'プレーンテキストとして貼り付け',
-    	title : 'プレーンテキストとして貼り付け'
-    },
-    specialchar : 
-    {
-    	options : '特殊文字オプション',
-    	title : '特殊文字の選択',
-    	toolbar : '特殊文字を挿入'
-    },
-    selectall : 
-    {
-    	toolbar : 'すべて選択'
-    },
-    newpage : 
-    {
-    	toolbar : '新しいページ'
-    },
-    templates : 
-    {
-    	button : 'テンプレート',
-    	emptyListMsg : '(テンプレートが定義されていません)',
-    	insertOption : '現在のエディタの内容と置き換えます',
-    	options : 'テンプレートオプション',
-    	selectPromptMsg : 'エディターで使用するテンプレートを選択してください。<br>(現在のエディタの内容は失われます):',
-    	title : '内容テンプレート'
-    },
-    colordialog : 
-    {
-    	clear : 'クリア',
-    	highlight : 'ハイライト',
-    	options : 'カラーオプション',
-    	selected : '選択された色',
-    	title : '色選択'
-    },
-    preview : 
-    {
-    	preview : 'プレビュー'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'サイズ',
-    		voiceLabel : 'フォントサイズ',
-    		panelTitle : 'フォントサイズ'
-    	},
-    	label : 'フォント',
-    	panelTitle : 'フォント',
-    	voiceLabel : 'フォント'
-    },
-    liststyle : 
-    {
-    	armenian : 'アルメニア数字',
-    	bulletedTitle : '番号無しリストのプロパティ',
-    	circle : '白丸',
-    	decimal : '数字 (1, 2, 3, etc.)',
-    	decimalLeadingZero : '0付きの数字 (01, 02, 03, etc.)',
-    	disc : '黒丸',
-    	georgian : 'グルジア数字 (an, ban, gan, etc.)',
-    	lowerAlpha : '小文字アルファベット (a, b, c, d, e, etc.)',
-    	lowerGreek : '小文字ギリシャ文字 (alpha, beta, gamma, etc.)',
-    	lowerRoman : '小文字ローマ数字 (i, ii, iii, iv, v, etc.)',
-    	none : 'なし',
-    	notset : '<なし>',
-    	numberedTitle : '番号付きリストのプロパティ',
-    	square : '四角',
-    	start : '開始',
-    	type : '種類',
-    	upperAlpha : '大文字アルファベット (A, B, C, D, E, etc.)',
-    	upperRoman : '大文字ローマ数字 (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'リストの開始番号は数値で入力してください。'
-    },
-    blockquote : 
-    {
-    	toolbar : 'ブロック引用'
-    },
-    undo : 
-    {
-    	redo : 'やり直す',
-    	undo : '元に戻す'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. All rights reserved.',
-    	dlgTitle : 'CKEditorについて',
-    	help : '$1 のヘルプを見てください。',
-    	moreInfo : 'ライセンス情報の詳細はウェブサイトにて確認してください:',
-    	title : 'CKEditorについて',
-    	userGuide : 'CKEditor User\'s Guide'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'ツールバーを閉じる',
-    	toolbarExpand : 'ツールバーを開く',
-    	toolbarGroups : 
-    	{
-    		document : 'Document',
-    		clipboard : 'Clipboard/Undo',
-    		editing : 'Editing',
-    		forms : 'Forms',
-    		basicstyles : 'Basic Styles',
-    		paragraph : 'Paragraph',
-    		links : 'Links',
-    		insert : 'Insert',
-    		styles : 'Styles',
-    		colors : 'Colors',
-    		tools : 'Tools'
-    	},
-    	toolbars : '編集ツールバー'
-    },
-    scayt : 
-    {
-    	about : 'SCAYTﾊﾞｰｼﾞｮﾝ',
-    	aboutTab : 'バージョン情報',
-    	addWord : '語句追加',
-    	allCaps : '全て大文字の単語を無視',
-    	dic_create : '登録',
-    	dic_delete : '削除',
-    	dic_field_name : '辞書名',
-    	dic_info : '始めユーザーディレクトリは、Cookieに保存されます。但し Cookie はサイズに制限があります。ユーザーディレクトリがCookieに保存できないサイズに到達するとディレクトリはサーバー上に保存されます。個人のディレクトリをサーバー上に保存するには、ディレクトリ名を明示する必要があります。もし既に保存されたディレクトリがある場合、その名前を入力し、元に戻すボタンを押してください。',
-    	dic_rename : '名前変更',
-    	dic_restore : '元に戻す',
-    	dictionariesTab : '辞書',
-    	disable : 'SCAYT無効',
-    	emptyDic : '辞書名は必ず入力してください',
-    	enable : 'SCAYT有効',
-    	ignore : '無視',
-    	ignoreAll : 'すべて無視',
-    	ignoreDomainNames : 'ドメイン名を無視',
-    	langs : '言語',
-    	languagesTab : '言語',
-    	mixedCase : '大文字小文字混在の単語を無視',
-    	mixedWithDigits : '数字付き単語を無視',
-    	moreSuggestions : '他の候補',
-    	opera_title : 'Operaではサポートされません',
-    	options : 'オプション',
-    	optionsTab : 'オプション',
-    	title : 'スペルチェック設定(SCAYT)',
-    	toggle : 'SCAYT切替',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : '無視',
-    	btnIgnoreAll : 'すべて無視',
-    	btnReplace : '置換',
-    	btnReplaceAll : 'すべて置換',
-    	btnUndo : 'やり直し',
-    	changeTo : '変更',
-    	errorLoading : 'アプリケーションサービスホスト読込みエラー: %s.',
-    	ieSpellDownload : 'スペルチェッカーがインストールされていません。今すぐダウンロードしますか?',
-    	manyChanges : 'スペルチェック完了: %1 語句変更されました',
-    	noChanges : 'スペルチェック完了: 語句は変更されませんでした',
-    	noMispell : 'スペルチェック完了: スペルの誤りはありませんでした',
-    	noSuggestions : '- 該当なし -',
-    	notAvailable : '申し訳ありません、現在サービスを利用することができません',
-    	notInDic : '辞書にありません',
-    	oneChange : 'スペルチェック完了: １語句変更されました',
-    	progress : 'スペルチェック処理中...',
-    	title : 'スペルチェック',
-    	toolbar : 'スペルチェック'
-    },
-    contextmenu : 
-    {
-    	options : 'コンテキストメニューオプション'
+    	bulletedlist : '箇条書き',
+    	numberedlist : '段落番号'
     },
     justify : 
     {
@@ -190,275 +22,46 @@ CKEDITOR.lang['ja'] = {
     	left : '左揃え',
     	right : '右揃え'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'ソース'
+    	toolbar : '保存'
     },
-    format : 
+    image : 
     {
-    	label : '書式',
-    	panelTitle : '段落の書式',
-    	tag_address : 'アドレス',
-    	tag_div : '標準 (DIV)',
-    	tag_h1 : '見出し 1',
-    	tag_h2 : '見出し 2',
-    	tag_h3 : '見出し 3',
-    	tag_h4 : '見出し 4',
-    	tag_h5 : '見出し 5',
-    	tag_h6 : '見出し 6',
-    	tag_p : '標準',
-    	tag_pre : '書式付き'
-    },
-    flash : 
-    {
-    	access : 'スプリクトアクセス(AllowScriptAccess)',
-    	accessAlways : 'すべての場合に通信可能(Always)',
-    	accessNever : 'すべての場合に通信不可能(Never)',
-    	accessSameDomain : '同一ドメインのみに通信可能(Same domain)',
-    	alignAbsBottom : '下部(絶対的)',
-    	alignAbsMiddle : '中央(絶対的)',
-    	alignBaseline : 'ベースライン',
-    	alignTextTop : 'テキスト上部',
-    	bgcolor : '背景色',
-    	chkFull : 'フルスクリーン許可',
-    	chkLoop : 'ループ再生',
-    	chkMenu : 'Flashメニュー可能',
-    	chkPlay : '再生',
-    	flashvars : 'フラッシュに渡す変数(FlashVars)',
+    	alertUrl : 'イメージのURLを入力してください。',
+    	alt : '代替テキスト',
+    	border : 'ボーダー',
+    	btnUpload : 'サーバーに送信',
+    	button2Img : '選択したボタンを画像に置き換えますか？',
     	hSpace : '横間隔',
-    	properties : 'Flash プロパティ',
-    	propertiesTab : 'プロパティ',
-    	quality : '画質',
-    	qualityAutoHigh : '自動/高',
-    	qualityAutoLow : '自動/低',
-    	qualityBest : '品質優先',
-    	qualityHigh : '高',
-    	qualityLow : '低',
-    	qualityMedium : '中',
-    	scale : '拡大縮小設定',
-    	scaleAll : 'すべて表示',
-    	scaleFit : '上下左右にフィット',
-    	scaleNoBorder : '外が見えない様に拡大',
-    	title : 'Flash プロパティ',
+    	img2Button : '選択した画像をボタンに置き換えますか？',
+    	infoTab : 'イメージ 情報',
+    	linkTab : 'リンク',
+    	lockRatio : 'ロック比率',
+    	menu : 'イメージ プロパティ',
+    	resetSize : 'サイズリセット',
+    	title : 'イメージ プロパティ',
+    	titleButton : '画像ボタン プロパティ',
+    	upload : 'アップロード',
+    	urlMissing : 'イメージのURLを入力してください。',
     	vSpace : '縦間隔',
+    	validateBorder : 'ボーダーは数値で入力してください。',
     	validateHSpace : '横間隔は数値で入力してください。',
-    	validateSrc : 'リンクURLを入力してください。',
-    	validateVSpace : '縦間隔は数値で入力してください。',
-    	windowMode : 'ウィンドウモード',
-    	windowModeOpaque : '背景を不透明設定',
-    	windowModeTransparent : '背景を透過設定',
-    	windowModeWindow : '標準'
+    	validateVSpace : '縦間隔は数値で入力してください。'
     },
-    removeformat : 
+    pagebreak : 
     {
-    	toolbar : '書式を解除'
+    	alt : '改ページ',
+    	toolbar : '印刷の為に改ページ挿入'
     },
-    iframe : 
+    showblocks : 
     {
-    	border : 'フレームの枠を表示',
-    	noUrl : 'iframeのURLを入力してください。',
-    	scrolling : 'スクロールバーの表示を許可',
-    	title : 'iFrameのプロパティ',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'アクセスキー',
-    	advanced : '高度な設定',
-    	advisoryContentType : 'Content Type属性',
-    	advisoryTitle : 'Title属性',
-    	anchor : 
-    	{
-    		toolbar : 'アンカー挿入/編集',
-    		menu : 'アンカーの編集',
-    		title : 'アンカーのプロパティ',
-    		name : 'アンカー名',
-    		errorName : 'アンカー名を入力してください。',
-    		remove : 'アンカーを削除'
-    	},
-    	anchorId : 'エレメントID',
-    	anchorName : 'アンカー名',
-    	charset : 'リンク先のcharset',
-    	cssClasses : 'スタイルシートクラス',
-    	emailAddress : 'E-Mail アドレス',
-    	emailBody : '本文',
-    	emailSubject : '件名',
-    	id : 'Id',
-    	info : 'ハイパーリンク情報',
-    	langCode : '言語コード',
-    	langDir : '文字表記の方向',
-    	langDirLTR : '左から右 (LTR)',
-    	langDirRTL : '右から左 (RTL)',
-    	menu : 'リンクを編集',
-    	name : 'Name属性',
-    	noAnchors : '(このドキュメント内にアンカーはありません)',
-    	noEmail : 'メールアドレスを入力してください。',
-    	noUrl : 'リンクURLを入力してください。',
-    	other : '<その他の>',
-    	popupDependent : '開いたウィンドウに連動して閉じる (Netscape)',
-    	popupFeatures : 'ポップアップウィンドウ特徴',
-    	popupFullScreen : '全画面モード(IE)',
-    	popupLeft : '左端からの座標で指定',
-    	popupLocationBar : 'ロケーションバー',
-    	popupMenuBar : 'メニューバー',
-    	popupResizable : 'サイズ可変',
-    	popupScrollBars : 'スクロールバー',
-    	popupStatusBar : 'ステータスバー',
-    	popupToolbar : 'ツールバー',
-    	popupTop : '上端からの座標で指定',
-    	rel : '関連リンク',
-    	selectAnchor : 'アンカーを選択',
-    	styles : 'スタイルシート',
-    	tabIndex : 'タブインデックス',
-    	target : 'ターゲット',
-    	targetFrame : '<フレーム>',
-    	targetFrameName : 'ターゲットのフレーム名',
-    	targetPopup : '<ポップアップウィンドウ>',
-    	targetPopupName : 'ポップアップウィンドウ名',
-    	title : 'ハイパーリンク',
-    	toAnchor : 'ページ内のアンカー',
-    	toEmail : 'E-Mail',
-    	toUrl : 'URL',
-    	toolbar : 'リンク挿入/編集',
-    	type : 'リンクタイプ',
-    	unlink : 'リンクを削除',
-    	upload : 'アップロード'
-    },
-    smiley : 
-    {
-    	options : '絵文字オプション',
-    	title : '顔文字挿入',
-    	toolbar : '絵文字'
-    },
-    print : 
-    {
-    	toolbar : '印刷'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'Title属性',
-    	cssClassInputLabel : 'スタイルシートクラス',
-    	edit : 'Divコンテナ 編集',
-    	inlineStyleInputLabel : 'インラインスタイル',
-    	langDirLTRLabel : '左から右 (LTR)',
-    	langDirLabel : '文字表記の方向',
-    	langDirRTLLabel : '右から左 (RTL)',
-    	languageCodeInputLabel : ' 言語コード',
-    	remove : 'Divコンテナ 削除',
-    	styleSelectLabel : 'スタイル',
-    	title : 'Divコンテナ',
-    	toolbar : 'Divコンテナ'
+    	toolbar : 'ブロック表示'
     },
     indent : 
     {
     	indent : 'インデント',
     	outdent : 'インデント解除'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : '貼り付けを行うテキストはワード文章からコピーされようとしています。貼り付ける前にクリーニングを行いますか？',
-    	error : '内部エラーにより貼り付けたデータをクリアできませんでした',
-    	title : 'ワード文章から貼り付け',
-    	toolbar : 'ワード文章から貼り付け'
-    },
-    colorbutton : 
-    {
-    	auto : '自動',
-    	bgColorTitle : '背景色',
-    	colors : 
-    	{
-    		'000' : 'Black',
-    		'800000' : 'Maroon',
-    		'8B4513' : 'Saddle Brown',
-    		'2F4F4F' : 'Dark Slate Gray',
-    		'008080' : 'Teal',
-    		'000080' : 'Navy',
-    		'4B0082' : 'Indigo',
-    		'696969' : 'Dark Gray',
-    		B22222 : 'Fire Brick',
-    		A52A2A : 'Brown',
-    		DAA520 : 'Golden Rod',
-    		'006400' : 'Dark Green',
-    		'40E0D0' : 'Turquoise',
-    		'0000CD' : 'Medium Blue',
-    		'800080' : 'Purple',
-    		'808080' : 'Gray',
-    		F00 : 'Red',
-    		FF8C00 : 'Dark Orange',
-    		FFD700 : 'Gold',
-    		'008000' : 'Green',
-    		'0FF' : 'Cyan',
-    		'00F' : 'Blue',
-    		EE82EE : 'Violet',
-    		A9A9A9 : 'Dim Gray',
-    		FFA07A : 'Light Salmon',
-    		FFA500 : 'Orange',
-    		FFFF00 : 'Yellow',
-    		'00FF00' : 'Lime',
-    		AFEEEE : 'Pale Turquoise',
-    		ADD8E6 : 'Light Blue',
-    		DDA0DD : 'Plum',
-    		D3D3D3 : 'Light Grey',
-    		FFF0F5 : 'Lavender Blush',
-    		FAEBD7 : 'Antique White',
-    		FFFFE0 : 'Light Yellow',
-    		F0FFF0 : 'Honeydew',
-    		F0FFFF : 'Azure',
-    		F0F8FF : 'Alice Blue',
-    		E6E6FA : 'Lavender',
-    		FFF : 'White'
-    	},
-    	more : 'その他の色...',
-    	panelTitle : '色',
-    	textColorTitle : '文字色'
-    },
-    list : 
-    {
-    	bulletedlist : '番号無しリスト',
-    	numberedlist : '番号付きリスト'
-    },
-    image : 
-    {
-    	alertUrl : '画像のURLを入力してください',
-    	alt : '代替テキスト',
-    	border : '枠線の幅',
-    	btnUpload : 'サーバーに送信',
-    	button2Img : '選択した画像ボタンを画像に変換しますか？',
-    	hSpace : '水平間隔',
-    	img2Button : '選択した画像を画像ボタンに変換しますか？',
-    	infoTab : '画像情報',
-    	linkTab : 'リンク',
-    	lockRatio : '比率を固定',
-    	menu : '画像のプロパティ',
-    	resetSize : 'サイズをリセット',
-    	title : '画像のプロパティ',
-    	titleButton : '画像ボタンのプロパティ',
-    	upload : 'アップロード',
-    	urlMissing : '画像のURLを入力してください。',
-    	vSpace : '垂直間隔',
-    	validateBorder : '枠線の幅は数値で入力してください。',
-    	validateHSpace : '水平間隔は数値で入力してください。',
-    	validateVSpace : '垂直間隔は数値で入力してください。'
-    },
-    find : 
-    {
-    	find : '検索',
-    	findOptions : '検索オプション',
-    	findWhat : '検索する文字列:',
-    	matchCase : '大文字と小文字を区別する',
-    	matchCyclic : '末尾に逹したら先頭に戻る',
-    	matchWord : '単語単位で探す',
-    	notFoundMsg : '指定された文字列は見つかりませんでした。',
-    	replace : '置換',
-    	replaceAll : 'すべて置換',
-    	replaceSuccessMsg : '%1 個置換しました。',
-    	replaceWith : '置換後の文字列:',
-    	title : '検索と置換'
-    },
-    showblocks : 
-    {
-    	toolbar : 'ブロック表示'
     },
     forms : 
     {
@@ -532,66 +135,91 @@ CKEDITOR.lang['ja'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : '水平線'
-    },
-    pagebreak : 
-    {
-    	alt : '改ページ',
-    	toolbar : '印刷の為に改ページ挿入'
-    },
-    stylescombo : 
-    {
-    	label : 'スタイル',
-    	panelTitle : 'スタイル',
-    	panelTitle1 : 'ブロックスタイル',
-    	panelTitle2 : 'インラインスタイル',
-    	panelTitle3 : 'オブジェクトスタイル'
-    },
     bidi : 
     {
     	ltr : 'テキストの向き : 左から右へ',
     	rtl : 'テキストの向き : 右から左へ'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : '太字',
-    	italic : '斜体',
-    	strike : '打ち消し線',
-    	subscript : '下付き',
-    	superscript : '上付き',
-    	underline : '下線'
+    	eleLabel : 'エレメントパス',
+    	eleTitle : '%1 エレメント'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'アンカー',
+    	flash : 'Flash Animation',
+    	hiddenfield : '不可視フィールド',
+    	iframe : 'IFrame',
+    	unknown : 'Unknown Object'
+    },
+    smiley : 
+    {
+    	options : '絵文字オプション',
+    	title : '顔文字挿入',
+    	toolbar : '絵文字'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. All rights reserved.',
+    	dlgTitle : 'CKEditorバージョン情報',
+    	help : '$1 のヘルプを見てください。',
+    	moreInfo : 'ライセンス情報の詳細はウェブサイトにて確認してください:',
+    	title : 'CKEditorバージョン情報',
+    	userGuide : 'CKEditor User\'s Guide'
+    },
+    newpage : 
+    {
+    	toolbar : '新しいページ'
+    },
+    format : 
+    {
+    	label : 'フォーマット',
+    	panelTitle : 'フォーマット',
+    	tag_address : 'アドレス',
+    	tag_div : '標準 (DIV)',
+    	tag_h1 : '見出し 1',
+    	tag_h2 : '見出し 2',
+    	tag_h3 : '見出し 3',
+    	tag_h4 : '見出し 4',
+    	tag_h5 : '見出し 5',
+    	tag_h6 : '見出し 6',
+    	tag_p : '標準',
+    	tag_pre : '書式付き'
+    },
+    removeformat : 
+    {
+    	toolbar : 'フォーマット削除'
     },
     table : 
     {
-    	border : '枠線の幅',
+    	border : 'ボーダーサイズ',
     	caption : 'キャプション',
     	cell : 
     	{
     		menu : 'セル',
-    		insertBefore : 'セルを前に挿入',
-    		insertAfter : 'セルを後に挿入',
-    		deleteCell : 'セルを削除',
-    		merge : 'セルを結合',
+    		insertBefore : 'セルの前に挿入',
+    		insertAfter : 'セルの後に挿入',
+    		deleteCell : 'セル削除',
+    		merge : 'セル結合',
     		mergeRight : '右に結合',
     		mergeDown : '下に結合',
-    		splitHorizontal : 'セルを水平方向に分割',
+    		splitHorizontal : 'セルを水平方向分割',
     		splitVertical : 'セルを垂直方向に分割',
-    		title : 'セルのプロパティ',
-    		cellType : 'セルの種類',
-    		rowSpan : '行の結合数',
-    		colSpan : '列の結合数',
-    		wordWrap : '単語の折り返し',
-    		hAlign : '水平方向の配置',
-    		vAlign : '垂直方向の配置',
+    		title : 'セルプロパティ',
+    		cellType : 'セルタイプ',
+    		rowSpan : '縦幅(行数)',
+    		colSpan : '横幅(列数)',
+    		wordWrap : '折り返し',
+    		hAlign : 'セル横の整列',
+    		vAlign : 'セル縦の整列',
     		alignBaseline : 'ベースライン',
     		bgColor : '背景色',
     		borderColor : 'ボーダーカラー',
-    		data : 'テーブルデータ (td)',
-    		header : 'ヘッダ',
-    		yes : 'はい',
-    		no : 'いいえ',
+    		data : 'テーブルデータ(td)',
+    		header : 'テーブルヘッダ(th)',
+    		yes : 'Yes',
+    		no : 'No',
     		invalidWidth : 'セル幅は数値で入力してください。',
     		invalidHeight : 'セル高さは数値で入力してください。',
     		invalidRowSpan : '縦幅(行数)は数値で入力してください。',
@@ -602,72 +230,445 @@ CKEDITOR.lang['ja'] = {
     	cellSpace : 'セル内余白',
     	column : 
     	{
-    		menu : '列',
-    		insertBefore : '列を左に挿入',
-    		insertAfter : '列を右に挿入',
-    		deleteColumn : '列を削除'
+    		menu : 'カラム',
+    		insertBefore : 'カラムの前に挿入',
+    		insertAfter : 'カラムの後に挿入',
+    		deleteColumn : '列削除'
     	},
-    	columns : '列数',
-    	deleteTable : '表を削除',
-    	headers : 'ヘッダ (th)',
+    	columns : '列',
+    	deleteTable : 'テーブル削除',
+    	headers : 'テーブルヘッダ(th)',
     	headersBoth : '両方',
-    	headersColumn : '最初の列のみ',
+    	headersColumn : '初めの列のみ',
     	headersNone : 'なし',
-    	headersRow : '最初の行のみ',
-    	invalidBorder : '枠線の幅は数値で入力してください。',
-    	invalidCellPadding : 'セル内余白は数値で入力してください。',
-    	invalidCellSpacing : 'セル間余白は数値で入力してください。',
-    	invalidCols : '列数は0より大きな数値を入力してください。',
+    	headersRow : '初めの行のみ',
+    	invalidBorder : 'ボーダーサイズは数値で入力してください。',
+    	invalidCellPadding : 'セル内間隔は数値で入力してください。',
+    	invalidCellSpacing : 'セル内余白は数値で入力してください。',
+    	invalidCols : '列は0より大きな数値で入力してください。',
     	invalidHeight : '高さは数値で入力してください。',
-    	invalidRows : '行数は0より大きな数値を入力してください。',
+    	invalidRows : '行は0より大きな数値で入力してください。',
     	invalidWidth : '幅は数値で入力してください。',
-    	menu : '表のプロパティ',
+    	menu : 'テーブル プロパティ',
     	row : 
     	{
     		menu : '行',
-    		insertBefore : '行を上に挿入',
-    		insertAfter : '行を下に挿入',
-    		deleteRow : '行を削除'
+    		insertBefore : '行の前に挿入',
+    		insertAfter : '行の後に挿入',
+    		deleteRow : '行削除'
     	},
-    	rows : '行数',
-    	summary : '表の概要',
-    	title : '表のプロパティ',
-    	toolbar : '表',
+    	rows : '行',
+    	summary : 'テーブルの概要',
+    	title : 'テーブル プロパティ',
+    	toolbar : 'テーブル',
     	widthPc : 'パーセント',
     	widthPx : 'ピクセル',
     	widthUnit : 'ユニット'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'ここに段落を挿入'
+    	options : '特殊文字オプション',
+    	title : '特殊文字選択',
+    	toolbar : '特殊文字挿入'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : '保存'
+    	armenian : 'アルメニア数字',
+    	bulletedTitle : '箇条書き プロパティ',
+    	circle : '白丸',
+    	decimal : '数字 (1, 2, 3, etc.)',
+    	decimalLeadingZero : '上位桁に0をつけた数字 (01, 02, 03, etc.)',
+    	disc : '黒丸',
+    	georgian : 'グルジア数字 (an, ban, gan, etc.)',
+    	lowerAlpha : '小文字アルファベット (a, b, c, d, e, etc.)',
+    	lowerGreek : '小文字ギリシャ文字 (alpha, beta, gamma, etc.)',
+    	lowerRoman : '小文字ローマ数字 (i, ii, iii, iv, v, etc.)',
+    	none : 'なし',
+    	notset : '<なし>',
+    	numberedTitle : '段落番号 プロパティ',
+    	square : '四角',
+    	start : '開始',
+    	type : 'タイプ',
+    	upperAlpha : '大文字アルファベット (A, B, C, D, E, etc.)',
+    	upperRoman : '大文字ローマ数字 (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'リスト開始番号は数値で入力してください。'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'アンカー',
-    	flash : 'Flash Animation',
-    	hiddenfield : '不可視フィールド',
-    	iframe : 'IFrame',
-    	unknown : 'Unknown Object'
+    	border : 'フレームの枠を表示',
+    	noUrl : 'iframeのURLを入力してください。',
+    	scrolling : 'スクロールバーを有効',
+    	title : 'iFrameのプロパティ',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : '要素パス',
-    	eleTitle : '%1 要素'
+    	access : 'スプリクトアクセス(AllowScriptAccess)',
+    	accessAlways : 'すべての場合に通信可能(Always)',
+    	accessNever : 'すべての場合に通信不可能(Never)',
+    	accessSameDomain : '同一ドメインのみに通信可能(Same domain)',
+    	alignAbsBottom : '下部(絶対的)',
+    	alignAbsMiddle : '中央(絶対的)',
+    	alignBaseline : 'ベースライン',
+    	alignTextTop : 'テキスト上部',
+    	bgcolor : '背景色',
+    	chkFull : 'フルスクリーン許可',
+    	chkLoop : 'ループ再生',
+    	chkMenu : 'Flashメニュー可能',
+    	chkPlay : '再生',
+    	flashvars : 'フラッシュに渡す変数(FlashVars)',
+    	hSpace : '横間隔',
+    	properties : 'Flash プロパティ',
+    	propertiesTab : 'プロパティ',
+    	quality : '画質',
+    	qualityAutoHigh : '自動/高',
+    	qualityAutoLow : '自動/低',
+    	qualityBest : '品質優先',
+    	qualityHigh : '高',
+    	qualityLow : '低',
+    	qualityMedium : '中',
+    	scale : '拡大縮小設定',
+    	scaleAll : 'すべて表示',
+    	scaleFit : '上下左右にフィット',
+    	scaleNoBorder : '外が見えない様に拡大',
+    	title : 'Flash プロパティ',
+    	vSpace : '縦間隔',
+    	validateHSpace : '横間隔は数値で入力してください。',
+    	validateSrc : 'リンクURLを入力してください。',
+    	validateVSpace : '縦間隔は数値で入力してください。',
+    	windowMode : 'ウィンドウモード',
+    	windowModeOpaque : '背景を不透明設定',
+    	windowModeTransparent : '背景を透過設定',
+    	windowModeWindow : '標準'
+    },
+    find : 
+    {
+    	find : '検索',
+    	findOptions : 'Find Options',
+    	findWhat : '検索する文字列:',
+    	matchCase : '大文字と小文字を区別する',
+    	matchCyclic : '一周する',
+    	matchWord : '単語単位で探す',
+    	notFoundMsg : '指定された文字列は見つかりませんでした。',
+    	replace : '置き換え',
+    	replaceAll : 'すべて置換え',
+    	replaceSuccessMsg : '%1 個置換しました。',
+    	replaceWith : '置換えする文字列:',
+    	title : '検索して置換'
+    },
+    colorbutton : 
+    {
+    	auto : '自動',
+    	bgColorTitle : '背景色',
+    	colors : 
+    	{
+    		'000' : 'Black',
+    		'800000' : 'Maroon',
+    		'8B4513' : 'Saddle Brown',
+    		'2F4F4F' : 'Dark Slate Gray',
+    		'008080' : 'Teal',
+    		'000080' : 'Navy',
+    		'4B0082' : 'Indigo',
+    		'696969' : 'Dark Gray',
+    		B22222 : 'Fire Brick',
+    		A52A2A : 'Brown',
+    		DAA520 : 'Golden Rod',
+    		'006400' : 'Dark Green',
+    		'40E0D0' : 'Turquoise',
+    		'0000CD' : 'Medium Blue',
+    		'800080' : 'Purple',
+    		'808080' : 'Gray',
+    		F00 : 'Red',
+    		FF8C00 : 'Dark Orange',
+    		FFD700 : 'Gold',
+    		'008000' : 'Green',
+    		'0FF' : 'Cyan',
+    		'00F' : 'Blue',
+    		EE82EE : 'Violet',
+    		A9A9A9 : 'Dim Gray',
+    		FFA07A : 'Light Salmon',
+    		FFA500 : 'Orange',
+    		FFFF00 : 'Yellow',
+    		'00FF00' : 'Lime',
+    		AFEEEE : 'Pale Turquoise',
+    		ADD8E6 : 'Light Blue',
+    		DDA0DD : 'Plum',
+    		D3D3D3 : 'Light Grey',
+    		FFF0F5 : 'Lavender Blush',
+    		FAEBD7 : 'Antique White',
+    		FFFFE0 : 'Light Yellow',
+    		F0FFF0 : 'Honeydew',
+    		F0FFFF : 'Azure',
+    		F0F8FF : 'Alice Blue',
+    		E6E6FA : 'Lavender',
+    		FFF : 'White'
+    	},
+    	more : 'その他の色...',
+    	panelTitle : '色',
+    	textColorTitle : 'テキスト色'
+    },
+    undo : 
+    {
+    	redo : 'やり直し',
+    	undo : '元に戻す'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'サイズ',
+    		voiceLabel : 'フォントサイズ',
+    		panelTitle : 'サイズ'
+    	},
+    	label : 'フォント',
+    	panelTitle : 'フォント',
+    	voiceLabel : 'フォント'
     },
     maximize : 
     {
     	maximize : '最大化',
     	minimize : '最小化'
     },
+    basicstyles : 
+    {
+    	bold : '太字',
+    	italic : '斜体',
+    	strike : '打ち消し線',
+    	subscript : '添え字',
+    	superscript : '上付き文字',
+    	underline : '下線'
+    },
+    magicline : 
+    {
+    	title : '文をここに挿入'
+    },
+    print : 
+    {
+    	toolbar : '印刷'
+    },
+    wsc : 
+    {
+    	btnIgnore : '無視',
+    	btnIgnoreAll : 'すべて無視',
+    	btnReplace : '置換',
+    	btnReplaceAll : 'すべて置換',
+    	btnUndo : 'やり直し',
+    	changeTo : '変更',
+    	errorLoading : 'アプリケーションサービスホスト読込みエラー: %s.',
+    	ieSpellDownload : 'スペルチェッカーがインストールされていません。今すぐダウンロードしますか?',
+    	manyChanges : 'スペルチェック完了: %1 語句変更されました',
+    	noChanges : 'スペルチェック完了: 語句は変更されませんでした',
+    	noMispell : 'スペルチェック完了: スペルの誤りはありませんでした',
+    	noSuggestions : '- 該当なし -',
+    	notAvailable : '申し訳ありません、現在サービスを利用することができません',
+    	notInDic : '辞書にありません',
+    	oneChange : 'スペルチェック完了: １語句変更されました',
+    	progress : 'スペルチェック処理中...',
+    	title : 'スペルチェック',
+    	toolbar : 'スペルチェック'
+    },
+    clipboard : 
+    {
+    	copy : 'コピー',
+    	copyError : 'ブラウザーのセキュリティ設定によりエディタのコピー操作が自動で実行することができません。実行するには手動でキーボードの(Ctrl/Cmd+C)を使用してください。',
+    	cut : '切り取り',
+    	cutError : 'ブラウザーのセキュリティ設定によりエディタの切り取り操作が自動で実行することができません。実行するには手動でキーボードの(Ctrl/Cmd+X)を使用してください。',
+    	paste : '貼り付け',
+    	pasteArea : '貼り付け場所',
+    	pasteMsg : 'キーボード(<STRONG>Ctrl/Cmd+V</STRONG>)を使用して、次の入力エリア内で貼って、<STRONG>OK</STRONG>を押してください。',
+    	securityMsg : 'ブラウザのセキュリティ設定により、エディタはクリップボード・データに直接アクセスすることができません。このウィンドウは貼り付け操作を行う度に表示されます。',
+    	title : '貼り付け'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'ソース'
+    },
+    scayt : 
+    {
+    	about : 'SCAYTﾊﾞｰｼﾞｮﾝ',
+    	aboutTab : 'バージョン情報',
+    	addWord : '語句追加',
+    	allCaps : '全て大文字の単語を無視',
+    	dic_create : '登録',
+    	dic_delete : '削除',
+    	dic_field_name : '辞書名',
+    	dic_info : '始めユーザーディレクトリは、Cookieに保存されます。但し Cookie はサイズに制限があります。ユーザーディレクトリがCookieに保存できないサイズに到達するとディレクトリはサーバー上に保存されます。個人のディレクトリをサーバー上に保存するには、ディレクトリ名を明示する必要があります。もし既に保存されたディレクトリがある場合、その名前を入力し、元に戻すボタンを押してください。',
+    	dic_rename : '名前変更',
+    	dic_restore : '元に戻す',
+    	dictionariesTab : '辞書',
+    	disable : 'SCAYT無効',
+    	emptyDic : '辞書名は必ず入力してください',
+    	enable : 'SCAYT有効',
+    	ignore : '無視',
+    	ignoreAll : 'すべて無視',
+    	ignoreDomainNames : 'ドメイン名を無視',
+    	langs : '言語',
+    	languagesTab : '言語',
+    	mixedCase : '大文字小文字混在の単語を無視',
+    	mixedWithDigits : '数字付き単語を無視',
+    	moreSuggestions : '他の候補',
+    	opera_title : 'Operaではサポートされません',
+    	options : 'オプション',
+    	optionsTab : 'オプション',
+    	title : 'スペルチェック設定(SCAYT)',
+    	toggle : 'SCAYT切替',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : '水平線'
+    },
+    pastetext : 
+    {
+    	button : 'プレーンテキスト貼り付け',
+    	title : 'プレーンテキスト貼り付け'
+    },
+    contextmenu : 
+    {
+    	options : 'コンテキストメニューオプション'
+    },
+    templates : 
+    {
+    	button : 'テンプレート(雛形)',
+    	emptyListMsg : '(テンプレートが定義されていません)',
+    	insertOption : '現在のエディタの内容と置換えをします',
+    	options : 'テンプレートオプション',
+    	selectPromptMsg : 'エディターで使用するテンプレートを選択してください。<br>(現在のエディタの内容は失われます):',
+    	title : 'テンプレート内容'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'Title属性',
+    	cssClassInputLabel : 'スタイルシートクラス',
+    	edit : 'Divコンテナ 編集',
+    	inlineStyleInputLabel : 'インラインスタイル',
+    	langDirLTRLabel : '左から右 (LTR)',
+    	langDirLabel : '文字表記の方向',
+    	langDirRTLLabel : '右から左 (RTL)',
+    	languageCodeInputLabel : ' 言語コード',
+    	remove : 'Divコンテナ 削除',
+    	styleSelectLabel : 'スタイル',
+    	title : 'Divコンテナ',
+    	toolbar : 'Divコンテナ'
+    },
+    preview : 
+    {
+    	preview : 'プレビュー'
+    },
+    colordialog : 
+    {
+    	clear : 'クリア',
+    	highlight : 'ハイライト',
+    	options : 'カラーオプション',
+    	selected : '選択された色',
+    	title : '色選択'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'ツールバーを閉じる',
+    	toolbarExpand : 'ツールバーを開く',
+    	toolbarGroups : 
+    	{
+    		document : 'Document',
+    		clipboard : 'Clipboard/Undo',
+    		editing : 'Editing',
+    		forms : 'Forms',
+    		basicstyles : 'Basic Styles',
+    		paragraph : 'Paragraph',
+    		links : 'Links',
+    		insert : 'Insert',
+    		styles : 'Styles',
+    		colors : 'Colors',
+    		tools : 'Tools'
+    	},
+    	toolbars : '編集ツールバー'
+    },
+    selectall : 
+    {
+    	toolbar : 'すべて選択'
+    },
+    blockquote : 
+    {
+    	toolbar : 'ブロック引用'
+    },
+    link : 
+    {
+    	acccessKey : 'アクセスキー',
+    	advanced : '高度な設定',
+    	advisoryContentType : 'Content Type属性',
+    	advisoryTitle : 'Title属性',
+    	anchor : 
+    	{
+    		toolbar : 'アンカー挿入/編集',
+    		menu : 'アンカー プロパティ',
+    		title : 'アンカー プロパティ',
+    		name : 'アンカー名',
+    		errorName : 'アンカー名を必ず入力してください。',
+    		remove : 'Remove Anchor'
+    	},
+    	anchorId : 'エレメントID',
+    	anchorName : 'アンカー名',
+    	charset : 'リンクcharset属性',
+    	cssClasses : 'スタイルシートクラス',
+    	emailAddress : 'E-Mail アドレス',
+    	emailBody : '本文',
+    	emailSubject : '件名',
+    	id : 'Id',
+    	info : 'ハイパーリンク 情報',
+    	langCode : '言語コード',
+    	langDir : '文字表記の方向',
+    	langDirLTR : '左から右 (LTR)',
+    	langDirRTL : '右から左 (RTL)',
+    	menu : 'リンク編集',
+    	name : 'Name属性',
+    	noAnchors : '(ドキュメントにおいて利用可能なアンカーはありません。)',
+    	noEmail : 'メールアドレスを入力してください。',
+    	noUrl : 'リンクURLを入力してください。',
+    	other : '<その他の>',
+    	popupDependent : '開いたウィンドウに連動して閉じる (Netscape)',
+    	popupFeatures : 'ポップアップウィンドウ特徴',
+    	popupFullScreen : '全画面モード(IE)',
+    	popupLeft : '左端からの座標で指定',
+    	popupLocationBar : 'ロケーションバー',
+    	popupMenuBar : 'メニューバー',
+    	popupResizable : 'サイズ可変',
+    	popupScrollBars : 'スクロールバー',
+    	popupStatusBar : 'ステータスバー',
+    	popupToolbar : 'ツールバー',
+    	popupTop : '上端からの座標で指定',
+    	rel : '関連リンク',
+    	selectAnchor : 'アンカーを選択',
+    	styles : 'スタイルシート',
+    	tabIndex : 'タブインデックス',
+    	target : 'ターゲット',
+    	targetFrame : '<フレーム>',
+    	targetFrameName : '目的のフレーム名',
+    	targetPopup : '<ポップアップウィンドウ>',
+    	targetPopupName : 'ポップアップウィンドウ名',
+    	title : 'ハイパーリンク',
+    	toAnchor : 'このページのアンカー',
+    	toEmail : 'E-Mail',
+    	toUrl : 'URL',
+    	toolbar : 'リンク挿入/編集',
+    	type : 'リンクタイプ',
+    	unlink : 'リンク削除',
+    	upload : 'アップロード'
+    },
+    stylescombo : 
+    {
+    	label : 'スタイル',
+    	panelTitle : 'スタイル',
+    	panelTitle1 : 'ブロックスタイル',
+    	panelTitle2 : 'インラインスタイル',
+    	panelTitle3 : 'オブジェクトスタイル'
+    },
+    dir : 'ltr',
     editor : 'リッチテキストエディタ',
     common : 
     {
     	editorHelp : 'ヘルプは ALT 0 を押してください',
-    	browseServer : 'サーバブラウザ',
+    	browseServer : 'サーバーブラウザー',
     	url : 'URL',
     	protocol : 'プロトコル',
     	upload : 'アップロード',
@@ -706,10 +707,10 @@ CKEDITOR.lang['ja'] = {
     	confirmCancel : 'オプション設定を変更しました。ダイアログを閉じてもよろしいでしょうか？',
     	options : 'オプション',
     	target : 'ターゲット',
-    	targetNew : '新しいウインドウ (_blank)',
-    	targetTop : '最上部ウィンドウ (_top)',
-    	targetSelf : '同じウィンドウ (_self)',
-    	targetParent : '親ウィンドウ (_parent)',
+    	targetNew : '新しいウィンドウ (_空白)',
+    	targetTop : '最上部ウィンドウ (_トップ)',
+    	targetSelf : '同じウィンドウ (_同一)',
+    	targetParent : '親ウィンドウ (_親)',
     	langDirLTR : '左から右 (LTR)',
     	langDirRTL : '右から左 (RTL)',
     	styles : 'スタイル',

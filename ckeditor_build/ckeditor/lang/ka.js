@@ -3,185 +3,17 @@ Copyright (c) 2003-2013, CKSource - Frederico Knabben. All rights reserved.
 For licensing, see LICENSE.html or http://ckeditor.com/license
 */
 CKEDITOR.lang['ka'] = {
-    clipboard : 
+    pastefromword : 
     {
-    	copy : 'ასლი',
-    	copyError : 'თქვენი ბროუზერის უსაფრთხოების პარამეტრები არ იძლევა ასლის ოპერაციის ავტომატურად განხორციელების საშუალებას. გამოიყენეთ კლავიატურა ამისთვის (Ctrl/Cmd+C).',
-    	cut : 'ამოჭრა',
-    	cutError : 'თქვენი ბროუზერის უსაფრთხოების პარამეტრები არ იძლევა ამოჭრის ოპერაციის ავტომატურად განხორციელების საშუალებას. გამოიყენეთ კლავიატურა ამისთვის (Ctrl/Cmd+X).',
-    	paste : 'ჩასმა',
-    	pasteArea : 'ჩასმის არე',
-    	pasteMsg : 'ჩასვით ამ არის შიგნით კლავიატურის გამოყენებით (<strong>Ctrl/Cmd+V</strong>) და დააჭირეთ OK-ს',
-    	securityMsg : 'თქვენი ბროუზერის უსაფრთხოების პარამეტრები არ იძლევა clipboard-ის მონაცემების წვდომის უფლებას. კიდევ უნდა ჩასვათ ტექსტი ამ ფანჯარაში.',
-    	title : 'ჩასმა'
+    	confirmCleanup : 'ჩასასმელი ტექსტი ვორდიდან გადმოტანილს გავს - გინდათ მისი წინასწარ გაწმენდა?',
+    	error : 'შიდა შეცდომის გამო ვერ მოხერხდა ტექსტის გაწმენდა',
+    	title : 'ვორდიდან ჩასმა',
+    	toolbar : 'ვორდიდან ჩასმა'
     },
-    pastetext : 
+    list : 
     {
-    	button : 'მხოლოდ ტექსტის ჩასმა',
-    	title : 'მხოლოდ ტექსტის ჩასმა'
-    },
-    specialchar : 
-    {
-    	options : 'სპეციალური სიმბოლოს პარამეტრები',
-    	title : 'სპეციალური სიმბოლოს არჩევა',
-    	toolbar : 'სპეციალური სიმბოლოს ჩასმა'
-    },
-    selectall : 
-    {
-    	toolbar : 'ყველაფრის მონიშნვა'
-    },
-    newpage : 
-    {
-    	toolbar : 'ახალი გვერდი'
-    },
-    templates : 
-    {
-    	button : 'თარგები',
-    	emptyListMsg : '(თარგი არაა განსაზღვრული)',
-    	insertOption : 'მიმდინარე შეგთავსის შეცვლა',
-    	options : 'თარგების პარამეტრები',
-    	selectPromptMsg : 'აირჩიეთ თარგი რედაქტორისთვის',
-    	title : 'თარგები'
-    },
-    colordialog : 
-    {
-    	clear : 'გასუფთავება',
-    	highlight : 'ჩვენება',
-    	options : 'ფერის პარამეტრები',
-    	selected : 'არჩეული ფერი',
-    	title : 'ფერის შეცვლა'
-    },
-    preview : 
-    {
-    	preview : 'გადახედვა'
-    },
-    font : 
-    {
-    	fontSize : 
-    	{
-    		label : 'ზომა',
-    		voiceLabel : 'ტექსტის ზომა',
-    		panelTitle : 'ტექსტის ზომა'
-    	},
-    	label : 'ფონტი',
-    	panelTitle : 'ფონტის სახელი',
-    	voiceLabel : 'ფონტი'
-    },
-    liststyle : 
-    {
-    	armenian : 'სომხური გადანომრვა',
-    	bulletedTitle : 'ღილებიანი სიის პარამეტრები',
-    	circle : 'წრეწირი',
-    	decimal : 'რიცხვებით (1, 2, 3, ..)',
-    	decimalLeadingZero : 'ნულით დაწყებული რიცხვებით (01, 02, 03, ..)',
-    	disc : 'წრე',
-    	georgian : 'ქართული გადანომრვა (ან, ბან, გან, ..)',
-    	lowerAlpha : 'პატარა ლათინური ასოებით (a, b, c, d, e, ..)',
-    	lowerGreek : 'პატარა ბერძნული ასოებით (ალფა, ბეტა, გამა, ..)',
-    	lowerRoman : 'რომაული გადანომრვცა პატარა ციფრებით (i, ii, iii, iv, v, ..)',
-    	none : 'არაფერი',
-    	notset : '<არაფერი>',
-    	numberedTitle : 'გადანომრილი სიის პარამეტრები',
-    	square : 'კვადრატი',
-    	start : 'საწყისი',
-    	type : 'ტიპი',
-    	upperAlpha : 'დიდი ლათინური ასოებით (A, B, C, D, E, ..)',
-    	upperRoman : 'რომაული გადანომრვა დიდი ციფრებით (I, II, III, IV, V, etc.)',
-    	validateStartNumber : 'სიის საწყისი მთელი რიცხვი უნდა იყოს.'
-    },
-    blockquote : 
-    {
-    	toolbar : 'ციტატა'
-    },
-    undo : 
-    {
-    	redo : 'გამეორება',
-    	undo : 'გაუქმება'
-    },
-    about : 
-    {
-    	copy : 'Copyright &copy; $1. ყველა უფლება დაცულია.',
-    	dlgTitle : 'CKEditor-ის შესახებ',
-    	help : 'დახმარებისთვის იხილეთ $1.',
-    	moreInfo : 'ლიცენზიის ინფორმაციისთვის ეწვიეთ ჩვენს საიტს:',
-    	title : 'CKEditor-ის შესახებ',
-    	userGuide : 'CKEditor-ის მომხმარებლის სახელმძღვანელო'
-    },
-    toolbar : 
-    {
-    	toolbarCollapse : 'ხელსაწყოთა ზოლის შეწევა',
-    	toolbarExpand : 'ხელსაწყოთა ზოლის გამოწევა',
-    	toolbarGroups : 
-    	{
-    		document : 'დოკუმენტი',
-    		clipboard : 'Clipboard/გაუქმება',
-    		editing : 'რედაქტირება',
-    		forms : 'ფორმები',
-    		basicstyles : 'ძირითადი სტილები',
-    		paragraph : 'აბზაცი',
-    		links : 'ბმულები',
-    		insert : 'ჩასმა',
-    		styles : 'სტილები',
-    		colors : 'ფერები',
-    		tools : 'ხელსაწყოები'
-    	},
-    	toolbars : 'Editor toolbars'
-    },
-    scayt : 
-    {
-    	about : 'SCAYT-ის შესახებ',
-    	aboutTab : 'ინფორმაცია',
-    	addWord : 'სიტყვის დამატება',
-    	allCaps : 'დიდი ასოებით დაწერილი სიტყვების უგულებელყოფა',
-    	dic_create : 'შექმნა',
-    	dic_delete : 'წაშლა',
-    	dic_field_name : 'ლექსიკონის სახელი',
-    	dic_info : 'თავდაპირველად მომხმარებლის ლექსიკონი ინახება Cookie-ში. თუმცა Cookie შეზღუდულია ზომაში. როცა ლექსიკონის ზომა გაიზრდება საკმაოდ ის შეიძლება შევინახოთ ჩვენს სერვერზე. ჩვენს სერვერზე ლექსიკონს შესანახად უნდა მიუთითოთ მისი სახელი. თუ უკე გაქვთ ლექსიკონი, აკრიფეთ მისი სახელი და დააჭირეთ "დაბრუნების" ღილაკს.',
-    	dic_rename : 'გადარქმევა',
-    	dic_restore : 'დაბრუნება',
-    	dictionariesTab : 'ლექსიკონები',
-    	disable : 'SCAYT-ის გამორთვა',
-    	emptyDic : 'ლექსიკონის სიტყვა არ უნდა იყოს ცარიელი.',
-    	enable : 'SCAYT-ის ჩართვა',
-    	ignore : 'უგულებელყოფა',
-    	ignoreAll : 'ყველას უგულებელყოფა',
-    	ignoreDomainNames : 'დომენური სახელების უგულებელყოფა',
-    	langs : 'ენები',
-    	languagesTab : 'ენები',
-    	mixedCase : 'შერეული ასოებანი სიტყვების უგულებელყოფა',
-    	mixedWithDigits : 'ციფრებიანი სიტყვების უგულებელყოფა',
-    	moreSuggestions : 'მეტი შემოთავაზება',
-    	opera_title : 'არაა მხარდაჭერილი Opera-ს მიერ',
-    	options : 'პარამეტრები',
-    	optionsTab : 'პარამეტრები',
-    	title : 'მართლწერის შემოწმება კრეფისას',
-    	toggle : 'SCAYT-ის გადართვა',
-    	noSuggestions : 'No suggestion'
-    },
-    wsc : 
-    {
-    	btnIgnore : 'უგულებელყოფა',
-    	btnIgnoreAll : 'ყველას უგულებელყოფა',
-    	btnReplace : 'შეცვლა',
-    	btnReplaceAll : 'ყველას შეცვლა',
-    	btnUndo : 'გაუქმება',
-    	changeTo : 'შეცვლელი',
-    	errorLoading : 'სერვისის გამოძახების შეცდომა: %s.',
-    	ieSpellDownload : 'მართლწერის შემოწმება არაა დაინსტალირებული. ჩამოვქაჩოთ ინტერნეტიდან?',
-    	manyChanges : 'მართლწერის შემოწმება: %1 სიტყვა შეიცვალა',
-    	noChanges : 'მართლწერის შემოწმება: არაფერი შეცვლილა',
-    	noMispell : 'მართლწერის შემოწმება: შეცდომა არ მოიძებნა',
-    	noSuggestions : '- არაა შემოთავაზება -',
-    	notAvailable : 'უკაცრავად, ეს სერვისი ამჟამად მიუწვდომელია.',
-    	notInDic : 'არაა ლექსიკონში',
-    	oneChange : 'მართლწერის შემოწმება: ერთი სიტყვა შეიცვალა',
-    	progress : 'მიმდინარეობს მართლწერის შემოწმება...',
-    	title : 'მართლწერა',
-    	toolbar : 'მართლწერა'
-    },
-    contextmenu : 
-    {
-    	options : 'კონტექსტური მენიუს პარამეტრები'
+    	bulletedlist : 'ღილიანი სია',
+    	numberedlist : 'გადანომრილი სია'
     },
     justify : 
     {
@@ -190,233 +22,9 @@ CKEDITOR.lang['ka'] = {
     	left : 'მარცხნივ სწორება',
     	right : 'მარჯვნივ სწორება'
     },
-    sourcearea : 
+    save : 
     {
-    	toolbar : 'კოდები'
-    },
-    format : 
-    {
-    	label : 'ფიორმატირება',
-    	panelTitle : 'ფორმატირება',
-    	tag_address : 'მისამართი',
-    	tag_div : 'ჩვეულებრივი (DIV)',
-    	tag_h1 : 'სათაური 1',
-    	tag_h2 : 'სათაური 2',
-    	tag_h3 : 'სათაური 3',
-    	tag_h4 : 'სათაური 4',
-    	tag_h5 : 'სათაური 5',
-    	tag_h6 : 'სათაური 6',
-    	tag_p : 'ჩვეულებრივი',
-    	tag_pre : 'ფორმატირებული'
-    },
-    flash : 
-    {
-    	access : 'სკრიპტის წვდომა',
-    	accessAlways : 'ყოველთვის',
-    	accessNever : 'არასდროს',
-    	accessSameDomain : 'იგივე დომენი',
-    	alignAbsBottom : 'ჩარჩოს ქვემოთა ნაწილის სწორება ტექსტისთვის',
-    	alignAbsMiddle : 'ჩარჩოს შუა ნაწილის სწორება ტექსტისთვის',
-    	alignBaseline : 'საბაზისო ხაზის სწორება',
-    	alignTextTop : 'ტექსტი ზემოდან',
-    	bgcolor : 'ფონის ფერი',
-    	chkFull : 'მთელი ეკრანის დაშვება',
-    	chkLoop : 'ჩაციკლვა',
-    	chkMenu : 'Flash-ის მენიუს დაშვება',
-    	chkPlay : 'ავტო გაშვება',
-    	flashvars : 'ცვლადები Flash-ისთვის',
-    	hSpace : 'ჰორიზ. სივრცე',
-    	properties : 'Flash-ის პარამეტრები',
-    	propertiesTab : 'პარამეტრები',
-    	quality : 'ხარისხი',
-    	qualityAutoHigh : 'მაღალი (ავტომატური)',
-    	qualityAutoLow : 'ძალიან დაბალი',
-    	qualityBest : 'საუკეთესო',
-    	qualityHigh : 'მაღალი',
-    	qualityLow : 'დაბალი',
-    	qualityMedium : 'საშუალო',
-    	scale : 'მასშტაბირება',
-    	scaleAll : 'ყველაფრის ჩვენება',
-    	scaleFit : 'ზუსტი ჩასმა',
-    	scaleNoBorder : 'ჩარჩოს გარეშე',
-    	title : 'Flash-ის პარამეტრები',
-    	vSpace : 'ვერტ. სივრცე',
-    	validateHSpace : 'ჰორიზონტალური სივრცე არ უნდა იყოს ცარიელი.',
-    	validateSrc : 'URL არ უნდა იყოს ცარიელი.',
-    	validateVSpace : 'ვერტიკალური სივრცე არ უნდა იყოს ცარიელი.',
-    	windowMode : 'ფანჯრის რეჟიმი',
-    	windowModeOpaque : 'გაუმჭვირვალე',
-    	windowModeTransparent : 'გამჭვირვალე',
-    	windowModeWindow : 'ფანჯარა'
-    },
-    removeformat : 
-    {
-    	toolbar : 'ფორმატირების მოხსნა'
-    },
-    iframe : 
-    {
-    	border : 'ჩარჩოს გამოჩენა',
-    	noUrl : 'აკრიფეთ iframe-ის URL',
-    	scrolling : 'გადახვევის ზოლების დაშვება',
-    	title : 'IFrame-ის პარამეტრები',
-    	toolbar : 'IFrame'
-    },
-    link : 
-    {
-    	acccessKey : 'წვდომის ღილაკი',
-    	advanced : 'დაწვრილებით',
-    	advisoryContentType : 'შიგთავსის ტიპი',
-    	advisoryTitle : 'სათაური',
-    	anchor : 
-    	{
-    		toolbar : 'ღუზა',
-    		menu : 'ღუზის რედაქტირება',
-    		title : 'ღუზის პარამეტრები',
-    		name : 'ღუზუს სახელი',
-    		errorName : 'აკრიფეთ ღუზის სახელი',
-    		remove : 'Remove Anchor'
-    	},
-    	anchorId : 'ელემენტის Id-თ',
-    	anchorName : 'ღუზის სახელით',
-    	charset : 'კოდირება',
-    	cssClasses : 'CSS კლასი',
-    	emailAddress : 'ელფოსტის მისამართები',
-    	emailBody : 'წერილის ტექსტი',
-    	emailSubject : 'წერილის სათაური',
-    	id : 'Id',
-    	info : 'ბმულის ინფორმაცია',
-    	langCode : 'ენის კოდი',
-    	langDir : 'ენის მიმართულება',
-    	langDirLTR : 'მარცხნიდან მარჯვნივ (LTR)',
-    	langDirRTL : 'მარჯვნიდან მარცხნივ (RTL)',
-    	menu : 'ბმულის რედაქტირება',
-    	name : 'სახელი',
-    	noAnchors : '(ამ დოკუმენტში ღუზა არაა)',
-    	noEmail : 'აკრიფეთ ელფოსტის მისამართი',
-    	noUrl : 'აკრიფეთ ბმულის URL',
-    	other : '<სხვა>',
-    	popupDependent : 'დამოკიდებული (Netscape)',
-    	popupFeatures : 'Popup ფანჯრის პარამეტრები',
-    	popupFullScreen : 'მთელი ეკრანი (IE)',
-    	popupLeft : 'მარცხენა პოზიცია',
-    	popupLocationBar : 'ნავიგაციის ზოლი',
-    	popupMenuBar : 'მენიუს ზოლი',
-    	popupResizable : 'ცვალებადი ზომით',
-    	popupScrollBars : 'გადახვევის ზოლები',
-    	popupStatusBar : 'სტატუსის ზოლი',
-    	popupToolbar : 'ხელსაწყოთა ზოლი',
-    	popupTop : 'ზედა პოზიცია',
-    	rel : 'კავშირი',
-    	selectAnchor : 'აირჩიეთ ღუზა',
-    	styles : 'CSS სტილი',
-    	tabIndex : 'Tab-ის ინდექსი',
-    	target : 'გახსნის ადგილი',
-    	targetFrame : '<frame>',
-    	targetFrameName : 'Frame-ის სახელი',
-    	targetPopup : '<popup ფანჯარა>',
-    	targetPopupName : 'Popup ფანჯრის სახელი',
-    	title : 'ბმული',
-    	toAnchor : 'ბმული ტექსტში ღუზაზე',
-    	toEmail : 'ელფოსტა',
-    	toUrl : 'URL',
-    	toolbar : 'ბმული',
-    	type : 'ბმულის ტიპი',
-    	unlink : 'ბმულის მოხსნა',
-    	upload : 'აქაჩვა'
-    },
-    smiley : 
-    {
-    	options : 'სიცილაკის პარამეტრები',
-    	title : 'სიცილაკის ჩასმა',
-    	toolbar : 'სიცილაკები'
-    },
-    print : 
-    {
-    	toolbar : 'ბეჭდვა'
-    },
-    div : 
-    {
-    	IdInputLabel : 'Id',
-    	advisoryTitleInputLabel : 'სათაური',
-    	cssClassInputLabel : 'CSS კლასები',
-    	edit : 'Div-ის რედაქტირება',
-    	inlineStyleInputLabel : 'თანდართული სტილი',
-    	langDirLTRLabel : 'მარცხნიდან მარჯვნიც (LTR)',
-    	langDirLabel : 'ენის მინართულება',
-    	langDirRTLLabel : 'მარჯვნიდან მარცხნივ (RTL)',
-    	languageCodeInputLabel : 'ენის კოდი',
-    	remove : 'Div-ის წაშლა',
-    	styleSelectLabel : 'სტილი',
-    	title : 'Div კონტეინერის შექმნა',
-    	toolbar : 'Div კონტეინერის შექმნა'
-    },
-    indent : 
-    {
-    	indent : 'მეტად შეწევა',
-    	outdent : 'ნაკლებად შეწევა'
-    },
-    pastefromword : 
-    {
-    	confirmCleanup : 'ჩასასმელი ტექსტი ვორდიდან გადმოტანილს გავს - გინდათ მისი წინასწარ გაწმენდა?',
-    	error : 'შიდა შეცდომის გამო ვერ მოხერხდა ტექსტის გაწმენდა',
-    	title : 'ვორდიდან ჩასმა',
-    	toolbar : 'ვორდიდან ჩასმა'
-    },
-    colorbutton : 
-    {
-    	auto : 'ავტომატური',
-    	bgColorTitle : 'ფონის ფერი',
-    	colors : 
-    	{
-    		'000' : 'შავი',
-    		'800000' : 'მუქი შინდისფერი',
-    		'8B4513' : 'ყავისფერი',
-    		'2F4F4F' : 'მოლურჯო ნაცრისფერი',
-    		'008080' : 'ჩამქრალი ლურჯი',
-    		'000080' : 'მუქი ლურჯი',
-    		'4B0082' : 'იასამნისფერი',
-    		'696969' : 'მუქი ნაცრისფერი',
-    		B22222 : 'აგურისფერი',
-    		A52A2A : 'მუქი ყავისფერი',
-    		DAA520 : 'მოყვითალო',
-    		'006400' : 'მუქი მწვანე',
-    		'40E0D0' : 'ცისფერი',
-    		'0000CD' : 'ზომიერად ლურჯი',
-    		'800080' : 'იისფერი',
-    		'808080' : 'ნაცრისფერი',
-    		F00 : 'წითელი',
-    		FF8C00 : 'მუქი სტაფილოსფერი',
-    		FFD700 : 'ოქროსფერი',
-    		'008000' : 'მწვანე',
-    		'0FF' : 'ღია ცისფერი',
-    		'00F' : 'ლურჯი',
-    		EE82EE : 'იისფერი',
-    		A9A9A9 : 'ბაცი ნაცრისფერი',
-    		FFA07A : 'ჩამქრალი ვარდისფერი',
-    		FFA500 : 'სტაფილოსფერი',
-    		FFFF00 : 'ყვითელი',
-    		'00FF00' : 'ლურჯი',
-    		AFEEEE : 'ცისფერი',
-    		ADD8E6 : 'ღია ლურჯი',
-    		DDA0DD : 'ღია იისფერი',
-    		D3D3D3 : 'ღია ნაცრისფერი',
-    		FFF0F5 : 'ღია ვარდისფერი',
-    		FAEBD7 : 'ღია ყავისფერი',
-    		FFFFE0 : 'ნათელი ყვითელი',
-    		F0FFF0 : 'ღია მწვანე',
-    		F0FFFF : 'ღია ცისფერი 2',
-    		F0F8FF : 'ღია ცისფერი 3',
-    		E6E6FA : 'ღია იისფერი 2',
-    		FFF : 'თეთრი'
-    	},
-    	more : 'მეტი ფერი...',
-    	panelTitle : 'ფერები',
-    	textColorTitle : 'ტექსტის ფერი'
-    },
-    list : 
-    {
-    	bulletedlist : 'ღილიანი სია',
-    	numberedlist : 'გადანომრილი სია'
+    	toolbar : 'ჩაწერა'
     },
     image : 
     {
@@ -441,24 +49,19 @@ CKEDITOR.lang['ka'] = {
     	validateHSpace : 'ჰორიზონტალური სივრცე მთელი რიცხვი უნდა იყოს.',
     	validateVSpace : 'ვერტიკალური სივრცე მთელი რიცხვი უნდა იყოს.'
     },
-    find : 
+    pagebreak : 
     {
-    	find : 'ძებნა',
-    	findOptions : 'Find Options',
-    	findWhat : 'საძიებელი ტექსტი:',
-    	matchCase : 'დიდი და პატარა ასოების დამთხვევა',
-    	matchCyclic : 'დოკუმენტის ბოლოში გასვლის მერე თავიდან დაწყება',
-    	matchWord : 'მთელი სიტყვის დამთხვევა',
-    	notFoundMsg : 'მითითებული ტექსტი არ მოიძებნა.',
-    	replace : 'შეცვლა',
-    	replaceAll : 'ყველას შეცვლა',
-    	replaceSuccessMsg : '%1 მოძებნილი შეიცვალა.',
-    	replaceWith : 'შეცვლის ტექსტი:',
-    	title : 'ძებნა და შეცვლა'
+    	alt : 'გვერდის წყვეტა',
+    	toolbar : 'გვერდის წყვეტა ბეჭდვისთვის'
     },
     showblocks : 
     {
     	toolbar : 'არეების ჩვენება'
+    },
+    indent : 
+    {
+    	indent : 'მეტად შეწევა',
+    	outdent : 'ნაკლებად შეწევა'
     },
     forms : 
     {
@@ -532,36 +135,61 @@ CKEDITOR.lang['ka'] = {
     		typeUrl : 'URL'
     	}
     },
-    horizontalrule : 
-    {
-    	toolbar : 'ჰორიზონტალური ხაზის ჩასმა'
-    },
-    pagebreak : 
-    {
-    	alt : 'გვერდის წყვეტა',
-    	toolbar : 'გვერდის წყვეტა ბეჭდვისთვის'
-    },
-    stylescombo : 
-    {
-    	label : 'სტილები',
-    	panelTitle : 'ფორმატირების სტილები',
-    	panelTitle1 : 'არის სტილები',
-    	panelTitle2 : 'თანდართული სტილები',
-    	panelTitle3 : 'ობიექტის სტილები'
-    },
     bidi : 
     {
     	ltr : 'ტექსტის მიმართულება მარცხნიდან მარჯვნივ',
     	rtl : 'ტექსტის მიმართულება მარჯვნიდან მარცხნივ'
     },
-    basicstyles : 
+    elementspath : 
     {
-    	bold : 'მსხვილი',
-    	italic : 'დახრილი',
-    	strike : 'გადახაზული',
-    	subscript : 'ინდექსი',
-    	superscript : 'ხარისხი',
-    	underline : 'გახაზული'
+    	eleLabel : 'ელემეტის გზა',
+    	eleTitle : '%1 ელემენტი'
+    },
+    fakeobjects : 
+    {
+    	anchor : 'ღუზა',
+    	flash : 'Flash ანიმაცია',
+    	hiddenfield : 'მალული ველი',
+    	iframe : 'IFrame',
+    	unknown : 'უცნობი ობიექტი'
+    },
+    smiley : 
+    {
+    	options : 'სიცილაკის პარამეტრები',
+    	title : 'სიცილაკის ჩასმა',
+    	toolbar : 'სიცილაკები'
+    },
+    about : 
+    {
+    	copy : 'Copyright &copy; $1. ყველა უფლება დაცულია.',
+    	dlgTitle : 'CKEditor-ის შესახებ',
+    	help : 'დახმარებისთვის იხილეთ $1.',
+    	moreInfo : 'ლიცენზიის ინფორმაციისთვის ეწვიეთ ჩვენს საიტს:',
+    	title : 'CKEditor-ის შესახებ',
+    	userGuide : 'CKEditor-ის მომხმარებლის სახელმძღვანელო'
+    },
+    newpage : 
+    {
+    	toolbar : 'ახალი გვერდი'
+    },
+    format : 
+    {
+    	label : 'ფიორმატირება',
+    	panelTitle : 'ფორმატირება',
+    	tag_address : 'მისამართი',
+    	tag_div : 'ჩვეულებრივი (DIV)',
+    	tag_h1 : 'სათაური 1',
+    	tag_h2 : 'სათაური 2',
+    	tag_h3 : 'სათაური 3',
+    	tag_h4 : 'სათაური 4',
+    	tag_h5 : 'სათაური 5',
+    	tag_h6 : 'სათაური 6',
+    	tag_p : 'ჩვეულებრივი',
+    	tag_pre : 'ფორმატირებული'
+    },
+    removeformat : 
+    {
+    	toolbar : 'ფორმატირების მოხსნა'
     },
     table : 
     {
@@ -637,32 +265,405 @@ CKEDITOR.lang['ka'] = {
     	widthPx : 'წერტილი',
     	widthUnit : 'საზომი ერთეული'
     },
-    magicline : 
+    specialchar : 
     {
-    	title : 'Insert paragraph here'
+    	options : 'სპეციალური სიმბოლოს პარამეტრები',
+    	title : 'სპეციალური სიმბოლოს არჩევა',
+    	toolbar : 'სპეციალური სიმბოლოს ჩასმა'
     },
-    save : 
+    liststyle : 
     {
-    	toolbar : 'ჩაწერა'
+    	armenian : 'სომხური გადანომრვა',
+    	bulletedTitle : 'ღილებიანი სიის პარამეტრები',
+    	circle : 'წრეწირი',
+    	decimal : 'რიცხვებით (1, 2, 3, ..)',
+    	decimalLeadingZero : 'ნულით დაწყებული რიცხვებით (01, 02, 03, ..)',
+    	disc : 'წრე',
+    	georgian : 'ქართული გადანომრვა (ან, ბან, გან, ..)',
+    	lowerAlpha : 'პატარა ლათინური ასოებით (a, b, c, d, e, ..)',
+    	lowerGreek : 'პატარა ბერძნული ასოებით (ალფა, ბეტა, გამა, ..)',
+    	lowerRoman : 'რომაული გადანომრვცა პატარა ციფრებით (i, ii, iii, iv, v, ..)',
+    	none : 'არაფერი',
+    	notset : '<არაფერი>',
+    	numberedTitle : 'გადანომრილი სიის პარამეტრები',
+    	square : 'კვადრატი',
+    	start : 'საწყისი',
+    	type : 'ტიპი',
+    	upperAlpha : 'დიდი ლათინური ასოებით (A, B, C, D, E, ..)',
+    	upperRoman : 'რომაული გადანომრვა დიდი ციფრებით (I, II, III, IV, V, etc.)',
+    	validateStartNumber : 'სიის საწყისი მთელი რიცხვი უნდა იყოს.'
     },
-    fakeobjects : 
+    iframe : 
     {
-    	anchor : 'ღუზა',
-    	flash : 'Flash ანიმაცია',
-    	hiddenfield : 'მალული ველი',
-    	iframe : 'IFrame',
-    	unknown : 'უცნობი ობიექტი'
+    	border : 'ჩარჩოს გამოჩენა',
+    	noUrl : 'აკრიფეთ iframe-ის URL',
+    	scrolling : 'გადახვევის ზოლების დაშვება',
+    	title : 'IFrame-ის პარამეტრები',
+    	toolbar : 'IFrame'
     },
-    elementspath : 
+    flash : 
     {
-    	eleLabel : 'ელემეტის გზა',
-    	eleTitle : '%1 ელემენტი'
+    	access : 'სკრიპტის წვდომა',
+    	accessAlways : 'ყოველთვის',
+    	accessNever : 'არასდროს',
+    	accessSameDomain : 'იგივე დომენი',
+    	alignAbsBottom : 'ჩარჩოს ქვემოთა ნაწილის სწორება ტექსტისთვის',
+    	alignAbsMiddle : 'ჩარჩოს შუა ნაწილის სწორება ტექსტისთვის',
+    	alignBaseline : 'საბაზისო ხაზის სწორება',
+    	alignTextTop : 'ტექსტი ზემოდან',
+    	bgcolor : 'ფონის ფერი',
+    	chkFull : 'მთელი ეკრანის დაშვება',
+    	chkLoop : 'ჩაციკლვა',
+    	chkMenu : 'Flash-ის მენიუს დაშვება',
+    	chkPlay : 'ავტო გაშვება',
+    	flashvars : 'ცვლადები Flash-ისთვის',
+    	hSpace : 'ჰორიზ. სივრცე',
+    	properties : 'Flash-ის პარამეტრები',
+    	propertiesTab : 'პარამეტრები',
+    	quality : 'ხარისხი',
+    	qualityAutoHigh : 'მაღალი (ავტომატური)',
+    	qualityAutoLow : 'ძალიან დაბალი',
+    	qualityBest : 'საუკეთესო',
+    	qualityHigh : 'მაღალი',
+    	qualityLow : 'დაბალი',
+    	qualityMedium : 'საშუალო',
+    	scale : 'მასშტაბირება',
+    	scaleAll : 'ყველაფრის ჩვენება',
+    	scaleFit : 'ზუსტი ჩასმა',
+    	scaleNoBorder : 'ჩარჩოს გარეშე',
+    	title : 'Flash-ის პარამეტრები',
+    	vSpace : 'ვერტ. სივრცე',
+    	validateHSpace : 'ჰორიზონტალური სივრცე არ უნდა იყოს ცარიელი.',
+    	validateSrc : 'URL არ უნდა იყოს ცარიელი.',
+    	validateVSpace : 'ვერტიკალური სივრცე არ უნდა იყოს ცარიელი.',
+    	windowMode : 'ფანჯრის რეჟიმი',
+    	windowModeOpaque : 'გაუმჭვირვალე',
+    	windowModeTransparent : 'გამჭვირვალე',
+    	windowModeWindow : 'ფანჯარა'
+    },
+    find : 
+    {
+    	find : 'ძებნა',
+    	findOptions : 'Find Options',
+    	findWhat : 'საძიებელი ტექსტი:',
+    	matchCase : 'დიდი და პატარა ასოების დამთხვევა',
+    	matchCyclic : 'დოკუმენტის ბოლოში გასვლის მერე თავიდან დაწყება',
+    	matchWord : 'მთელი სიტყვის დამთხვევა',
+    	notFoundMsg : 'მითითებული ტექსტი არ მოიძებნა.',
+    	replace : 'შეცვლა',
+    	replaceAll : 'ყველას შეცვლა',
+    	replaceSuccessMsg : '%1 მოძებნილი შეიცვალა.',
+    	replaceWith : 'შეცვლის ტექსტი:',
+    	title : 'ძებნა და შეცვლა'
+    },
+    colorbutton : 
+    {
+    	auto : 'ავტომატური',
+    	bgColorTitle : 'ფონის ფერი',
+    	colors : 
+    	{
+    		'000' : 'შავი',
+    		'800000' : 'მუქი შინდისფერი',
+    		'8B4513' : 'ყავისფერი',
+    		'2F4F4F' : 'მოლურჯო ნაცრისფერი',
+    		'008080' : 'ჩამქრალი ლურჯი',
+    		'000080' : 'მუქი ლურჯი',
+    		'4B0082' : 'იასამნისფერი',
+    		'696969' : 'მუქი ნაცრისფერი',
+    		B22222 : 'აგურისფერი',
+    		A52A2A : 'მუქი ყავისფერი',
+    		DAA520 : 'მოყვითალო',
+    		'006400' : 'მუქი მწვანე',
+    		'40E0D0' : 'ცისფერი',
+    		'0000CD' : 'ზომიერად ლურჯი',
+    		'800080' : 'იისფერი',
+    		'808080' : 'ნაცრისფერი',
+    		F00 : 'წითელი',
+    		FF8C00 : 'მუქი სტაფილოსფერი',
+    		FFD700 : 'ოქროსფერი',
+    		'008000' : 'მწვანე',
+    		'0FF' : 'ღია ცისფერი',
+    		'00F' : 'ლურჯი',
+    		EE82EE : 'იისფერი',
+    		A9A9A9 : 'ბაცი ნაცრისფერი',
+    		FFA07A : 'ჩამქრალი ვარდისფერი',
+    		FFA500 : 'სტაფილოსფერი',
+    		FFFF00 : 'ყვითელი',
+    		'00FF00' : 'ლურჯი',
+    		AFEEEE : 'ცისფერი',
+    		ADD8E6 : 'ღია ლურჯი',
+    		DDA0DD : 'ღია იისფერი',
+    		D3D3D3 : 'ღია ნაცრისფერი',
+    		FFF0F5 : 'ღია ვარდისფერი',
+    		FAEBD7 : 'ღია ყავისფერი',
+    		FFFFE0 : 'ნათელი ყვითელი',
+    		F0FFF0 : 'ღია მწვანე',
+    		F0FFFF : 'ღია ცისფერი 2',
+    		F0F8FF : 'ღია ცისფერი 3',
+    		E6E6FA : 'ღია იისფერი 2',
+    		FFF : 'თეთრი'
+    	},
+    	more : 'მეტი ფერი...',
+    	panelTitle : 'ფერები',
+    	textColorTitle : 'ტექსტის ფერი'
+    },
+    undo : 
+    {
+    	redo : 'გამეორება',
+    	undo : 'გაუქმება'
+    },
+    font : 
+    {
+    	fontSize : 
+    	{
+    		label : 'ზომა',
+    		voiceLabel : 'ტექსტის ზომა',
+    		panelTitle : 'ტექსტის ზომა'
+    	},
+    	label : 'ფონტი',
+    	panelTitle : 'ფონტის სახელი',
+    	voiceLabel : 'ფონტი'
     },
     maximize : 
     {
     	maximize : 'გადიდება',
     	minimize : 'დაპატარავება'
     },
+    basicstyles : 
+    {
+    	bold : 'მსხვილი',
+    	italic : 'დახრილი',
+    	strike : 'გადახაზული',
+    	subscript : 'ინდექსი',
+    	superscript : 'ხარისხი',
+    	underline : 'გახაზული'
+    },
+    magicline : 
+    {
+    	title : 'Insert paragraph here'
+    },
+    print : 
+    {
+    	toolbar : 'ბეჭდვა'
+    },
+    wsc : 
+    {
+    	btnIgnore : 'უგულებელყოფა',
+    	btnIgnoreAll : 'ყველას უგულებელყოფა',
+    	btnReplace : 'შეცვლა',
+    	btnReplaceAll : 'ყველას შეცვლა',
+    	btnUndo : 'გაუქმება',
+    	changeTo : 'შეცვლელი',
+    	errorLoading : 'სერვისის გამოძახების შეცდომა: %s.',
+    	ieSpellDownload : 'მართლწერის შემოწმება არაა დაინსტალირებული. ჩამოვქაჩოთ ინტერნეტიდან?',
+    	manyChanges : 'მართლწერის შემოწმება: %1 სიტყვა შეიცვალა',
+    	noChanges : 'მართლწერის შემოწმება: არაფერი შეცვლილა',
+    	noMispell : 'მართლწერის შემოწმება: შეცდომა არ მოიძებნა',
+    	noSuggestions : '- არაა შემოთავაზება -',
+    	notAvailable : 'უკაცრავად, ეს სერვისი ამჟამად მიუწვდომელია.',
+    	notInDic : 'არაა ლექსიკონში',
+    	oneChange : 'მართლწერის შემოწმება: ერთი სიტყვა შეიცვალა',
+    	progress : 'მიმდინარეობს მართლწერის შემოწმება...',
+    	title : 'მართლწერა',
+    	toolbar : 'მართლწერა'
+    },
+    clipboard : 
+    {
+    	copy : 'ასლი',
+    	copyError : 'თქვენი ბროუზერის უსაფრთხოების პარამეტრები არ იძლევა ასლის ოპერაციის ავტომატურად განხორციელების საშუალებას. გამოიყენეთ კლავიატურა ამისთვის (Ctrl/Cmd+C).',
+    	cut : 'ამოჭრა',
+    	cutError : 'თქვენი ბროუზერის უსაფრთხოების პარამეტრები არ იძლევა ამოჭრის ოპერაციის ავტომატურად განხორციელების საშუალებას. გამოიყენეთ კლავიატურა ამისთვის (Ctrl/Cmd+X).',
+    	paste : 'ჩასმა',
+    	pasteArea : 'ჩასმის არე',
+    	pasteMsg : 'ჩასვით ამ არის შიგნით კლავიატურის გამოყენებით (<strong>Ctrl/Cmd+V</strong>) და დააჭირეთ OK-ს',
+    	securityMsg : 'თქვენი ბროუზერის უსაფრთხოების პარამეტრები არ იძლევა clipboard-ის მონაცემების წვდომის უფლებას. კიდევ უნდა ჩასვათ ტექსტი ამ ფანჯარაში.',
+    	title : 'ჩასმა'
+    },
+    sourcearea : 
+    {
+    	toolbar : 'კოდები'
+    },
+    scayt : 
+    {
+    	about : 'SCAYT-ის შესახებ',
+    	aboutTab : 'ინფორმაცია',
+    	addWord : 'სიტყვის დამატება',
+    	allCaps : 'დიდი ასოებით დაწერილი სიტყვების უგულებელყოფა',
+    	dic_create : 'შექმნა',
+    	dic_delete : 'წაშლა',
+    	dic_field_name : 'ლექსიკონის სახელი',
+    	dic_info : 'თავდაპირველად მომხმარებლის ლექსიკონი ინახება Cookie-ში. თუმცა Cookie შეზღუდულია ზომაში. როცა ლექსიკონის ზომა გაიზრდება საკმაოდ ის შეიძლება შევინახოთ ჩვენს სერვერზე. ჩვენს სერვერზე ლექსიკონს შესანახად უნდა მიუთითოთ მისი სახელი. თუ უკე გაქვთ ლექსიკონი, აკრიფეთ მისი სახელი და დააჭირეთ "დაბრუნების" ღილაკს.',
+    	dic_rename : 'გადარქმევა',
+    	dic_restore : 'დაბრუნება',
+    	dictionariesTab : 'ლექსიკონები',
+    	disable : 'SCAYT-ის გამორთვა',
+    	emptyDic : 'ლექსიკონის სიტყვა არ უნდა იყოს ცარიელი.',
+    	enable : 'SCAYT-ის ჩართვა',
+    	ignore : 'უგულებელყოფა',
+    	ignoreAll : 'ყველას უგულებელყოფა',
+    	ignoreDomainNames : 'დომენური სახელების უგულებელყოფა',
+    	langs : 'ენები',
+    	languagesTab : 'ენები',
+    	mixedCase : 'შერეული ასოებანი სიტყვების უგულებელყოფა',
+    	mixedWithDigits : 'ციფრებიანი სიტყვების უგულებელყოფა',
+    	moreSuggestions : 'მეტი შემოთავაზება',
+    	opera_title : 'არაა მხარდაჭერილი Opera-ს მიერ',
+    	options : 'პარამეტრები',
+    	optionsTab : 'პარამეტრები',
+    	title : 'მართლწერის შემოწმება კრეფისას',
+    	toggle : 'SCAYT-ის გადართვა',
+    	noSuggestions : 'No suggestion'
+    },
+    horizontalrule : 
+    {
+    	toolbar : 'ჰორიზონტალური ხაზის ჩასმა'
+    },
+    pastetext : 
+    {
+    	button : 'მხოლოდ ტექსტის ჩასმა',
+    	title : 'მხოლოდ ტექსტის ჩასმა'
+    },
+    contextmenu : 
+    {
+    	options : 'კონტექსტური მენიუს პარამეტრები'
+    },
+    templates : 
+    {
+    	button : 'თარგები',
+    	emptyListMsg : '(თარგი არაა განსაზღვრული)',
+    	insertOption : 'მიმდინარე შეგთავსის შეცვლა',
+    	options : 'თარგების პარამეტრები',
+    	selectPromptMsg : 'აირჩიეთ თარგი რედაქტორისთვის',
+    	title : 'თარგები'
+    },
+    div : 
+    {
+    	IdInputLabel : 'Id',
+    	advisoryTitleInputLabel : 'სათაური',
+    	cssClassInputLabel : 'CSS კლასები',
+    	edit : 'Div-ის რედაქტირება',
+    	inlineStyleInputLabel : 'თანდართული სტილი',
+    	langDirLTRLabel : 'მარცხნიდან მარჯვნიც (LTR)',
+    	langDirLabel : 'ენის მინართულება',
+    	langDirRTLLabel : 'მარჯვნიდან მარცხნივ (RTL)',
+    	languageCodeInputLabel : 'ენის კოდი',
+    	remove : 'Div-ის წაშლა',
+    	styleSelectLabel : 'სტილი',
+    	title : 'Div კონტეინერის შექმნა',
+    	toolbar : 'Div კონტეინერის შექმნა'
+    },
+    preview : 
+    {
+    	preview : 'გადახედვა'
+    },
+    colordialog : 
+    {
+    	clear : 'გასუფთავება',
+    	highlight : 'ჩვენება',
+    	options : 'ფერის პარამეტრები',
+    	selected : 'არჩეული ფერი',
+    	title : 'ფერის შეცვლა'
+    },
+    toolbar : 
+    {
+    	toolbarCollapse : 'ხელსაწყოთა ზოლის შეწევა',
+    	toolbarExpand : 'ხელსაწყოთა ზოლის გამოწევა',
+    	toolbarGroups : 
+    	{
+    		document : 'დოკუმენტი',
+    		clipboard : 'Clipboard/გაუქმება',
+    		editing : 'რედაქტირება',
+    		forms : 'ფორმები',
+    		basicstyles : 'ძირითადი სტილები',
+    		paragraph : 'აბზაცი',
+    		links : 'ბმულები',
+    		insert : 'ჩასმა',
+    		styles : 'სტილები',
+    		colors : 'ფერები',
+    		tools : 'ხელსაწყოები'
+    	},
+    	toolbars : 'Editor toolbars'
+    },
+    selectall : 
+    {
+    	toolbar : 'ყველაფრის მონიშნვა'
+    },
+    blockquote : 
+    {
+    	toolbar : 'ციტატა'
+    },
+    link : 
+    {
+    	acccessKey : 'წვდომის ღილაკი',
+    	advanced : 'დაწვრილებით',
+    	advisoryContentType : 'შიგთავსის ტიპი',
+    	advisoryTitle : 'სათაური',
+    	anchor : 
+    	{
+    		toolbar : 'ღუზა',
+    		menu : 'ღუზის რედაქტირება',
+    		title : 'ღუზის პარამეტრები',
+    		name : 'ღუზუს სახელი',
+    		errorName : 'აკრიფეთ ღუზის სახელი',
+    		remove : 'Remove Anchor'
+    	},
+    	anchorId : 'ელემენტის Id-თ',
+    	anchorName : 'ღუზის სახელით',
+    	charset : 'კოდირება',
+    	cssClasses : 'CSS კლასი',
+    	emailAddress : 'ელფოსტის მისამართები',
+    	emailBody : 'წერილის ტექსტი',
+    	emailSubject : 'წერილის სათაური',
+    	id : 'Id',
+    	info : 'ბმულის ინფორმაცია',
+    	langCode : 'ენის კოდი',
+    	langDir : 'ენის მიმართულება',
+    	langDirLTR : 'მარცხნიდან მარჯვნივ (LTR)',
+    	langDirRTL : 'მარჯვნიდან მარცხნივ (RTL)',
+    	menu : 'ბმულის რედაქტირება',
+    	name : 'სახელი',
+    	noAnchors : '(ამ დოკუმენტში ღუზა არაა)',
+    	noEmail : 'აკრიფეთ ელფოსტის მისამართი',
+    	noUrl : 'აკრიფეთ ბმულის URL',
+    	other : '<სხვა>',
+    	popupDependent : 'დამოკიდებული (Netscape)',
+    	popupFeatures : 'Popup ფანჯრის პარამეტრები',
+    	popupFullScreen : 'მთელი ეკრანი (IE)',
+    	popupLeft : 'მარცხენა პოზიცია',
+    	popupLocationBar : 'ნავიგაციის ზოლი',
+    	popupMenuBar : 'მენიუს ზოლი',
+    	popupResizable : 'ცვალებადი ზომით',
+    	popupScrollBars : 'გადახვევის ზოლები',
+    	popupStatusBar : 'სტატუსის ზოლი',
+    	popupToolbar : 'ხელსაწყოთა ზოლი',
+    	popupTop : 'ზედა პოზიცია',
+    	rel : 'კავშირი',
+    	selectAnchor : 'აირჩიეთ ღუზა',
+    	styles : 'CSS სტილი',
+    	tabIndex : 'Tab-ის ინდექსი',
+    	target : 'გახსნის ადგილი',
+    	targetFrame : '<frame>',
+    	targetFrameName : 'Frame-ის სახელი',
+    	targetPopup : '<popup ფანჯარა>',
+    	targetPopupName : 'Popup ფანჯრის სახელი',
+    	title : 'ბმული',
+    	toAnchor : 'ბმული ტექსტში ღუზაზე',
+    	toEmail : 'ელფოსტა',
+    	toUrl : 'URL',
+    	toolbar : 'ბმული',
+    	type : 'ბმულის ტიპი',
+    	unlink : 'ბმულის მოხსნა',
+    	upload : 'აქაჩვა'
+    },
+    stylescombo : 
+    {
+    	label : 'სტილები',
+    	panelTitle : 'ფორმატირების სტილები',
+    	panelTitle1 : 'არის სტილები',
+    	panelTitle2 : 'თანდართული სტილები',
+    	panelTitle3 : 'ობიექტის სტილები'
+    },
+    dir : 'ltr',
     editor : 'ტექსტის რედაქტორი',
     common : 
     {
